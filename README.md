@@ -23,7 +23,9 @@ Every 6 hours (GitHub Actions)
      QNA, KUNA, ONA, BNA, FPSC, PPSC, BE&OE, NTS, UPSC)
   → keeps only job / recruitment / visa / labour / exam items
   → AI writes an ORIGINAL draft using only facts from the official notice
-  → automatic safety checks (copied wording, unverified deadlines, short drafts)
+  → originality check: if any 10-word run matches the source, the AI rewrites it once;
+    if it still matches, the draft is discarded (never sent for review)
+  → other checks: unverified deadlines, short drafts, short shared phrases flagged for you
   → opens ONE pull request "📰 New job news drafts" with a checklist
 You (on phone or PC): open the PR → check each draft against its official link
   → edit or delete any file → tap "Merge" → site redeploys → published.

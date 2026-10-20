@@ -12,7 +12,7 @@ import {
   get, parseFeed, pageLinks, extractText, robotsAllowed, slugify, sleep, hash,
   longestCopiedRun, dubaiNowIso, RELEVANT,
 } from "./lib.mjs";
-import { draftArticle, provider } from "./ai.mjs";
+import { draftArticle, rewriteArticle, provider } from "./ai.mjs";
 
 const args = Object.fromEntries(
   process.argv.slice(2).reduce((acc, a, i, arr) => {
@@ -117,11 +117,22 @@ for (const source of sources.filter((s) => s.enabled !== false)) {
         continue;
       }
 
-      const d = await draftArticle({ source, item, text, today, countries: COUNTRY_KEYS, categories: CATEGORY_KEYS });
+      let d = await draftArticle({ source, item, text, today, countries: COUNTRY_KEYS, categories: CATEGORY_KEYS });
       remember(item.url);
       if (!d.publish) {
         report.skipped.push(`${item.title} — ${d.reason || "not relevant"}`);
         continue;
+      }
+
+      // Originality: no 10-word run may match the source. One automatic rewrite, then discard.
+      let copied = longestCopiedRun(`${d.title} ${d.description} ${d.body}`, text, 10);
+      if (copied.length) {
+        d = { ...d, ...(await rewriteArticle({ draft: d, phrases: copied, text })) };
+        copied = longestCopiedRun(`${d.title} ${d.description} ${d.body}`, text, 10);
+        if (copied.length) {
+          report.skipped.push(`${item.title} — discarded: still too close to the source wording after rewrite`);
+          continue;
+        }
       }
 
       const flags = [];
@@ -133,8 +144,8 @@ for (const source of sources.filter((s) => s.enabled !== false)) {
         lastDate = "";
       }
       if (lastDate) flags.push(`Check last date ${lastDate} against the source`);
-      const copied = longestCopiedRun(d.body || "", text);
-      if (copied.length) flags.push(`Possible copied wording (${copied.length} phrases), e.g. "${copied[0]}"`);
+      const near = longestCopiedRun(d.body || "", text, 8);
+      if (near.length) flags.push(`Shares ${near.length} short 8-word phrase(s) with the source, e.g. "${near[0]}" — check it reads as our own wording`);
       const wordCount = (d.body || "").split(/\s+/).length;
       if (wordCount < 200) flags.push(`Short article (${wordCount} words)`);
 

@@ -7,7 +7,7 @@ You receive the text of ONE official notice or press release. Decide if it is wo
 
 STRICT RULES
 1. Use ONLY facts stated in the SOURCE TEXT. Never invent or guess numbers, dates, salaries, fees, eligibility, deadlines, names or quotes. If a detail is not in the source, leave it out.
-2. Write in your own words. Do not copy any sentence or any run of more than 8 consecutive words from the source (official post titles and proper names are fine).
+2. ORIGINAL WRITING ONLY. Write every sentence yourself in your own words and your own structure. Never copy or lightly edit sentences from the source, and never reuse a run of more than 8 consecutive words (official post titles and proper names are fine). Add useful context for job seekers (what it means, what to do next) in your own words, without inventing facts. Drafts that reuse source wording are rejected automatically.
 3. Clear, neutral news style for non-native English readers: short sentences, no hype, no clickbait, no emojis.
 4. 300–600 words of Markdown. Do NOT include an H1. Use "## " subheadings such as "Key details", "Who can apply", "How to apply", "What this means for job seekers" ONLY when the source supports them. A table is welcome for multiple posts/vacancies.
 5. Do not tell readers to pay anyone. Do not claim TheJobSeek offers jobs or visas.
@@ -111,4 +111,36 @@ function mock(source, item, text) {
     tags: ["test"],
     body: "## Key details\n\n" + Array(40).fill("This is a mock paragraph written for testing only.").join(" "),
   });
+}
+
+/**
+ * Second pass when the copy check finds phrases shared with the source:
+ * asks the AI to rewrite the whole article in fresh wording, keeping the same facts.
+ */
+export async function rewriteArticle({ draft, phrases, text }) {
+  const user = `The ARTICLE below repeats wording from its SOURCE. Rewrite the article completely in your own words.
+
+Rules:
+- Keep exactly the same facts, numbers, dates and names. Do not add anything new.
+- Do not reuse any run of more than 8 consecutive words from the SOURCE (official titles and proper names are fine).
+- Change sentence structure and order, not just individual words.
+- Same JSON format as before, with "publish": true.
+
+Phrases that were copied (must not appear):
+${phrases.slice(0, 15).map((p) => `- "${p}"`).join("\n")}
+
+ARTICLE (JSON):
+${JSON.stringify(draft)}
+
+SOURCE:
+"""
+${text}
+"""`;
+  const p = provider();
+  let raw;
+  if (p === "anthropic") raw = await anthropic(user);
+  else if (p === "openai") raw = await openai(user);
+  else if (p === "mock") raw = JSON.stringify({ ...draft, body: draft.body + "\n\n(rewritten)" });
+  else throw new Error("No AI provider configured.");
+  return parseJson(raw);
 }
