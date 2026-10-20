@@ -3,7 +3,7 @@ title: "How to Apply for PPSC Jobs Online: Step-by-Step Guide"
 description: "A simple step-by-step guide to applying for Punjab Public Service Commission (PPSC) jobs online, from creating your account to paying the fee and keeping your records."
 country: pakistan
 category: guides
-author: javed-latif
+author: mr-jay
 date: 2026-10-20T12:00:00+04:00
 organization: Punjab Public Service Commission (PPSC)
 sourceUrl: https://www.ppsc.gop.pk

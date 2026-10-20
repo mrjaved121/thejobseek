@@ -3,7 +3,7 @@ title: "Can You Work on a Visit Visa in the UAE? What Job Seekers Must Know"
 description: "Many people travel to Dubai on a visit visa to look for work. Here is what a visit visa allows, what it does not, and how the switch to a proper work permit should happen."
 country: uae
 category: visa-labour-law
-author: javed-latif
+author: mr-jay
 date: 2026-10-20T10:00:00+04:00
 tags: [uae visit visa, work permit, dubai jobs, mohre]
 ---

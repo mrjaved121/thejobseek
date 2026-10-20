@@ -9,11 +9,11 @@ export type Author = {
 // Real author pages with real bios matter for Google News and AdSense trust (E-E-A-T).
 // Edit these to match the people who actually write and check articles.
 export const AUTHORS: Record<string, Author> = {
-  "javed-latif": {
-    id: "javed-latif",
-    name: "Javed Latif",
+  "mr-jay": {
+    id: "mr-jay",
+    name: "Mr Jay",
     role: "Founder & Editor",
-    bio: "Javed Latif is the founder and editor of TheJobSeek. A Dubai-based developer and digital marketer originally from Faisalabad, he has lived and worked in the UAE and follows UAE and Pakistan recruitment closely. He reviews every article against official sources before publication.",
+    bio: "Mr Jay is the founder and editor of TheJobSeek. Based in Dubai, he has lived and worked in the UAE and follows Gulf, Pakistan and overseas work visa news closely. He reviews every article against its official source before publication.",
     sameAs: [],
   },
   "editorial-team": {

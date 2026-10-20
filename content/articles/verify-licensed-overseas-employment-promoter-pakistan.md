@@ -3,7 +3,7 @@ title: "Gulf Jobs from Pakistan: How to Check if an Overseas Employment Promoter
 description: "Before you pay any agent for a job in Dubai, Saudi Arabia or Qatar, check that they are a licensed Overseas Employment Promoter. Here is how and why it matters."
 country: pakistan
 category: guides
-author: javed-latif
+author: mr-jay
 date: 2026-10-20T14:00:00+04:00
 organization: Bureau of Emigration & Overseas Employment
 sourceUrl: https://beoe.gov.pk

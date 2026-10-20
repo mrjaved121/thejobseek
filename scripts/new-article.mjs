@@ -33,7 +33,7 @@ title: "${title.replace(/"/g, '\\"')}"
 description: "One or two sentences (140-160 characters) summarising the news with the main keyword."
 country: ${country}
 category: ${category}
-author: javed-latif
+author: mr-jay
 date: ${now}
 organization: ""
 lastDate: ""
