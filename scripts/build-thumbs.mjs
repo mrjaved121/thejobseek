@@ -39,7 +39,7 @@ const TINT = {
 };
 const CAT_TOP = {
   "govt-jobs": "#0d1a48", "private-jobs": "#0b2a40", "exams-results": "#2a1647",
-  "visa-labour-law": "#0a1438", guides: "#3a2604",
+  "visa-labour-law": "#0a1438", guides: "#3a2604", "job-market": "#0f2c3f",
 };
 
 // --- topic icons (24x24, stroked) ---
@@ -48,6 +48,7 @@ const ICON = {
   "private-jobs": '<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/>',
   "exams-results": '<rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3h6v1M8.5 12.5l2.2 2.2 4.8-4.8"/>',
   "visa-labour-law": '<rect x="5" y="3" width="14" height="18" rx="2"/><circle cx="12" cy="10" r="3.2"/><path d="M8.5 17h7"/>',
+  "job-market": '<path d="M3 20h18"/><path d="M6 16v-5M11 16V8M16 16v-7M20 16V5"/><path d="M5 9l5-4 5 3 5-5"/>',
   guides: '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5v-15Z"/><path d="M4 20.5A2.5 2.5 0 0 1 6.5 18H20v3H6.5"/>',
 };
 

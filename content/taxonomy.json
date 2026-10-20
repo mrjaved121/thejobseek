@@ -1,24 +1,121 @@
 {
   "countries": {
-    "uae": { "name": "UAE", "flag": "🇦🇪", "enabled": true, "title": "UAE Job News – Dubai, Abu Dhabi & Sharjah Jobs Updates", "description": "Latest UAE job news: hiring announcements in Dubai, Abu Dhabi and Sharjah, MOHRE labour law changes, work visa updates and tips for expat job seekers." },
-    "saudi-arabia": { "name": "Saudi Arabia", "flag": "🇸🇦", "enabled": true, "title": "Saudi Arabia Job News – Saudi Jobs, Work Visa & Labour Updates", "description": "Latest Saudi Arabia job news: hiring, Saudization rules, work visa and labour law updates for expat workers." },
-    "qatar": { "name": "Qatar", "flag": "🇶🇦", "enabled": true, "title": "Qatar Job News – Jobs, Work Visa & Labour Law Updates", "description": "Latest Qatar job news, work visa and labour law updates for expat workers." },
-    "kuwait": { "name": "Kuwait", "flag": "🇰🇼", "enabled": true, "title": "Kuwait Job News – Jobs, Residency & Labour Updates", "description": "Latest Kuwait job news, residency and labour rule updates for expat workers." },
-    "oman": { "name": "Oman", "flag": "🇴🇲", "enabled": true, "title": "Oman Job News – Jobs, Work Visa & Labour Updates", "description": "Latest Oman job news, Omanisation and work visa updates." },
-    "bahrain": { "name": "Bahrain", "flag": "🇧🇭", "enabled": true, "title": "Bahrain Job News – Jobs, Work Permit & Labour Updates", "description": "Latest Bahrain job news, work permit and labour market updates." },
-    "pakistan": { "name": "Pakistan", "flag": "🇵🇰", "enabled": true, "title": "Pakistan Job News – Govt Jobs, FPSC, PPSC, NTS Updates", "description": "Latest Pakistan job news: government recruitment, FPSC, PPSC, SPSC, KPPSC and NTS announcements, last dates, test schedules and results." },
-    "india": { "name": "India", "flag": "🇮🇳", "enabled": true, "title": "India Job News – Sarkari Jobs, UPSC, SSC Updates", "description": "Latest India job news: UPSC, SSC, railway and banking recruitment updates." },
-    "uk": { "name": "UK", "flag": "🇬🇧", "enabled": true, "title": "UK Work Visa & Job News – Skilled Worker, Visa Rule Updates", "description": "Latest UK work visa and immigration news: Skilled Worker visa, sponsorship rules, fees and job market updates for overseas workers." },
-    "usa": { "name": "USA", "flag": "🇺🇸", "enabled": true, "title": "USA Work Visa & Job News – USCIS, H-1B, Green Card Updates", "description": "Latest US work visa and immigration news: USCIS updates, H-1B, green card and employment authorization." },
-    "canada": { "name": "Canada", "flag": "🇨🇦", "enabled": true, "title": "Canada Immigration & Job News – Express Entry, Work Permit Updates", "description": "Latest Canada immigration and job news: Express Entry draws, work permits, IRCC announcements." },
-    "australia": { "name": "Australia", "flag": "🇦🇺", "enabled": true, "title": "Australia Work Visa & Job News – Skilled Visa Updates", "description": "Latest Australia work visa and immigration news: skilled visas, employer sponsorship and Home Affairs updates." },
-    "europe": { "name": "Europe", "flag": "🇪🇺", "enabled": true, "title": "Europe Work Visa & Job News – EU Blue Card, Germany, Schengen Updates", "description": "Latest Europe work visa and job news: EU Blue Card, Germany skilled worker rules and EU migration updates." }
+    "uae": {
+      "name": "UAE",
+      "flag": "🇦🇪",
+      "enabled": true,
+      "title": "UAE Job News – Dubai, Abu Dhabi & Sharjah Jobs Updates",
+      "description": "Latest UAE job news: hiring announcements in Dubai, Abu Dhabi and Sharjah, MOHRE labour law changes, work visa updates and tips for expat job seekers."
+    },
+    "saudi-arabia": {
+      "name": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "enabled": true,
+      "title": "Saudi Arabia Job News – Saudi Jobs, Work Visa & Labour Updates",
+      "description": "Latest Saudi Arabia job news: hiring, Saudization rules, work visa and labour law updates for expat workers."
+    },
+    "qatar": {
+      "name": "Qatar",
+      "flag": "🇶🇦",
+      "enabled": true,
+      "title": "Qatar Job News – Jobs, Work Visa & Labour Law Updates",
+      "description": "Latest Qatar job news, work visa and labour law updates for expat workers."
+    },
+    "kuwait": {
+      "name": "Kuwait",
+      "flag": "🇰🇼",
+      "enabled": true,
+      "title": "Kuwait Job News – Jobs, Residency & Labour Updates",
+      "description": "Latest Kuwait job news, residency and labour rule updates for expat workers."
+    },
+    "oman": {
+      "name": "Oman",
+      "flag": "🇴🇲",
+      "enabled": true,
+      "title": "Oman Job News – Jobs, Work Visa & Labour Updates",
+      "description": "Latest Oman job news, Omanisation and work visa updates."
+    },
+    "bahrain": {
+      "name": "Bahrain",
+      "flag": "🇧🇭",
+      "enabled": true,
+      "title": "Bahrain Job News – Jobs, Work Permit & Labour Updates",
+      "description": "Latest Bahrain job news, work permit and labour market updates."
+    },
+    "pakistan": {
+      "name": "Pakistan",
+      "flag": "🇵🇰",
+      "enabled": true,
+      "title": "Pakistan Job News – Govt Jobs, FPSC, PPSC, NTS Updates",
+      "description": "Latest Pakistan job news: government recruitment, FPSC, PPSC, SPSC, KPPSC and NTS announcements, last dates, test schedules and results."
+    },
+    "india": {
+      "name": "India",
+      "flag": "🇮🇳",
+      "enabled": true,
+      "title": "India Job News – Sarkari Jobs, UPSC, SSC Updates",
+      "description": "Latest India job news: UPSC, SSC, railway and banking recruitment updates."
+    },
+    "uk": {
+      "name": "UK",
+      "flag": "🇬🇧",
+      "enabled": true,
+      "title": "UK Work Visa & Job News – Skilled Worker, Visa Rule Updates",
+      "description": "Latest UK work visa and immigration news: Skilled Worker visa, sponsorship rules, fees and job market updates for overseas workers."
+    },
+    "usa": {
+      "name": "USA",
+      "flag": "🇺🇸",
+      "enabled": true,
+      "title": "USA Work Visa & Job News – USCIS, H-1B, Green Card Updates",
+      "description": "Latest US work visa and immigration news: USCIS updates, H-1B, green card and employment authorization."
+    },
+    "canada": {
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "enabled": true,
+      "title": "Canada Immigration & Job News – Express Entry, Work Permit Updates",
+      "description": "Latest Canada immigration and job news: Express Entry draws, work permits, IRCC announcements."
+    },
+    "australia": {
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "enabled": true,
+      "title": "Australia Work Visa & Job News – Skilled Visa Updates",
+      "description": "Latest Australia work visa and immigration news: skilled visas, employer sponsorship and Home Affairs updates."
+    },
+    "europe": {
+      "name": "Europe",
+      "flag": "🇪🇺",
+      "enabled": true,
+      "title": "Europe Work Visa & Job News – EU Blue Card, Germany, Schengen Updates",
+      "description": "Latest Europe work visa and job news: EU Blue Card, Germany skilled worker rules and EU migration updates."
+    }
   },
   "categories": {
-    "govt-jobs": { "name": "Government Jobs", "description": "Government and public sector recruitment announcements." },
-    "private-jobs": { "name": "Private Sector Hiring", "description": "Hiring news from companies, airlines, hospitals, retail and more." },
-    "exams-results": { "name": "Exams & Results", "description": "Test schedules, admit cards, answer keys and results." },
-    "visa-labour-law": { "name": "Work Visa & Labour Law", "description": "Work visa rules, immigration changes, labour law and worker rights updates." },
-    "guides": { "name": "Job Seeker Guides", "description": "How-to guides for applying, CVs, interviews and avoiding scams." }
+    "govt-jobs": {
+      "name": "Government Jobs",
+      "description": "Government and public sector recruitment announcements."
+    },
+    "private-jobs": {
+      "name": "Private Sector Hiring",
+      "description": "Hiring news from companies, airlines, hospitals, retail and more."
+    },
+    "exams-results": {
+      "name": "Exams & Results",
+      "description": "Test schedules, admit cards, answer keys and results."
+    },
+    "visa-labour-law": {
+      "name": "Work Visa & Labour Law",
+      "description": "Work visa rules, immigration changes, labour law and worker rights updates."
+    },
+    "guides": {
+      "name": "Job Seeker Guides",
+      "description": "How-to guides for applying, CVs, interviews and avoiding scams."
+    },
+    "job-market": {
+      "name": "Job Market & Hiring",
+      "description": "Who is hiring, job vacancy numbers and hiring trends by country."
+    }
   }
 }
