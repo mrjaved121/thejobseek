@@ -34,7 +34,7 @@ export default async function CountryPage({ params }: Props) {
   return (
     <Listing
       eyebrow="Country news"
-      title={<><span aria-hidden>{c.flag}</span> {c.name} job &amp; work visa news</>}
+      title={<>{c.name} job &amp; work visa news</>}
       lede={c.description}
       crumbs={[{ name: `${c.name} Job News`, path: `/${country}/` }]}
       items={items}

@@ -3,13 +3,9 @@ import { COUNTRIES, PRIMARY_COUNTRIES, SITE } from "@/lib/site";
 
 import { countryCounts } from "@/lib/articles";
 import TodayDate from "./TodayDate";
+import NavLinks from "./NavLinks";
 
-const NAV_TOPICS: [string, string][] = [
-  ["govt-jobs", "Govt Jobs"],
-  ["private-jobs", "Hiring"],
-  ["visa-labour-law", "Visa & Labour"],
-  ["guides", "Guides"],
-];
+
 
 const Icon = ({ d }: { d: React.ReactNode }) => (
   <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -62,7 +58,7 @@ export default function Header() {
           ) : (
             <Link href="/countries/" className="tile tile-gold">
               <Icon d={<><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" /></>} />
-              <span>Countries</span>
+              <span>World</span>
             </Link>
           )}
         </div>
@@ -74,13 +70,7 @@ export default function Header() {
             <Icon d={<path d="M4 7h16M4 12h16M4 17h16" />} />
           </Link>
           <div className="nav-inner">
-            <Link href="/">Home</Link>
-            {nav.map((c) => (
-              <Link key={c} href={`/${c}/`}>{COUNTRIES[c].name}</Link>
-            ))}
-            {NAV_TOPICS.map(([k, label]) => (
-              <Link key={k} href={`/category/${k}/`} className="nav-topic">{label}</Link>
-            ))}
+            <NavLinks items={[{ href: "/", label: "Home" }, ...nav.map((c) => ({ href: `/${c}/`, label: COUNTRIES[c].name }))]} />
           </div>
           <Link href="/search/" className="nav-icon" aria-label="Search news">
             <Icon d={<><circle cx="11" cy="11" r="7" /><path d="M20 20l-3.5-3.5" /></>} />

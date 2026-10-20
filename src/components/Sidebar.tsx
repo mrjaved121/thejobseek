@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getAllArticles, articlePath, isClosingSoon, formatDate, countryCounts } from "@/lib/articles";
-import { COUNTRIES, PRIMARY_COUNTRIES, enabledCountries, SITE } from "@/lib/site";
+import { COUNTRIES, COUNTRY_CODES, PRIMARY_COUNTRIES, enabledCountries, SITE } from "@/lib/site";
 import AdSlot from "./AdSlot";
 import SectionLabel from "./SectionLabel";
 
@@ -51,7 +51,7 @@ export default function Sidebar({ exclude }: { exclude?: string }) {
             {withNews.map((c) => (
               <li key={c}>
                 <Link href={`/${c}/`}>
-                  <span aria-hidden>{COUNTRIES[c].flag}</span> {COUNTRIES[c].name}
+                  <span className="code-badge" aria-hidden>{COUNTRY_CODES[c]}</span> {COUNTRIES[c].name}
                 </Link>
                 <span className="count">{counts[c]}</span>
               </li>

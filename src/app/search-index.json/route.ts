@@ -11,7 +11,6 @@ export function GET() {
     x: excerpt(a, 40),
     u: articlePath(a),
     c: COUNTRIES[a.country].name,
-    f: COUNTRIES[a.country].flag,
     k: CATEGORIES[a.category].name,
     g: a.tags.join(" "),
     o: a.organization || "",

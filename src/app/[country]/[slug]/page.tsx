@@ -75,7 +75,7 @@ export default async function ArticlePage({ params }: Props) {
         <header className="article-head">
           <div className="kicker-row">
             <Link href={`/${a.country}/`} className="kicker">
-              <span aria-hidden>{c.flag}</span> {c.name}
+              {c.name}
             </Link>
             <span className="kicker-sep" aria-hidden>/</span>
             <Link href={`/category/${a.category}/`} className="kicker kicker-muted">
@@ -115,7 +115,7 @@ export default async function ArticlePage({ params }: Props) {
           <section className="keybox" aria-label="Key information">
             <table>
               <tbody>
-                <tr><th>Country</th><td>{c.flag} {c.name}</td></tr>
+                <tr><th>Country</th><td>{c.name}</td></tr>
                 {a.organization && <tr><th>Organization</th><td>{a.organization}</td></tr>}
                 {a.lastDate && <tr><th>Last date to apply</th><td><strong>{formatDate(a.lastDate)}</strong></td></tr>}
                 {a.sourceUrl && (

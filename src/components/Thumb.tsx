@@ -27,7 +27,7 @@ export default function Thumb({ a, size = "md", priority = false }: { a: Article
       />
       {size !== "sm" && (
         <span className="thumb-tag">
-          <span aria-hidden>{country.flag}</span> {country.name}
+          {country.name}
         </span>
       )}
     </div>

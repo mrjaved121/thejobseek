@@ -4,9 +4,10 @@ export default function NotFound() {
   return (
     <div className="static">
       <h1 className="page-title">Page not found</h1>
-      <p>This job update may have been moved or removed.</p>
+      <p>This update may have been moved or removed. Try the latest news instead:</p>
       <p>
-        <Link href="/uae/">See UAE job news</Link> · <Link href="/pakistan/">See Pakistan job news</Link>
+        <Link href="/">Latest news</Link> · <Link href="/uae/">UAE job news</Link> ·{" "}
+        <Link href="/countries/">All countries</Link> · <Link href="/search/">Search</Link>
       </p>
     </div>
   );

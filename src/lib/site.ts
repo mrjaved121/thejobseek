@@ -30,4 +30,9 @@ export const enabledCountries = Object.keys(COUNTRIES).filter((c) => COUNTRIES[c
 // Navigation and homepage order: GCC first (UAE leading), then UK, USA, Canada, Australia, Europe.
 export const PRIMARY_COUNTRIES = ["uae", "saudi-arabia", "qatar", "kuwait", "oman", "bahrain", "uk", "usa", "canada", "australia", "europe"];
 
+export const COUNTRY_CODES: Record<string, string> = {
+  uae: "AE", "saudi-arabia": "SA", qatar: "QA", kuwait: "KW", oman: "OM", bahrain: "BH",
+  uk: "UK", usa: "US", canada: "CA", australia: "AU", europe: "EU", pakistan: "PK", india: "IN",
+};
+
 export const CATEGORIES = taxonomy.categories as Record<string, { name: string; description: string }>;
