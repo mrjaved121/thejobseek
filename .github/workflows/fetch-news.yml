@@ -1,0 +1,71 @@
+name: Fetch job news drafts
+
+on:
+  schedule:
+    - cron: "0 1,7,13,19 * * *" # every 6 hours (05:00, 11:00, 17:00, 23:00 Dubai time)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: fetch-news
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Use the open review branch (keeps unreviewed drafts and seen list)
+        run: |
+          git config user.name "thejobseek-bot"
+          git config user.email "bot@thejobseek.com"
+          if git ls-remote --exit-code --heads origin auto-news >/dev/null; then
+            git checkout -B auto-news origin/auto-news
+            git merge --no-edit origin/main -X theirs || { git merge --abort; git checkout -B auto-news origin/main; }
+          else
+            git checkout -b auto-news
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch sources and draft articles
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          AI_MODEL: ${{ vars.AI_MODEL }}
+          MAX_DRAFTS: ${{ vars.MAX_DRAFTS || '12' }}
+        run: node automation/fetch.mjs
+
+      - name: Build check (never send a broken site for review)
+        run: npm run build
+
+      - name: Commit drafts and open / update the review pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git add content/articles automation/seen.json
+          if git diff --cached --quiet; then
+            echo "No new drafts this run."
+            exit 0
+          fi
+          git commit -m "Job news drafts $(date -u +%Y-%m-%d\ %H:%M) UTC"
+          git push origin auto-news
+          if gh pr view auto-news --json state -q .state 2>/dev/null | grep -q OPEN; then
+            gh pr comment auto-news --body-file automation/last-run.md
+          else
+            gh pr create --base main --head auto-news \
+              --title "📰 New job news drafts – review & merge to publish" \
+              --body-file automation/last-run.md
+          fi
