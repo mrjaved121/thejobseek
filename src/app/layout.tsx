@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   applicationName: SITE.name,
   alternates: {
     canonical: "/",
-    types: { "application/rss+xml": `${SITE.url}/feed.xml` },
+    types: { "application/rss+xml": `${SITE.url}/feed.xml`, "text/markdown": `${SITE.url}/llms.txt` },
   },
   openGraph: {
     type: "website",
@@ -37,9 +37,10 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
-  verification: process.env.GOOGLE_SITE_VERIFICATION
-    ? { google: process.env.GOOGLE_SITE_VERIFICATION }
-    : undefined,
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION || undefined,
+    other: process.env.BING_SITE_VERIFICATION ? { "msvalidate.01": process.env.BING_SITE_VERIFICATION } : undefined,
+  },
 };
 
 export const viewport: Viewport = {

@@ -21,6 +21,7 @@ export type Article = {
   image?: string;
   imageAlt?: string;
   html: string;
+  markdown: string;
   readingMinutes: number;
 };
 
@@ -63,6 +64,7 @@ export function getAllArticles(): Article[] {
         image: data.image ? String(data.image) : undefined,
         imageAlt: data.imageAlt ? String(data.imageAlt) : undefined,
         html: marked.parse(content, { async: false }) as string,
+        markdown: content.trim(),
         readingMinutes: Math.max(1, Math.round(words / 220)),
       };
     })

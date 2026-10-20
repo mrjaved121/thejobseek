@@ -28,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: a.updated || a.date,
       changeFrequency: "weekly" as const,
       priority: 0.8,
+      images: [u(`/thumbs/${a.slug}-1200.webp`)], // image sitemap: helps Google Images & Discover
     })),
     ...Object.keys(AUTHORS).map((id) => ({ url: u(`/author/${id}/`), priority: 0.3 })),
     ...["/about/", "/contact/", "/editorial-policy/", "/privacy-policy/", "/terms/", "/disclaimer/"].map((p) => ({
