@@ -83,6 +83,18 @@ About 1–3 US cents per draft with Claude Sonnet ⇒ roughly $5–15/month at 1
 
 ---
 
+## Images (WebP thumbnails)
+
+`npm run build` first runs `scripts/build-thumbs.mjs`, which writes two WebP sizes per article to
+`public/thumbs/` (`<slug>-640.webp` ≈ 8–10 KB for cards, `<slug>-1200.webp` ≈ 20 KB for lead stories).
+
+- **No image set:** a branded illustration is drawn (country landmark + skyline + topic badge).
+- **Your own photo:** put it in `public/images/` and add `image: /images/photo.jpg` (and `imageAlt:`)
+  to the article. It is cropped to 16:9 and converted to WebP automatically.
+- Only use photos you took yourself or that have a free commercial licence (e.g. Unsplash, Pexels).
+
+`public/thumbs/` is generated, so it is not committed to Git.
+
 ## Manual articles
 
 ```bash

@@ -1,0 +1,45 @@
+---
+title: "EU Talent Pool: New Platform to Match Non-EU Job Seekers With European Employers"
+description: "The EU has adopted Regulation (EU) 2026/1047 creating the EU Talent Pool, a platform where non-EU workers can register and be found by employers. Here is how it will work."
+country: europe
+category: visa-labour-law
+author: editorial-team
+date: 2026-10-20T23:00:00+04:00
+organization: European Union
+sourceUrl: https://fasi.eu/en/articles/news/29399-eu-talent-pool-how-the-platform-for-recruiting-non-eu-workers-works.html
+sourceName: FASI – reporting Regulation (EU) 2026/1047 on the EU Talent Pool
+tags: [europe jobs, eu talent pool, work in europe, eu work visa, non-eu workers]
+---
+
+The European Union is building an online platform to help people from outside the EU find jobs in Europe. Called the **EU Talent Pool**, it was created by **Regulation (EU) 2026/1047**, which entered into force on **1 June 2026**.
+
+## Timeline
+
+| Step | Date |
+|---|---|
+| European Commission proposal | 16 November 2023 |
+| European Parliament adoption | 10 March 2026 |
+| Council final approval | 30 March 2026 |
+| Published in the EU Official Journal | 12 May 2026 |
+| Entered into force | 1 June 2026 |
+| Platform fully running | expected by 2027 |
+
+## How it will work
+
+- **Non-EU job seekers** who are adults will be able to **create a profile** showing their skills, qualifications, work experience and languages.
+- **Employers in participating EU countries** will be able to search these profiles and contact candidates.
+- The platform will focus on **jobs facing shortages across the EU**.
+
+## Important limits
+
+- **Participation is voluntary for EU countries.** Not every EU member state may join, so check which countries take part before registering.
+- **The platform does not give you a visa.** If an employer hires you, you will still need to apply for a work permit or visa in that country under its normal rules.
+- **It is not open yet.** The platform is still being set up and is expected to be fully operational by 2027.
+
+## What you can do now
+
+1. Keep your **CV, degree certificates and experience letters** ready, ideally with English (or local-language) translations.
+2. Work on **language skills**, especially for countries like Germany, where many jobs need the local language.
+3. Use only **official EU and government websites** to register when the platform launches. Anyone charging a fee to "register you in the EU Talent Pool" is likely a scam.
+
+We will publish an update when the platform opens for registrations.

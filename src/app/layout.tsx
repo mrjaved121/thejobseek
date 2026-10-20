@@ -10,7 +10,7 @@ import { organizationSchema, websiteSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name} – UAE & Gulf Job News and Work Visa Updates`,
+    default: `${SITE.name} – UAE, Gulf & Global Job News and Work Visa Updates`,
     template: `%s | ${SITE.name}`,
   },
   description: SITE.description,

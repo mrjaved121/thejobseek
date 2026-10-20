@@ -1,5 +1,5 @@
 {
-  "_readme": "Official sources only. type 'rss' = RSS/Atom feed; type 'page' = news/notice page whose links are scanned. 'filter': false accepts every link (use for job-only pages). 'include' = optional regex the link URL must match. Run `npm run sources:check` to test. Set enabled:false to pause a source. Currently GCC-only: non-GCC sources are kept but enabled:false.",
+  "_readme": "Official sources only. type 'rss' = RSS/Atom feed; type 'page' = news/notice page whose links are scanned. 'filter': false accepts every link (use for job-only pages). 'include' = optional regex the link URL must match. Run `npm run sources:check` to test. Set enabled:false to pause a source. Pakistan and India sources are kept but enabled:false.",
   "sources": [
     {
       "id": "uk-ukvi",
@@ -7,7 +7,7 @@
       "country": "uk",
       "type": "rss",
       "url": "https://www.gov.uk/government/organisations/uk-visas-and-immigration.atom",
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "uk-home-office",
@@ -15,7 +15,7 @@
       "country": "uk",
       "type": "rss",
       "url": "https://www.gov.uk/government/organisations/home-office.atom",
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "uk-dwp",
@@ -23,7 +23,7 @@
       "country": "uk",
       "type": "rss",
       "url": "https://www.gov.uk/government/organisations/department-for-work-pensions.atom",
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "ca-ircc",
@@ -31,7 +31,7 @@
       "country": "canada",
       "type": "rss",
       "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=departmentofcitizenshipandimmigration&type=newsreleases&sort=publishedDate&orderBy=desc&pick=50&format=atom",
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "ca-esdc",
@@ -39,7 +39,7 @@
       "country": "canada",
       "type": "rss",
       "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=employmentandsocialdevelopmentcanada&type=newsreleases&sort=publishedDate&orderBy=desc&pick=50&format=atom",
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "us-uscis",
@@ -49,7 +49,7 @@
       "url": "https://www.uscis.gov/news/news-releases",
       "include": "/newsroom/news-releases/",
       "filter": false,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "us-dol",
@@ -58,7 +58,7 @@
       "type": "page",
       "url": "https://www.dol.gov/newsroom/releases",
       "include": "/newsroom/releases/",
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "au-homeaffairs",
@@ -68,7 +68,7 @@
       "url": "https://immi.homeaffairs.gov.au/news-media/archive",
       "include": "/news-media/archive/article",
       "filter": false,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "eu-home-affairs",
@@ -77,7 +77,7 @@
       "type": "page",
       "url": "https://home-affairs.ec.europa.eu/news_en",
       "include": "/news/",
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "de-make-it",
@@ -86,7 +86,7 @@
       "type": "page",
       "url": "https://www.make-it-in-germany.com/en/about-us/news",
       "include": "/news",
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "ae-mohre",

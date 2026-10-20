@@ -26,7 +26,7 @@ export default function Header() {
         <div className="wrap utility-inner">
           <TodayDate />
           <span className="utility-sep" aria-hidden>|</span>
-          <span className="utility-note">Job &amp; work visa news for the Gulf</span>
+          <span className="utility-note">Job &amp; work visa news for the Gulf and the world</span>
         </div>
       </div>
 
@@ -46,7 +46,7 @@ export default function Header() {
           <span className="logo-word">
             <span className="logo-check" aria-hidden>✓</span>The<strong>JobSeek</strong>
           </span>
-          <span className="logo-tag">Verified Gulf job &amp; visa news</span>
+          <span className="logo-tag">Verified Gulf &amp; global job news</span>
         </Link>
 
         <div className="tiles tiles-right">

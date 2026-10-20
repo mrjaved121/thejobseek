@@ -10,7 +10,8 @@
     "news:fetch": "node automation/fetch.mjs",
     "news:dry": "node automation/fetch.mjs --dry",
     "sources:check": "node automation/check-sources.mjs",
-    "postbuild": "node scripts/fix-static-images.mjs"
+    "postbuild": "node scripts/fix-static-images.mjs",
+    "prebuild": "node scripts/build-thumbs.mjs"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
@@ -19,7 +20,8 @@
     "marked": "^14.1.4",
     "next": "^15.5.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
