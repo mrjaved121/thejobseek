@@ -6,6 +6,21 @@ category: guides
 author: mr-jay
 date: 2026-10-20T08:00:00+04:00
 tags: [dubai jobs, job scam, uae work visa, job seekers]
+updated: 2026-10-21T02:18:00+04:00
+keyPoints:
+  - "A UAE employer pays for your work permit and visa. Being asked to pay a visa or processing fee is a red flag."
+  - "Offers without a real interview, from Gmail or Yahoo addresses, or with unrealistic salaries are warning signs."
+  - "Being told to come on a visit visa and 'convert' later is a common trick. Working on a visit visa is illegal."
+  - "Verify by calling the company's official number yourself, and never send money for a job."
+faq:
+  - q: "How do I know if a UAE job offer is fake?"
+    a: "Warning signs include being asked to pay for the job or visa, no real interview, offers from free email addresses, unrealistic salaries, pressure to pay fast, and a company you cannot verify."
+  - q: "Do I have to pay for a UAE work visa?"
+    a: "No. In the UAE, the employer is responsible for the cost of the work permit and residence visa."
+  - q: "How can I check if a Dubai company is real?"
+    a: "Find the company's official website and phone number yourself, not the ones the recruiter sent, and call to confirm the vacancy and the recruiter's name."
+  - q: "What should I do if I paid a fake recruiter?"
+    a: "Keep all chats, receipts and account details, and report it to the police and to the platform where you were contacted."
 ---
 
 Thousands of people from Pakistan, India and other countries search for jobs in Dubai every day, and scammers know it. Fake job offers usually look professional, use the names of real companies, and arrive through WhatsApp, Facebook or email. The goal is almost always the same: to take money from you before you realise the job does not exist.

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getAllArticles, articlePath, isClosingSoon, formatDate, countryCounts } from "@/lib/articles";
-import { COUNTRIES, COUNTRY_CODES, PRIMARY_COUNTRIES, enabledCountries, SITE } from "@/lib/site";
+import { COUNTRIES, COUNTRY_CODES, PRIMARY_COUNTRIES, enabledCountries, SITE, ESSENTIAL_GUIDES } from "@/lib/site";
 import AdSlot from "./AdSlot";
 import SectionLabel from "./SectionLabel";
 
@@ -26,6 +26,17 @@ export default function Sidebar({ exclude }: { exclude?: string }) {
             </li>
           ))}
         </ol>
+      </section>
+
+      <section>
+        <SectionLabel first="Essential" second="UAE Guides" />
+        <ul className="guide-list">
+          {ESSENTIAL_GUIDES.filter((g) => g.slug !== exclude).map((g) => (
+            <li key={g.slug}>
+              <Link href={`/${g.country}/${g.slug}/`}>{g.label}</Link>
+            </li>
+          ))}
+        </ul>
       </section>
 
       {closing.length > 0 && (

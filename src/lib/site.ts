@@ -52,4 +52,12 @@ export const COUNTRY_PHOTOS: Record<string, string> = {
 };
 export const countryPhoto = (c: string) => (COUNTRY_PHOTOS[c] ? `/images/countries/${c}.webp` : "");
 
+// Pillar guides: linked from the sidebar and from every article of that country (internal links help ranking).
+export const ESSENTIAL_GUIDES: { country: string; slug: string; label: string }[] = [
+  { country: "uae", slug: "uae-labour-law-guide-private-sector-workers", label: "UAE Labour Law 2026: the complete guide" },
+  { country: "uae", slug: "how-to-find-a-job-in-uae-guide", label: "How to find a job in the UAE" },
+  { country: "uae", slug: "uae-end-of-service-gratuity-calculation-guide", label: "UAE gratuity calculator guide" },
+  { country: "uae", slug: "uae-job-offer-scam-warning-signs", label: "How to spot a fake UAE job offer" },
+];
+
 export const CATEGORIES = taxonomy.categories as Record<string, { name: string; description: string }>;

@@ -6,6 +6,21 @@ category: visa-labour-law
 author: mr-jay
 date: 2026-10-20T10:00:00+04:00
 tags: [uae visit visa, work permit, dubai jobs, mohre]
+updated: 2026-10-21T02:18:00+04:00
+keyPoints:
+  - "No. A UAE visit visa lets you visit, attend interviews and meet employers, but you cannot start work on it."
+  - "To work legally you need a work permit and residence visa arranged by your employer, or an approved freelance permit."
+  - "Working without a permit can lead to fines, deportation and an entry ban."
+  - "The employer should pay for your work permit and visa."
+faq:
+  - q: "Can I work in Dubai on a visit visa?"
+    a: "No. A visit visa only allows you to visit, attend interviews and meet employers. You can start work only after your employer gets you a work permit and residence visa."
+  - q: "Can I do a trial period on a visit visa?"
+    a: "No. Even an unpaid trial period counts as working. Wait until your work permit is issued."
+  - q: "Can I look for a job in the UAE on a visit visa?"
+    a: "Yes. You can attend interviews and walk-in hiring events, meet licensed recruiters and take trade tests requested by employers."
+  - q: "Who pays for the UAE work visa?"
+    a: "The employer should cover the cost of the work permit and residence visa process. Be wary of anyone asking you to pay for it."
 ---
 
 Coming to Dubai on a visit visa to search for a job is very common, especially for job seekers from Pakistan and India. But many people misunderstand what a visit visa actually allows, and some end up in serious trouble.

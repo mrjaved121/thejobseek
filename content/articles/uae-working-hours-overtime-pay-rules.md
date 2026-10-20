@@ -9,6 +9,20 @@ organization: UAE Government (u.ae) / MoHRE
 sourceUrl: https://u.ae/en/information-and-services/jobs/Sector-of-employment/employment-in-the-private-sector/working-hours
 sourceName: UAE Government portal – Working hours and overtime
 tags: [uae working hours, overtime pay uae, uae labour law, ramadan working hours, dubai jobs]
+keyPoints:
+  - "UAE private-sector working hours are capped at 8 hours a day or 48 hours a week, cut by 2 hours a day in Ramadan."
+  - "Overtime is limited to 2 extra hours a day."
+  - "Overtime pays basic hourly wage plus 25%, or plus 50% between 10 pm and 4 am."
+  - "Outdoor work in the sun is banned from 12:30 pm to 3 pm between 15 June and 15 September."
+faq:
+  - q: "What are the legal working hours in the UAE?"
+    a: "A maximum of 8 hours a day or 48 hours a week in the private sector. During Ramadan, daily hours are reduced by 2 hours."
+  - q: "How is overtime calculated in the UAE?"
+    a: "On your basic salary: hourly basic wage plus 25% for normal overtime, or plus 50% between 10 pm and 4 am. Work on your rest day earns a replacement day off or wage plus 50%."
+  - q: "How many overtime hours are allowed in the UAE?"
+    a: "No more than 2 extra hours a day."
+  - q: "When is the UAE summer midday break?"
+    a: "From 15 June to 15 September, work in the sun and open areas is banned between 12:30 pm and 3 pm."
 ---
 
 How long can your employer ask you to work in the UAE, and how much extra should you be paid for overtime? These are the rules for private-sector workers under Federal Decree-Law No. 33 of 2021.

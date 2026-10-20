@@ -306,3 +306,26 @@ main.wrap { padding-top: 22px; padding-bottom: 64px; min-height: 60vh; }
 .section-head.has-banner .eyebrow { color: var(--gold); }
 .section-head.has-banner a { color: #fff; }
 .section-head.has-banner .crumbs, .section-head.has-banner .crumbs a { color: rgba(255,255,255,.85); }
+
+/* "In brief" answer-first box and FAQ (articles) */
+.inbrief { background: #f6f8fd; border: 1px solid var(--line); border-left: 4px solid var(--gold); border-radius: var(--radius); padding: 16px 20px 14px; margin: 0 0 22px; }
+.inbrief-h { font-size: 0.78rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.1em; color: var(--navy); margin: 0 0 8px; }
+.inbrief ul { margin: 0; padding-left: 20px; }
+.inbrief li { margin: 6px 0; line-height: 1.5; font-size: 1rem; }
+.faq { border-top: 1px solid var(--line); margin: 28px 0 8px; padding-top: 18px; }
+.faq > h2 { font-size: 1.35rem; margin: 0 0 12px; color: var(--navy); }
+.faq-item { padding: 12px 0; border-bottom: 1px dashed var(--line); }
+.faq-item:last-child { border-bottom: 0; }
+.faq-item h3 { font-size: 1.05rem; margin: 0 0 6px; color: var(--ink, #111); }
+.faq-item p { margin: 0; line-height: 1.6; }
+
+/* Essential guides (internal links to pillar pages) */
+.guide-list { list-style: none; margin: 0; padding: 0; }
+.guide-list li { border-bottom: 1px solid var(--line); padding: 10px 0; font-weight: 700; line-height: 1.35; }
+.guide-list li::before { content: "›"; color: var(--gold); font-weight: 900; margin-right: 8px; }
+.guide-list a { color: var(--navy); }
+.essential { background: var(--navy); color: #fff; border-radius: var(--radius); padding: 16px 20px; margin: 22px 0; }
+.essential-h { margin: 0 0 8px; font-size: 0.78rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); }
+.essential ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.essential a { color: #fff; font-weight: 700; }
+.essential a:hover { color: var(--gold); }

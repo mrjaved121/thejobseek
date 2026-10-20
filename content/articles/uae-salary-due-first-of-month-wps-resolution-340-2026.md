@@ -9,6 +9,21 @@ organization: UAE Ministry of Human Resources and Emiratisation (MoHRE)
 sourceUrl: https://gulfnews.com/living-in-uae/ask-us/uae-wage-protection-system-2026-which-workers-are-exempt-from-the-new-salary-payment-rules-1.500567217
 sourceName: Gulf News – reporting MoHRE Ministerial Resolution No. 340 of 2026
 tags: [uae salary, wage protection system, wps, mohre, uae labour law, dubai jobs]
+updated: 2026-10-21T02:18:00+04:00
+keyPoints:
+  - "Under MoHRE Resolution No. 340 of 2026, in force since 1 June 2026, wages are due on the first day of the following month."
+  - "A salary paid after that date is legally treated as delayed."
+  - "Private companies must pay through the Wage Protection System (WPS) or another approved system."
+  - "Workers can complain about late pay to MoHRE for free on 600590000."
+faq:
+  - q: "When must salary be paid in the UAE?"
+    a: "Under Ministerial Resolution No. 340 of 2026, wages for each month are due on the first day of the following calendar month. Pay after that date is treated as delayed."
+  - q: "What can I do if my UAE salary is late?"
+    a: "Raise it with your employer in writing first. If it is still unpaid, file a free complaint with MoHRE through its app, website or call centre on 600590000."
+  - q: "What is WPS in the UAE?"
+    a: "The Wage Protection System, through which private companies registered with MoHRE must pay wages, or through another system approved by the ministry."
+  - q: "What happens to UAE employers who pay salaries late?"
+    a: "They can face penalties, including fines and a freeze on issuing new work permits. Repeat cases can be referred to the authorities."
 ---
 
 If you work in the UAE private sector, there is now a fixed date when your salary is legally due. Under **Ministerial Resolution No. 340 of 2026** from the Ministry of Human Resources and Emiratisation (MoHRE), in force since **1 June 2026**, wages for each month are due on the **first day of the following calendar month**.

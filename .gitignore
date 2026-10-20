@@ -7,3 +7,4 @@ next-env.d.ts
 *.tsbuildinfo
 .DS_Store
 public/thumbs
+public/images/countries/*.jpg

@@ -9,6 +9,20 @@ organization: UAE federal and emirate government HR authorities
 sourceUrl: https://gulfnews.com/living-in-uae/ask-us/how-to-apply-for-a-government-job-in-the-uae-1.1695395117781
 sourceName: Gulf News – How to apply for a government job in the UAE
 tags: [uae government jobs, dubai government jobs, abu dhabi government jobs, sharjah jobs, federal jobs uae]
+keyPoints:
+  - "Federal UAE government jobs are posted on the FAHR federal jobs portal; Dubai Government jobs on Dubai Careers."
+  - "Abu Dhabi's TAMM job service and Sharjah's central job seeker service are for Emiratis only."
+  - "Expats can apply directly on the careers pages of individual Abu Dhabi and Sharjah government entities."
+  - "Ajman uses the Kawader portal and Ras Al Khaimah uses RAK Government Careers. Applying is free."
+faq:
+  - q: "Can expats apply for UAE government jobs?"
+    a: "Yes, for many roles, but some portals are only for UAE nationals. In Abu Dhabi and Sharjah, expats apply directly on individual government entities' careers pages."
+  - q: "Where are Dubai government jobs posted?"
+    a: "On Dubai Careers (dubaicareers.ae), the Dubai Government's main hiring portal."
+  - q: "Where can I find UAE federal government jobs?"
+    a: "On the federal jobs portal of the Federal Authority for Government Human Resources (FAHR), which lists jobs at federal ministries and authorities."
+  - q: "Do I have to pay to apply for a UAE government job?"
+    a: "No. Applying is free. Anyone charging a fee for a government job is likely running a scam."
 ---
 
 Government jobs in the UAE are popular for their stability and benefits. But there is no single portal for every emirate, and **some portals are open only to UAE nationals**. Here is where each government advertises jobs and who can apply.

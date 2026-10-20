@@ -9,6 +9,20 @@ organization: Etihad Airways
 sourceUrl: https://careers.etihad.com/teams/cabin-crew
 sourceName: Etihad Careers – Cabin Crew
 tags: [etihad cabin crew, abu dhabi jobs, airline jobs uae, cabin crew recruitment, etihad careers]
+keyPoints:
+  - "Etihad lists 11 cabin crew recruitment days from 27 October to 15 December 2026, including Abu Dhabi on 26 November."
+  - "Applicants must be at least 21, at least 163 cm tall, have finished Grade 12 and speak fluent English."
+  - "No tattoos may be visible in uniform, and covering them with make-up or plasters is not allowed."
+  - "Etihad offers a tax-free salary, accommodation in Abu Dhabi and three-year renewable contracts."
+faq:
+  - q: "When is the Etihad cabin crew recruitment day in Abu Dhabi?"
+    a: "26 November 2026, according to Etihad's careers site. Registration is required and dates can change."
+  - q: "What is the minimum height for Etihad cabin crew?"
+    a: "At least 163 cm."
+  - q: "What is the minimum age for Etihad cabin crew?"
+    a: "At least 21 at the time of application."
+  - q: "Where are Etihad cabin crew based?"
+    a: "In Abu Dhabi, with accommodation provided."
 ---
 
 **Etihad Airways**, the national airline of the UAE, is recruiting cabin crew to be based in **Abu Dhabi**. Its careers site lists **11 recruitment days** between late October and mid-December 2026, including one in Abu Dhabi itself.

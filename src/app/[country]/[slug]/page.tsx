@@ -11,8 +11,8 @@ import JsonLd from "@/components/JsonLd";
 import SectionLabel from "@/components/SectionLabel";
 import { getAllArticles, getArticle, getRelated, articlePath, formatDate, formatDateTime, sourceDomain } from "@/lib/articles";
 import { getAuthor } from "@/lib/authors";
-import { articleSchema } from "@/lib/schema";
-import { COUNTRIES, CATEGORIES, SITE } from "@/lib/site";
+import { articleSchema, faqSchema } from "@/lib/schema";
+import { COUNTRIES, CATEGORIES, SITE, ESSENTIAL_GUIDES } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -42,6 +42,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       modifiedTime: a.updated || a.date,
       section: COUNTRIES[a.country].name,
       tags: a.tags,
+      siteName: SITE.name,
+      locale: "en_AE",
     },
   };
 }
@@ -111,6 +113,17 @@ export default async function ArticlePage({ params }: Props) {
           {a.image && a.imageAlt && <figcaption>{a.imageAlt}</figcaption>}
         </figure>
 
+        {a.keyPoints.length > 0 && (
+          <section className="inbrief" aria-labelledby="inbrief-h">
+            <h2 id="inbrief-h" className="inbrief-h">In brief</h2>
+            <ul>
+              {a.keyPoints.map((k) => (
+                <li key={k}>{k}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         {hasKeyInfo && (
           <section className="keybox" aria-label="Key information">
             <table>
@@ -137,6 +150,31 @@ export default async function ArticlePage({ params }: Props) {
         <div className="prose" dangerouslySetInnerHTML={{ __html: firstHalf }} />
         <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INARTICLE} format="fluid" />
         <div className="prose" dangerouslySetInnerHTML={{ __html: secondHalf }} />
+
+        {a.faq.length > 0 && (
+          <section className="faq" aria-labelledby="faq-h">
+            <h2 id="faq-h">Frequently asked questions</h2>
+            {a.faq.map((f) => (
+              <div className="faq-item" key={f.q}>
+                <h3>{f.q}</h3>
+                <p>{f.a}</p>
+              </div>
+            ))}
+          </section>
+        )}
+
+        {ESSENTIAL_GUIDES.some((g) => g.country === a.country && g.slug !== a.slug) && (
+          <nav className="essential" aria-label={`Essential ${c.name} guides`}>
+            <p className="essential-h">Essential {c.name} guides</p>
+            <ul>
+              {ESSENTIAL_GUIDES.filter((g) => g.country === a.country && g.slug !== a.slug).map((g) => (
+                <li key={g.slug}>
+                  <Link href={`/${g.country}/${g.slug}/`}>{g.label} →</Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        )}
 
         {a.sourceUrl && (
           <div className="source-box">
@@ -182,6 +220,7 @@ export default async function ArticlePage({ params }: Props) {
           </section>
         )}
         <JsonLd data={articleSchema(a)} />
+        {faqSchema(a) && <JsonLd data={faqSchema(a)!} />}
       </article>
       <Sidebar exclude={a.slug} />
     </div>

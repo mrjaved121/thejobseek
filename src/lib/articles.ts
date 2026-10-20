@@ -20,6 +20,8 @@ export type Article = {
   tags: string[];
   image?: string;
   imageAlt?: string;
+  keyPoints: string[]; // short "in brief" bullets shown at the top (answer-first, for readers, Google and AI assistants)
+  faq: { q: string; a: string }[]; // questions and answers shown at the end + FAQPage schema
   html: string;
   markdown: string;
   readingMinutes: number;
@@ -63,6 +65,10 @@ export function getAllArticles(): Article[] {
         tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
         image: data.image ? String(data.image) : undefined,
         imageAlt: data.imageAlt ? String(data.imageAlt) : undefined,
+        keyPoints: Array.isArray(data.keyPoints) ? data.keyPoints.map(String) : [],
+        faq: Array.isArray(data.faq)
+          ? data.faq.filter((f: { q?: unknown; a?: unknown }) => f && f.q && f.a).map((f: { q: unknown; a: unknown }) => ({ q: String(f.q), a: String(f.a) }))
+          : [],
         html: marked.parse(content, { async: false }) as string,
         markdown: content.trim(),
         readingMinutes: Math.max(1, Math.round(words / 220)),

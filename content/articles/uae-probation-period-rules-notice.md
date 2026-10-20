@@ -9,6 +9,20 @@ organization: UAE Government (u.ae) / MoHRE
 sourceUrl: https://u.ae/en/information-and-services/jobs/Sector-of-employment/employment-in-the-private-sector/employment-contracts-duration-and-models-in-the-private-sector
 sourceName: UAE Government portal – Employment contracts and probation
 tags: [uae probation period, uae labour law, resign during probation, change job uae, dubai jobs]
+keyPoints:
+  - "Probation in the UAE can last at most 6 months and cannot be extended."
+  - "An employer ending your job during probation must give 14 days' written notice."
+  - "To leave during probation, give 1 month's notice to join another UAE employer, or 14 days to leave the UAE."
+  - "Probation months count as service, including for gratuity."
+faq:
+  - q: "How long is the probation period in the UAE?"
+    a: "A maximum of 6 months. It cannot be extended or renewed."
+  - q: "What notice is needed to resign during probation in the UAE?"
+    a: "At least 1 month in writing if you are moving to another UAE employer, or at least 14 days if you are leaving the UAE."
+  - q: "Can my employer terminate me during probation in the UAE?"
+    a: "Yes, with 14 days' written notice."
+  - q: "Does probation count towards gratuity in the UAE?"
+    a: "Yes. If you stay on after probation, the probation months count as service, including for gratuity."
 ---
 
 Most new jobs in the UAE start with a probation period. Here is what the law says about how long it can last and how either side can end it.

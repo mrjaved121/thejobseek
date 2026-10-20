@@ -9,6 +9,21 @@ organization: UAE Ministry of Human Resources and Emiratisation (MoHRE)
 sourceUrl: https://u.ae/en/information-and-services/jobs/employment-in-the-private-sector/job-offers-and-work-permits-and-contracts/work-permits
 sourceName: UAE Government portal (u.ae) – Work permits
 tags: [uae work permit, mohre, dubai jobs, part-time work uae, freelance permit uae]
+updated: 2026-10-21T02:18:00+04:00
+keyPoints:
+  - "MoHRE issues 13 types of work permit for the UAE private sector."
+  - "Most standard permits, such as recruitment from abroad and transfer, are valid for 2 years."
+  - "The employer applies and pays. Fees range from AED 250 to AED 3,450 depending on company classification."
+  - "A visit visa is not a work permit. Check your permit status on MoHRE's app or website."
+faq:
+  - q: "How many types of work permits are there in the UAE?"
+    a: "MoHRE issues 13 types, including recruitment from abroad, transfer, part-time, temporary, mission, freelance and private tutoring permits."
+  - q: "Who pays for a UAE work permit?"
+    a: "For standard jobs, the employer applies and pays. Issuing or renewal fees range from AED 250 to AED 3,450, depending on the company's classification."
+  - q: "How long is a UAE work permit valid?"
+    a: "Most permits, including recruitment from abroad, transfer, part-time and private tutoring permits, are valid for 2 years."
+  - q: "How can I check my UAE work permit?"
+    a: "Through MoHRE's app or website."
 ---
 
 Anyone working legally in the UAE private sector needs a work permit from the Ministry of Human Resources and Emiratisation (MoHRE). The ministry issues **13 types** of work permit, each for a different situation. Knowing which one applies to you helps you check that your employer is doing things correctly.

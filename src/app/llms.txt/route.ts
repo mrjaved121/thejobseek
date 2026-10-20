@@ -24,10 +24,18 @@ export function GET() {
     ),
     "",
     "## Topics",
-    ...Object.entries(CATEGORIES).map(([k, v]) => `- [${v.name}](${u(`/category/${k}/`)}): ${v.description}`),
+    ...Object.entries(CATEGORIES)
+      .filter(([k]) => all.some((a) => a.category === k))
+      .map(([k, v]) => `- [${v.name}](${u(`/category/${k}/`)}): ${v.description}`),
     "",
-    "## Latest articles",
-    ...all.slice(0, 50).map(
+    "## UAE: key guides and news",
+    "Reference pages on UAE labour law, salaries, visas and job searching (private sector, MoHRE rules).",
+    ...all
+      .filter((a) => a.country === "uae")
+      .map((a) => `- [${a.title}](${u(articlePath(a))}): ${a.description}`),
+    "",
+    "## Latest articles (all countries)",
+    ...all.filter((a) => a.country !== "uae").slice(0, 100).map(
       (a) => `- [${a.title}](${u(articlePath(a))}): ${a.description} (${COUNTRIES[a.country].name}, ${a.date.slice(0, 10)})`
     ),
     "",

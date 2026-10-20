@@ -3,6 +3,9 @@ import { notFound } from "next/navigation";
 import Listing from "@/components/Listing";
 import { getByCategory } from "@/lib/articles";
 import { CATEGORIES } from "@/lib/site";
+import { listRobots, listOpenGraph } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
+import { collectionSchema } from "@/lib/schema";
 
 export const dynamicParams = false;
 
@@ -18,11 +21,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!c) return {};
   const items = getByCategory(cat);
   return {
-    title: `${c.name} – UAE & Pakistan`,
+    title: `${c.name} – UAE, Gulf & Global Job News`,
     description: c.description,
     alternates: { canonical: `/category/${cat}/` },
     // Thin category pages (no articles yet) should not be indexed.
-    robots: items.length ? undefined : { index: false, follow: true },
+    robots: listRobots(items.length > 0),
+    openGraph: listOpenGraph(`${c.name} – UAE, Gulf & Global Job News`, c.description, `/category/${cat}/`),
   };
 }
 
@@ -32,6 +36,8 @@ export default async function CategoryPage({ params }: Props) {
   if (!c) notFound();
   const items = getByCategory(cat);
   return (
+    <>
+    <JsonLd data={collectionSchema(`${c.name} – UAE, Gulf & Global Job News`, c.description, `/category/${cat}/`, items)} />
     <Listing
       eyebrow="Topic"
       title={c.name}
@@ -40,5 +46,6 @@ export default async function CategoryPage({ params }: Props) {
       items={items}
       emptyText="Updates in this section are coming soon."
     />
+    </>
   );
 }

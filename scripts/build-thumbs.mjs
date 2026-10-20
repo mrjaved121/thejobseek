@@ -178,6 +178,17 @@ async function writeSizes(input, slug, kind) {
   }
 }
 
+// JPEG copies of the country photos for social share images (WhatsApp/Facebook) and the article OG images.
+const CDIR = path.join(PUB, "images", "countries");
+if (fs.existsSync(CDIR)) {
+  for (const f of fs.readdirSync(CDIR).filter((x) => x.endsWith(".webp"))) {
+    const jpg = path.join(CDIR, f.replace(/\.webp$/, ".jpg"));
+    if (!fs.existsSync(jpg) || fs.statSync(jpg).mtimeMs < fs.statSync(path.join(CDIR, f)).mtimeMs) {
+      await sharp(path.join(CDIR, f)).resize(1200, 675, { fit: "cover" }).jpeg({ quality: 72, mozjpeg: true }).toFile(jpg);
+    }
+  }
+}
+
 const files = fs.existsSync(SRC) ? fs.readdirSync(SRC).filter((f) => f.endsWith(".md")) : [];
 const stampFile = path.join(OUT, ".stamps.json");
 const stamps = fs.existsSync(stampFile) ? JSON.parse(fs.readFileSync(stampFile, "utf8")) : {};

@@ -9,6 +9,20 @@ organization: Dubai Health Authority (DHA)
 sourceUrl: https://dha.gov.ae/uploads/052025/Manual%20for%20DHA%20Professional%20Assessment-Final2025533182.pdf
 sourceName: DHA – Manual for Professional Assessment (Oral/CBT)
 tags: [dha exam, dha license dubai, prometric dha, nursing jobs dubai, sheryan]
+keyPoints:
+  - "Most healthcare professionals must pass a DHA assessment to get a Dubai licence: a Prometric CBT or an oral exam."
+  - "You get three attempts. After three failures you cannot reapply to DHA for two years."
+  - "CBT results appear in Sheryan within 2 working days; oral results within 3 to 5 working days."
+  - "Passing gives a Registration Certificate valid for one year, which a Dubai health facility must activate into a licence."
+faq:
+  - q: "How many attempts do I get for the DHA exam?"
+    a: "Three attempts in total. DHA can reduce this to one or two in serious cases. After three failures you are blocked from reapplying to DHA for two years."
+  - q: "How long does the DHA exam result take?"
+    a: "CBT results are uploaded to Sheryan within 2 working days. Oral assessment results are released within 3 to 5 working days. You only see PASS or FAIL."
+  - q: "How long is a DHA eligibility (Registration Certificate) valid?"
+    a: "One year from the result date. It must be activated into a full licence by a licensed Dubai health facility that hires you."
+  - q: "Is there a waiting period between DHA exam attempts?"
+    a: "No. There is no fixed waiting period, apart from slot availability. Cancelling or missing an exam does not use up an attempt, but the fee is not refunded."
 ---
 
 To work as a doctor, nurse, pharmacist or allied health professional in Dubai, you need a licence from the **Dubai Health Authority (DHA)**. For most professions, that means passing a DHA assessment first. This guide is based on DHA's official manual for professional assessments.

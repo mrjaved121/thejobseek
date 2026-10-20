@@ -6,7 +6,7 @@ export const dynamic = "force-static";
 
 // llms-full.txt: full Markdown text of recent articles, so AI assistants can read and cite accurately.
 export function GET() {
-  const items = getAllArticles().slice(0, 60);
+  const items = getAllArticles().slice(0, 150);
   const parts = [
     `# ${SITE.name} – full text of recent articles`,
     "",
@@ -32,8 +32,10 @@ export function GET() {
       "",
       `> ${a.description}`,
       "",
+      ...(a.keyPoints.length ? ["**In brief:**", ...a.keyPoints.map((k) => `- ${k}`), ""] : []),
       body,
-      ""
+      "",
+      ...(a.faq.length ? ["### Frequently asked questions", "", ...a.faq.flatMap((f) => [`**Q: ${f.q}**`, `A: ${f.a}`, ""])] : [])
     );
   }
   return new Response(parts.join("\n"), { headers: { "Content-Type": "text/markdown; charset=utf-8" } });

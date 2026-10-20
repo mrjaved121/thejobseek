@@ -9,6 +9,20 @@ organization: Involuntary Loss of Employment (ILOE) scheme / MoHRE
 sourceUrl: https://www.iloe.ae/Faq.aspx
 sourceName: ILOE official website – FAQs
 tags: [iloe uae, unemployment insurance uae, job loss insurance, mohre, dubai jobs]
+keyPoints:
+  - "ILOE job-loss insurance is mandatory for UAE private-sector and federal government employees."
+  - "It costs AED 5 a month for basic salaries up to AED 16,000, and AED 10 a month above that."
+  - "It pays 60% of your average basic salary for up to 3 months, capped at AED 10,000 or AED 20,000 a month."
+  - "You must be subscribed for 12 months, must not have resigned, and must claim within 30 days."
+faq:
+  - q: "How much does ILOE insurance cost in the UAE?"
+    a: "AED 5 a month (AED 60 a year) if your basic salary is up to AED 16,000, and AED 10 a month (AED 120 a year) if it is higher."
+  - q: "How much does ILOE pay?"
+    a: "60% of your average basic salary over the last 6 months, for up to 3 months per claim, capped at AED 10,000 a month (category 1) or AED 20,000 (category 2)."
+  - q: "Can I claim ILOE if I resign?"
+    a: "No. ILOE does not pay if you resigned or were dismissed for disciplinary reasons."
+  - q: "What happens if I don't pay ILOE premiums?"
+    a: "If premiums are more than 3 months overdue, the policy is cancelled and a fine applies. A new policy restarts the 12-month waiting period."
 ---
 
 The UAE's **Involuntary Loss of Employment (ILOE)** scheme gives workers a temporary income if they lose their job through no fault of their own. Subscription is **mandatory** for private-sector and federal government employees, so it is worth knowing how it works.

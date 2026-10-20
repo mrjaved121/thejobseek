@@ -9,6 +9,20 @@ organization: UAE Government (u.ae) / MoHRE
 sourceUrl: https://u.ae/en/information-and-services/jobs/employment-in-the-private-sector/types-of-leaves-and-entitlements-in-the-private-sector/annual-leave
 sourceName: UAE Government portal – Annual leave
 tags: [uae annual leave, uae labour law, leave salary, dubai jobs, employee rights uae]
+keyPoints:
+  - "Private-sector workers get 30 days of fully paid annual leave after one year of service."
+  - "Between 6 months and 1 year, you earn 2 days for each month worked."
+  - "Public holidays during your leave count as part of the leave, unless your contract is more generous."
+  - "Unused leave must be paid on your basic salary in the final settlement, within 14 days of the job ending."
+faq:
+  - q: "How many days of annual leave do you get in the UAE?"
+    a: "30 days of fully paid leave a year after one year of service. Between 6 months and 1 year of service, you earn 2 days for each month."
+  - q: "Can my UAE employer refuse my annual leave?"
+    a: "Your employer can set the dates according to work needs, but must tell you at least one month in advance. It cannot stop you taking leave for more than two years in a row."
+  - q: "Is unused annual leave paid when I leave my job in the UAE?"
+    a: "Yes. All unused leave is paid on your basic salary as part of the final settlement, which is due within 14 days of the job ending."
+  - q: "Do public holidays count as annual leave in the UAE?"
+    a: "Yes. A public holiday that falls during your annual leave counts as part of the leave, unless your contract or company policy is more generous."
 ---
 
 Paid annual leave is a legal right for private-sector workers in the UAE. Here is what the law allows, in plain terms.

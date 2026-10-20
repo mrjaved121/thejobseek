@@ -1,4 +1,4 @@
-import { SITE, COUNTRIES } from "./site";
+import { SITE, COUNTRIES, CATEGORIES, COUNTRY_PHOTOS } from "./site";
 import { type Article, articlePath } from "./articles";
 import { getAuthor } from "./authors";
 
@@ -36,14 +36,29 @@ export function articleSchema(a: Article) {
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     headline: a.title.slice(0, 110),
     description: a.description,
-    image: [abs(`${articlePath(a)}opengraph-image.png`)],
+    image: [
+      { "@type": "ImageObject", url: abs(`${articlePath(a)}opengraph-image.png`), width: 1200, height: 675 },
+      { "@type": "ImageObject", url: abs(`/thumbs/${a.slug}-1200.webp`), width: 1200, height: 675, caption: a.imageAlt || COUNTRY_PHOTOS[a.country] },
+    ],
+    thumbnailUrl: abs(`/thumbs/${a.slug}-640.webp`),
     datePublished: a.date,
     dateModified: a.updated || a.date,
     inLanguage: "en",
-    articleSection: COUNTRIES[a.country].name,
+    articleSection: [COUNTRIES[a.country].name, CATEGORIES[a.category]?.name].filter(Boolean),
+    isAccessibleForFree: true,
+    wordCount: a.markdown.split(/\s+/).length,
     keywords: a.tags.join(", "),
-    contentLocation: { "@type": "Place", name: COUNTRIES[a.country].name },
-    author: [{ "@type": "Person", name: author.name, url: abs(`/author/${author.id}/`) }],
+    contentLocation: { "@type": a.country === "europe" ? "Place" : "Country", name: COUNTRIES[a.country].name },
+    about: a.organization ? [{ "@type": "Organization", name: a.organization }] : undefined,
+    abstract: a.keyPoints.length ? a.keyPoints.join(" ") : undefined,
+    author: [
+      {
+        "@type": author.id === "editorial-team" ? "Organization" : "Person",
+        name: author.name,
+        url: abs(`/author/${author.id}/`),
+        ...(author.id !== "editorial-team" ? { jobTitle: author.role, worksFor: { "@id": abs("/#organization") } } : {}),
+      },
+    ],
     publisher: { "@id": abs("/#organization") },
     isBasedOn: a.sourceUrl || undefined,
   };
@@ -59,5 +74,44 @@ export function breadcrumbSchema(items: { name: string; path: string }[]) {
       name: it.name,
       item: abs(it.path),
     })),
+  };
+}
+
+/** FAQPage for articles that have question-and-answer pairs (helps AI assistants and "People also ask"). */
+export function faqSchema(a: Article) {
+  if (!a.faq.length) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: a.faq.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+}
+
+/** CollectionPage + ItemList for country and topic pages. */
+export function collectionSchema(name: string, description: string, path: string, items: Article[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": abs(path),
+    url: abs(path),
+    name,
+    description,
+    inLanguage: "en",
+    isPartOf: { "@id": abs("/#website") },
+    publisher: { "@id": abs("/#organization") },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: items.length,
+      itemListElement: items.slice(0, 30).map((a, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: abs(articlePath(a)),
+        name: a.title,
+      })),
+    },
   };
 }

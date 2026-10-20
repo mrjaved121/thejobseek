@@ -9,6 +9,20 @@ organization: UAE Government (u.ae) / MoHRE
 sourceUrl: https://u.ae/en/information-and-services/jobs/Sector-of-employment/employment-in-the-private-sector/end-of-service-benefits-for-employees-in-the-private-sector
 sourceName: UAE Government portal – End of service benefits in the private sector
 tags: [uae gratuity, end of service benefits uae, gratuity calculation, uae labour law, dubai jobs]
+keyPoints:
+  - "UAE gratuity is 21 days of basic salary per year for the first 5 years, then 30 days per year after that."
+  - "You need at least one year of continuous service. Allowances are not included."
+  - "Total gratuity can never exceed two years' wages."
+  - "The employer must pay gratuity and final dues within 14 days of the contract ending."
+faq:
+  - q: "How is gratuity calculated in the UAE?"
+    a: "Divide your monthly basic salary by 30 to get a daily wage. Multiply by 21 days for each of the first 5 years, and by 30 days for each year after that. The total cannot exceed two years' wages."
+  - q: "How much gratuity do I get after 3 years in the UAE?"
+    a: "21 days of basic salary for each year. For example, with a basic salary of AED 6,000, gratuity is 63 days × AED 200 = AED 12,600."
+  - q: "Do I get gratuity if I worked less than one year in the UAE?"
+    a: "No. You must complete at least one year of continuous service. After one year, part-years count pro rata."
+  - q: "When must UAE gratuity be paid?"
+    a: "Within 14 days of the contract ending, together with the final salary and other dues. If it is not paid, you can complain to MoHRE for free on 600590000."
 ---
 
 End-of-service gratuity is the lump sum a UAE private-sector employer owes an expat worker when the job ends. It is one of the most common questions workers have, and one of the most common disputes. Here is how it works under the current UAE Labour Law.

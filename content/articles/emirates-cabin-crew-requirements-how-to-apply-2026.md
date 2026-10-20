@@ -9,6 +9,20 @@ organization: Emirates (Emirates Group)
 sourceUrl: https://www.emiratesgroupcareers.com/cabin-crew/
 sourceName: Emirates Group Careers – Cabin Crew
 tags: [emirates cabin crew, dubai jobs, airline jobs uae, cabin crew requirements, emirates open day]
+keyPoints:
+  - "Emirates cabin crew must be at least 21, at least 160 cm tall with a 212 cm reach, and have finished Grade 12."
+  - "At least 1 year of hospitality or customer service experience and fluent English are required."
+  - "Selection is through in-person open days or assessment days, then an interview and about seven and a half weeks of training in Dubai."
+  - "Emirates never charges candidates. Apply only on the official Emirates Group careers website."
+faq:
+  - q: "What is the minimum age for Emirates cabin crew?"
+    a: "You must be at least 21 years old."
+  - q: "What is the Emirates cabin crew height and reach requirement?"
+    a: "At least 160 cm tall and able to reach 212 cm, standing on your toes with one arm."
+  - q: "Does Emirates hold online assessment days?"
+    a: "No. Emirates open days and assessment days are held in person only."
+  - q: "Do I have to pay to apply for Emirates cabin crew?"
+    a: "No. Emirates never charges to apply, attend an open day or get a job. Anyone asking for money is running a scam."
 ---
 
 Emirates recruits cabin crew from around the world all year, and it is one of the most searched jobs in Dubai. Here is what the airline asks for and how its selection process works, based on the official Emirates Group careers page.
