@@ -1,37 +1,218 @@
 {
-  "_readme": "Official sources only. type 'rss' = RSS/Atom feed; type 'page' = news/notice page whose links are scanned. 'filter': false accepts every link (use for job-only pages). 'include' = optional regex the link URL must match. Run `npm run sources:check` to test. Set enabled:false to pause a source.",
+  "_readme": "Official sources only. type 'rss' = RSS/Atom feed; type 'page' = news/notice page whose links are scanned. 'filter': false accepts every link (use for job-only pages). 'include' = optional regex the link URL must match. Run `npm run sources:check` to test. Set enabled:false to pause a source. Currently GCC-only: non-GCC sources are kept but enabled:false.",
   "sources": [
-    { "id": "uk-ukvi", "name": "UK Visas and Immigration (GOV.UK)", "country": "uk", "type": "rss", "url": "https://www.gov.uk/government/organisations/uk-visas-and-immigration.atom", "enabled": true },
-    { "id": "uk-home-office", "name": "Home Office (GOV.UK)", "country": "uk", "type": "rss", "url": "https://www.gov.uk/government/organisations/home-office.atom", "enabled": true },
-    { "id": "uk-dwp", "name": "Department for Work and Pensions (GOV.UK)", "country": "uk", "type": "rss", "url": "https://www.gov.uk/government/organisations/department-for-work-pensions.atom", "enabled": true },
-
-    { "id": "ca-ircc", "name": "Immigration, Refugees and Citizenship Canada", "country": "canada", "type": "rss", "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=departmentofcitizenshipandimmigration&type=newsreleases&sort=publishedDate&orderBy=desc&pick=50&format=atom", "enabled": true },
-    { "id": "ca-esdc", "name": "Employment and Social Development Canada", "country": "canada", "type": "rss", "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=employmentandsocialdevelopmentcanada&type=newsreleases&sort=publishedDate&orderBy=desc&pick=50&format=atom", "enabled": true },
-
-    { "id": "us-uscis", "name": "USCIS News Releases", "country": "usa", "type": "page", "url": "https://www.uscis.gov/news/news-releases", "include": "/newsroom/news-releases/", "filter": false, "enabled": true },
-    { "id": "us-dol", "name": "U.S. Department of Labor News", "country": "usa", "type": "page", "url": "https://www.dol.gov/newsroom/releases", "include": "/newsroom/releases/", "enabled": true },
-
-    { "id": "au-homeaffairs", "name": "Australia Department of Home Affairs", "country": "australia", "type": "page", "url": "https://immi.homeaffairs.gov.au/news-media/archive", "include": "/news-media/archive/article", "filter": false, "enabled": true },
-
-    { "id": "eu-home-affairs", "name": "European Commission – Migration and Home Affairs", "country": "europe", "type": "page", "url": "https://home-affairs.ec.europa.eu/news_en", "include": "/news/", "enabled": true },
-    { "id": "de-make-it", "name": "Make it in Germany (German Government portal)", "country": "europe", "type": "page", "url": "https://www.make-it-in-germany.com/en/about-us/news", "include": "/news", "enabled": true },
-
-    { "id": "ae-mohre", "name": "UAE Ministry of Human Resources and Emiratisation", "country": "uae", "type": "page", "url": "https://www.mohre.gov.ae/en/media-center/news.aspx", "filter": false, "enabled": true },
-    { "id": "ae-wam", "name": "WAM – Emirates News Agency (official)", "country": "uae", "type": "page", "url": "https://www.wam.ae/en", "include": "/article/", "enabled": true },
-    { "id": "ae-icp", "name": "UAE Federal Authority for Identity, Citizenship, Customs & Port Security", "country": "uae", "type": "page", "url": "https://icp.gov.ae/en/news/", "enabled": true },
-
-    { "id": "sa-spa", "name": "Saudi Press Agency (official)", "country": "saudi-arabia", "type": "page", "url": "https://www.spa.gov.sa/en", "enabled": true },
-    { "id": "sa-hrsd", "name": "Saudi Ministry of Human Resources and Social Development", "country": "saudi-arabia", "type": "page", "url": "https://www.hrsd.gov.sa/en/news", "enabled": true },
-    { "id": "qa-qna", "name": "Qatar News Agency (official)", "country": "qatar", "type": "page", "url": "https://www.qna.org.qa/en", "enabled": true },
-    { "id": "kw-kuna", "name": "Kuwait News Agency (official)", "country": "kuwait", "type": "page", "url": "https://www.kuna.net.kw/Default.aspx?language=en", "enabled": true },
-    { "id": "om-ona", "name": "Oman News Agency (official)", "country": "oman", "type": "page", "url": "https://omannews.gov.om/", "enabled": true },
-    { "id": "bh-bna", "name": "Bahrain News Agency (official)", "country": "bahrain", "type": "page", "url": "https://www.bna.bh/en/", "enabled": true },
-
-    { "id": "pk-fpsc", "name": "Federal Public Service Commission", "country": "pakistan", "type": "page", "url": "https://www.fpsc.gov.pk", "filter": false, "enabled": true },
-    { "id": "pk-ppsc", "name": "Punjab Public Service Commission", "country": "pakistan", "type": "page", "url": "https://www.ppsc.gop.pk", "filter": false, "enabled": true },
-    { "id": "pk-beoe", "name": "Bureau of Emigration & Overseas Employment", "country": "pakistan", "type": "page", "url": "https://beoe.gov.pk", "enabled": true },
-    { "id": "pk-nts", "name": "National Testing Service", "country": "pakistan", "type": "page", "url": "https://www.nts.org.pk", "filter": false, "enabled": true },
-
-    { "id": "in-upsc", "name": "Union Public Service Commission", "country": "india", "type": "page", "url": "https://upsc.gov.in/whats-new", "filter": false, "enabled": true }
+    {
+      "id": "uk-ukvi",
+      "name": "UK Visas and Immigration (GOV.UK)",
+      "country": "uk",
+      "type": "rss",
+      "url": "https://www.gov.uk/government/organisations/uk-visas-and-immigration.atom",
+      "enabled": false
+    },
+    {
+      "id": "uk-home-office",
+      "name": "Home Office (GOV.UK)",
+      "country": "uk",
+      "type": "rss",
+      "url": "https://www.gov.uk/government/organisations/home-office.atom",
+      "enabled": false
+    },
+    {
+      "id": "uk-dwp",
+      "name": "Department for Work and Pensions (GOV.UK)",
+      "country": "uk",
+      "type": "rss",
+      "url": "https://www.gov.uk/government/organisations/department-for-work-pensions.atom",
+      "enabled": false
+    },
+    {
+      "id": "ca-ircc",
+      "name": "Immigration, Refugees and Citizenship Canada",
+      "country": "canada",
+      "type": "rss",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=departmentofcitizenshipandimmigration&type=newsreleases&sort=publishedDate&orderBy=desc&pick=50&format=atom",
+      "enabled": false
+    },
+    {
+      "id": "ca-esdc",
+      "name": "Employment and Social Development Canada",
+      "country": "canada",
+      "type": "rss",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=employmentandsocialdevelopmentcanada&type=newsreleases&sort=publishedDate&orderBy=desc&pick=50&format=atom",
+      "enabled": false
+    },
+    {
+      "id": "us-uscis",
+      "name": "USCIS News Releases",
+      "country": "usa",
+      "type": "page",
+      "url": "https://www.uscis.gov/news/news-releases",
+      "include": "/newsroom/news-releases/",
+      "filter": false,
+      "enabled": false
+    },
+    {
+      "id": "us-dol",
+      "name": "U.S. Department of Labor News",
+      "country": "usa",
+      "type": "page",
+      "url": "https://www.dol.gov/newsroom/releases",
+      "include": "/newsroom/releases/",
+      "enabled": false
+    },
+    {
+      "id": "au-homeaffairs",
+      "name": "Australia Department of Home Affairs",
+      "country": "australia",
+      "type": "page",
+      "url": "https://immi.homeaffairs.gov.au/news-media/archive",
+      "include": "/news-media/archive/article",
+      "filter": false,
+      "enabled": false
+    },
+    {
+      "id": "eu-home-affairs",
+      "name": "European Commission – Migration and Home Affairs",
+      "country": "europe",
+      "type": "page",
+      "url": "https://home-affairs.ec.europa.eu/news_en",
+      "include": "/news/",
+      "enabled": false
+    },
+    {
+      "id": "de-make-it",
+      "name": "Make it in Germany (German Government portal)",
+      "country": "europe",
+      "type": "page",
+      "url": "https://www.make-it-in-germany.com/en/about-us/news",
+      "include": "/news",
+      "enabled": false
+    },
+    {
+      "id": "ae-mohre",
+      "name": "UAE Ministry of Human Resources and Emiratisation",
+      "country": "uae",
+      "type": "page",
+      "url": "https://www.mohre.gov.ae/en/media-center/news.aspx",
+      "filter": false,
+      "enabled": true
+    },
+    {
+      "id": "ae-wam",
+      "name": "WAM – Emirates News Agency (official)",
+      "country": "uae",
+      "type": "page",
+      "url": "https://www.wam.ae/en",
+      "include": "/article/",
+      "enabled": true
+    },
+    {
+      "id": "ae-icp",
+      "name": "UAE Federal Authority for Identity, Citizenship, Customs & Port Security",
+      "country": "uae",
+      "type": "page",
+      "url": "https://icp.gov.ae/en/news/",
+      "enabled": true
+    },
+    {
+      "id": "sa-spa",
+      "name": "Saudi Press Agency (official)",
+      "country": "saudi-arabia",
+      "type": "page",
+      "url": "https://www.spa.gov.sa/en",
+      "enabled": true
+    },
+    {
+      "id": "sa-hrsd",
+      "name": "Saudi Ministry of Human Resources and Social Development",
+      "country": "saudi-arabia",
+      "type": "page",
+      "url": "https://www.hrsd.gov.sa/en/news",
+      "enabled": true
+    },
+    {
+      "id": "qa-qna",
+      "name": "Qatar News Agency (official)",
+      "country": "qatar",
+      "type": "page",
+      "url": "https://www.qna.org.qa/en",
+      "enabled": true
+    },
+    {
+      "id": "kw-kuna",
+      "name": "Kuwait News Agency (official)",
+      "country": "kuwait",
+      "type": "page",
+      "url": "https://www.kuna.net.kw/Default.aspx?language=en",
+      "enabled": true
+    },
+    {
+      "id": "om-ona",
+      "name": "Oman News Agency (official)",
+      "country": "oman",
+      "type": "page",
+      "url": "https://omannews.gov.om/",
+      "enabled": true
+    },
+    {
+      "id": "bh-bna",
+      "name": "Bahrain News Agency (official)",
+      "country": "bahrain",
+      "type": "page",
+      "url": "https://www.bna.bh/en/",
+      "enabled": true
+    },
+    {
+      "id": "pk-fpsc",
+      "name": "Federal Public Service Commission",
+      "country": "pakistan",
+      "type": "page",
+      "url": "https://www.fpsc.gov.pk",
+      "filter": false,
+      "enabled": false
+    },
+    {
+      "id": "pk-ppsc",
+      "name": "Punjab Public Service Commission",
+      "country": "pakistan",
+      "type": "page",
+      "url": "https://www.ppsc.gop.pk",
+      "filter": false,
+      "enabled": false
+    },
+    {
+      "id": "pk-beoe",
+      "name": "Bureau of Emigration & Overseas Employment",
+      "country": "pakistan",
+      "type": "page",
+      "url": "https://beoe.gov.pk",
+      "enabled": false
+    },
+    {
+      "id": "pk-nts",
+      "name": "National Testing Service",
+      "country": "pakistan",
+      "type": "page",
+      "url": "https://www.nts.org.pk",
+      "filter": false,
+      "enabled": false
+    },
+    {
+      "id": "in-upsc",
+      "name": "Union Public Service Commission",
+      "country": "india",
+      "type": "page",
+      "url": "https://upsc.gov.in/whats-new",
+      "filter": false,
+      "enabled": false
+    },
+    {
+      "id": "bh-lmra",
+      "name": "Bahrain Labour Market Regulatory Authority (LMRA)",
+      "country": "bahrain",
+      "type": "page",
+      "url": "https://blog.lmra.gov.bh/en/",
+      "enabled": true
+    }
   ]
 }

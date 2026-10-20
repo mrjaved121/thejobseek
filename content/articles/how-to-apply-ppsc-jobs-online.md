@@ -8,6 +8,7 @@ date: 2026-10-20T12:00:00+04:00
 organization: Punjab Public Service Commission (PPSC)
 sourceUrl: https://www.ppsc.gop.pk
 sourceName: PPSC official website
+draft: true
 tags: [ppsc jobs, punjab govt jobs, how to apply, pakistan govt jobs]
 ---
 

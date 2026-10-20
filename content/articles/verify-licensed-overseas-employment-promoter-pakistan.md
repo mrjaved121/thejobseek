@@ -8,6 +8,7 @@ date: 2026-10-20T14:00:00+04:00
 organization: Bureau of Emigration & Overseas Employment
 sourceUrl: https://beoe.gov.pk
 sourceName: Bureau of Emigration & Overseas Employment
+draft: true
 tags: [gulf jobs, dubai jobs for pakistani, saudi jobs, overseas employment, job scam]
 ---
 

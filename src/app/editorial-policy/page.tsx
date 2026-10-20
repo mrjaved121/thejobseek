@@ -16,7 +16,7 @@ export default function EditorialPolicy() {
         We base job news on official sources: government and public service commission
         websites, official gazettes and press releases, ministry announcements (such as the UAE
         Ministry of Human Resources and Emiratisation), official newspaper advertisements, and
-        employers&apos; own career pages. We do not publish job news based only on social media
+        employers&apos; own career pages. When an official text is not available online, we may rely on an established news organisation that reports a specific official decision, and we name both the decision and the news source. We do not publish job news based only on social media
         posts or unverified forwards.
       </p>
       <h2>Verification</h2>

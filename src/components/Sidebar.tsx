@@ -2,26 +2,39 @@ import Link from "next/link";
 import { getAllArticles, articlePath, isClosingSoon, formatDate, countryCounts } from "@/lib/articles";
 import { COUNTRIES, PRIMARY_COUNTRIES, enabledCountries, SITE } from "@/lib/site";
 import AdSlot from "./AdSlot";
+import SectionLabel from "./SectionLabel";
 
-export default function Sidebar() {
+export default function Sidebar({ exclude }: { exclude?: string }) {
   const all = getAllArticles();
   const counts = countryCounts();
+  const latest = all.filter((a) => a.slug !== exclude).slice(0, 5);
   const closing = all
     .filter(isClosingSoon)
     .sort((a, b) => (a.lastDate || "").localeCompare(b.lastDate || ""))
-    .slice(0, 6);
+    .slice(0, 5);
   const order = [...PRIMARY_COUNTRIES, ...enabledCountries.filter((c) => !PRIMARY_COUNTRIES.includes(c))];
   const withNews = order.filter((c) => counts[c]);
 
   return (
     <aside className="sidebar" aria-label="More from TheJobSeek">
+      <section>
+        <SectionLabel first="Latest" second="Updates" />
+        <ol className="numbered">
+          {latest.map((a) => (
+            <li key={a.slug}>
+              <Link href={articlePath(a)}>{a.title}</Link>
+            </li>
+          ))}
+        </ol>
+      </section>
+
       {closing.length > 0 && (
-        <section className="side-box side-deadlines">
-          <h2 className="side-title">Closing this week</h2>
+        <section>
+          <SectionLabel first="Closing" second="Soon" />
           <ul className="deadline-list">
             {closing.map((a) => (
               <li key={a.slug}>
-                <span className="deadline-date">{formatDate(a.lastDate!)}</span>
+                <span className="deadline-date">Last date · {formatDate(a.lastDate!)}</span>
                 <Link href={articlePath(a)}>{a.title}</Link>
               </li>
             ))}
@@ -32,8 +45,8 @@ export default function Sidebar() {
       <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_SIDEBAR} format="rectangle" minHeight={250} />
 
       {withNews.length > 0 && (
-        <section className="side-box">
-          <h2 className="side-title">News by country</h2>
+        <section>
+          <SectionLabel first="By" second="Country" />
           <ul className="country-list">
             {withNews.map((c) => (
               <li key={c}>
@@ -44,30 +57,23 @@ export default function Sidebar() {
               </li>
             ))}
           </ul>
-          <Link href="/countries/" className="side-more">All countries →</Link>
         </section>
       )}
 
-      <section className="side-box side-trust">
-        <h2 className="side-title">How we report</h2>
+      <div className="promo-box">
+        <p className="promo-title">How we report</p>
         <p>
-          Every story is written from an official notice and links to it with a{" "}
-          <span className="stamp">✓ source</span> stamp, so you can check it and apply directly.
+          Every story is based on an official notice or decision and links to its source with a{" "}
+          <span className="stamp">✓ source</span> stamp. We never charge for jobs or visas.
         </p>
-        <p className="small">
-          We never charge for jobs or visas. <Link href="/editorial-policy/">Editorial policy</Link>
-        </p>
-      </section>
-
-      {SITE.social.whatsapp && (
-        <section className="side-box side-alert">
-          <h2 className="side-title">Free job alerts</h2>
-          <p className="small">New UAE, Gulf and Pakistan updates on WhatsApp.</p>
-          <a className="btn btn-wa" href={SITE.social.whatsapp} target="_blank" rel="noopener">
-            Join the WhatsApp channel
+        {SITE.social.whatsapp ? (
+          <a className="btn btn-gold" href={SITE.social.whatsapp} target="_blank" rel="noopener">
+            Get free WhatsApp alerts
           </a>
-        </section>
-      )}
+        ) : (
+          <Link className="btn btn-gold" href="/editorial-policy/">Read our editorial policy</Link>
+        )}
+      </div>
     </aside>
   );
 }

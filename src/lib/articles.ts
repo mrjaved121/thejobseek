@@ -18,6 +18,8 @@ export type Article = {
   sourceUrl?: string;
   sourceName?: string;
   tags: string[];
+  image?: string;
+  imageAlt?: string;
   html: string;
   readingMinutes: number;
 };
@@ -58,6 +60,8 @@ export function getAllArticles(): Article[] {
         sourceUrl: data.sourceUrl,
         sourceName: data.sourceName,
         tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
+        image: data.image ? String(data.image) : undefined,
+        imageAlt: data.imageAlt ? String(data.imageAlt) : undefined,
         html: marked.parse(content, { async: false }) as string,
         readingMinutes: Math.max(1, Math.round(words / 220)),
       };

@@ -4,7 +4,7 @@ import Story from "@/components/Story";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import { AUTHORS } from "@/lib/authors";
-import { getByAuthor, excerpt } from "@/lib/articles";
+import { getByAuthor } from "@/lib/articles";
 import { SITE } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -40,7 +40,7 @@ export default async function AuthorPage({ params }: Props) {
       <h2 className="section-title">Articles by {author.name}</h2>
       <div className="river">
         {items.map((a) => (
-          <Story key={a.slug} a={a} variant="river" excerptText={excerpt(a)} />
+          <Story key={a.slug} a={a} variant="river" />
         ))}
       </div>
       <JsonLd
