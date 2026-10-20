@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import ArticleCard from "@/components/ArticleCard";
-import Sidebar from "@/components/Sidebar";
-import Breadcrumbs from "@/components/Breadcrumbs";
+import Listing from "@/components/Listing";
 import { getByCategory } from "@/lib/articles";
 import { CATEGORIES } from "@/lib/site";
 
@@ -34,19 +32,13 @@ export default async function CategoryPage({ params }: Props) {
   if (!c) notFound();
   const items = getByCategory(cat);
   return (
-    <div className="grid">
-      <div>
-        <Breadcrumbs items={[{ name: c.name, path: `/category/${cat}/` }]} />
-        <h1 className="page-title">{c.name}</h1>
-        <p className="lede">{c.description}</p>
-        <div className="cards">
-          {items.map((a) => (
-            <ArticleCard key={a.slug} a={a} />
-          ))}
-        </div>
-        {!items.length && <p>Updates in this section are coming soon.</p>}
-      </div>
-      <Sidebar />
-    </div>
+    <Listing
+      eyebrow="Topic"
+      title={c.name}
+      lede={c.description}
+      crumbs={[{ name: c.name, path: `/category/${cat}/` }]}
+      items={items}
+      emptyText="Updates in this section are coming soon."
+    />
   );
 }

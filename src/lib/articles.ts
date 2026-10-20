@@ -120,3 +120,16 @@ export function formatDate(iso: string) {
     timeZone: "Asia/Dubai",
   });
 }
+
+export function formatDateTime(iso: string) {
+  const d = new Date(iso);
+  const date = d.toLocaleDateString("en-GB", { day: "numeric", month: "short", timeZone: "Asia/Dubai" });
+  const time = d.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit", hour12: false, timeZone: "Asia/Dubai" });
+  return `${date}, ${time} GST`;
+}
+
+/** Short plain-text excerpt from the article HTML (for news lists and search). */
+export function excerpt(a: Article, words = 28) {
+  const text = a.html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().split(" ");
+  return text.slice(0, words).join(" ") + (text.length > words ? "…" : "");
+}
