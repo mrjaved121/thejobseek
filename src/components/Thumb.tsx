@@ -1,5 +1,5 @@
 import { type Article } from "@/lib/articles";
-import { COUNTRIES } from "@/lib/site";
+import { COUNTRIES, COUNTRY_PHOTOS } from "@/lib/site";
 
 /**
  * Story image: small WebP files generated at build time by scripts/build-thumbs.mjs
@@ -20,7 +20,7 @@ export default function Thumb({ a, size = "md", priority = false }: { a: Article
         sizes={external ? undefined : sizes}
         width={640}
         height={360}
-        alt={a.imageAlt || ""}
+        alt={a.imageAlt || (a.image ? "" : COUNTRY_PHOTOS[a.country] || "")}
         loading={priority ? "eager" : "lazy"}
         fetchPriority={priority ? "high" : undefined}
         decoding="async"

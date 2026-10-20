@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Listing from "@/components/Listing";
 import { getByCountry } from "@/lib/articles";
-import { COUNTRIES, enabledCountries, type CountryKey } from "@/lib/site";
+import { COUNTRIES, COUNTRY_PHOTOS, countryPhoto, enabledCountries, type CountryKey } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -39,6 +39,7 @@ export default async function CountryPage({ params }: Props) {
       crumbs={[{ name: `${c.name} Job News`, path: `/${country}/` }]}
       items={items}
       emptyText={`New ${c.name} updates from official sources are coming soon.`}
+      banner={countryPhoto(country) ? { src: countryPhoto(country), alt: COUNTRY_PHOTOS[country] } : undefined}
     />
   );
 }

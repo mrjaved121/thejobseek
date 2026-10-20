@@ -12,6 +12,7 @@ export default function Listing({
   crumbs,
   items,
   emptyText,
+  banner,
 }: {
   eyebrow: string;
   title: React.ReactNode;
@@ -19,11 +20,16 @@ export default function Listing({
   crumbs: { name: string; path: string }[];
   items: Article[];
   emptyText: string;
+  banner?: { src: string; alt: string };
 }) {
   const [lead, ...rest] = items;
   return (
     <>
-      <div className="section-head">
+      <div className={`section-head${banner ? " has-banner" : ""}`}>
+        {banner && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img className="banner-img" src={banner.src} alt={banner.alt} width={1200} height={675} fetchPriority="high" decoding="async" />
+        )}
         <Breadcrumbs items={crumbs} />
         <p className="eyebrow">{eyebrow}</p>
         <h1 className="section-h1">{title}</h1>

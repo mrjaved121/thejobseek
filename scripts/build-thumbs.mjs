@@ -2,7 +2,8 @@
 // Runs before every build (prebuild). Creates small WebP thumbnails for every article in public/thumbs/:
 //   <slug>-640.webp  (cards, ~10–25 KB)   and   <slug>-1200.webp  (lead stories)
 // - If the article has `image: /images/your-photo.jpg` (a file in /public), that photo is cropped and converted.
-// - Otherwise a branded illustration is drawn: sky gradient, country landmark silhouette, skyline, topic badge.
+// - Otherwise the country photo (public/images/countries/<country>.webp) is used, with the topic badge.
+// - If there is no country photo, a branded illustration is drawn: sky gradient, country landmark silhouette, skyline, topic badge.
 // No text is drawn into images (so no font issues on the build server); labels are added in HTML.
 import fs from "fs";
 import path from "path";
@@ -18,7 +19,7 @@ fs.mkdirSync(OUT, { recursive: true });
 
 const W = 1200, H = 675, GROUND = 600;
 const SIZES = [640, 1200];
-const VERSION = "v2"; // bump to regenerate everything after design changes
+const VERSION = "v3"; // bump to regenerate everything after design changes
 
 // --- deterministic random from slug ---
 function rng(seedStr) {
@@ -151,6 +152,25 @@ function svgFor(a) {
 </svg>`;
 }
 
+// Country photo (public/images/countries/<country>.webp) with a soft bottom shade and the topic badge.
+async function countryPhotoFor(a, photoPath) {
+  const overlay = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+  <defs><linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0.55" stop-color="#0b1640" stop-opacity="0"/><stop offset="1" stop-color="#0b1640" stop-opacity="0.55"/>
+  </linearGradient></defs>
+  <rect width="${W}" height="${H}" fill="url(#shade)"/>
+  <g transform="translate(1094 92)">
+    <circle r="52" fill="#f4b41a" stroke="#ffffff" stroke-opacity="0.85" stroke-width="4"/>
+    <g transform="translate(-30 -30) scale(2.5)" fill="none" stroke="#0c1740" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${ICON[a.category] || ICON["visa-labour-law"]}</g>
+  </g>
+</svg>`;
+  return sharp(photoPath)
+    .resize(W, H, { fit: "cover", position: "attention" })
+    .composite([{ input: Buffer.from(overlay) }])
+    .png()
+    .toBuffer();
+}
+
 async function writeSizes(input, slug, kind) {
   for (const w of SIZES) {
     const out = path.join(OUT, `${slug}-${w}.webp`);
@@ -168,10 +188,13 @@ for (const f of files) {
   const a = { slug, country: String(data.country), category: String(data.category) };
   const img = data.image ? String(data.image) : "";
   const local = img.startsWith("/") && fs.existsSync(path.join(PUB, img)) ? path.join(PUB, img) : "";
-  const key = `${VERSION}|${a.country}|${a.category}|${img}|${local ? fs.statSync(local).mtimeMs : ""}`;
+  const countryPhoto = path.join(PUB, "images", "countries", `${a.country}.webp`);
+  const hasCountryPhoto = !local && fs.existsSync(countryPhoto);
+  const key = `${VERSION}|${a.country}|${a.category}|${img}|${local ? fs.statSync(local).mtimeMs : ""}|${hasCountryPhoto ? fs.statSync(countryPhoto).size : ""}`;
   const done = SIZES.every((w) => fs.existsSync(path.join(OUT, `${slug}-${w}.webp`)));
   if (done && stamps[slug] === key) continue;
   if (local) await writeSizes(local, slug, "photo");
+  else if (hasCountryPhoto) await writeSizes(await countryPhotoFor(a, countryPhoto), slug, "photo");
   else await writeSizes(Buffer.from(svgFor(a)), slug, "art");
   stamps[slug] = key;
   made++;

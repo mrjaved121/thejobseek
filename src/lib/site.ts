@@ -35,4 +35,21 @@ export const COUNTRY_CODES: Record<string, string> = {
   uk: "UK", usa: "US", canada: "CA", australia: "AU", europe: "EU", pakistan: "PK", india: "IN",
 };
 
+// One photo per country (public/images/countries/<key>.webp, free Unsplash licence, see content/country-photo-credits.md).
+// Used for every article thumbnail of that country (unless the article sets its own `image:`) and for country page banners.
+export const COUNTRY_PHOTOS: Record<string, string> = {
+  uae: "Burj Khalifa and the Dubai skyline, UAE",
+  "saudi-arabia": "Kingdom Centre tower in Riyadh, Saudi Arabia",
+  qatar: "Katara Towers in Lusail, Qatar",
+  kuwait: "Kuwait Towers in Kuwait City",
+  oman: "Al Lawatiya Mosque in Muscat, Oman",
+  bahrain: "Bahrain World Trade Center in Manama",
+  uk: "Big Ben and the Houses of Parliament, London, UK",
+  usa: "Empire State Building and the New York skyline, USA",
+  canada: "CN Tower and the Toronto skyline, Canada",
+  australia: "Sydney Opera House and harbour, Australia",
+  europe: "European Union flags in Brussels",
+};
+export const countryPhoto = (c: string) => (COUNTRY_PHOTOS[c] ? `/images/countries/${c}.webp` : "");
+
 export const CATEGORIES = taxonomy.categories as Record<string, { name: string; description: string }>;
