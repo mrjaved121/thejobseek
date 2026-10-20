@@ -3,6 +3,7 @@ import { getAllArticles, getArticle } from "@/lib/articles";
 import { COUNTRIES, CATEGORIES } from "@/lib/site";
 
 // Auto-generated 1200x675 share image for every article (Google Discover wants >=1200px wide).
+export const dynamic = "force-static";
 export const size = { width: 1200, height: 675 };
 export const contentType = "image/png";
 export const alt = "TheJobSeek job news";

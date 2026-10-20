@@ -7,7 +7,6 @@ import { getByCategory } from "@/lib/articles";
 import { CATEGORIES } from "@/lib/site";
 
 export const dynamicParams = false;
-export const revalidate = 600;
 
 export function generateStaticParams() {
   return Object.keys(CATEGORIES).map((cat) => ({ cat }));
@@ -23,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${c.name} – UAE & Pakistan`,
     description: c.description,
-    alternates: { canonical: `/category/${cat}` },
+    alternates: { canonical: `/category/${cat}/` },
     // Thin category pages (no articles yet) should not be indexed.
     robots: items.length ? undefined : { index: false, follow: true },
   };
@@ -37,7 +36,7 @@ export default async function CategoryPage({ params }: Props) {
   return (
     <div className="grid">
       <div>
-        <Breadcrumbs items={[{ name: c.name, path: `/category/${cat}` }]} />
+        <Breadcrumbs items={[{ name: c.name, path: `/category/${cat}/` }]} />
         <h1 className="page-title">{c.name}</h1>
         <p className="lede">{c.description}</p>
         <div className="cards">

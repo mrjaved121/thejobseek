@@ -5,13 +5,13 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact Us",
   description: `Contact ${SITE.name} for corrections, news tips, advertising or general questions.`,
-  alternates: { canonical: "/contact" },
+  alternates: { canonical: "/contact/" },
 };
 
 export default function Contact() {
   const socials = Object.entries(SITE.social).filter(([, v]) => v);
   return (
-    <StaticPage title="Contact Us" path="/contact">
+    <StaticPage title="Contact Us" path="/contact/">
       <p>We read every message. Please choose the right subject so we can reply faster.</p>
       <ul>
         <li><strong>Corrections:</strong> send the article link and what is wrong, with an official source if possible.</li>

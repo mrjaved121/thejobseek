@@ -42,7 +42,7 @@ inventory" policy.
    Optional variables: `MAX_DRAFTS` (default 12 per run), `AI_MODEL`.
 3. **Allow the bot to open PRs:** Settings → Actions → General → Workflow permissions →
    *Read and write* + tick **Allow GitHub Actions to create and approve pull requests**.
-4. **Connect the repo to Vercel** (or DigitalOcean App Platform) so merges deploy automatically.
+4. **Connect the repo to DigitalOcean App Platform** (see *Hosting* below) so merges deploy automatically.
 5. Run it once by hand: Actions → *Fetch job news drafts* → **Run workflow**.
    The first run only "baselines" page-type sources (records what already exists), so
    real drafts start from the second run. RSS sources draft immediately (last 7 days).
@@ -119,6 +119,22 @@ until they have content.
 - Visible official-source stamp + "Apply only through the official source" box on every article
 - AI-use disclosure on the Editorial Policy page (Google recommends being transparent)
 
+## Hosting (DigitalOcean App Platform – Static Site)
+
+The site is a pure static export (`output: "export"`): `npm run build` writes everything to `out/`.
+No server or database needed. A postbuild step gives generated images a `.png` extension.
+
+1. DigitalOcean → **Apps → Create App → GitHub → `mrjaved121/thejobseek`**, branch `main`, *Autodeploy* on.
+2. Resource type: **Static Site**. Build command: `npm run build`. Output directory: `out`.
+3. Environment variables: add the `NEXT_PUBLIC_*` and `GOOGLE_SITE_VERIFICATION` values from
+   `.env.example` with scope **Build time** (they are baked into the HTML at build).
+4. Settings → *Custom pages*: set **Error document** to `404.html`.
+5. Settings → **Domains**: add `thejobseek.com` (primary) and `www.thejobseek.com`;
+   redirect www → thejobseek.com. Point GoDaddy DNS as DigitalOcean shows (or move nameservers to DigitalOcean).
+6. All URLs end with `/` (e.g. `/uae/article-name/`); canonicals, sitemap and internal links already match.
+
+Why not Vercel: the free Hobby plan does not allow ads (AdSense counts as commercial use).
+
 ## AdSense
 
 Required pages exist: About, Contact, Privacy (with Google ad-cookie text), Terms,
@@ -131,7 +147,7 @@ Disclaimer, Editorial Policy.
 
 ## Launch checklist
 
-1. Deploy on Vercel, add domain, point GoDaddy DNS to Vercel.
+1. Deploy on DigitalOcean (see *Hosting*), add domain, point GoDaddy DNS to DigitalOcean.
 2. Search Console: verify (`GOOGLE_SITE_VERIFICATION`), submit both sitemaps.
 3. Google News Publisher Center: add publication with `/feed.xml`.
 4. GA4: `NEXT_PUBLIC_GA_ID`. Social + WhatsApp links in env vars.

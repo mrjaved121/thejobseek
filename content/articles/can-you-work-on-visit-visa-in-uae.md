@@ -43,6 +43,6 @@ People who work without a permit, and employers who hire them, can face heavy fi
 - Plan your visit duration and budget realistically; finding a job can take longer than expected.
 - Keep your visa validity in mind to avoid overstay fines.
 - Ask every employer clearly how and when your work permit will be processed.
-- Never pay a recruiter for a job. See our guide on [warning signs of fake UAE job offers](/uae/uae-job-offer-scam-warning-signs).
+- Never pay a recruiter for a job. See our guide on [warning signs of fake UAE job offers](/uae/uae-job-offer-scam-warning-signs/).
 
 Rules and fees change from time to time, so always confirm current requirements on official UAE government websites before you travel.

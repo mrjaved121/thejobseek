@@ -5,12 +5,12 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Editorial Policy",
   description: `How ${SITE.name} sources, verifies, writes and corrects job news.`,
-  alternates: { canonical: "/editorial-policy" },
+  alternates: { canonical: "/editorial-policy/" },
 };
 
 export default function EditorialPolicy() {
   return (
-    <StaticPage title="Editorial Policy" path="/editorial-policy" updated="20 October 2026">
+    <StaticPage title="Editorial Policy" path="/editorial-policy/" updated="20 October 2026">
       <h2>Sources</h2>
       <p>
         We base job news on official sources: government and public service commission

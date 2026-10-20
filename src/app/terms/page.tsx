@@ -5,12 +5,12 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Terms of Use",
   description: `Terms of use for ${SITE.name}.`,
-  alternates: { canonical: "/terms" },
+  alternates: { canonical: "/terms/" },
 };
 
 export default function Terms() {
   return (
-    <StaticPage title="Terms of Use" path="/terms" updated="20 October 2026">
+    <StaticPage title="Terms of Use" path="/terms/" updated="20 October 2026">
       <p>By using {SITE.domain} you agree to these terms.</p>
       <h2>Use of content</h2>
       <p>

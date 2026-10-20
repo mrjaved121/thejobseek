@@ -64,19 +64,19 @@ export default async function ArticlePage({ params }: Props) {
       <article>
         <Breadcrumbs
           items={[
-            { name: `${c.name} Job News`, path: `/${a.country}` },
+            { name: `${c.name} Job News`, path: `/${a.country}/` },
             { name: a.title, path: articlePath(a) },
           ]}
         />
         <header className="article-head">
-          <Link href={`/category/${a.category}`} className="tag tag-cat">
+          <Link href={`/category/${a.category}/`} className="tag tag-cat">
             {CATEGORIES[a.category].name}
           </Link>
           <h1>{a.title}</h1>
           <p className="lede">{a.description}</p>
           <div className="byline">
             <span>
-              By <Link href={`/author/${author.id}`} rel="author">{author.name}</Link>
+              By <Link href={`/author/${author.id}/`} rel="author">{author.name}</Link>
             </span>
             <span>·</span>
             <time dateTime={a.date}>Published {formatDate(a.date)}</time>
@@ -143,7 +143,7 @@ export default async function ArticlePage({ params }: Props) {
         <div className="author-box">
           <div className="avatar" aria-hidden>{author.name[0]}</div>
           <div>
-            <strong><Link href={`/author/${author.id}`}>{author.name}</Link></strong>
+            <strong><Link href={`/author/${author.id}/`}>{author.name}</Link></strong>
             <div className="small muted">{author.role}</div>
             <p className="small">{author.bio}</p>
           </div>

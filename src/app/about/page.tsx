@@ -6,12 +6,12 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About Us",
   description: `About ${SITE.name}: who we are, what we cover and how we verify job news for the UAE and Pakistan.`,
-  alternates: { canonical: "/about" },
+  alternates: { canonical: "/about/" },
 };
 
 export default function About() {
   return (
-    <StaticPage title="About TheJobSeek" path="/about">
+    <StaticPage title="About TheJobSeek" path="/about/">
       <p>
         {SITE.name} is an independent job news website for people looking for work in the
         United Arab Emirates, the Gulf, Pakistan and abroad. Every day we publish recruitment announcements,
@@ -29,7 +29,7 @@ export default function About() {
       <p>
         We write every update in our own words from the official notice, include the
         application deadline where one exists, and link to the original source so readers can
-        verify it and apply directly. Read our <Link href="/editorial-policy">editorial policy</Link> for details.
+        verify it and apply directly. Read our <Link href="/editorial-policy/">editorial policy</Link> for details.
       </p>
       <h2>What we are not</h2>
       <p>
@@ -39,7 +39,7 @@ export default function About() {
       <h2>Contact</h2>
       <p>
         Questions, corrections or tips: <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a> or our{" "}
-        <Link href="/contact">contact page</Link>.
+        <Link href="/contact/">contact page</Link>.
       </p>
     </StaticPage>
   );

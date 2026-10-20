@@ -5,12 +5,12 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: `How ${SITE.name} collects, uses and protects information, including cookies and Google AdSense advertising.`,
-  alternates: { canonical: "/privacy-policy" },
+  alternates: { canonical: "/privacy-policy/" },
 };
 
 export default function Privacy() {
   return (
-    <StaticPage title="Privacy Policy" path="/privacy-policy" updated="20 October 2026">
+    <StaticPage title="Privacy Policy" path="/privacy-policy/" updated="20 October 2026">
       <p>
         This policy explains how {SITE.name} ({SITE.domain}) handles information when you visit
         our website.

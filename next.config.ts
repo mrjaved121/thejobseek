@@ -1,20 +1,15 @@
 import type { NextConfig } from "next";
 
+// Static export: `npm run build` writes the whole site as plain files to ./out
+// (host on DigitalOcean App Platform as a Static Site, output directory "out").
+// trailingSlash makes every page a folder with index.html (/uae/article/ ),
+// which static hosts serve without ".html" in the URL.
+// The www → thejobseek.com redirect is set at the host/DNS level (see README).
 const nextConfig: NextConfig = {
-  trailingSlash: false,
+  output: "export",
+  trailingSlash: true,
+  images: { unoptimized: true },
   poweredByHeader: false,
-  compress: true,
-  async redirects() {
-    return [
-      // Force the bare domain (no www) so Google sees one canonical host.
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "www.thejobseek.com" }],
-        destination: "https://thejobseek.com/:path*",
-        permanent: true,
-      },
-    ];
-  },
 };
 
 export default nextConfig;

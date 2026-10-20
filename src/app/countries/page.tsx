@@ -8,20 +8,20 @@ export const metadata: Metadata = {
   title: "Job & Work Visa News by Country",
   description:
     "Browse verified job, recruitment and work visa news by country: UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain, Pakistan, India, UK, USA, Canada, Australia and Europe.",
-  alternates: { canonical: "/countries" },
+  alternates: { canonical: "/countries/" },
 };
 
 export default function Countries() {
   const counts = countryCounts();
   return (
     <div>
-      <Breadcrumbs items={[{ name: "All countries", path: "/countries" }]} />
+      <Breadcrumbs items={[{ name: "All countries", path: "/countries/" }]} />
       <h1 className="page-title">Job &amp; work visa news by country</h1>
       <p className="lede">Every update links to the government or employer notice it is based on.</p>
       <ul className="country-grid">
         {enabledCountries.map((c) => (
           <li key={c}>
-            <Link href={`/${c}`} className="country-tile">
+            <Link href={`/${c}/`} className="country-tile">
               <span className="country-flag" aria-hidden>{COUNTRIES[c].flag}</span>
               <span className="country-name">{COUNTRIES[c].name}</span>
               <span className="country-count">

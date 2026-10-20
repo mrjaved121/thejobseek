@@ -5,7 +5,6 @@ import AdSlot from "@/components/AdSlot";
 import { getAllArticles, getByCountry, sourceDomain } from "@/lib/articles";
 import { COUNTRIES, PRIMARY_COUNTRIES, enabledCountries } from "@/lib/site";
 
-export const revalidate = 600;
 
 export default function Home() {
   const all = getAllArticles();
@@ -55,7 +54,7 @@ export default function Home() {
               <section key={c} aria-labelledby={`sec-${c}`}>
                 <h2 id={`sec-${c}`} className="section-title">
                   <span><span aria-hidden>{COUNTRIES[c].flag}</span> {COUNTRIES[c].name}</span>
-                  <Link href={`/${c}`} className="section-more">All {COUNTRIES[c].name} news →</Link>
+                  <Link href={`/${c}/`} className="section-more">All {COUNTRIES[c].name} news →</Link>
                 </h2>
                 <div className="cards">
                   {items.map((a) => (

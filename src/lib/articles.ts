@@ -104,7 +104,7 @@ export const countryCounts = () => {
   return m;
 };
 
-export const articlePath =(a: Pick<Article, "country" | "slug">) => `/${a.country}/${a.slug}`;
+export const articlePath =(a: Pick<Article, "country" | "slug">) => `/${a.country}/${a.slug}/`;
 
 export const isClosingSoon = (a: Article) => {
   if (!a.lastDate) return false;

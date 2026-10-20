@@ -41,4 +41,4 @@ In Pakistan, recruiting workers for jobs abroad is regulated by the Bureau of Em
 
 Keep all receipts, chats, bank transfer records and the agent's details, and file a complaint with the Bureau of Emigration's Protector of Emigrants office and the relevant authorities.
 
-Read also: [8 warning signs of a fake UAE job offer](/uae/uae-job-offer-scam-warning-signs).
+Read also: [8 warning signs of a fake UAE job offer](/uae/uae-job-offer-scam-warning-signs/).

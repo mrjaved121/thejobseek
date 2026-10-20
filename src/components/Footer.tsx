@@ -25,12 +25,12 @@ export default function Footer() {
           <ul>
             {enabledCountries.filter((c) => counts[c]).map((c) => (
               <li key={c}>
-                <Link href={`/${c}`}>{COUNTRIES[c].name} Job News</Link>
+                <Link href={`/${c}/`}>{COUNTRIES[c].name} Job News</Link>
               </li>
             ))}
             {Object.entries(CATEGORIES).map(([k, v]) => (
               <li key={k}>
-                <Link href={`/category/${k}`}>{v.name}</Link>
+                <Link href={`/category/${k}/`}>{v.name}</Link>
               </li>
             ))}
           </ul>
@@ -38,13 +38,13 @@ export default function Footer() {
         <div>
           <h3>About</h3>
           <ul>
-            <li><Link href="/countries">All countries</Link></li>
-            <li><Link href="/about">About Us</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
-            <li><Link href="/editorial-policy">Editorial Policy</Link></li>
-            <li><Link href="/privacy-policy">Privacy Policy</Link></li>
-            <li><Link href="/terms">Terms of Use</Link></li>
-            <li><Link href="/disclaimer">Disclaimer</Link></li>
+            <li><Link href="/countries/">All countries</Link></li>
+            <li><Link href="/about/">About Us</Link></li>
+            <li><Link href="/contact/">Contact</Link></li>
+            <li><Link href="/editorial-policy/">Editorial Policy</Link></li>
+            <li><Link href="/privacy-policy/">Privacy Policy</Link></li>
+            <li><Link href="/terms/">Terms of Use</Link></li>
+            <li><Link href="/disclaimer/">Disclaimer</Link></li>
             <li><a href="/feed.xml">RSS Feed</a></li>
           </ul>
           {socials.length > 0 && (

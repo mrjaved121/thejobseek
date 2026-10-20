@@ -5,12 +5,12 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Disclaimer",
   description: `Disclaimer for ${SITE.name} job news.`,
-  alternates: { canonical: "/disclaimer" },
+  alternates: { canonical: "/disclaimer/" },
 };
 
 export default function Disclaimer() {
   return (
-    <StaticPage title="Disclaimer" path="/disclaimer" updated="20 October 2026">
+    <StaticPage title="Disclaimer" path="/disclaimer/" updated="20 October 2026">
       <p>
         {SITE.name} publishes job news summarised from official sources. We are not affiliated
         with any government department, public service commission or employer mentioned on this

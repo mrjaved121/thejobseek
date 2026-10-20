@@ -8,7 +8,6 @@ import { getByCountry } from "@/lib/articles";
 import { COUNTRIES, enabledCountries, type CountryKey } from "@/lib/site";
 
 export const dynamicParams = false;
-export const revalidate = 600;
 
 export function generateStaticParams() {
   return enabledCountries.map((country) => ({ country }));
@@ -25,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     robots: empty ? { index: false, follow: true } : undefined,
     title: { absolute: c.title },
     description: c.description,
-    alternates: { canonical: `/${country}` },
+    alternates: { canonical: `/${country}/` },
     openGraph: { title: c.title, description: c.description, url: `/${country}` },
   };
 }
@@ -38,7 +37,7 @@ export default async function CountryPage({ params }: Props) {
   return (
     <div className="grid">
       <div>
-        <Breadcrumbs items={[{ name: `${c.name} Job News`, path: `/${country}` }]} />
+        <Breadcrumbs items={[{ name: `${c.name} Job News`, path: `/${country}/` }]} />
         <h1 className="page-title">{c.flag} {c.name} Job News</h1>
         <p className="lede">{c.description}</p>
         <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_TOP} />

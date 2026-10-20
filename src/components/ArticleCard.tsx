@@ -9,11 +9,11 @@ export default function ArticleCard({ a, lead = false }: { a: Article; lead?: bo
   return (
     <article className={lead ? "card card-lead" : "card"}>
       <div className="card-meta">
-        <Link href={`/${a.country}`} className="kicker">
+        <Link href={`/${a.country}/`} className="kicker">
           <span aria-hidden>{COUNTRIES[a.country].flag}</span> {COUNTRIES[a.country].name}
         </Link>
         <span className="dot" aria-hidden>·</span>
-        <Link href={`/category/${a.category}`} className="kicker kicker-muted">
+        <Link href={`/category/${a.category}/`} className="kicker kicker-muted">
           {CATEGORIES[a.category].name}
         </Link>
       </div>

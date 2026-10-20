@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${a.name} – ${a.role}`,
     description: a.bio.slice(0, 160),
-    alternates: { canonical: `/author/${id}` },
+    alternates: { canonical: `/author/${id}/` },
   };
 }
 
@@ -33,7 +33,7 @@ export default async function AuthorPage({ params }: Props) {
   const items = getByAuthor(id);
   return (
     <div className="static" style={{ maxWidth: "100%" }}>
-      <Breadcrumbs items={[{ name: author.name, path: `/author/${id}` }]} />
+      <Breadcrumbs items={[{ name: author.name, path: `/author/${id}/` }]} />
       <h1 className="page-title">{author.name}</h1>
       <p className="muted">{author.role}</p>
       <p>{author.bio}</p>

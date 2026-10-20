@@ -56,4 +56,4 @@ Submit the application before the last date and download or print a copy. Save y
 - Missing the fee payment
 - Relying on unofficial pages for dates and results
 
-Always confirm details on the official PPSC website linked above, and follow TheJobSeek's [Pakistan job news](/pakistan) for new PPSC announcements.
+Always confirm details on the official PPSC website linked above, and follow TheJobSeek's [Pakistan job news](/pakistan/) for new PPSC announcements.

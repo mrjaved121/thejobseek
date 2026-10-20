@@ -1,7 +1,8 @@
 import { getAllArticles, articlePath } from "@/lib/articles";
 import { SITE } from "@/lib/site";
 
-export const revalidate = 600;
+
+export const dynamic = "force-static";
 
 const esc = (s: string) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");

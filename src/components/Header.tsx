@@ -29,17 +29,17 @@ export default function Header() {
         <div className="wrap nav-inner">
           <Link href="/">Latest</Link>
           {nav.map((c) => (
-            <Link key={c} href={`/${c}`}>
+            <Link key={c} href={`/${c}/`}>
               <span aria-hidden>{COUNTRIES[c].flag}</span> {COUNTRIES[c].name}
             </Link>
           ))}
-          <Link href="/countries">All countries →</Link>
+          <Link href="/countries/">All countries →</Link>
         </div>
       </nav>
       <nav aria-label="Topics" className="cat-nav">
         <div className="wrap nav-inner">
           {Object.entries(CATEGORIES).map(([k, v]) => (
-            <Link key={k} href={`/category/${k}`}>
+            <Link key={k} href={`/category/${k}/`}>
               {v.name}
             </Link>
           ))}
