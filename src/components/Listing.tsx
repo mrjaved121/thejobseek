@@ -2,9 +2,9 @@ import Story from "./Story";
 import Sidebar from "./Sidebar";
 import Breadcrumbs from "./Breadcrumbs";
 import AdSlot from "./AdSlot";
-import { type Article, excerpt } from "@/lib/articles";
+import { type Article } from "@/lib/articles";
 
-/** Section front: title band, lead story, then a chronological news list. */
+/** Section front: label + title, lead story, then a news list with images. */
 export default function Listing({
   eyebrow,
   title,
@@ -28,22 +28,17 @@ export default function Listing({
         <p className="eyebrow">{eyebrow}</p>
         <h1 className="section-h1">{title}</h1>
         <p className="lede">{lede}</p>
-        <p className="section-count">
-          {items.length} {items.length === 1 ? "update" : "updates"}
-        </p>
       </div>
       <div className="grid">
         <div>
           {lead ? (
             <>
-              <div className="listing-lead">
-                <Story a={lead} variant="lead" />
-              </div>
+              <Story a={lead} variant="lead" priority />
               <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_TOP} />
               {rest.length > 0 && (
                 <div className="river">
                   {rest.map((a) => (
-                    <Story key={a.slug} a={a} variant="river" excerptText={excerpt(a)} />
+                    <Story key={a.slug} a={a} variant="river" />
                   ))}
                 </div>
               )}

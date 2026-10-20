@@ -4,9 +4,9 @@ export const SITE = {
   name: "TheJobSeek",
   domain: "thejobseek.com",
   url: (process.env.NEXT_PUBLIC_SITE_URL || "https://thejobseek.com").replace(/\/$/, ""),
-  tagline: "Verified job & work visa news from official sources",
+  tagline: "Verified Gulf job & work visa news",
   description:
-    "TheJobSeek publishes verified job news, government recruitment, work visa and labour law updates from official sources across the UAE, GCC, Pakistan, UK, USA, Canada, Australia and Europe.",
+    "TheJobSeek publishes verified job, work visa and labour law news for the UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain, based on official notices and decisions.",
   locale: "en",
   contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "contact@thejobseek.com",
   social: {
@@ -27,7 +27,7 @@ export type CountryKey = string;
 
 export const enabledCountries = Object.keys(COUNTRIES).filter((c) => COUNTRIES[c].enabled);
 
-// Navigation order: UAE first (best ad rates), then Gulf, then the rest.
-export const PRIMARY_COUNTRIES = ["uae", "saudi-arabia", "qatar", "pakistan", "uk", "canada", "usa", "australia"];
+// Navigation and homepage order: GCC only, UAE first.
+export const PRIMARY_COUNTRIES = ["uae", "saudi-arabia", "qatar", "kuwait", "oman", "bahrain"];
 
 export const CATEGORIES = taxonomy.categories as Record<string, { name: string; description: string }>;

@@ -6,7 +6,9 @@ import Sidebar from "@/components/Sidebar";
 import AdSlot from "@/components/AdSlot";
 import Story from "@/components/Story";
 import ShareBar from "@/components/ShareBar";
+import Thumb from "@/components/Thumb";
 import JsonLd from "@/components/JsonLd";
+import SectionLabel from "@/components/SectionLabel";
 import { getAllArticles, getArticle, getRelated, articlePath, formatDate, formatDateTime, sourceDomain } from "@/lib/articles";
 import { getAuthor } from "@/lib/authors";
 import { articleSchema } from "@/lib/schema";
@@ -104,6 +106,11 @@ export default async function ArticlePage({ params }: Props) {
           <ShareBar url={shareUrl} title={a.title} />
         </header>
 
+        <figure className="article-figure">
+          <Thumb a={a} size="lg" priority />
+          {a.image && a.imageAlt && <figcaption>{a.imageAlt}</figcaption>}
+        </figure>
+
         {hasKeyInfo && (
           <section className="keybox" aria-label="Key information">
             <table>
@@ -166,17 +173,17 @@ export default async function ArticlePage({ params }: Props) {
 
         {related.length > 0 && (
           <section>
-            <h2 className="section-title"><span>Related news</span></h2>
+            <SectionLabel first="Related" second="News" />
             <div className="related-grid">
               {related.map((r) => (
-                <Story key={r.slug} a={r} variant="side" />
+                <Story key={r.slug} a={r} variant="card" />
               ))}
             </div>
           </section>
         )}
         <JsonLd data={articleSchema(a)} />
       </article>
-      <Sidebar />
+      <Sidebar exclude={a.slug} />
     </div>
   );
 }
