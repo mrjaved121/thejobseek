@@ -18,7 +18,7 @@ export function listOpenGraph(title: string, description: string, url: string, i
     url,
     images: [
       image
-        ? { url: image.url.replace(/\.webp$/, ".jpg"), width: 1200, height: 675, alt: image.alt }
+        ? { url: image.url, width: 1200, height: 675, alt: image.alt }
         : { url: "/opengraph-image.png", width: 1200, height: 630, alt: `${SITE.name} – Job & Work Visa News` },
     ],
   };

@@ -76,7 +76,7 @@ export default function SearchClient() {
             <Link href={it.u} tabIndex={-1} aria-hidden className="story-media">
               <div className="thumb thumb-md">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={`/thumbs/${it.u.split("/").filter(Boolean).pop()}-640.webp`} alt="" width={640} height={360} loading="lazy" decoding="async" />
+                <img src={`/thumbs/${it.u.split("/").filter(Boolean).pop()}.webp`} alt="" width={384} height={216} loading="lazy" decoding="async" />
               </div>
             </Link>
             <div className="story-body">

@@ -3,6 +3,7 @@ import { getAllArticles, articlePath, isClosingSoon, formatDate, countryCounts }
 import { COUNTRIES, COUNTRY_CODES, PRIMARY_COUNTRIES, enabledCountries, SITE, ESSENTIAL_GUIDES } from "@/lib/site";
 import AdSlot from "./AdSlot";
 import SectionLabel from "./SectionLabel";
+import FollowFacebook from "./FollowFacebook";
 
 export default function Sidebar({ exclude }: { exclude?: string }) {
   const all = getAllArticles();
@@ -27,6 +28,8 @@ export default function Sidebar({ exclude }: { exclude?: string }) {
           ))}
         </ol>
       </section>
+
+      <FollowFacebook />
 
       <section>
         <SectionLabel first="Essential" second="UAE Guides" />

@@ -38,9 +38,8 @@ export function articleSchema(a: Article) {
     description: a.description,
     image: [
       { "@type": "ImageObject", url: abs(`${articlePath(a)}opengraph-image.png`), width: 1200, height: 675 },
-      { "@type": "ImageObject", url: abs(`/thumbs/${a.slug}-1200.webp`), width: 1200, height: 675, caption: a.imageAlt || COUNTRY_PHOTOS[a.country] },
     ],
-    thumbnailUrl: abs(`/thumbs/${a.slug}-640.webp`),
+    thumbnailUrl: abs(`/thumbs/${a.slug}.webp`),
     datePublished: a.date,
     dateModified: a.updated || a.date,
     inLanguage: "en",

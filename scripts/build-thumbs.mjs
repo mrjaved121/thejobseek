@@ -18,8 +18,9 @@ const OUT = path.join(PUB, "thumbs");
 fs.mkdirSync(OUT, { recursive: true });
 
 const W = 1200, H = 675, GROUND = 600;
-const SIZES = [640, 1200];
-const VERSION = "v3"; // bump to regenerate everything after design changes
+// One small thumbnail per article: <slug>.webp, 384x216 (16:9), always <= 8 KB.
+const TW = 384, TH = 216, MAX_BYTES = 8 * 1024;
+const VERSION = "v4"; // bump to regenerate everything after design changes
 
 // --- deterministic random from slug ---
 function rng(seedStr) {
@@ -154,7 +155,7 @@ function svgFor(a) {
 
 // Country photo (public/images/countries/<country>.webp) with a soft bottom shade and the topic badge.
 async function countryPhotoFor(a, photoPath) {
-  const overlay = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+  const overlay = `<svg xmlns="http://www.w3.org/2000/svg" width="${TW}" height="${TH}" viewBox="0 0 ${W} ${H}">
   <defs><linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0.55" stop-color="#0b1640" stop-opacity="0"/><stop offset="1" stop-color="#0b1640" stop-opacity="0.55"/>
   </linearGradient></defs>
@@ -164,18 +165,26 @@ async function countryPhotoFor(a, photoPath) {
     <g transform="translate(-30 -30) scale(2.5)" fill="none" stroke="#0c1740" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${ICON[a.category] || ICON["visa-labour-law"]}</g>
   </g>
 </svg>`;
-  return sharp(photoPath)
-    .resize(W, H, { fit: "cover", position: "attention" })
-    .composite([{ input: Buffer.from(overlay) }])
-    .png()
-    .toBuffer();
+  // Light smoothing (blur 0.6) removes fine detail so the photo fits in 8 KB; the badge is added after, so it stays sharp.
+  const base = await sharp(photoPath).resize(TW, TH, { fit: "cover", position: "attention" }).blur(0.6).png().toBuffer();
+  return sharp(base).composite([{ input: Buffer.from(overlay) }]).png().toBuffer();
 }
 
-async function writeSizes(input, slug, kind) {
-  for (const w of SIZES) {
-    const out = path.join(OUT, `${slug}-${w}.webp`);
-    await sharp(input).resize(w, Math.round((w * 9) / 16), { fit: "cover", position: "attention" }).webp({ quality: kind === "photo" ? 72 : 78, effort: 5 }).toFile(out);
+// Encode as WebP, lowering quality step by step until the file is <= 8 KB.
+async function smallWebp(input, w = TW, h = TH, blur = 0) {
+  let img = sharp(input).resize(w, h, { fit: "cover", position: "attention" });
+  if (blur) img = img.blur(blur);
+  const raw = await img.png().toBuffer();
+  let out;
+  for (const q of [60, 55, 50, 45, 40, 35, 30, 25, 20]) {
+    out = await sharp(raw).webp({ quality: q, effort: 6, smartSubsample: true }).toBuffer();
+    if (out.length <= MAX_BYTES) return out;
   }
+  return out;
+}
+
+async function writeThumb(input, slug, blur = 0) {
+  fs.writeFileSync(path.join(OUT, `${slug}.webp`), await smallWebp(input, TW, TH, blur));
 }
 
 // JPEG copies of the country photos for social share images (WhatsApp/Facebook) and the article OG images.
@@ -202,13 +211,25 @@ for (const f of files) {
   const countryPhoto = path.join(PUB, "images", "countries", `${a.country}.webp`);
   const hasCountryPhoto = !local && fs.existsSync(countryPhoto);
   const key = `${VERSION}|${a.country}|${a.category}|${img}|${local ? fs.statSync(local).mtimeMs : ""}|${hasCountryPhoto ? fs.statSync(countryPhoto).size : ""}`;
-  const done = SIZES.every((w) => fs.existsSync(path.join(OUT, `${slug}-${w}.webp`)));
+  const done = fs.existsSync(path.join(OUT, `${slug}.webp`));
   if (done && stamps[slug] === key) continue;
-  if (local) await writeSizes(local, slug, "photo");
-  else if (hasCountryPhoto) await writeSizes(await countryPhotoFor(a, countryPhoto), slug, "photo");
-  else await writeSizes(Buffer.from(svgFor(a)), slug, "art");
+  if (local) await writeThumb(local, slug, 0.6);
+  else if (hasCountryPhoto) await writeThumb(await countryPhotoFor(a, countryPhoto), slug);
+  else await writeThumb(Buffer.from(svgFor(a)), slug);
   stamps[slug] = key;
   made++;
 }
 fs.writeFileSync(stampFile, JSON.stringify(stamps));
+
+// Country page banners: public/thumbs/country-<key>.webp, wide crop, <= 8 KB (shown under a dark overlay).
+if (fs.existsSync(CDIR)) {
+  for (const f of fs.readdirSync(CDIR).filter((x) => x.endsWith(".webp"))) {
+    const out = path.join(OUT, `country-${f}`);
+    if (!fs.existsSync(out) || fs.statSync(out).mtimeMs < fs.statSync(path.join(CDIR, f)).mtimeMs) {
+      fs.writeFileSync(out, await smallWebp(path.join(CDIR, f), 640, 200, 1.2));
+    }
+  }
+}
+// Remove old large thumbnails from earlier versions.
+for (const f of fs.readdirSync(OUT).filter((x) => /-(640|1200)\.webp$/.test(x))) fs.unlinkSync(path.join(OUT, f));
 console.log(`thumbs: ${made} generated, ${files.length - made} up to date`);

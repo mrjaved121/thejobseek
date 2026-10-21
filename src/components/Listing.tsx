@@ -28,7 +28,7 @@ export default function Listing({
       <div className={`section-head${banner ? " has-banner" : ""}`}>
         {banner && (
           // eslint-disable-next-line @next/next/no-img-element
-          <img className="banner-img" src={banner.src} alt={banner.alt} width={1200} height={675} fetchPriority="high" decoding="async" />
+          <img className="banner-img" src={banner.src} alt={banner.alt} width={640} height={200} fetchPriority="high" decoding="async" />
         )}
         <Breadcrumbs items={crumbs} />
         <p className="eyebrow">{eyebrow}</p>

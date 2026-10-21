@@ -11,7 +11,7 @@ export const SITE = {
   contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "contact@thejobseek.com",
   social: {
     tiktok: process.env.NEXT_PUBLIC_TIKTOK || "",
-    facebook: process.env.NEXT_PUBLIC_FACEBOOK || "",
+    facebook: process.env.NEXT_PUBLIC_FACEBOOK || "https://www.facebook.com/thejobseeknews",
     instagram: process.env.NEXT_PUBLIC_INSTAGRAM || "",
     whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_CHANNEL || "",
   },
@@ -50,7 +50,9 @@ export const COUNTRY_PHOTOS: Record<string, string> = {
   australia: "Sydney Opera House and harbour, Australia",
   europe: "European Union flags in Brussels",
 };
-export const countryPhoto = (c: string) => (COUNTRY_PHOTOS[c] ? `/images/countries/${c}.webp` : "");
+// Banner shown on country pages (small WebP made at build time) and the JPEG used for social share previews.
+export const countryPhoto = (c: string) => (COUNTRY_PHOTOS[c] ? `/thumbs/country-${c}.webp` : "");
+export const countryShareImage = (c: string) => (COUNTRY_PHOTOS[c] ? `/images/countries/${c}.jpg` : "");
 
 // Pillar guides: linked from the sidebar and from every article of that country (internal links help ranking).
 export const ESSENTIAL_GUIDES: { country: string; slug: string; label: string }[] = [

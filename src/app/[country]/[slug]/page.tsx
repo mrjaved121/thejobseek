@@ -6,6 +6,7 @@ import Sidebar from "@/components/Sidebar";
 import AdSlot from "@/components/AdSlot";
 import Story from "@/components/Story";
 import ShareBar from "@/components/ShareBar";
+import FollowFacebook from "@/components/FollowFacebook";
 import Thumb from "@/components/Thumb";
 import JsonLd from "@/components/JsonLd";
 import SectionLabel from "@/components/SectionLabel";
@@ -186,6 +187,7 @@ export default async function ArticlePage({ params }: Props) {
         )}
 
         <ShareBar url={shareUrl} title={a.title} label="Share this update" />
+        <FollowFacebook compact />
 
         <p className="notice">
           TheJobSeek never charges for jobs and is not a recruitment agency. If anyone asks you

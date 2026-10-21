@@ -5,7 +5,7 @@ import JsonLd from "@/components/JsonLd";
 import { collectionSchema } from "@/lib/schema";
 import { listRobots, listOpenGraph } from "@/lib/seo";
 import { getByCountry } from "@/lib/articles";
-import { COUNTRIES, COUNTRY_PHOTOS, countryPhoto, enabledCountries, type CountryKey } from "@/lib/site";
+import { COUNTRIES, COUNTRY_PHOTOS, countryPhoto, countryShareImage, enabledCountries, type CountryKey } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: { absolute: c.title },
     description: c.description,
     alternates: { canonical: `/${country}/` },
-    openGraph: listOpenGraph(c.title, c.description, `/${country}/`, countryPhoto(country) ? { url: countryPhoto(country), alt: COUNTRY_PHOTOS[country] } : undefined),
+    openGraph: listOpenGraph(c.title, c.description, `/${country}/`, countryShareImage(country) ? { url: countryShareImage(country), alt: COUNTRY_PHOTOS[country] } : undefined),
   };
 }
 

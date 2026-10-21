@@ -329,3 +329,13 @@ main.wrap { padding-top: 22px; padding-bottom: 64px; min-height: 60vh; }
 .essential ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
 .essential a { color: #fff; font-weight: 700; }
 .essential a:hover { color: var(--gold); }
+
+/* Follow on Facebook box */
+.fb-follow { display: flex; align-items: center; gap: 12px; background: #1877f2; color: #fff; border-radius: var(--radius); padding: 14px 16px; margin: 0 0 24px; text-decoration: none; }
+.fb-follow:hover { background: #166fe5; color: #fff; }
+.fb-icon { flex: 0 0 auto; width: 40px; height: 40px; border-radius: 50%; background: #fff; color: #1877f2; display: grid; place-items: center; }
+.fb-text { display: flex; flex-direction: column; gap: 2px; line-height: 1.3; flex: 1; min-width: 0; }
+.fb-text strong { font-size: 0.95rem; }
+.fb-text span { font-size: 0.8rem; opacity: 0.9; }
+.fb-btn { flex: 0 0 auto; background: #fff; color: #1877f2; font-weight: 800; font-size: 0.85rem; padding: 7px 14px; border-radius: 999px; }
+.fb-follow-compact { margin: 16px 0 20px; }
