@@ -18,9 +18,12 @@ const OUT = path.join(PUB, "thumbs");
 fs.mkdirSync(OUT, { recursive: true });
 
 const W = 1200, H = 675, GROUND = 600;
-// One small thumbnail per article: <slug>.webp, 384x216 (16:9), always <= 8 KB.
-const TW = 384, TH = 216, MAX_BYTES = 8 * 1024;
-const VERSION = "v4"; // bump to regenerate everything after design changes
+// Two small thumbnails per article (16:9), always <= 8 KB:
+//   <slug>.webp    384x216  for large cards / mobile
+//   <slug>-s.webp  256x144  for small cards (browser picks via srcset)
+//   <slug>-xs.webp 160x90   for the tiny list thumbnails
+const TW = 384, TH = 216, SW = 256, SH = 144, XW = 160, XH = 90, MAX_BYTES = 8 * 1024;
+const VERSION = "v6"; // bump to regenerate everything after design changes
 
 // --- deterministic random from slug ---
 function rng(seedStr) {
@@ -185,6 +188,8 @@ async function smallWebp(input, w = TW, h = TH, blur = 0) {
 
 async function writeThumb(input, slug, blur = 0) {
   fs.writeFileSync(path.join(OUT, `${slug}.webp`), await smallWebp(input, TW, TH, blur));
+  fs.writeFileSync(path.join(OUT, `${slug}-s.webp`), await smallWebp(input, SW, SH, blur));
+  fs.writeFileSync(path.join(OUT, `${slug}-xs.webp`), await smallWebp(input, XW, XH, blur));
 }
 
 // JPEG copies of the country photos for social share images (WhatsApp/Facebook) and the article OG images.
@@ -211,7 +216,7 @@ for (const f of files) {
   const countryPhoto = path.join(PUB, "images", "countries", `${a.country}.webp`);
   const hasCountryPhoto = !local && fs.existsSync(countryPhoto);
   const key = `${VERSION}|${a.country}|${a.category}|${img}|${local ? fs.statSync(local).mtimeMs : ""}|${hasCountryPhoto ? fs.statSync(countryPhoto).size : ""}`;
-  const done = fs.existsSync(path.join(OUT, `${slug}.webp`));
+  const done = fs.existsSync(path.join(OUT, `${slug}.webp`)) && fs.existsSync(path.join(OUT, `${slug}-s.webp`)) && fs.existsSync(path.join(OUT, `${slug}-xs.webp`));
   if (done && stamps[slug] === key) continue;
   if (local) await writeThumb(local, slug, 0.6);
   else if (hasCountryPhoto) await writeThumb(await countryPhotoFor(a, countryPhoto), slug);
