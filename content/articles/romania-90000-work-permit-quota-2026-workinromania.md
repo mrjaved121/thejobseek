@@ -47,6 +47,12 @@ What changed:
 
 Because employers and agencies first had to register on the new portal, the first applications under it were expected from **early October 2026**, so expect slower processing for the rest of the year.
 
+## Update: part of the portal is blocked
+
+In September 2026 the **Bucharest Court of Appeal suspended** the Labour Ministry order that sets the list of shortage occupations (Order 1073/2026). As a result, the WorkinRomania portal says **employer registration, employer authorisation and single applications for D/AM2 visas** (the lower-skilled route) are **deactivated**. The ministry said it would appeal. As of 21 October 2026, Romanian media reported the functions were still blocked, with no date for reactivation.
+
+The new system is based on **Government Emergency Ordinance 32/2026** on foreigners' access to the Romanian labour market, which applies from 27 April 2026. Fines for breaking the rules range from **5,000 to 40,000 lei**.
+
 ## Pay and rights
 
 Foreign workers must receive at least Romania's **minimum wage**, and Romanian labour law **does not allow lower pay based on nationality** for the same work.
@@ -58,6 +64,11 @@ Foreign workers must receive at least Romania's **minimum wage**, and Romanian l
 3. Ask to see the **bilingual contract** before paying anything or travelling.
 4. Be careful with agents who charge large fees or promise a visa without a contract.
 
-*Sources: DLA Piper (16 January 2026); Undelucram.ro (5 August and 18 September 2026); Actual de Cluj.*
+*Sources: DLA Piper (16 January 2026); Undelucram.ro (5 August and 18 September 2026); Actual de Cluj; Adevărul (15 September 2026); Bursa (21 October 2026).*
 
-Related: [EU Talent Pool for non-EU job seekers](/europe/eu-talent-pool-platform-non-eu-jobseekers/).
+## Official sources
+
+- [WorkinRomania.gov.ro – official Government of Romania portal](https://workinromania.gov.ro/)
+- [Romanian Ministry of Labour: Government approves 90,000 foreign worker quota](https://mmuncii.gov.ro/guvernul-a-aprobat-un-contingent-de-90-000-de-lucratori-straini/) (Romanian)
+
+Related: [EU Talent Pool for non-EU job seekers](/europe/eu-talent-pool-platform-non-eu-jobseekers/) and [Italy's 497,550 work visa quota for 2026-2028](/europe/italy-decreto-flussi-2026-2028-work-visas-click-day-2027/).

@@ -29,7 +29,9 @@ Applications made before each start date are decided under the old rules.
 - Skilled Workers who are recognised as victims of modern slavery (a positive "Conclusive Grounds" decision) can have their work conditions relaxed, allowing other work including self-employment. Professional sportspeople and sports coaches are excluded.
 - The rules now refer to "the qualification and language assessments provider" instead of naming Ecctis.
 
-There are **no changes to salary thresholds or English language requirements** in this statement.
+On **9 October 2026** the Home Office confirmed that recognised modern slavery victims on Skilled Worker visas are no longer tied to their sponsor and can do any lawful work for the rest of their visa. It also said more than **6,600 sponsors** have lost their licence since the current government took office, including over **4,400** in the year to June 2026.
+
+There are **no changes to salary thresholds or English language requirements** in this statement. The English level for new Skilled Worker applicants already rose to B2 on 8 January 2026; see our [B2 English requirement guide](/uk/uk-skilled-worker-visa-english-b2-requirement/).
 
 ## Visitors: more permitted activities
 
@@ -59,3 +61,11 @@ A visit visa still does **not** allow you to take a job in the UK.
 ## What this means for you
 
 If you are planning a UK work or student visa, these changes are mostly technical. Students should check they have the higher funds ready if they apply on or after 30 November. Always read the official GOV.UK guidance for your route before applying.
+
+## Official sources
+
+- [GOV.UK: Statement of changes HC 584 (full text)](https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026-accessible)
+- [GOV.UK: Explanatory memorandum to HC 584](https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026/explanatory-memorandum-to-the-statement-of-changes-in-immigration-rules-hc-584-3-september-2026-accessible)
+- [GOV.UK: Victims freed from abusive employers under new visa rules](https://www.gov.uk/government/news/victims-freed-from-abusive-employers-under-new-visa-rules)
+
+Related: [UK care worker visa closed to overseas applicants](/uk/uk-care-worker-visa-overseas-recruitment-closed-options/) and [expired BRPs and the 31 December 2026 eVisa date](/uk/uk-evisa-expired-brp-31-december-2026/).

@@ -61,3 +61,9 @@ Saudis now fill **51% of high-skill jobs**, up from 47% in Q2 2023, but only **2
 - **Check pay against the averages.** Most expats are in manual and elementary jobs, which pull the average down. Skilled roles pay well above SAR 2,700, so negotiate based on your profession, not the national average.
 - **Office and finance jobs are mostly for Saudis.** Clerical, finance and many admin roles are heavily Saudized. Read which [69 admin jobs are now reserved for Saudis](/saudi-arabia/saudi-saudization-69-administrative-professions/).
 - **Look at growth sectors.** Real estate and ICT added workers fastest.
+
+Saudization keeps widening: read our [Saudization 2026 update on marketing, sales and the new Nitaqat phase](/saudi-arabia/saudi-saudization-marketing-sales-60-percent-nitaqat-340000-jobs/).
+
+## Official sources
+
+- [National Labor Observatory: Labor Force Snapshot Q2 2026](https://nlo.gov.sa/en/view/labor-snopshot-q2-2026/reportdetails/)

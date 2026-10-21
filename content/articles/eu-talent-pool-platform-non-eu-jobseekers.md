@@ -22,7 +22,7 @@ The European Union is building an online platform to help people from outside th
 | Council final approval | 30 March 2026 |
 | Published in the EU Official Journal | 12 May 2026 |
 | Entered into force | 1 June 2026 |
-| Platform fully running | expected by 2027 |
+| Platform fully running | expected by the end of 2027 (European Commission) |
 
 ## How it will work
 
@@ -43,3 +43,10 @@ The European Union is building an online platform to help people from outside th
 3. Use only **official EU and government websites** to register when the platform launches. Anyone charging a fee to "register you in the EU Talent Pool" is likely a scam.
 
 We will publish an update when the platform opens for registrations.
+
+## Official sources
+
+- [EUR-Lex: Regulation (EU) 2026/1047 establishing an EU Talent Pool](https://eur-lex.europa.eu/eli/reg/2026/1047/oj/eng)
+- [European Commission: EU Talent Pool](https://home-affairs.ec.europa.eu/policies/migration-and-asylum/legal-migration-and-resettlement/work/eu-talent-pool_en)
+
+While you wait, countries such as Italy and Romania already run their own work-permit quotas. Read about [Italy's 2026-2028 work visas and 2027 click days](/europe/italy-decreto-flussi-2026-2028-work-visas-click-day-2027/) and [Romania's 2026 work permit quota](/europe/romania-90000-work-permit-quota-2026-workinromania/).

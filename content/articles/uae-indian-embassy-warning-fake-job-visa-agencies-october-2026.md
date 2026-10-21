@@ -63,3 +63,11 @@ A consulate representative said that in most cases, people had sent the money fr
 - If you are scammed in Dubai, report it on the **Dubai Police eCrime platform** or call **901**.
 
 Learn the [8 warning signs of a fake UAE job offer](/uae/uae-job-offer-scam-warning-signs/) and how to [find a job in the UAE safely](/uae/how-to-find-a-job-in-uae-guide/). If you are looking at Europe, read about the EU's official [EU Talent Pool](/europe/eu-talent-pool-platform-non-eu-jobseekers/) job-matching platform.
+
+If an agent offers you an Italian work visa, read [how Italy's 2026-2028 work visa quota really works](/europe/italy-decreto-flussi-2026-2028-work-visas-click-day-2027/): only an Italian employer can apply. Some nationalities also now need a [good conduct certificate for a UAE work visa](/uae/uae-good-conduct-certificate-work-visa-nationalities-2026/), which you can only get from the police.
+
+## Official sources
+
+- [UAE government portal: report cybercrimes online](https://u.ae/en/information-and-services/justice-safety-and-the-law/cyber-safety-and-digital-security/report-cybercrimes-online)
+- [Dubai Police](https://www.dubaipolice.gov.ae/wps/portal/home/aboutus/overview)
+- [Embassy of India, Abu Dhabi](https://www.indembassyuae.gov.in/page/about-us/)

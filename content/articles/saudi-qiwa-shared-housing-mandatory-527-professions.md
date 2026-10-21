@@ -68,3 +68,10 @@ The rule is part of the **National Program for Developing Collective Housing**, 
 3. Keep a copy of your signed contract and check it on the Qiwa platform after you arrive.
 
 Before you go, read how [Saudi Arabia checks expat qualifications before arrival](/saudi-arabia/saudi-professional-verification-expat-qualifications-160-countries/) and our [Saudi end-of-service award guide](/saudi-arabia/saudi-end-of-service-award-annual-leave-guide/).
+
+Also check the [latest Saudization rules for marketing, sales and admin jobs](/saudi-arabia/saudi-saudization-marketing-sales-60-percent-nitaqat-340000-jobs/).
+
+## Official sources
+
+- [Qiwa: establishment workers' rights](https://qiwa.sa/en/labor-education/establishment-workers-rights)
+- [Ministry of Municipalities and Housing: National Program for the Development of Collective Housing](https://momah.gov.sa/en/node/15232)
