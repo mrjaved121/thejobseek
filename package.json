@@ -10,7 +10,7 @@
     "news:fetch": "node automation/fetch.mjs",
     "news:dry": "node automation/fetch.mjs --dry",
     "sources:check": "node automation/check-sources.mjs",
-    "postbuild": "node scripts/fix-static-images.mjs",
+    "postbuild": "node scripts/fix-static-images.mjs && node scripts/optimize-html.mjs",
     "prebuild": "node scripts/build-thumbs.mjs"
   },
   "dependencies": {

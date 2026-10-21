@@ -1,10 +1,5 @@
-"use client";
-
-import { useState } from "react";
-
-/** Share links (no third-party scripts, so no tracking and no slowdown). */
+/** Share links (no third-party scripts). The "Copy link" button is handled by public/site.js. */
 export default function ShareBar({ url, title, label = "Share" }: { url: string; title: string; label?: string }) {
-  const [copied, setCopied] = useState(false);
   const u = encodeURIComponent(url);
   const t = encodeURIComponent(title);
   const links = [
@@ -13,15 +8,6 @@ export default function ShareBar({ url, title, label = "Share" }: { url: string;
     { name: "X", cls: "x", href: `https://twitter.com/intent/tweet?url=${u}&text=${t}` },
     { name: "LinkedIn", cls: "li", href: `https://www.linkedin.com/sharing/share-offsite/?url=${u}` },
   ];
-  const copy = async () => {
-    try {
-      await navigator.clipboard.writeText(url);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    } catch {
-      /* clipboard blocked */
-    }
-  };
   return (
     <div className="share" role="group" aria-label={label}>
       <span className="share-label">{label}</span>
@@ -30,8 +16,8 @@ export default function ShareBar({ url, title, label = "Share" }: { url: string;
           {l.name}
         </a>
       ))}
-      <button type="button" className="share-btn copy" onClick={copy} aria-live="polite">
-        {copied ? "Link copied" : "Copy link"}
+      <button type="button" className="share-btn copy" data-copy={url} aria-live="polite">
+        Copy link
       </button>
     </div>
   );

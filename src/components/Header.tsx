@@ -38,7 +38,7 @@ export default function Header() {
           </Link>
         </div>
 
-        <Link href="/" className="logo" aria-label={`${SITE.name} home`}>
+        <Link href="/" className="logo">
           <span className="logo-word">
             <span className="logo-check" aria-hidden>✓</span>The<strong>JobSeek</strong>
           </span>
