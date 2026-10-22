@@ -5,6 +5,7 @@ country: uae
 category: visa-labour-law
 author: editorial-team
 date: 2026-10-22T00:20:00+04:00
+updated: 2026-10-22T15:00:00+04:00
 organization: Federal Authority for Identity, Citizenship, Customs and Port Security (ICP)
 sourceUrl: https://rakez.com/en/media-centre/announcements-detail/articleid/1713/good-conduct-certificate-required-for-10-more-nationalities
 sourceName: "RAKEZ – Ras Al Khaimah Economic Zone announcement relaying an ICP update"
@@ -48,6 +49,8 @@ The clearest public list comes from the **Ras Al Khaimah Economic Zone (RAKEZ)**
 | Ghana, Lebanon, Lithuania, Morocco, Mozambique, Pakistan, Senegal, Syria, Tonga, Zambia | Afghanistan, Algeria, Bhutan, Bulgaria, Cameroon, Cuba, Egypt, Iraq, Kenya, Mexico, Nepal, Nigeria, Sri Lanka, Uganda |
 
 Some business-setup and agent websites publish longer lists, with India, Bangladesh, the Philippines and China, but no government source has confirmed these. Ghana's foreign ministry said in August that the rule came from a UAE Cabinet decision, but there has been no public UAE statement listing nationalities.
+
+**Ghana's dates:** according to Ghana's Ministry of Foreign Affairs, as reported by Khaleej Times on 5 August 2026, the requirement applied first to Ghanaians applying for UAE employment visas from Ghana (from **30 March 2026**), then to all Ghanaian workers coming to the UAE (from **20 July 2026**). Ghanaians already in the UAE on a visit visa who want to switch to an employment visa were given **45 days** to meet the new requirement.
 
 ## What it means for job seekers
 
