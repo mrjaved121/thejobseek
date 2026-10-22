@@ -42,8 +42,8 @@ If you see old terms like "skill level A" or "skill type 0", they come from NOC 
 | **0** | Management roles | Financial managers, marketing managers |
 | **1** | A university degree | Software engineers, financial advisors |
 | **2** | A college diploma or apprenticeship of 2+ years, or a supervisory role | Medical lab technologists, network technicians |
-| **3** | A college diploma or apprenticeship under 2 years, or 6+ months of on-the-job training | Bakers, dental assistants |
-| **4** | A high school diploma or several weeks of on-the-job training | Retail salespersons, home child care providers |
+| **3** | A shorter college course or apprenticeship (under 2 years), or over 6 months of training at work | Bakers, dental assistants |
+| **4** | Secondary school, or a few weeks of training at work | Retail salespersons, home child care providers |
 | **5** | A short work demonstration, no formal education | Landscaping labourers, delivery drivers |
 
 ## Which TEER levels count for Express Entry

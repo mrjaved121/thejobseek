@@ -13,7 +13,7 @@ keyPoints:
   - "The World Bank says the UAE and Jordan have the largest share of jobs at risk of AI substitution in the Middle East, North Africa, Afghanistan and Pakistan region."
   - "Across the region, AI substitution risk covers no more than about 10% of jobs."
   - "Between 13% and 20% of jobs could become more productive with AI, but the bank says this is not guaranteed."
-  - "Above-average AI use in the UAE covers 9 of 22 occupation groups, including management, sales, and arts and media."
+  - "In the UAE, AI use is higher than average in 9 out of 22 job groups, including management, sales, and arts and media."
 faq:
   - q: "Will AI take jobs in the UAE?"
     a: "The World Bank says the UAE has one of the largest shares of jobs exposed to AI substitution in the region, but across the region the risk covers no more than about 10% of jobs. Between 13% and 20% of jobs could instead become more productive."
@@ -38,7 +38,7 @@ The bank says richer economies are more exposed because more of their jobs are i
 
 ## AI is already widely used in the UAE
 
-- The UAE shows above-average AI use in **9 of 22 occupation groups**, including **management, sales, arts and media**, and some food preparation and personal care roles.
+- In the UAE, AI use is higher than average in **9 out of 22 job groups**, including **management, sales, arts and media**, and some food preparation and personal care roles.
 - The value of work done or assisted by AI tools, relative to the size of the economy, is highest in the **Gulf**. The UAE's level is close to Germany's and the UK's.
 
 To estimate AI use, the bank analysed a published sample of **one million conversations with Anthropic's Claude AI assistant**. It notes that these users may be more educated than the general population, which could overstate the gains.

@@ -20,7 +20,7 @@ faq:
   - q: "What jobs is Etihad hiring for?"
     a: "Mostly frontline roles such as pilots, technicians and engineers, as well as cabin crew and other departments."
   - q: "How does Etihad screen job applications?"
-    a: "Etihad uses AI for virtual interviews and screening. Its system can review and rank more than 50,000 applications in under three days, before human interviews."
+    a: "Etihad uses AI for virtual interviews and screening. Its system can sort and rank over 50,000 CVs within three days, before recruiters interview anyone."
 ---
 
 **Etihad Airways**, the UAE's national airline, plans to add about **7,000 employees by 2035**, taking its total workforce to **22,000**. The plan was outlined by **Dr Nadia Bastaki**, Etihad's chief people, government and corporate affairs officer, as reported by Khaleej Times.
@@ -43,7 +43,7 @@ Hiring continued during the six months of regional disruption, when about **700*
 
 - **Monthly recruitment campaigns** inside and outside the UAE. A European campaign has just finished, and campaigns in **Africa and China** are planned.
 - Hiring through **LinkedIn** and international roadshows.
-- **AI screening:** Etihad's system can review and rank more than **50,000 applications in under three days**. Cabin crew roles alone draw over **100,000 applications**.
+- **AI screening:** Etihad's system sorts and ranks over **50,000 CVs within three days**. Cabin crew roles alone draw over **100,000 applications**.
 
 ## Opportunities for Emiratis
 

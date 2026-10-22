@@ -75,8 +75,8 @@ Read: [8 warning signs of a fake UAE job offer](/uae/uae-job-offer-scam-warning-
 1. Your employer applies for a **MoHRE work permit**. There are 13 types, depending on your situation.
 2. You sign the offer letter and employment contract.
 3. Your visa status is changed, or you enter on an entry permit.
-4. You complete a **medical test** and **Emirates ID** biometrics.
-5. Your residence visa is issued, and you can start work.
+4. You pass the **medical fitness test** and give fingerprints for your **Emirates ID**.
+5. Once the residence visa is stamped or issued, your first working day can begin.
 
 Read: [UAE work permit types explained](/uae/uae-work-permit-types-mohre-13-explained/)
 

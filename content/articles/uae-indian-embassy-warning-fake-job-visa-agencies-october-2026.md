@@ -26,7 +26,7 @@ faq:
     a: "Dubai Police accept reports through their eCrime platform, and the non-emergency number is 901."
 ---
 
-The Indian Embassy in Abu Dhabi and the Consulate General of India in Dubai have warned UAE residents to be careful with **private visa and migration agencies** that sell jobs and residency abroad. The advisory, reported by The National on **16 October 2026**, follows what the consulate called "a large number of complaints".
+India's diplomatic missions in the UAE, its embassy in Abu Dhabi and its consulate in Dubai, have warned UAE residents to be careful with **private visa and migration agencies** that sell jobs and residency abroad. The advisory, reported by The National on **16 October 2026**, follows what the consulate called "a large number of complaints".
 
 Most complaints are about agencies advertising **jobs or residency in Europe** that never came through after people paid. The warning applies to any job seeker in the UAE, not only Indian nationals.
 

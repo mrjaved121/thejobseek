@@ -11,7 +11,8 @@
     "news:dry": "node automation/fetch.mjs --dry",
     "sources:check": "node automation/check-sources.mjs",
     "postbuild": "node scripts/fix-static-images.mjs && node scripts/optimize-html.mjs",
-    "prebuild": "node scripts/build-thumbs.mjs"
+    "prebuild": "node scripts/build-thumbs.mjs",
+    "check:originality": "node scripts/check-originality.mjs"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

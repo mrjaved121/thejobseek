@@ -13,7 +13,7 @@ keyPoints:
   - "EI regular benefits pay 55% of your average insurable weekly earnings, up to $729 a week in 2026."
   - "You need 420 to 700 insurable hours in the last 52 weeks, depending on unemployment in your region."
   - "Benefits last 14 to 45 weeks and are taxable."
-  - "You must have lost your job through no fault of your own. Quitting without just cause or misconduct usually rules you out."
+  - "Your job must have ended for reasons you did not cause, such as a layoff. Quitting without just cause or misconduct usually rules you out."
 faq:
   - q: "How many hours do I need to qualify for EI in Canada?"
     a: "Between 420 and 700 insurable hours in your qualifying period, usually the last 52 weeks. The exact number depends on the unemployment rate in your EI economic region."
@@ -42,8 +42,8 @@ EI benefits are **taxable**, and federal and provincial taxes are deducted from 
 
 You can get EI regular benefits if:
 
-- you lost your job **through no fault of your own**, for example through a layoff or shortage of work;
-- you have been **without work and without pay for at least 7 days in a row** in the last 52 weeks;
+- your job ended **for reasons outside your control**, for example a layoff or a shortage of work;
+- you have had **at least 7 straight days with no work and no earnings** in the last 52 weeks;
 - you worked enough **insurable hours** in your qualifying period;
 - you are **ready, willing and able to work** each day, and **actively looking for work**.
 

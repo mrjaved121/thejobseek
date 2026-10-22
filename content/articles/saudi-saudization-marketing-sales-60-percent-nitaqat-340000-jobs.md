@@ -56,7 +56,7 @@ A Saudi employee in a **marketing** job counts toward the quota only if paid at 
 
 ## 69 admin jobs now fully Saudized
 
-The 100% rule covers secretarial, writing, translation, data entry and admin support roles. Nineteen professions were localized on 5 April 2026, and the remaining 50 followed after a six-month grace period, on **4 October 2026**. Read our earlier report on the [69 administrative professions](/saudi-arabia/saudi-saudization-69-administrative-professions/).
+The 100% rule covers secretarial, writing, translation, data entry and admin support roles. The first 19 of these jobs were reserved for Saudis from 5 April 2026; the other 50 joined them on **4 October 2026**, once a six-month transition ended. Read our earlier report on the [69 administrative professions](/saudi-arabia/saudi-saudization-69-administrative-professions/).
 
 ## Nitaqat: more than 340,000 jobs
 

@@ -10,7 +10,7 @@ sourceUrl: https://saudigazette.com.sa/article/665236/saudi-arabia/qiwa-shared-h
 sourceName: "Saudi Gazette – reporting the Qiwa platform announcement"
 tags: [saudi worker accommodation, qiwa housing, saudi labour camp rules, saudi labour law, saudi housing allowance]
 keyPoints:
-  - "Saudi employers with more than 20 workers in the targeted professions must provide licensed shared housing, according to Qiwa."
+  - "According to Qiwa, any Saudi employer with over 20 staff in the listed professions must house them in licensed shared accommodation."
   - "The rule covers 527 professions in four occupational groups, from farm workers and craftsmen to machine operators and labourers."
   - "Paying a housing allowance in the salary does not exempt an employer from providing licensed housing for these workers."
   - "Workers in other professions can be given either housing or a housing allowance."
@@ -35,7 +35,7 @@ The rule covers **527 professions**. Employers cannot avoid it by adding a housi
 | Item | Detail |
 |---|---|
 | Announced by | Qiwa platform (Ministry of Human Resources and Social Development) |
-| Who must comply | Establishments with more than 20 workers in the targeted professions |
+| Who must comply | Employers with over 20 staff in the listed professions |
 | Professions covered | 527, in occupational groups 6 to 9 of the Saudi Standard Classification of Occupations |
 | Housing allowance | Does **not** exempt the employer for targeted professions |
 | Other professions | Employer may give housing or an allowance |

@@ -23,7 +23,7 @@ faq:
   - q: "How much annual leave and gratuity do UAE workers get?"
     a: "30 days of paid annual leave a year after one year of service, and gratuity of 21 days' basic salary per year for the first 5 years and 30 days per year after that, capped at two years' wages."
   - q: "How do I complain about my employer in the UAE?"
-    a: "Raise the issue with your employer in writing first. If it is not fixed, file a free complaint with MoHRE through its app, website or call centre on 600590000."
+    a: "Raise the issue with your employer in writing first. If it is not fixed, take it to MoHRE: complaints are free by app, online or by calling 600590000."
 ---
 
 This page brings together the main rules of the **UAE Labour Law** for private-sector workers, in plain English. Each section links to a detailed guide with worked examples.
@@ -47,13 +47,13 @@ The law is **Federal Decree-Law No. 33 of 2021**, and it is enforced by the **Mi
 
 ## Your contract
 
-- All private-sector contracts are now **fixed-term**. They can be renewed, and renewals count towards gratuity.
+- Every private-sector contract now has an **end date** (fixed-term). Renewing it is allowed, and the renewed years still count for gratuity.
 - Work can be full-time, part-time, temporary or flexible.
 - Make sure your contract on the MoHRE system shows the same **basic salary** as your offer letter. Gratuity, overtime and leave pay are all calculated on basic salary, not total pay.
 
 ## Pay and the Wage Protection System
 
-Under **Ministerial Resolution No. 340 of 2026**, wages for each month are due on the **first day of the following month** and must be paid through the **Wage Protection System (WPS)** or another approved system. Pay after that date is legally treated as delayed.
+**Ministerial Resolution No. 340 of 2026** fixes the pay date: a month's salary must reach you by the **1st of the next month**, through the **Wage Protection System (WPS)** or another system MoHRE approves. Anything later counts as a late payment.
 
 ## Leaving a job
 
@@ -75,7 +75,7 @@ Under **Ministerial Resolution No. 340 of 2026**, wages for each month are due o
 ## How to get help
 
 1. Put your complaint to your employer **in writing** and keep a copy.
-2. If it is not resolved, file a complaint with **MoHRE** through its app, website or call centre on **600590000**. It is free, and you do not need a lawyer.
+2. Still not sorted? Contact **MoHRE** by app, online or on **600590000**. Complaints cost nothing and no lawyer is needed.
 3. Keep your contract, payslips, bank statements and any messages as evidence.
 
 > This guide is general information, not legal advice. Rules can change, so check MoHRE's official channels for your own case. We update this page when the rules change.

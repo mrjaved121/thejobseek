@@ -58,7 +58,7 @@ Dependant restrictions for care workers remain in place.
 
 ## Protection from abusive sponsors
 
-Since **8 October 2026**, Skilled Workers recognised as victims of modern slavery can leave an abusive sponsor and do any lawful work for the rest of their visa. The Home Office says more than **6,600 sponsors** have lost their licence since the current government took office. Read more in our report on the [8 October 2026 rule changes](/uk/uk-immigration-rules-changes-8-october-2026/).
+Another change from **8 October 2026** protects workers: anyone on a Skilled Worker visa who is officially recognised as a modern slavery victim is free to leave an exploitative employer and take other legal work until their visa ends. Over **6,600** employers have had their sponsor licences removed under the current government, according to the Home Office. Read more in our report on the [8 October 2026 rule changes](/uk/uk-immigration-rules-changes-8-october-2026/).
 
 ## Official sources
 

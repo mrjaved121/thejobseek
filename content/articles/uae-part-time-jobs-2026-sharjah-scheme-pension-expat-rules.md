@@ -65,7 +65,7 @@ Part-time contracts have been allowed for everyone, nationals and residents, sin
 
 - **You need a part-time work permit** from the **Ministry of Human Resources and Emiratisation (MoHRE)**. It allows fewer hours and work for **more than one employer**, and is valid for **2 years**.
 - **Total hours are capped.** Even with several jobs, you cannot work more than **48 hours a week** in total.
-- **Your contract sets your hours.** On a part-time permit, you cannot be made to work more hours than your contract says unless you agree in writing.
+- **Your contract sets your hours.** Extra hours beyond your part-time contract need your written agreement first.
 - **Visit visas don't count.** You cannot take any job, full-time or part-time, on a visit visa.
 - **Tutoring has its own permit.** Private lessons need MoHRE's free **private tutoring work permit**.
 

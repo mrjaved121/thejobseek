@@ -1,6 +1,6 @@
 ---
 title: "Saudi Arabia's Expat Workforce Shrinks for the First Time in Over Two Years"
-description: "The number of foreign workers in Saudi Arabia, excluding domestic workers, fell by 16,000 in the three months to June 2026, led by fewer construction jobs, according to official data reported by Semafor."
+description: "The number of foreign workers in Saudi Arabia, not counting domestic workers, dropped by 16,000 between April and June 2026, mainly because of fewer construction jobs, according to official data reported by Semafor."
 country: saudi-arabia
 category: job-market
 author: editorial-team
@@ -10,7 +10,7 @@ sourceUrl: https://www.semafor.com/article/10/06/2026/saudis-expat-workforce-shr
 sourceName: Semafor – reporting Saudi Arabia's quarterly labour market data
 tags: [saudi jobs, saudi expat workers, saudi construction jobs, saudi job market, neom jobs]
 keyPoints:
-  - "Foreign workers in Saudi Arabia, excluding domestic workers, fell by 16,000 in the three months to June 2026."
+  - "Saudi Arabia had 16,000 fewer foreign workers (not counting domestic workers) at the end of June 2026 than at the end of March."
   - "It is the first fall in more than two years, driven mainly by fewer construction jobs."
   - "Some state-linked projects trimmed staff or did not renew contracts after budget cuts, and NEOM was scaled back."
   - "PMI surveys suggest private-sector hiring is picking up again."
@@ -23,7 +23,7 @@ faq:
     a: "Yes, but focus on growing areas. Q3 2026 data from Cooper Fitch showed Saudi hiring up 1.5%, with energy and technical roles in demand."
 ---
 
-Saudi Arabia's foreign workforce has **shrunk for the first time in more than two years**. According to official quarterly data reported by **Semafor** on **6 October 2026**, the number of foreign workers, **excluding domestic workers**, fell by **16,000** in the three months to **June 2026**.
+Saudi Arabia's foreign workforce has **shrunk, the first drop in over two years**. According to official quarterly data reported by **Semafor** on **6 October 2026**, there were **16,000 fewer** foreign workers in the Kingdom (**domestic workers are not counted**) by the end of **June 2026** than three months earlier.
 
 ## What is behind the fall
 

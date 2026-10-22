@@ -37,7 +37,7 @@ These points come on top of the existing points for years of experience. The com
 | At least 1.5× | 70 |
 | At least 1.3× | 50 |
 
-The job must generally be full-time and continue for at least one year after the candidate becomes a permanent resident.
+In general, the offer must be for full-time work lasting at least 12 months from the date the person gets permanent residence.
 
 You cannot add both together. If you qualify for experience points and job-offer points, IRCC gives you whichever is higher.
 
