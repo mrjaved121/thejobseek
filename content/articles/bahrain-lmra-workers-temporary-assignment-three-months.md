@@ -3,7 +3,7 @@ title: "Bahrain Lets Expat Workers Work for Another Employer for Up to 3 Months"
 description: "Bahrain's LMRA Resolution No. 2 of 2026 allows authorised foreign workers to be assigned to another employer for up to three months, with the worker's written consent."
 country: bahrain
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-20T19:00:00+04:00
 organization: Labour Market Regulatory Authority (LMRA), Bahrain
 sourceUrl: https://blog.lmra.gov.bh/ar/2026/09/28/%D9%87%D9%8A%D8%A6%D8%A9-%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%B3%D9%88%D9%82-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D9%84/

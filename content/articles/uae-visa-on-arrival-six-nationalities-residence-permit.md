@@ -3,7 +3,7 @@ title: "UAE Visa on Arrival Extended to 6 More Nationalities With Western Reside
 description: "Nationals of Indonesia, Viet Nam, Thailand, the Philippines, Kenya and South Africa living in the US, UK, EU and other listed countries can get a UAE visa on arrival."
 country: uae
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-20T21:30:00+04:00
 organization: UAE Ministry of Foreign Affairs / ICP
 sourceUrl: https://www.mofa.gov.ae/en/mediahub/news/2026/6/25/uae-grants-visa-on-arrival

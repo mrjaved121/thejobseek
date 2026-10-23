@@ -3,7 +3,7 @@ title: "Canada Changes Express Entry on 3 November: Up to 100 Points for High-Wa
 description: "From 3 November 2026, Express Entry gives extra CRS points for Canadian experience or a job offer in high-wage occupations, and these job offers no longer need an LMIA."
 country: canada
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-20T19:00:00+04:00
 organization: Immigration, Refugees and Citizenship Canada (IRCC)
 sourceUrl: https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/10/changes-to-express-entry-for-high-wage-occupations.html

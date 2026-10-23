@@ -3,7 +3,7 @@ title: "Canada NOC Codes and TEER Categories Explained: How to Find Your Occupat
 description: "Canada classifies every job with a NOC code and a TEER level from 0 to 5. Here is what each TEER means, how to find your NOC code, and which TEER levels count for Express Entry."
 country: canada
 category: guides
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T02:42:00+04:00
 organization: Immigration, Refugees and Citizenship Canada (IRCC)
 sourceUrl: https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/find-national-occupation-code.html

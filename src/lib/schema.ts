@@ -1,6 +1,6 @@
 import { SITE, COUNTRIES, CATEGORIES, COUNTRY_PHOTOS } from "./site";
 import { type Article, articlePath } from "./articles";
-import { getAuthor } from "./authors";
+import { getAuthor, authorSameAs } from "./authors";
 
 const abs = (p: string) => `${SITE.url}${p}`;
 
@@ -9,12 +9,19 @@ export const organizationSchema = () => ({
   "@type": "NewsMediaOrganization",
   "@id": abs("/#organization"),
   name: SITE.name,
+  alternateName: SITE.alternateNames,
+  slogan: SITE.tagline,
+  description: SITE.description,
   url: SITE.url,
   logo: { "@type": "ImageObject", url: abs("/icon.png"), width: 512, height: 512 },
   email: SITE.contactEmail,
   publishingPrinciples: abs("/editorial-policy/"),
   correctionsPolicy: abs("/editorial-policy/#corrections"),
-  sameAs: Object.values(SITE.social).filter(Boolean),
+  address: { "@type": "PostalAddress", addressLocality: "Dubai", addressCountry: "AE" },
+  areaServed: ["AE", "SA", "QA", "KW", "OM", "BH"],
+  founder: { "@id": abs("/author/mr-jay/#person") },
+  contactPoint: { "@type": "ContactPoint", contactType: "editorial", email: SITE.contactEmail, url: abs("/contact/") },
+  sameAs: [...Object.values(SITE.social), ...SITE.profiles].filter(Boolean),
 });
 
 export const websiteSchema = () => ({
@@ -22,6 +29,7 @@ export const websiteSchema = () => ({
   "@type": "WebSite",
   "@id": abs("/#website"),
   name: SITE.name,
+  alternateName: SITE.alternateNames,
   url: SITE.url,
   inLanguage: "en",
   publisher: { "@id": abs("/#organization") },
@@ -52,10 +60,14 @@ export function articleSchema(a: Article) {
     abstract: a.keyPoints.length ? a.keyPoints.join(" ") : undefined,
     author: [
       {
-        "@type": author.id === "editorial-team" ? "Organization" : "Person",
+        "@type": "Person",
+        "@id": abs(`/author/${author.id}/#person`),
         name: author.name,
         url: abs(`/author/${author.id}/`),
-        ...(author.id !== "editorial-team" ? { jobTitle: author.role, worksFor: { "@id": abs("/#organization") } } : {}),
+        jobTitle: author.role,
+        worksFor: { "@id": abs("/#organization") },
+        ...(author.image ? { image: abs(author.image) } : {}),
+        ...(authorSameAs(author).length ? { sameAs: authorSameAs(author) } : {}),
       },
     ],
     publisher: { "@id": abs("/#organization") },

@@ -3,7 +3,7 @@ title: "Museum of the Future Dubai Is Hiring: No Experience Needed"
 description: "Dubai's Museum of the Future is hiring visitor experience staff through its Future Perfects drive. No degree or experience needed; apply by 8 November 2026."
 country: uae
 category: private-jobs
-author: editorial-team
+author: mr-jay
 date: 2026-10-23T16:12:00+04:00
 organization: Museum of the Future, Dubai
 sourceUrl: https://www.khaleejtimes.com/uae/museum-of-the-future-recruitment-drive-applications-open

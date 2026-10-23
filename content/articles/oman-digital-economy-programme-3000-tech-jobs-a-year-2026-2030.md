@@ -3,7 +3,7 @@ title: "Oman Targets 3,000 Tech Jobs a Year in New Digital Economy Plan"
 description: "Oman's new National Digital Economy Programme for 2026–2030 aims to create 3,000 direct jobs a year and attract RO300 million in technology investment."
 country: oman
 category: job-market
-author: editorial-team
+author: mr-jay
 date: 2026-10-23T16:24:00+04:00
 organization: Oman Ministry of Transport, Communications and Information Technology
 sourceUrl: https://www.omanobserver.om/article/1198393/business/economy/ro-300m-digital-investment-3000-annual-jobs-targeted

@@ -3,7 +3,7 @@ title: "Canada LMIA Explained: How Employers Hire Temporary Foreign Workers"
 description: "Most Canadian employers need a Labour Market Impact Assessment (LMIA) to hire a foreign worker. Here are the $1,000 fee, advertising rules, high-wage vs low-wage streams and what workers should know."
 country: canada
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T02:46:00+04:00
 organization: Employment and Social Development Canada (ESDC)
 sourceUrl: https://www.canada.ca/en/employment-social-development/services/foreign-workers/median-wage/high/requirements.html

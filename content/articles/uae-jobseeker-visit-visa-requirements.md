@@ -3,7 +3,7 @@ title: "UAE Job Seeker Visa: Who Qualifies for the 60, 90 or 120-Day Visa"
 description: "The UAE job seeker visit visa needs no sponsor and lasts 60, 90 or 120 days. You need a bachelor's degree and a skilled job level, or a recent top-500 university degree."
 country: uae
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T00:58:00+04:00
 organization: UAE Government (u.ae) / ICP
 sourceUrl: https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/Visit-visa/jobseeker-visit-visa

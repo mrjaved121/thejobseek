@@ -3,7 +3,7 @@ title: "eBay to Cut About 1,000 Jobs in Second Layoff Round of 2026"
 description: "eBay is cutting about 1,000 jobs, roughly 9% of its workforce, its second round of layoffs in 2026 after 800 cuts in February. Staff will be told in coming days."
 country: usa
 category: job-market
-author: editorial-team
+author: mr-jay
 date: 2026-10-23T16:49:00+04:00
 organization: eBay
 sourceUrl: https://www.fox5ny.com/news/ebay-cut-about-1000-jobs-second-round-layoffs-year.amp

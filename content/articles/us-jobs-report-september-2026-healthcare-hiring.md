@@ -3,7 +3,7 @@ title: "US Jobs Report: Only 29,000 Jobs Added in September, Health Care Leads"
 description: "The US Bureau of Labor Statistics says payrolls grew by just 29,000 in September 2026 with unemployment at 4.2%. Health care, construction and manufacturing added jobs."
 country: usa
 category: job-market
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T00:40:00+04:00
 organization: U.S. Bureau of Labor Statistics (BLS)
 sourceUrl: https://www.bls.gov/news.release/empsit.nr0.htm

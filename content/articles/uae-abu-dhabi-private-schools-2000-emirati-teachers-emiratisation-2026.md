@@ -3,7 +3,7 @@ title: "Abu Dhabi Private Schools to Hire 2,000 Emirati Teachers in 5 Years"
 description: "Abu Dhabi will place 2,000 Emirati teachers in private schools over five years under a new Emiratisation policy, starting with Arabic, Islamic and Social Studies."
 country: uae
 category: private-jobs
-author: editorial-team
+author: mr-jay
 date: 2026-10-23T16:05:00+04:00
 organization: Abu Dhabi Department of Education and Knowledge (Adek)
 sourceUrl: https://www.thenationalnews.com/news/uae/2026/10/23/abu-dhabi-private-schools-to-hire-2000-emirati-teachers-in-next-five-years-under-education-push/

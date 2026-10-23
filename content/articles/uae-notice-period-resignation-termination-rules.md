@@ -3,7 +3,7 @@ title: "UAE Notice Period, Resignation and Termination Rules Explained"
 description: "UAE notice periods run from 30 to 90 days. Here is when you can leave without notice, what counts as arbitrary dismissal, and the 3 months' pay compensation limit."
 country: uae
 category: guides
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T01:02:00+04:00
 organization: UAE Government (u.ae) / MoHRE
 sourceUrl: https://u.ae/en/information-and-services/jobs/Sector-of-employment/employment-in-the-private-sector/terminating-employment-contracts

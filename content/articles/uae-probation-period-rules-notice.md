@@ -3,7 +3,7 @@ title: "UAE Probation Period Rules: 6 Months Maximum and the Notice You Must Giv
 description: "In the UAE, probation can last up to 6 months and can't be extended. Employers need 14 days' notice to end it; workers need 1 month to switch jobs or 14 days to leave the UAE."
 country: uae
 category: guides
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T01:04:00+04:00
 organization: UAE Government (u.ae) / MoHRE
 sourceUrl: https://u.ae/en/information-and-services/jobs/Sector-of-employment/employment-in-the-private-sector/employment-contracts-duration-and-models-in-the-private-sector

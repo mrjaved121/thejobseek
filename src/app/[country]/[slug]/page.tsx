@@ -12,6 +12,7 @@ import JsonLd from "@/components/JsonLd";
 import SectionLabel from "@/components/SectionLabel";
 import { getAllArticles, getArticle, getRelated, articlePath, formatDate, formatDateTime, sourceDomain } from "@/lib/articles";
 import { getAuthor } from "@/lib/authors";
+import AuthorAvatar from "@/components/AuthorAvatar";
 import { articleSchema, faqSchema } from "@/lib/schema";
 import { COUNTRIES, CATEGORIES, SITE, ESSENTIAL_GUIDES } from "@/lib/site";
 
@@ -88,7 +89,7 @@ export default async function ArticlePage({ params }: Props) {
           <h1>{a.title}</h1>
           <p className="article-deck">{a.description}</p>
           <div className="byline">
-            <span className="byline-avatar" aria-hidden>{author.name[0]}</span>
+            <AuthorAvatar author={author} size={40} className="byline-avatar" />
             <div className="byline-text">
               <span>
                 By <Link href={`/author/${author.id}/`} rel="author">{author.name}</Link>
@@ -203,11 +204,20 @@ export default async function ArticlePage({ params }: Props) {
         )}
 
         <div className="author-box">
-          <div className="avatar" aria-hidden>{author.name[0]}</div>
+          <AuthorAvatar author={author} size={48} className="avatar" />
           <div>
-            <strong><Link href={`/author/${author.id}/`}>{author.name}</Link></strong>
-            <div className="small muted">{author.role}</div>
+            <strong><Link href={`/author/${author.id}/`} rel="author">{author.name}</Link></strong>
+            <div className="small muted">{author.role} · {author.location}</div>
             <p className="small">{author.bio}</p>
+            <p className="small">
+              <Link href={`/author/${author.id}/#how-i-verify`}>How every story is verified</Link>
+              {author.linkedin && (
+                <>
+                  {" · "}
+                  <a href={author.linkedin} target="_blank" rel="noopener me">LinkedIn</a>
+                </>
+              )}
+            </p>
           </div>
         </div>
 

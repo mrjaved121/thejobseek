@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <>
-      <h1 className="visually-hidden">TheJobSeek – job and work visa news for the UAE and the Gulf</h1>
+      <h1 className="visually-hidden">{SITE.name} – {SITE.tagline}</h1>
 
       {/* ===== Top block: lead | headlines list | latest + alerts ===== */}
       <section className="top-grid" aria-label="Top stories">

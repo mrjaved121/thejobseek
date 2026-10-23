@@ -3,7 +3,7 @@ title: "Can Foreign Nationals Get UK Civil Service Jobs? The Nationality Rules E
 description: "About 75% of UK Civil Service jobs are open to Commonwealth citizens and EEA nationals. The rest are reserved for UK nationals. Here is how the nationality rules work."
 country: uk
 category: govt-jobs
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T01:26:00+04:00
 organization: UK Cabinet Office
 sourceUrl: https://www.gov.uk/government/publications/nationality-rules

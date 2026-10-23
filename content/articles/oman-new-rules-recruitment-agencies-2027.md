@@ -3,7 +3,7 @@ title: "Oman Sets New Rules for Recruitment Agencies From 2027: No Fees for Work
 description: "Oman's Ministerial Decision No. 390/2026 bans recruitment fees for workers, requires a written job offer before recruitment and sets fines for agencies from 1 January 2027."
 country: oman
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-20T19:30:00+04:00
 organization: Oman Ministry of Labour
 sourceUrl: https://www.muscatdaily.com/2026/10/11/oman-sets-new-rules-for-expatriate-recruitment-agencies-from-2027/

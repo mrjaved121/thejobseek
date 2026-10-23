@@ -3,7 +3,7 @@ title: "Bahrain End-of-Service for Expats: How the SIO System Works, Plus Leave 
 description: "Since March 2024, Bahrain employers pay expat end-of-service benefits into a fund run by the Social Insurance Organization (SIO): 4.2% of wages for the first 3 years, then 8.4%."
 country: bahrain
 category: guides
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T01:38:00+04:00
 organization: Social Insurance Organization (SIO), Bahrain
 sourceUrl: https://www.ilo.org/beirut/media-centre/news/WCMS_920580/lang--en/index.htm

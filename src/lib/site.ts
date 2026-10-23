@@ -4,7 +4,10 @@ export const SITE = {
   name: "TheJobSeek",
   domain: "thejobseek.com",
   url: (process.env.NEXT_PUBLIC_SITE_URL || "https://thejobseek.com").replace(/\/$/, ""),
-  tagline: "Verified Gulf & global job and work visa news",
+  tagline: "UAE & Gulf job news",
+  alternateNames: ["The Job Seek", "TheJobSeek.com", "thejobseek.com"],
+  // Add every official profile you create (LinkedIn page, X, YouTube, Google Business, etc.): used in schema sameAs.
+  profiles: [] as string[],
   description:
     "TheJobSeek publishes verified job, work visa and labour law news for the UAE and the Gulf, plus the UK, USA, Canada, Australia and Europe, based on official notices and decisions.",
   locale: "en",

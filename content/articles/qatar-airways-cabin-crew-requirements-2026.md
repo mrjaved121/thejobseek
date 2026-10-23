@@ -3,7 +3,7 @@ title: "Qatar Airways Cabin Crew Requirements 2026: Arm Reach, Education and Ben
 description: "Qatar Airways asks cabin crew for a 212 cm arm reach, at least 10 years of schooling and fluent English, with accommodation and transport provided in Doha. Here are the official requirements."
 country: qatar
 category: private-jobs
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T01:32:00+04:00
 organization: Qatar Airways
 sourceUrl: https://www.qatarairways.com/en/careers/customer-experience/cabin-crew-recruitment.html

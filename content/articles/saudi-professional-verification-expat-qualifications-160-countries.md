@@ -3,7 +3,7 @@ title: "Saudi Professional Verification: How Expat Qualifications Are Checked Be
 description: "Saudi Arabia's Professional Verification service checks skilled expat workers' degrees before they arrive. It covers 1,007 professions and 160 countries. Here is what to expect."
 country: saudi-arabia
 category: exams-results
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T01:20:00+04:00
 organization: Saudi Ministry of Human Resources and Social Development (HRSD)
 sourceUrl: https://gulfnews.com/world/gulf/saudi/saudi-arabia-expands-professional-verification-programme-to-160-countries-1.500019969

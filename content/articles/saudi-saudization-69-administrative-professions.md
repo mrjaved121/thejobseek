@@ -3,7 +3,7 @@ title: "Saudi Arabia Reserves 69 More Admin Jobs for Saudis: What Expats Should 
 description: "Secretarial, translation, data entry and administrative support roles in 69 professions are now 100% Saudized in the private sector. Here is what that means for expat job seekers."
 country: saudi-arabia
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-20T20:30:00+04:00
 organization: Saudi Ministry of Human Resources and Social Development (HRSD)
 sourceUrl: https://www.spa.gov.sa/en/N2553750

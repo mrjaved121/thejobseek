@@ -42,7 +42,7 @@ export default function Header() {
           <span className="logo-word">
             <span className="logo-check" aria-hidden>✓</span>The<strong>JobSeek</strong>
           </span>
-          <span className="logo-tag">Verified Gulf &amp; global job news</span>
+          <span className="logo-tag">{SITE.tagline}</span>
         </Link>
 
         <div className="tiles tiles-right">

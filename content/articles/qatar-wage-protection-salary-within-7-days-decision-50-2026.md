@@ -3,7 +3,7 @@ title: "Qatar: Salaries Must Be Paid Within 7 Days of the Due Date"
 description: "Qatar's Minister of Labour Decision No. 50 of 2026 sets the 1st of each month as payday for monthly-paid workers and gives employers 7 days to pay through the Wage Protection System."
 country: qatar
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-20T20:00:00+04:00
 organization: Qatar Ministry of Labour
 sourceUrl: https://thepeninsulaqatar.com/article/08/09/2026/qatar-amends-wage-protection-system-rules-on-salary-payment-deadlines

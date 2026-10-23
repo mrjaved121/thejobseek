@@ -3,7 +3,7 @@ title: "Saudi Training Visa for International Trainees: What We Know, Plus the O
 description: "Saudi Arabia's Cabinet approved a new training visa for international trainees on 14 July 2026. Details are still pending. Separately, overstayers face fines of up to SAR 50,000, jail and deportation."
 country: saudi-arabia
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T23:10:00+03:00
 organization: Saudi Council of Ministers; Ministry of Interior
 sourceUrl: https://www.uqn.gov.sa/news/4001402

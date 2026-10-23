@@ -55,7 +55,7 @@ export function getAllArticles(): Article[] {
         description: String(data.description),
         country,
         category: String(data.category),
-        author: String(data.author || "editorial-team"),
+        author: "mr-jay", // one named author on every article (E-E-A-T)
         date,
         updated: data.updated ? new Date(data.updated).toISOString() : undefined,
         organization: data.organization,

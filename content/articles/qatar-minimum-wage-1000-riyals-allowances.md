@@ -3,7 +3,7 @@ title: "Qatar Minimum Wage: QAR 1,000 Basic Plus Food and Housing Allowances"
 description: "Qatar's minimum wage is QAR 1,000 basic for all workers, plus at least QAR 500 for housing and QAR 300 for food if the employer doesn't provide them. Here is what that means."
 country: qatar
 category: guides
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T00:53:00+04:00
 organization: Qatar (Law No. 17 of 2020)
 sourceUrl: https://www.ilo.org/resource/article/dismantling-kafala-system-and-introducing-minimum-wage-mark-new-era-qatar

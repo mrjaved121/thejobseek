@@ -3,7 +3,7 @@ title: "Saudi Arabia: Expat Work Permit Correction Deadline Ends With 2026"
 description: "Saudi Arabia's HRSD has given employers until the end of 2026 to fix the status of expat workers whose permits expired over a year ago or were never issued."
 country: saudi-arabia
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-20T21:00:00+04:00
 organization: Saudi Ministry of Human Resources and Social Development (HRSD)
 sourceUrl: https://www.argaam.com/en/article/articledetail/id/1916541

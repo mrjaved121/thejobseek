@@ -3,7 +3,7 @@ title: "SCFHS Licence for Saudi Arabia: Classification, Exams and Registration o
 description: "Healthcare workers moving to Saudi Arabia need SCFHS classification and then registration on Mumaris Plus. Here are the steps, exam timelines, renewal rules and CPD hours."
 country: saudi-arabia
 category: exams-results
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T01:14:00+04:00
 organization: Saudi Commission for Health Specialties (SCFHS)
 sourceUrl: https://scfhs.org.sa/en/mumaris-faq

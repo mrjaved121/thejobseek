@@ -3,7 +3,7 @@ title: "Saudi Yemeni Status Correction 2026: Transfer Jobs, Fix Expired Iqamas, 
 description: "Saudi Arabia opened a two-month status correction drive for Yemenis on 11 October 2026. Workers with expired iqamas or absence reports can move to a new employer via Qiwa, Musaned or Absher."
 country: saudi-arabia
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-23T05:30:00+04:00
 organization: Saudi General Directorate of Passports (Jawazat) and Ministry of Human Resources and Social Development (HRSD)
 sourceUrl: https://www.arabnews.pk/saudi-arabia/kingdom-begins-status-correction-for-yemenis-3003845

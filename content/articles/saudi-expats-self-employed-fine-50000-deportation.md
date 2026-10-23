@@ -3,7 +3,7 @@ title: "Saudi Arabia: Expats Working for Themselves Face SAR 50,000 Fine, Jail a
 description: "Saudi Arabia's Ministry of Interior warns that expats who work on their own account in breach of residency and labour rules can be fined up to SAR 50,000, jailed for up to 6 months and deported."
 country: saudi-arabia
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-22T14:56:00+04:00
 organization: Saudi Ministry of Interior
 sourceUrl: https://ksaexpats.com/expats-working-for-themselves-saudi-arabia/

@@ -3,7 +3,7 @@ title: "Italy Jobs for Pakistanis: 10,500 Work Quota and 2027 Click Day Dates"
 description: "Italy has set aside 10,500 jobs for Pakistani workers over three years. Under the 2027 decree, the first click day for seasonal farm jobs is 12 January 2027."
 country: europe
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T15:30:00+04:00
 organization: Ministry of Overseas Pakistanis / Government of Italy
 sourceUrl: https://www.radio.gov.pk/28-12-2025/italy-allocates-over-10000-jobs-for-pakistani-workers

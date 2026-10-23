@@ -3,7 +3,7 @@ title: "UAE Working Hours and Overtime Pay: 8 Hours a Day, Up to 50% Extra"
 description: "Under UAE Labour Law, the limit is 8 hours a day or 48 a week, overtime is capped at 2 hours a day and paid at 25% extra, or 50% at night and on rest days."
 country: uae
 category: guides
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T01:06:00+04:00
 organization: UAE Government (u.ae) / MoHRE
 sourceUrl: https://u.ae/en/information-and-services/jobs/Sector-of-employment/employment-in-the-private-sector/working-hours

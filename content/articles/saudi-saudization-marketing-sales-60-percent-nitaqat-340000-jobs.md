@@ -3,7 +3,7 @@ title: "Saudization 2026: 60% of Marketing and Sales Jobs for Saudis, and Nitaqa
 description: "Saudi Arabia now requires 60% Saudization in 18 marketing and sales jobs, has fully reserved 69 admin jobs, and launched a Nitaqat phase to localize over 340,000 more private sector jobs."
 country: saudi-arabia
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T23:15:00+03:00
 organization: Ministry of Human Resources and Social Development (HRSD)
 sourceUrl: https://www.spa.gov.sa/en/N2493370

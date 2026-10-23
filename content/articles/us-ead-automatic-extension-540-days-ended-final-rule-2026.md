@@ -3,7 +3,7 @@ title: "US Ends 540-Day EAD Auto-Extension for Good: Final Rule Hits H-4 Spouses
 description: "A USCIS final rule published 14 October 2026 permanently ends automatic work permit extensions for EAD renewals filed on or after 30 October 2025, including H-4 spouses."
 country: usa
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-22T06:20:00+04:00
 organization: U.S. Citizenship and Immigration Services (USCIS)
 sourceUrl: https://public-inspection.federalregister.gov/2026-20955.pdf

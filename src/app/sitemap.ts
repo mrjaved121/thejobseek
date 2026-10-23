@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       images: [u(`${articlePath(a)}opengraph-image.png`)], // image sitemap: the 1200px share image (thumbnails are tiny)
     })),
-    ...Object.keys(AUTHORS).map((id) => ({ url: u(`/author/${id}/`), priority: 0.3 })),
+    ...Object.keys(AUTHORS).map((id) => ({ url: u(`/author/${id}/`), lastModified: latest, changeFrequency: "daily" as const, priority: 0.5 })),
     ...["/about/", "/contact/", "/editorial-policy/", "/privacy-policy/", "/terms/", "/disclaimer/"].map((p) => ({
       url: u(p),
       priority: 0.2,

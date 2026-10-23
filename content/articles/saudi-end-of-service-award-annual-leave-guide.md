@@ -3,7 +3,7 @@ title: "Saudi End-of-Service Award: How Much You Get, Including After Resignatio
 description: "Under Saudi Labor Law, the end-of-service award is half a month's pay per year for the first 5 years and a full month after. Resigning reduces it unless you have 10+ years."
 country: saudi-arabia
 category: guides
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T00:56:00+04:00
 organization: Saudi Ministry of Human Resources and Social Development (HRSD)
 sourceUrl: https://www.hrsd.gov.sa/sites/default/files/2023-02/Labor.pdf

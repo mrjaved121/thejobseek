@@ -3,7 +3,7 @@ title: "Amazon to Hire 300,000 Workers for the 2026 Holiday Season"
 description: "Amazon plans to hire more than 300,000 US workers for the 2026 holidays, its biggest seasonal drive ever, paying about $20 an hour on average."
 country: usa
 category: private-jobs
-author: editorial-team
+author: mr-jay
 date: 2026-10-23T16:43:00+04:00
 organization: Amazon
 sourceUrl: https://www.geekwire.com/2026/amazon-plans-record-300k-holiday-hires-as-the-rest-of-retail-pulls-back/

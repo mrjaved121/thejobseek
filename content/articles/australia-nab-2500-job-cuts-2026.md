@@ -3,7 +3,7 @@ title: "NAB to Cut 2,500 Jobs, With 1,500 Gone by Christmas 2026"
 description: "National Australia Bank will cut up to 2,500 roles, about 6% of staff, mostly in back-office and senior management. 1,500 roles go by the end of 2026."
 country: australia
 category: job-market
-author: editorial-team
+author: mr-jay
 date: 2026-10-23T16:37:00+04:00
 organization: National Australia Bank (NAB)
 sourceUrl: https://www.thenewdaily.com.au/themoneyedition/finance-news/2026/10/20/nab-to-slash-2500-jobs-thousands-of-roles-to-go-by-christmas

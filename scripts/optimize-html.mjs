@@ -47,6 +47,8 @@ for (const file of walk(OUT)) {
     // Inline RSC payload / bootstrap scripts
     html = html.replace(/<script>(?:(?!<\/script>)[\s\S])*?(?:self\.__next_f|__next_s|requestAnimationFrame\(function\(\)\{\$RT)(?:(?!<\/script>)[\s\S])*<\/script>/g, "");
     stripped++;
+    // Show email addresses as plain text: tell Cloudflare (DigitalOcean CDN) not to obfuscate them
+    html = html.replace(/<a [^>]*href="mailto:[^"]*"[^>]*>[\s\S]*?<\/a>/g, (m) => `<!--email_off-->${m}<!--email_on-->`);
   }
   after += html.length;
   fs.writeFileSync(file, html);

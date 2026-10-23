@@ -3,7 +3,7 @@ title: "EU Talent Pool: New Platform to Match Non-EU Job Seekers With European E
 description: "The EU has adopted Regulation (EU) 2026/1047 creating the EU Talent Pool, a platform where non-EU workers can register and be found by employers. Here is how it will work."
 country: europe
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-20T23:00:00+04:00
 organization: European Union
 sourceUrl: https://fasi.eu/en/articles/news/29399-eu-talent-pool-how-the-platform-for-recruiting-non-eu-workers-works.html

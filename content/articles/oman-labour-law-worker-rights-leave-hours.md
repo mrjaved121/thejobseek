@@ -3,7 +3,7 @@ title: "Oman Labour Law Guide: Working Hours, Annual Leave, Sick Leave and Mater
 description: "Oman's Labour Law (Royal Decree 53/2023) sets a 40-hour week, 30 days' annual leave, up to 182 days of sick leave, 98 days' maternity leave and 7 days' paternity leave. Key rights explained."
 country: oman
 category: guides
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T01:34:00+04:00
 organization: Oman (Royal Decree 53/2023)
 sourceUrl: https://www.britishomani.org/news/bos/omans-labour-law

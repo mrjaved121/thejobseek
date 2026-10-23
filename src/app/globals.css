@@ -339,3 +339,8 @@ main.wrap { padding-top: 22px; padding-bottom: 64px; min-height: 60vh; }
 .fb-text span { font-size: 0.8rem; opacity: 0.9; }
 .fb-btn { flex: 0 0 auto; background: #fff; color: #0b5ccc; font-weight: 800; font-size: 0.85rem; padding: 7px 14px; border-radius: 999px; }
 .fb-follow-compact { margin: 16px 0 20px; }
+.avatar-img { object-fit: cover; padding: 0; }
+.author-hero { display: flex; gap: 18px; align-items: center; margin: 8px 0 18px; }
+.author-hero .avatar { width: 96px; height: 96px; font-size: 2.2rem; }
+.author-hero p { margin: 2px 0; }
+.author-facts { list-style: none; padding: 0; margin: 0 0 18px; display: flex; flex-wrap: wrap; gap: 8px 18px; }

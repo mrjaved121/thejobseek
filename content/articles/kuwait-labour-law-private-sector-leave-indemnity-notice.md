@@ -3,7 +3,7 @@ title: "Kuwait Labour Law Guide: Annual Leave, End-of-Service Indemnity, Overtim
 description: "Under Kuwait's private sector Labour Law No. 6 of 2010, workers get 30 days' annual leave, overtime from 125%, and an end-of-service indemnity capped at 18 months' pay. Key rules explained."
 country: kuwait
 category: guides
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T01:36:00+04:00
 organization: Kuwait (Labour Law No. 6 of 2010, as amended)
 sourceUrl: https://www.meed.com/kuwait-employment-labour-law/

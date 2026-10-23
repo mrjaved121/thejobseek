@@ -158,7 +158,7 @@ for (const source of sources.filter((s) => s.enabled !== false)) {
         description: d.description,
         country,
         category,
-        author: "editorial-team",
+        author: "mr-jay",
         date: dubaiNowIso(),
         organization: d.organization || source.name,
         lastDate,

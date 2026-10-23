@@ -3,7 +3,7 @@ title: "Changing Jobs in Qatar Without an NOC: Notice Periods and Your Rights"
 description: "Workers in Qatar can change employers without a No Objection Certificate. You give 1 month's notice with up to 2 years' service, or 2 months after that. Here is how it works."
 country: qatar
 category: guides
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T00:54:00+04:00
 organization: Qatar Ministry of Labour / ILO
 sourceUrl: https://www.ilo.org/media/374041/download

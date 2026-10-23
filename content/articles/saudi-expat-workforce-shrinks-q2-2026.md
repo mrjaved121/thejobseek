@@ -3,7 +3,7 @@ title: "Saudi Arabia's Expat Workforce Shrinks for the First Time in Over Two Ye
 description: "The number of foreign workers in Saudi Arabia, not counting domestic workers, dropped by 16,000 between April and June 2026, mainly because of fewer construction jobs, according to official data reported by Semafor."
 country: saudi-arabia
 category: job-market
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T11:40:00+04:00
 organization: Saudi General Authority for Statistics (GASTAT) data
 sourceUrl: https://www.semafor.com/article/10/06/2026/saudis-expat-workforce-shrinks-for-the-first-time-in-more-than-two-years

@@ -3,7 +3,7 @@ title: "UK eVisa: Expired BRPs Stop Working for UKVI Access After 31 December 20
 description: "All UK BRPs have now expired and been replaced by eVisas. An expired BRP can only be used to access your UKVI account until 31 December 2026, or 24 months after expiry if sooner."
 country: uk
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T21:10:00+01:00
 organization: UK Visas and Immigration (UKVI)
 sourceUrl: https://www.gov.uk/biometric-residence-permits

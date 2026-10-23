@@ -3,7 +3,7 @@ title: "Canada Low-Wage LMIA Freeze Now Covers 30 Cities: October 2026 List"
 description: "From 9 October 2026 to 7 January 2027, Canada will not process low-wage LMIAs in 30 cities with 6%+ unemployment, including Halifax, Regina and Lethbridge."
 country: canada
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-22T06:25:00+04:00
 organization: Employment and Social Development Canada (ESDC)
 sourceUrl: https://www.canada.ca/en/employment-social-development/services/foreign-workers/refusal.html

@@ -3,7 +3,7 @@ title: "UAE Job Loss Insurance (ILOE): Cost, Payout and How to Claim"
 description: "The UAE's Involuntary Loss of Employment scheme costs AED 5 or 10 a month and pays 60% of basic salary for up to 3 months after a job loss. Here is who qualifies and how to claim."
 country: uae
 category: guides
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T01:00:00+04:00
 organization: Involuntary Loss of Employment (ILOE) scheme / MoHRE
 sourceUrl: https://www.iloe.ae/Faq.aspx

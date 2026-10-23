@@ -3,7 +3,7 @@ title: "Australia Skilled Visa Salary Thresholds for 2026-27: New Minimums Expla
 description: "Since 1 July 2026, the minimum salary for most Australian employer-sponsored visas is AUD 79,423, and AUD 146,576 for the Specialist Skills stream."
 country: australia
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-20T23:15:00+04:00
 organization: Australian Department of Home Affairs
 sourceUrl: https://immi.homeaffairs.gov.au/news-media/archive/article?itemId=1416

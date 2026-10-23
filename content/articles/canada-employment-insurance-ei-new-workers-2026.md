@@ -3,7 +3,7 @@ title: "Canada Employment Insurance (EI) 2026: Who Qualifies and How Much You Ge
 description: "Canada's EI regular benefits pay 55% of your average weekly earnings, up to $729 a week in 2026, for 14 to 45 weeks. You need 420 to 700 insurable hours. Here is what newcomers should know."
 country: canada
 category: guides
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T02:48:00+04:00
 organization: Employment and Social Development Canada (ESDC) / Service Canada
 sourceUrl: https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/eligibility.html

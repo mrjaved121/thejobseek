@@ -3,7 +3,7 @@ title: "Stelco Layoffs: Ottawa Gives Owner 15 Days to Save 500 Steel Jobs"
 description: "Canada's industry minister gave Cleveland-Cliffs 15 days to reverse up to 500 layoffs at Stelco's Hamilton and Lake Erie steel plants or face legal action."
 country: canada
 category: job-market
-author: editorial-team
+author: mr-jay
 date: 2026-10-23T17:01:00+04:00
 organization: Stelco (Cleveland-Cliffs) and Innovation, Science and Economic Development Canada
 sourceUrl: https://cp24.com/news/canada/2026/10/22/joly-says-stelco-still-planning-mass-layoffs-gives-business-2-weeks-to-reverse-or-face-legal-action

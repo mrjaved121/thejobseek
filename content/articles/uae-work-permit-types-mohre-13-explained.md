@@ -3,7 +3,7 @@ title: "UAE Work Permits Explained: The 13 Types Issued by MoHRE"
 description: "From recruitment from abroad to part-time, freelance and private tutoring permits, here are the 13 UAE work permit types and who each one is for."
 country: uae
 category: guides
-author: editorial-team
+author: mr-jay
 date: 2026-10-20T22:00:00+04:00
 organization: UAE Ministry of Human Resources and Emiratisation (MoHRE)
 sourceUrl: https://u.ae/en/information-and-services/jobs/employment-in-the-private-sector/job-offers-and-work-permits-and-contracts/work-permits

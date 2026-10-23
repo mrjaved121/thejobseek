@@ -3,7 +3,7 @@ title: "Kuwait Lets Expat Workers Correct Their Registered Qualification and Pro
 description: "Under Ministerial Circular No. 1 of 2026, Kuwait's Public Authority for Manpower allows expats to update their recorded qualification or job title to match the work they actually do."
 country: kuwait
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-20T18:30:00+04:00
 organization: Public Authority for Manpower (PAM), Kuwait
 sourceUrl: https://timeskuwait.com/kuwait-allows-expat-workers-to-amend-qualifications-and-professions/

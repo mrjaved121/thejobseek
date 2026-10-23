@@ -3,7 +3,7 @@ title: "Jadarat: How to Apply for Saudi Government and Private Sector Jobs"
 description: "Jadarat is Saudi Arabia's unified national employment platform for public and private sector jobs. It is for Saudi nationals. Here is how to register with Nafath and apply."
 country: saudi-arabia
 category: govt-jobs
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T01:22:00+04:00
 organization: Human Resources Development Fund (HRDF)
 sourceUrl: https://www.hrdf.org.sa/en/products-and-services/programs/individuals/other/jadarat/

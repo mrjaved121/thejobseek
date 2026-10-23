@@ -3,7 +3,7 @@ title: "UAE Salary Rule: Wages Are Now Due on the 1st of Every Month"
 description: "Under MoHRE Resolution No. 340 of 2026, private-sector wages in the UAE fall due on the first day of each month. Here is what it means for workers, plus who is exempt."
 country: uae
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-20T22:30:00+04:00
 organization: UAE Ministry of Human Resources and Emiratisation (MoHRE)
 sourceUrl: https://gulfnews.com/living-in-uae/ask-us/uae-wage-protection-system-2026-which-workers-are-exempt-from-the-new-salary-payment-rules-1.500567217

@@ -3,7 +3,7 @@ title: "Can Non-US Citizens Get US Federal Government Jobs? What USAJOBS Says"
 description: "Most US federal jobs require citizenship. Non-citizens can be hired only in limited cases, such as excepted service roles or when no qualified citizen is available. Here are the rules."
 country: usa
 category: govt-jobs
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T01:28:00+04:00
 organization: USAJOBS / US Office of Personnel Management (OPM)
 sourceUrl: https://help.usajobs.gov/working-in-government/non-citizens

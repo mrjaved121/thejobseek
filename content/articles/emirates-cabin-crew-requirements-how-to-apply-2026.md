@@ -3,7 +3,7 @@ title: "Emirates Cabin Crew Jobs 2026: Requirements and How Selection Works"
 description: "Want to fly with Emirates? Here are the airline's official cabin crew requirements, how open days and assessment days work, and how to apply safely."
 country: uae
 category: private-jobs
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T00:51:00+04:00
 organization: Emirates (Emirates Group)
 sourceUrl: https://www.emiratesgroupcareers.com/cabin-crew/

@@ -3,7 +3,7 @@ title: "Australia's Unemployment Rate Holds at 4.7% as Jobs Dip in September"
 description: "ABS figures released on 15 October 2026 show employment fell by 39,300 in September, but full-time jobs rose by 34,400. Here is what it means for skilled migrants."
 country: australia
 category: job-market
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T00:45:00+04:00
 organization: Australian Bureau of Statistics (ABS)
 sourceUrl: https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release

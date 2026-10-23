@@ -3,7 +3,7 @@ title: "USCIS Filing Deadlines Change 23 October 2026: Weekend Rule Narrowed for
 description: "From 23 October 2026, USCIS gives an extra business day only to paper filings with day-count deadlines. Online filings and I-94 or age-based deadlines get no weekend grace."
 country: usa
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-23T05:45:00+04:00
 organization: U.S. Citizenship and Immigration Services (USCIS)
 sourceUrl: https://www.rnlawgroup.com/uscis-changes-how-filing-deadlines-are-calculated-what-employers-and-foreign-workers-need-to-know/

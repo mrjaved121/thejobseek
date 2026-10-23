@@ -3,7 +3,7 @@ title: "Saudi Arabia Opens 4,291 Healthcare Jobs Across 20 Health Clusters"
 description: "Saudi Arabia's Health Holding Company has announced 4,291 new healthcare vacancies across its 20 health clusters, aimed at Saudi practitioners. Each cluster gives 15 days to apply."
 country: saudi-arabia
 category: govt-jobs
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T00:52:00+04:00
 organization: Health Holding Company (Saudi Arabia)
 sourceUrl: https://gulfnews.com/world/gulf/saudi/saudi-arabia-announces-4291-healthcare-jobs-across-20-health-clusters-1.500716293

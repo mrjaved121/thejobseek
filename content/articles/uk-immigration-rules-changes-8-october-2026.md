@@ -3,7 +3,7 @@ title: "UK Immigration Rule Changes from 8 October 2026: What Workers and Visito
 description: "The UK's latest Statement of Changes (HC 584) takes effect mainly from 8 October 2026, with new visitor activities, Skilled Worker updates and higher student maintenance funds from 30 November."
 country: uk
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-20T20:00:00+04:00
 organization: UK Home Office
 sourceUrl: https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026

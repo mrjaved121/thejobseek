@@ -3,7 +3,7 @@ title: "Romania Work Permits 2026: 90,000 Quota for Non-EU Workers and the New W
 description: "Romania will admit up to 90,000 new non-EU workers in 2026, mainly in construction, factories and hotels. Hiring now runs through the WorkinRomania portal."
 country: europe
 category: job-market
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T15:25:00+04:00
 organization: Government of Romania / Ministry of Labour
 sourceUrl: https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/2026-work-and-secondment-permit-quota-announced

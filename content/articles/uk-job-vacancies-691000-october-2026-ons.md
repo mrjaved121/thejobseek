@@ -3,7 +3,7 @@ title: "UK Job Vacancies Fall to 691,000: What It Means for Overseas Job Seekers
 description: "Official ONS figures published on 20 October 2026 show 691,000 UK vacancies for July to September, down 21,000 on the quarter, with unemployment at 4.7%."
 country: uk
 category: job-market
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T00:55:00+04:00
 organization: Office for National Statistics (ONS)
 sourceUrl: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026

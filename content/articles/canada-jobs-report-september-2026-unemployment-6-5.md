@@ -3,7 +3,7 @@ title: "Canada Lost 68,000 Jobs in September; Unemployment Rises to 6.5%"
 description: "Statistics Canada's September 2026 Labour Force Survey shows a second monthly fall in jobs, losses in education and health care, and gains in Alberta."
 country: canada
 category: job-market
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T00:50:00+04:00
 organization: Statistics Canada
 sourceUrl: https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm

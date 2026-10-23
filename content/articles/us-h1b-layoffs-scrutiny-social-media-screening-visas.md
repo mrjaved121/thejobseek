@@ -3,7 +3,7 @@ title: "H-1B Sponsors With Layoffs Face Extra Checks; Social Media Screening Wid
 description: "A September 2026 executive order tells US agencies to weigh recent layoffs in H-1B cases, and the State Department now reviews social media for H-1B, H-4, F, J and, from October, TN visas."
 country: usa
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T15:40:00-04:00
 organization: The White House; US Department of State
 sourceUrl: https://www.whitehouse.gov/presidential-actions/2026/09/enhancing-program-integrity-and-integrity-and-interagency-coordination-in-the-administration-of-the-h-1b-nonimmigrant-visa-program/

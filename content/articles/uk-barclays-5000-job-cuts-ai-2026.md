@@ -3,7 +3,7 @@ title: "Barclays to Cut 5,000 Jobs as AI Reshapes Banking Work"
 description: "Barclays is cutting about 5,000 jobs, around 5% of its staff, with 4,000 to go by the end of 2026. Most cuts hit support and developer roles as AI use grows."
 country: uk
 category: job-market
-author: editorial-team
+author: mr-jay
 date: 2026-10-23T16:31:00+04:00
 organization: Barclays
 sourceUrl: https://www.fastcompany.com/91628263/barclays-layoffs-today-bank-slashes-5-of-workforce-attributing-5000-job-cuts-to-ai

@@ -3,7 +3,7 @@ title: "UAE Work Visa Good Conduct Certificate: Which Nationalities Need One in 
 description: "Applicants from 24 listed countries now need a police good conduct certificate for a new UAE employment visa, according to a RAKEZ notice. It is not required from every nationality."
 country: uae
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-22T00:20:00+04:00
 updated: 2026-10-22T15:00:00+04:00
 organization: Federal Authority for Identity, Citizenship, Customs and Port Security (ICP)

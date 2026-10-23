@@ -3,7 +3,7 @@ title: "USCIS Proposes Ending 'Deference' for H-1B and L-1 Visa Extensions"
 description: "A proposed US rule would make officers review every work visa extension from scratch, even with the same employer and job. Here is what H-1B, L-1 and other workers should know."
 country: usa
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-20T23:30:00+04:00
 organization: U.S. Department of Homeland Security / USCIS
 sourceUrl: https://www.federalregister.gov/public-inspection/2026-20941/removing-deference-to-prior-determinations-of-eligibility

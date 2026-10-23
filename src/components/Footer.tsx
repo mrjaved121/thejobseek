@@ -13,6 +13,7 @@ export default function Footer() {
           <p className="footer-logo">
             The<strong>JobSeek</strong>
           </p>
+          <p className="small"><strong>{SITE.tagline}</strong></p>
           <p>{SITE.description}</p>
           <p className="muted small">
             TheJobSeek is an independent news site. We are not a recruitment agency and never

@@ -3,7 +3,7 @@ title: "Bahrain: How to Check Your Work Permit Status on the MyGov App"
 description: "Bahrain's LMRA has upgraded its service that lets workers check their work permit status and validity on the MyGov app using eKey 2.0. Here is how it works."
 country: bahrain
 category: visa-labour-law
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T11:30:00+04:00
 organization: Labour Market Regulatory Authority (LMRA), Bahrain
 sourceUrl: https://www.gdnonline.com/Details/1408659/LMRA-develops-service-for-displaying-registered-worker%E2%80%99s-work-permit-details

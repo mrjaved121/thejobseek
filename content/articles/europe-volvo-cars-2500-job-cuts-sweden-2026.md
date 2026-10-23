@@ -3,7 +3,7 @@ title: "Volvo Cars to Cut 2,500 Jobs, Mostly in Sweden, After Q3 Loss"
 description: "Volvo Cars will cut about 2,500 jobs worldwide, around 2,000 of them in Sweden, after an operating loss in Q3 2026 amid Chinese competition and tariffs."
 country: europe
 category: job-market
-author: editorial-team
+author: mr-jay
 date: 2026-10-23T16:54:00+04:00
 organization: Volvo Cars
 sourceUrl: https://www.933thedrive.com/2026/10/23/volvo-cars-to-cut-2500-jobs-as-third-quarter-swings-to-loss/

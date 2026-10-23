@@ -3,7 +3,7 @@ title: "DHA Licence Exam for Dubai: How the CBT and Oral Assessment Work, and th
 description: "Healthcare professionals need to pass a Dubai Health Authority assessment to get licensed. Here is how the Prometric CBT and oral exam work, the attempt limits and when results arrive."
 country: uae
 category: exams-results
-author: editorial-team
+author: mr-jay
 date: 2026-10-21T01:16:00+04:00
 organization: Dubai Health Authority (DHA)
 sourceUrl: https://dha.gov.ae/uploads/052025/Manual%20for%20DHA%20Professional%20Assessment-Final2025533182.pdf
