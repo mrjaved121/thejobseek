@@ -1,8 +1,8 @@
 name: Fetch job news drafts
 
+# Automatic runs are off: the daily Claude news agent (6:40 am Dubai) now publishes news.
+# This workflow can still be started by hand from the Actions tab if an API key is added.
 on:
-  schedule:
-    - cron: "0 1,7,13,19 * * *" # every 6 hours (05:00, 11:00, 17:00, 23:00 Dubai time)
   workflow_dispatch: {}
 
 permissions:
@@ -35,7 +35,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - run: npm ci
