@@ -8,6 +8,7 @@ date: 2026-10-24T11:25:00+04:00
 organization: State Street
 sourceUrl: https://www.thenationalnews.com/news/uae/2026/10/14/state-street-plans-100-jobs-for-emiratis-at-al-ain-hub-as-it-aims-for-july-2027-opening/
 sourceName: "The National – State Street plans 100 jobs for Emiratis at Al Ain hub"
+applyUrl: https://careers.statestreet.com/
 tags: [state street jobs uae, al ain jobs, emirati jobs, banking jobs abu dhabi, uae jobs 2027]
 keyPoints:
   - "State Street is aiming to open its Al Ain operating centre on 1 July 2027, earlier than first planned."

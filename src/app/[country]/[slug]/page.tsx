@@ -178,13 +178,30 @@ export default async function ArticlePage({ params }: Props) {
           </nav>
         )}
 
-        {a.sourceUrl && (
+        {a.applyUrl ? (
+          <div className="source-box">
+            <p>
+              <strong>Apply only on the official site.</strong>
+              <br />
+              <span className="small">Never pay anyone for a job, interview or visa.</span>
+            </p>
+            <a className="btn" href={a.applyUrl} target="_blank" rel="noopener external">
+              Apply on official site ↗
+            </a>
+          </div>
+        ) : a.sourceUrl ? (
           <div className="source-box">
             <p><strong>Apply only through the official source.</strong></p>
             <a className="btn" href={a.sourceUrl} target="_blank" rel="noopener nofollow">
               Open official notice →
             </a>
           </div>
+        ) : null}
+        {a.applyUrl && (a.category === "private-jobs" || a.category === "govt-jobs") && (
+          <p className="small">
+            More openings: <Link href={`/jobs/${a.country}/`}>all {COUNTRIES[a.country].name} jobs</Link> ·{" "}
+            <Link href="/jobs/">jobs in every country</Link>
+          </p>
         )}
 
         <ShareBar url={shareUrl} title={a.title} label="Share this update" />

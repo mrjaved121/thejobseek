@@ -8,6 +8,7 @@ date: 2026-10-23T16:12:00+04:00
 organization: Museum of the Future, Dubai
 sourceUrl: https://www.khaleejtimes.com/uae/museum-of-the-future-recruitment-drive-applications-open
 sourceName: "Khaleej Times – Museum of the Future recruitment drive"
+applyUrl: https://futureperfects.museumofthefuture.ae
 tags: [museum of the future jobs, dubai jobs, jobs in dubai no experience, uae hiring 2026, visitor experience jobs]
 keyPoints:
   - "The Museum of the Future in Dubai has opened a recruitment drive called Future Perfects."

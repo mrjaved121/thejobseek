@@ -15,6 +15,7 @@ export type Article = {
   updated?: string; // ISO
   organization?: string;
   lastDate?: string; // application deadline, ISO date
+  applyUrl?: string; // official careers page / application link (employer or government only)
   sourceUrl?: string;
   sourceName?: string;
   tags: string[];
@@ -60,6 +61,7 @@ export function getAllArticles(): Article[] {
         updated: data.updated ? new Date(data.updated).toISOString() : undefined,
         organization: data.organization,
         lastDate: data.lastDate ? new Date(data.lastDate).toISOString().slice(0, 10) : undefined,
+        applyUrl: typeof data.applyUrl === "string" && /^https:\/\//.test(data.applyUrl) ? data.applyUrl : undefined,
         sourceUrl: data.sourceUrl,
         sourceName: data.sourceName,
         tags: Array.isArray(data.tags) ? data.tags.map(String) : [],

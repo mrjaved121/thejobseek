@@ -8,6 +8,7 @@ date: 2026-10-21T01:22:00+04:00
 organization: Human Resources Development Fund (HRDF)
 sourceUrl: https://www.hrdf.org.sa/en/products-and-services/programs/individuals/other/jadarat/
 sourceName: HRDF – Jadarat, the Unified National Employment Platform
+applyUrl: https://www.hrdf.org.sa/en/products-and-services/programs/individuals/other/jadarat/
 tags: [jadarat, saudi government jobs, hrdf, nafath, saudi jobs]
 ---
 

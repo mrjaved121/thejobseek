@@ -8,6 +8,7 @@ date: 2026-10-24T13:29:00+04:00
 organization: Ministry of Labour, Qatar
 sourceUrl: https://www.qib.com.qa/en/about-us/media-center/news/news-listing/2026/10/13/ministry-of-labour-and-qib-organise-open-recruitment-day
 sourceName: "QIB – Ministry of Labour and QIB organise Open Recruitment Day"
+applyUrl: https://www.qib.com.qa/
 tags: [qatarisation 2026, jobs for qataris, qib jobs, qatar banking jobs, kawader qatar]
 keyPoints:
   - "Qatar's Ministry of Labour and Qatar Islamic Bank (QIB) held an open recruitment day for Qatari graduates and job seekers interested in banking."

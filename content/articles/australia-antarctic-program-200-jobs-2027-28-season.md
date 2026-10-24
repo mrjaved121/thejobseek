@@ -8,6 +8,7 @@ date: 2026-10-24T10:28:00+04:00
 organization: Australian Antarctic Division
 sourceUrl: https://www.antarctica.gov.au/news/2026/australian-antarctic-program-starts-recruitment-campaign/
 sourceName: "Australian Antarctic Division – 2027/28 recruitment campaign"
+applyUrl: https://jobs.antarctica.gov.au/jobs-in-antarctica/
 tags: [antarctica jobs, australian government jobs, trades jobs australia, chef jobs, electrician jobs australia]
 keyPoints:
   - "The Australian Antarctic Program is recruiting for more than 200 contracts for the 2027/28 season."

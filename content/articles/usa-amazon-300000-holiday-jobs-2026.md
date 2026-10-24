@@ -8,6 +8,7 @@ date: 2026-10-23T16:43:00+04:00
 organization: Amazon
 sourceUrl: https://www.geekwire.com/2026/amazon-plans-record-300k-holiday-hires-as-the-rest-of-retail-pulls-back/
 sourceName: "GeekWire – Amazon plans record 300,000 holiday hires"
+applyUrl: https://hiring.amazon.com
 tags: [amazon holiday jobs, amazon seasonal jobs 2026, warehouse jobs usa, holiday hiring 2026, amazon hiring]
 keyPoints:
   - "Amazon plans to hire more than 300,000 people across the US for the 2026 holiday season, up 20% on last year."

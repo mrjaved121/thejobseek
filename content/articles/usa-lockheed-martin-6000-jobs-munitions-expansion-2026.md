@@ -8,6 +8,7 @@ date: 2026-10-24T10:20:00+04:00
 organization: Lockheed Martin
 sourceUrl: https://news.lockheedmartin.com/2026-10-14-Lockheed-Martin-Expands-Advanced-Munitions-Manufacturing-in-Texas,-Driving-Thousands-of-New-American-Jobs
 sourceName: "Lockheed Martin newsroom – munitions manufacturing expansion in Texas"
+applyUrl: https://www.lockheedmartinjobs.com
 tags: [lockheed martin jobs, manufacturing jobs usa, texas jobs, defense jobs, grand prairie jobs]
 keyPoints:
   - "Lockheed Martin says its munitions manufacturing expansion will create 6,000 jobs across the United States."

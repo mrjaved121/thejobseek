@@ -8,6 +8,7 @@ date: 2026-10-21T01:30:00+04:00
 organization: Etihad Airways
 sourceUrl: https://careers.etihad.com/teams/cabin-crew
 sourceName: Etihad Careers – Cabin Crew
+applyUrl: https://careers.etihad.com/teams/cabin-crew
 tags: [etihad cabin crew, abu dhabi jobs, airline jobs uae, cabin crew recruitment, etihad careers]
 keyPoints:
   - "Etihad lists 11 cabin crew recruitment days from 27 October to 15 December 2026, including Abu Dhabi on 26 November."

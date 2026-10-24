@@ -22,6 +22,9 @@ export function GET() {
     "",
     "When citing, please link to the article URL and mention that details should be confirmed on the official source linked in each article.",
     "",
+    "## Jobs",
+    `- [Jobs hub](${u("/jobs/")}): open hiring announcements in every country, each with the employer's or government's official apply link and closing date.`,
+    "",
     "## Countries",
     ...PRIMARY_COUNTRIES.filter((c) => counts[c]).map(
       (c) => `- [${COUNTRIES[c].name} job & visa news](${u(`/${c}/`)}): ${COUNTRIES[c].description}`

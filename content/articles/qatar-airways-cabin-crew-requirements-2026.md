@@ -8,6 +8,7 @@ date: 2026-10-21T01:32:00+04:00
 organization: Qatar Airways
 sourceUrl: https://www.qatarairways.com/en/careers/customer-experience/cabin-crew-recruitment.html
 sourceName: Qatar Airways – Cabin Crew Recruitment
+applyUrl: https://www.qatarairways.com/en/careers/customer-experience/cabin-crew-recruitment.html
 tags: [qatar airways cabin crew, doha jobs, airline jobs qatar, cabin crew requirements, qatar jobs]
 ---
 

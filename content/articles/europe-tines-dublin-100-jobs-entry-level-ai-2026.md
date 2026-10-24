@@ -8,6 +8,7 @@ date: 2026-10-24T11:22:00+04:00
 organization: Tines
 sourceUrl: https://www.siliconrepublic.com/jobs-news/irish-ai-unicorn-tines-plans-100-new-dublin-jobs
 sourceName: "Silicon Republic – Irish AI unicorn Tines plans 100 new Dublin jobs"
+applyUrl: https://www.tines.com/careers
 tags: [tines jobs dublin, graduate jobs ireland, entry level tech jobs, ai jobs ireland, dublin jobs 2026]
 keyPoints:
   - "Tines will create 100 new jobs in Dublin over the next two years."

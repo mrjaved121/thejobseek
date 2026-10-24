@@ -28,7 +28,7 @@ export default function Header() {
 
       <div className="wrap masthead">
         <div className="tiles tiles-left">
-          <Link href="/category/govt-jobs/" className="tile">
+          <Link href="/jobs/" className="tile">
             <Icon d={<><rect x="3" y="7" width="18" height="13" rx="2" /><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2" /></>} />
             <span>Jobs</span>
           </Link>
@@ -70,7 +70,7 @@ export default function Header() {
             <Icon d={<path d="M4 7h16M4 12h16M4 17h16" />} />
           </Link>
           <div className="nav-inner">
-            <NavLinks items={[{ href: "/", label: "Home" }, ...nav.map((c) => ({ href: `/${c}/`, label: COUNTRIES[c].name }))]} />
+            <NavLinks items={[{ href: "/", label: "Home" }, { href: "/jobs/", label: "Jobs" }, ...nav.map((c) => ({ href: `/${c}/`, label: COUNTRIES[c].name }))]} />
           </div>
           <Link href="/search/" className="nav-icon" aria-label="Search news">
             <Icon d={<><circle cx="11" cy="11" r="7" /><path d="M20 20l-3.5-3.5" /></>} />

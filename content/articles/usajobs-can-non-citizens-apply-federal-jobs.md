@@ -8,6 +8,7 @@ date: 2026-10-21T01:28:00+04:00
 organization: USAJOBS / US Office of Personnel Management (OPM)
 sourceUrl: https://help.usajobs.gov/working-in-government/non-citizens
 sourceName: USAJOBS Help Center – Non-citizens
+applyUrl: https://www.usajobs.gov/
 tags: [usajobs, us federal jobs, green card federal job, us government jobs, work in usa]
 ---
 

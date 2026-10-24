@@ -8,6 +8,7 @@ date: 2026-10-21T01:26:00+04:00
 organization: UK Cabinet Office
 sourceUrl: https://www.gov.uk/government/publications/nationality-rules
 sourceName: GOV.UK – Civil Service nationality rules
+applyUrl: https://www.civilservicejobs.service.gov.uk/
 tags: [uk civil service jobs, uk government jobs, commonwealth citizens uk jobs, work in uk, civil service nationality]
 ---
 

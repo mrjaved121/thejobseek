@@ -8,6 +8,7 @@ date: 2026-10-24T06:30:00+04:00
 organization: Amazon UK
 sourceUrl: https://www.aboutamazon.com/news/company-news/amazon-youth-promise-uk
 sourceName: "Amazon – The Amazon Youth Promise launches in the UK"
+applyUrl: https://www.jobsatamazon.co.uk/youthpromise
 tags: [amazon jobs uk, jobs for young people uk, entry level jobs uk, warehouse jobs uk, amazon youth promise]
 keyPoints:
   - "Amazon will offer 30,000 entry-level jobs to young people in the UK between 2026 and 2030."

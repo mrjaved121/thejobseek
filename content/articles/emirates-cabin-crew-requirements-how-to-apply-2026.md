@@ -8,6 +8,7 @@ date: 2026-10-21T00:51:00+04:00
 organization: Emirates (Emirates Group)
 sourceUrl: https://www.emiratesgroupcareers.com/cabin-crew/
 sourceName: Emirates Group Careers – Cabin Crew
+applyUrl: https://www.emiratesgroupcareers.com/cabin-crew/
 tags: [emirates cabin crew, dubai jobs, airline jobs uae, cabin crew requirements, emirates open day]
 keyPoints:
   - "Emirates cabin crew must be at least 21, at least 160 cm tall with a 212 cm reach, and have finished Grade 12."

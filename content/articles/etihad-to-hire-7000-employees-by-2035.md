@@ -8,6 +8,7 @@ date: 2026-10-21T12:10:00+04:00
 organization: Etihad Airways
 sourceUrl: https://www.khaleejtimes.com/business/etihad-airways-to-recruit-7000-new-employees-by-2035
 sourceName: Khaleej Times – Etihad Airways to recruit 7,000 new employees by 2035
+applyUrl: https://careers.etihad.com/
 tags: [etihad jobs, abu dhabi jobs, airline jobs uae, etihad careers, pilot jobs uae]
 keyPoints:
   - "Etihad Airways plans to hire about 7,000 more employees and reach a workforce of 22,000 by 2035."

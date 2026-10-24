@@ -8,6 +8,7 @@ date: 2026-10-24T10:36:00+04:00
 organization: Rheinmetall UK
 sourceUrl: https://expressandstar.com/news/rheinmetall-launches-new-gun-barrel-factory-in-telford-9304415
 sourceName: "Express & Star – Rheinmetall launches new gun barrel factory in Telford"
+applyUrl: https://www.rheinmetall.com/en/career/career-overview
 tags: [rheinmetall jobs, telford jobs, manufacturing jobs uk, defence jobs uk, engineering jobs shropshire]
 keyPoints:
   - "Rheinmetall officially opened its UK Gun Hall in Telford, Shropshire, on 22 October 2026."

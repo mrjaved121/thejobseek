@@ -8,6 +8,7 @@ date: 2026-10-23T16:05:00+04:00
 organization: Abu Dhabi Department of Education and Knowledge (Adek)
 sourceUrl: https://www.thenationalnews.com/news/uae/2026/10/23/abu-dhabi-private-schools-to-hire-2000-emirati-teachers-in-next-five-years-under-education-push/
 sourceName: "The National – Abu Dhabi private schools Emirati teacher hiring plan"
+applyUrl: https://nafis.gov.ae
 tags: [abu dhabi teaching jobs, emirati teachers, emiratisation 2026, uae school jobs, nafis jobs]
 keyPoints:
   - "Abu Dhabi plans to hire 2,000 Emirati teachers in private schools over the next five years."

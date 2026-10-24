@@ -8,6 +8,7 @@ date: 2026-10-24T11:07:00+04:00
 organization: Bombardier
 sourceUrl: https://www.globenewswire.com/news-release/2026/10/23/3387173/0/en/bombardier-expanding-in-america-creating-thousands-of-jobs-combined-within-its-network-and-throughout-the-supply-chain.html
 sourceName: "Bombardier via GlobeNewswire – Bombardier expanding in America"
+applyUrl: https://jobs.bombardier.com/
 tags: [bombardier jobs, aerospace jobs usa, aviation technician jobs, wichita jobs, texas aerospace jobs]
 keyPoints:
   - "Bombardier is recruiting for 500 US positions now and plans 300 more through new and larger sites, for 800 in total."

@@ -8,6 +8,7 @@ date: 2026-10-24T10:24:00+04:00
 organization: Amazon Canada
 sourceUrl: https://calgarycitizen.com/p/amazon-seasonal-jobs-calgary-2026
 sourceName: "Calgary Citizen – Amazon hiring 9,000 seasonal workers in Canada"
+applyUrl: https://hiring.amazon.ca
 tags: [amazon jobs canada, seasonal jobs canada, warehouse jobs canada, holiday jobs 2026, hiring now canada]
 keyPoints:
   - "Amazon plans to hire about 9,000 seasonal workers across Canada, up from 7,000 last year."

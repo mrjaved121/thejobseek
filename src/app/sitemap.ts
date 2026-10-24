@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllArticles, getByCategory, articlePath } from "@/lib/articles";
 import { SITE, CATEGORIES, enabledCountries } from "@/lib/site";
 import { AUTHORS } from "@/lib/authors";
+import { jobCountries } from "@/lib/jobs";
 
 
 export const dynamic = "force-static";
@@ -13,6 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     { url: u("/"), lastModified: latest, changeFrequency: "hourly", priority: 1 },
+    { url: u("/jobs/"), lastModified: latest, changeFrequency: "hourly", priority: 0.9 },
+    ...jobCountries().map(({ country }) => ({ url: u(`/jobs/${country}/`), lastModified: latest, changeFrequency: "daily" as const, priority: 0.8 })),
     { url: u("/countries/"), lastModified: latest, changeFrequency: "daily", priority: 0.6 },
     ...enabledCountries.filter((c) => all.some((a) => a.country === c)).map((c) => ({
       url: u(`/${c}/`),

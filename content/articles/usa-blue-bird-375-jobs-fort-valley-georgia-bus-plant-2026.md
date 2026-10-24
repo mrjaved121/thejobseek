@@ -8,6 +8,7 @@ date: 2026-10-24T11:04:00+04:00
 organization: Blue Bird Corporation
 sourceUrl: https://georgia.org/press-releases/2026/blue-bird-invests-300-million-peach-county
 sourceName: "Georgia Department of Economic Development – Blue Bird invests $300 million in Peach County"
+applyUrl: https://www.blue-bird.com/careers
 tags: [blue bird jobs, georgia manufacturing jobs, fort valley jobs, school bus factory jobs, usa jobs 2026]
 keyPoints:
   - "Blue Bird will add 375 jobs over three years at a new school bus plant in Fort Valley, Peach County, Georgia."

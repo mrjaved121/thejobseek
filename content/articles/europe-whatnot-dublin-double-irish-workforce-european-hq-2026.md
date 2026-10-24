@@ -8,6 +8,7 @@ date: 2026-10-24T11:19:00+04:00
 organization: Whatnot
 sourceUrl: https://www.idaireland.com/latest-news/press-release/whatnot-to-double-its-irish-workforce
 sourceName: "IDA Ireland – Whatnot to double its Irish workforce"
+applyUrl: https://www.whatnot.com/careers
 tags: [whatnot jobs dublin, tech jobs ireland, ai jobs dublin, trust and safety jobs, ireland jobs 2026]
 keyPoints:
   - "Whatnot has opened its European headquarters on Sir John Rogerson's Quay in Dublin's Silicon Docks."

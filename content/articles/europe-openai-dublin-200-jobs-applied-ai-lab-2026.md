@@ -8,6 +8,7 @@ date: 2026-10-24T10:32:00+04:00
 organization: OpenAI
 sourceUrl: https://www.idaireland.com/latest-news/press-release/openai-announces-200-additional-jobs
 sourceName: "IDA Ireland – OpenAI announces 200 additional jobs"
+applyUrl: https://openai.com/careers
 tags: [openai jobs dublin, tech jobs ireland, ai jobs europe, engineering jobs dublin, ireland jobs 2026]
 keyPoints:
   - "OpenAI will create 200 additional jobs in Ireland, on top of 250 roles announced in July 2026."
