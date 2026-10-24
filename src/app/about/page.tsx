@@ -39,8 +39,10 @@ export default function About() {
       </p>
       <h2>What we are not</h2>
       <p>
-        We are not a recruitment agency, employer or visa agent. We do not collect CVs for
-        jobs listed in our news and we never ask job seekers to pay for a job.
+        We are not a recruitment agency, employer or visa agent, and we never ask job seekers to pay for
+        a job. For jobs in our news, you apply directly on the employer&apos;s official site. We also publish a
+        small number of <Link href="/jobs/">employer job posts</Link> sent to us by hiring companies: for those,
+        CVs emailed to info@thejobseek.com are forwarded only to the employer named in the post.
       </p>
       <h2>Contact</h2>
       <p>

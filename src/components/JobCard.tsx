@@ -19,6 +19,7 @@ export default function JobCard({ a, showCountry = true }: { a: Article; showCou
           <span className={a.category === "govt-jobs" ? "job-type gov" : "job-type"}>
             {a.category === "govt-jobs" ? "Government" : "Private sector"}
           </span>
+          {a.jobPost && <span className="job-post">Employer job post</span>}
           {showCountry && <span className="job-country">{COUNTRIES[a.country].name}</span>}
         </div>
         <h3 className="job-title">
@@ -44,7 +45,11 @@ export default function JobCard({ a, showCountry = true }: { a: Article; showCou
         </dl>
         <div className="job-actions">
           <Link href={href} className="btn btn-ghost">Read details</Link>
-          {a.applyUrl ? (
+          {a.applyEmail ? (
+            <a href={`mailto:${a.applyEmail}?subject=${encodeURIComponent(`Job application - ${a.organization || a.title}`)}`} className="btn">
+              Apply by email ✉
+            </a>
+          ) : a.applyUrl ? (
             <a href={a.applyUrl} className="btn" target="_blank" rel="noopener external">
               Apply on official site ↗
             </a>
@@ -52,7 +57,11 @@ export default function JobCard({ a, showCountry = true }: { a: Article; showCou
             <span className="job-note">How to apply is explained in the article</span>
           )}
         </div>
-        {domain && <p className="job-domain">Official site: {domain}</p>}
+        {a.applyEmail ? (
+          <p className="job-domain">Send CV to: {a.applyEmail}</p>
+        ) : (
+          domain && <p className="job-domain">Official site: {domain}</p>
+        )}
       </div>
     </article>
   );

@@ -48,7 +48,8 @@ for (const file of walk(OUT)) {
     html = html.replace(/<script>(?:(?!<\/script>)[\s\S])*?(?:self\.__next_f|__next_s|requestAnimationFrame\(function\(\)\{\$RT)(?:(?!<\/script>)[\s\S])*<\/script>/g, "");
     stripped++;
     // Show email addresses as plain text: tell Cloudflare (DigitalOcean CDN) not to obfuscate them
-    html = html.replace(/<a [^>]*href="mailto:[^"]*"[^>]*>[\s\S]*?<\/a>/g, (m) => `<!--email_off-->${m}<!--email_on-->`);
+    // (covers both mailto links and addresses written in plain text)
+    html = html.replace(/(<body[^>]*>)/, "$1<!--email_off-->").replace(/<\/body>/, "<!--email_on--></body>");
   }
   after += html.length;
   fs.writeFileSync(file, html);

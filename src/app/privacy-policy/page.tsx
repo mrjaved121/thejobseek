@@ -22,6 +22,14 @@ export default function Privacy() {
         server logs and analytics tools. If you email us, we receive your email address and
         message, which we use only to reply.
       </p>
+      <h2>Job applications sent to us</h2>
+      <p>
+        Some job posts on our <a href="/jobs/">Jobs</a> pages are submitted directly by hiring employers. If you
+        email your CV and documents to info@thejobseek.com for one of these posts, we use them only to forward
+        your application to the employer named in that post. We do not sell your details, use them for
+        marketing, or share them with anyone else, and we delete them once the vacancy closes. You can ask us to
+        delete your application at any time by emailing info@thejobseek.com.
+      </p>
       <h2>Cookies</h2>
       <p>
         We use cookies to understand how visitors use the site (Google Analytics) and to show

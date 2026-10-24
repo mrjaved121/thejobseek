@@ -16,6 +16,8 @@ export type Article = {
   organization?: string;
   lastDate?: string; // application deadline, ISO date
   applyUrl?: string; // official careers page / application link (employer or government only)
+  applyEmail?: string; // employer job posts: where candidates send CVs
+  jobPost?: boolean; // a job ad submitted directly by the hiring employer
   sourceUrl?: string;
   sourceName?: string;
   tags: string[];
@@ -62,6 +64,8 @@ export function getAllArticles(): Article[] {
         organization: data.organization,
         lastDate: data.lastDate ? new Date(data.lastDate).toISOString().slice(0, 10) : undefined,
         applyUrl: typeof data.applyUrl === "string" && /^https:\/\//.test(data.applyUrl) ? data.applyUrl : undefined,
+        applyEmail: typeof data.applyEmail === "string" && /^[^@\s]+@[^@\s]+\.[a-z]{2,}$/i.test(data.applyEmail) ? data.applyEmail : undefined,
+        jobPost: data.jobPost === true,
         sourceUrl: data.sourceUrl,
         sourceName: data.sourceName,
         tags: Array.isArray(data.tags) ? data.tags.map(String) : [],

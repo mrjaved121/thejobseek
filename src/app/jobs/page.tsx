@@ -80,8 +80,10 @@ export default function JobsHub() {
               TheJobSeek is a news site, not a recruitment agency. This page collects our reports on real hiring
               announcements: companies and governments opening new jobs, recruitment drives and job fairs. We
               list a story only when it comes from an official notice or a reliable news source, and we link to
-              the official application page whenever one exists. Jobs disappear from this page once their closing
-              date has passed.
+              the official application page whenever one exists. Posts marked <strong>Employer job post</strong> are
+              job ads sent to us directly by the hiring company; for those, CVs emailed to info@thejobseek.com are
+              forwarded only to that employer. Applying is always free. Jobs disappear from this page once their
+              closing date has passed or the employer tells us the vacancy is filled.
             </p>
           </section>
         </div>

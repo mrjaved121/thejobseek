@@ -178,7 +178,18 @@ export default async function ArticlePage({ params }: Props) {
           </nav>
         )}
 
-        {a.applyUrl ? (
+        {a.applyEmail ? (
+          <div className="source-box">
+            <p>
+              <strong>Apply by email: {a.applyEmail}</strong>
+              <br />
+              <span className="small">Attach your CV and documents. Applying is free – never pay anyone for this job.</span>
+            </p>
+            <a className="btn" href={`mailto:${a.applyEmail}?subject=${encodeURIComponent(`Job application - ${a.organization || a.title}`)}`}>
+              Send your CV ✉
+            </a>
+          </div>
+        ) : a.applyUrl ? (
           <div className="source-box">
             <p>
               <strong>Apply only on the official site.</strong>
@@ -197,7 +208,7 @@ export default async function ArticlePage({ params }: Props) {
             </a>
           </div>
         ) : null}
-        {a.applyUrl && (a.category === "private-jobs" || a.category === "govt-jobs") && (
+        {(a.applyUrl || a.applyEmail) && (a.category === "private-jobs" || a.category === "govt-jobs") && (
           <p className="small">
             More openings: <Link href={`/jobs/${a.country}/`}>all {COUNTRIES[a.country].name} jobs</Link> ·{" "}
             <Link href="/jobs/">jobs in every country</Link>
