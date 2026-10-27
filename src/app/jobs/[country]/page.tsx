@@ -20,10 +20,14 @@ export function generateStaticParams() {
 
 type Props = { params: Promise<{ country: string }> };
 
+const OVERSEAS = ["uk", "usa", "canada", "australia", "europe"];
+
 const texts = (c: string, n: number) => {
   const name = COUNTRIES[c].name;
   return {
-    title: `${name} Jobs – Latest Hiring News & Official Apply Links`,
+    title: OVERSEAS.includes(c)
+      ? `${name} Jobs for Foreigners – Latest Hiring & Official Apply Links`
+      : `${name} Jobs – Latest Hiring News & Official Apply Links`,
     description: `${n} open ${name} job opportunities from verified hiring announcements: government and private sector jobs, with the official apply link and closing date. Updated daily.`,
   };
 };

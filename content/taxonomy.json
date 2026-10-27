@@ -60,36 +60,36 @@
       "name": "UK",
       "flag": "🇬🇧",
       "enabled": true,
-      "title": "UK Work Visa & Job News – Skilled Worker, Visa Rule Updates",
-      "description": "Latest UK work visa and immigration news: Skilled Worker visa, sponsorship rules, fees and job market updates for overseas workers."
+      "title": "UK Jobs for Foreigners – Hiring News, Visa Sponsorship & Skilled Worker Updates",
+      "description": "Latest UK job news for overseas and Gulf-based workers: companies hiring, jobs with visa sponsorship, Skilled Worker visa rules and job market updates."
     },
     "usa": {
       "name": "USA",
       "flag": "🇺🇸",
       "enabled": true,
-      "title": "USA Work Visa & Job News – USCIS, H-1B, Green Card Updates",
-      "description": "Latest US work visa and immigration news: USCIS updates, H-1B, green card and employment authorization."
+      "title": "USA Jobs for Foreigners – Hiring News, Visa Sponsorship & H-1B Updates",
+      "description": "Latest US job news for overseas and Gulf-based workers: companies hiring, jobs with visa sponsorship, H-1B and USCIS updates."
     },
     "canada": {
       "name": "Canada",
       "flag": "🇨🇦",
       "enabled": true,
-      "title": "Canada Immigration & Job News – Express Entry, Work Permit Updates",
-      "description": "Latest Canada immigration and job news: Express Entry draws, work permits, IRCC announcements."
+      "title": "Canada Jobs for Foreigners – Hiring News, Express Entry & Work Permits",
+      "description": "Latest Canada job news for overseas and Gulf-based workers: companies hiring, jobs for foreigners, Express Entry draws and work permit updates."
     },
     "australia": {
       "name": "Australia",
       "flag": "🇦🇺",
       "enabled": true,
-      "title": "Australia Work Visa & Job News – Skilled Visa Updates",
-      "description": "Latest Australia work visa and immigration news: skilled visas, employer sponsorship and Home Affairs updates."
+      "title": "Australia Jobs for Foreigners – Hiring News & Visa Sponsorship Jobs",
+      "description": "Latest Australia job news for overseas and Gulf-based workers: companies hiring, employer-sponsored jobs and skilled visa updates."
     },
     "europe": {
       "name": "Europe",
       "flag": "🇪🇺",
       "enabled": true,
-      "title": "Europe Work Visa & Job News – EU Blue Card, Germany, Schengen Updates",
-      "description": "Latest Europe work visa and job news: EU Blue Card, Germany skilled worker rules and EU migration updates."
+      "title": "Europe Jobs for Foreigners – Hiring in Germany, Ireland & EU Visa Sponsorship",
+      "description": "Latest Europe job news for overseas and Gulf-based workers: companies hiring in Germany, Ireland and across the EU, visa sponsorship and EU Blue Card updates."
     }
   },
   "categories": {
