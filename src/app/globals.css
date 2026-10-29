@@ -246,7 +246,8 @@ main.wrap { padding-top: 22px; padding-bottom: 64px; min-height: 60vh; }
 .avatar { flex: none; width: 48px; height: 48px; border-radius: 50%; background: var(--navy); color: var(--gold); display: grid; place-items: center; font-weight: 900; font-size: 1.1rem; }
 .author-box a { color: var(--navy); }
 .related-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
-@media (max-width: 640px) { .related-grid { grid-template-columns: 1fr 1fr; gap: 14px; } }
+@media (max-width: 640px) { .related-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; } }
+.story-title { overflow-wrap: anywhere; }
 .article section > .section-label { margin-top: 34px; }
 
 /* ================= Sidebar ================= */
