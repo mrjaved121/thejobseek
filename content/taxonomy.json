@@ -33,7 +33,7 @@
       "flag": "🇴🇲",
       "enabled": true,
       "title": "Oman Job News – Jobs, Work Visa & Labour Updates",
-      "description": "Latest Oman job news, Omanisation and work visa updates."
+      "description": "Latest Oman job news: companies hiring in Muscat and across Oman, Omanisation targets, government jobs and work visa updates for expats."
     },
     "bahrain": {
       "name": "Bahrain",
@@ -95,27 +95,27 @@
   "categories": {
     "govt-jobs": {
       "name": "Government Jobs",
-      "description": "Government and public sector recruitment announcements."
+      "description": "Government and public sector job openings in the UAE, Gulf and abroad: ministries, police, health and education jobs, with official apply links and deadlines."
     },
     "private-jobs": {
       "name": "Private Sector Hiring",
-      "description": "Hiring news from companies, airlines, hospitals, retail and more."
+      "description": "Companies hiring now in the UAE, Saudi Arabia, the Gulf and worldwide: airlines, hospitals, hotels, retail, construction and tech, with official careers links."
     },
     "exams-results": {
       "name": "Exams & Results",
-      "description": "Test schedules, admit cards, answer keys and results."
+      "description": "Licensing exams and test updates for job seekers: DHA, DOH and SCFHS exams, English tests for skilled migration, schedules, rules and results."
     },
     "visa-labour-law": {
       "name": "Work Visa & Labour Law",
-      "description": "Work visa rules, immigration changes, labour law and worker rights updates."
+      "description": "Work visa rules and labour law updates for the UAE, Gulf, UK, USA, Canada and Europe: permits, salaries, leave, gratuity and worker rights explained."
     },
     "guides": {
       "name": "Job Seeker Guides",
-      "description": "How-to guides for applying, CVs, interviews and avoiding scams."
+      "description": "Practical job seeker guides: how to find a job in the UAE, write a CV, apply safely, avoid job scams and understand gratuity and labour law."
     },
     "job-market": {
       "name": "Job Market & Hiring",
-      "description": "Who is hiring, job vacancy numbers and hiring trends by country."
+      "description": "Job market news and hiring trends: who is hiring, vacancy numbers, salary surveys and in-demand skills in the UAE, Gulf and worldwide."
     }
   }
 }

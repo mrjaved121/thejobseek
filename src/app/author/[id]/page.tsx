@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${a.name} – ${a.role}`,
     description: `${a.name}, ${a.role}, based in ${a.location}. What he covers, how every story is verified, and all his latest UAE, Gulf and global job news.`,
     alternates: { canonical: `/author/${id}/` },
-    openGraph: { type: "profile", title: `${a.name} – ${a.role}`, url: `/author/${id}/` },
+    openGraph: { type: "profile", title: `${a.name} – ${a.role}`, url: `/author/${id}/`, images: [{ url: a.image || "/opengraph-image.png", width: 1200, height: 630, alt: `${a.name}, ${a.role}` }] },
   };
 }
 

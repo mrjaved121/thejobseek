@@ -12,6 +12,7 @@ import JsonLd from "@/components/JsonLd";
 import SectionLabel from "@/components/SectionLabel";
 import { getAllArticles, getArticle, getRelated, articlePath, formatDate, formatDateTime, sourceDomain } from "@/lib/articles";
 import { getAuthor } from "@/lib/authors";
+import { isClosed } from "@/lib/jobs";
 import AuthorAvatar from "@/components/AuthorAvatar";
 import { articleSchema, faqSchema } from "@/lib/schema";
 import { COUNTRIES, CATEGORIES, SITE, ESSENTIAL_GUIDES } from "@/lib/site";
@@ -178,7 +179,18 @@ export default async function ArticlePage({ params }: Props) {
           </nav>
         )}
 
-        {a.applyEmail ? (
+        {isClosed(a) && (a.applyUrl || a.applyEmail) ? (
+          <div className="source-box">
+            <p>
+              <strong>Applications closed on {formatDate(a.lastDate!)}.</strong>
+              <br />
+              <span className="small">This vacancy is no longer open. See the latest openings instead.</span>
+            </p>
+            <Link className="btn" href={`/jobs/${a.country}/`}>
+              Open {COUNTRIES[a.country].name} jobs →
+            </Link>
+          </div>
+        ) : a.applyEmail ? (
           <div className="source-box">
             <p>
               <strong>Apply by email: {a.applyEmail}</strong>
