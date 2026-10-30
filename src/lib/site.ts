@@ -9,7 +9,7 @@ export const SITE = {
   // Add every official profile you create (LinkedIn page, X, YouTube, Google Business, etc.): used in schema sameAs.
   profiles: [] as string[],
   description:
-    "TheJobSeek publishes verified job, work visa and labour law news for the UAE and the Gulf, plus the UK, USA, Canada, Australia and Europe, based on official notices and decisions.",
+    "Daily verified job news for the UAE and Gulf: who is hiring, official apply links, salaries and work visa updates, plus jobs in the UK, USA and Europe.",
   locale: "en",
   contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "contact@thejobseek.com",
   social: {

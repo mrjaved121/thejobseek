@@ -11,9 +11,9 @@ import { COUNTRIES } from "@/lib/site";
 import { listRobots, listOpenGraph } from "@/lib/seo";
 import { collectionSchema } from "@/lib/schema";
 
-const TITLE = "Jobs in the UAE, Gulf & Worldwide – Latest Hiring with Official Apply Links";
+const TITLE = "Jobs in UAE, Gulf & Worldwide – Official Apply Links";
 const DESC =
-  "Latest verified hiring news from the UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain, the UK, USA, Canada, Australia and Europe, with the employer's official apply link and closing date.";
+  "Latest verified hiring news from the UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain, UK, USA, Canada, Australia and Europe, with official apply links.";
 
 export const metadata: Metadata = {
   title: TITLE,

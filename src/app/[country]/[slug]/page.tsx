@@ -31,7 +31,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!a) return {};
   const author = getAuthor(a.author);
   return {
-    title: a.title,
+    // Keep the brand suffix only when it still fits in ~60 characters (avoids truncated titles in Google).
+    title: a.title.length + ` | ${SITE.name}`.length <= 60 ? a.title : { absolute: a.title },
     description: a.description,
     keywords: a.tags,
     authors: [{ name: author.name, url: `${SITE.url}/author/${author.id}/` }],
