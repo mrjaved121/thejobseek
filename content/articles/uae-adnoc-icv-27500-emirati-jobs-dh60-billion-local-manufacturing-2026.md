@@ -1,5 +1,6 @@
 ---
 title: "ADNOC Opens Dh60bn Factory Pipeline After Creating 27,500 Emirati Jobs"
+seoTitle: "ADNOC Dh60bn Factory Pipeline: 27,500 Emirati Jobs"
 description: "ADNOC's In-Country Value programme has created jobs for 27,500+ Emiratis, and Dh60bn of new local manufacturing deals could add more UAE factory jobs."
 country: uae
 category: job-market

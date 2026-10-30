@@ -1,5 +1,6 @@
 ---
 title: "Canada Changes Express Entry on 3 November: Up to 100 Points for High-Wage Jobs"
+seoTitle: "Express Entry Changes 3 Nov: Up to 100 Points for Jobs"
 description: "From 3 November 2026, Express Entry gives extra CRS points for Canadian experience or a job offer in high-wage occupations, and these job offers no longer need an LMIA."
 country: canada
 category: visa-labour-law
@@ -9,6 +10,20 @@ organization: Immigration, Refugees and Citizenship Canada (IRCC)
 sourceUrl: https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/10/changes-to-express-entry-for-high-wage-occupations.html
 sourceName: IRCC backgrounder – Changes to Express Entry for high-wage occupations
 tags: [canada immigration, express entry, crs points, lmia, skilled workers]
+keyPoints:
+  - "From 3 November 2026, Express Entry gives extra CRS points for Canadian work experience or job offers in high-wage occupations."
+  - "A high-wage occupation has a median wage of at least 1.3 times Canada's overall median."
+  - "Job offers can add 50, 70 or 100 points; Canadian experience can add 20, 40 or 70 points, and only the higher of the two counts."
+  - "Qualifying job offers will not need an LMIA to earn the new points."
+faq:
+  - q: "What is changing in Express Entry on 3 November 2026?"
+    a: "Candidates with Canadian work experience or a job offer in a high-wage occupation get extra Comprehensive Ranking System points, and qualifying job offers no longer need an LMIA for these points."
+  - q: "How many extra points does a high-wage job offer give?"
+    a: "50 points if the occupation's median wage is at least 1.3 times the national median, 70 points at 1.5 times, and 100 points at 2 times."
+  - q: "Can I get both job-offer and experience points?"
+    a: "No. If you qualify for both, IRCC gives you whichever is higher."
+  - q: "Do I need to update my Express Entry profile?"
+    a: "If you have a qualifying job offer, add it before 3 November 2026. Points for Canadian experience are recalculated automatically."
 ---
 
 Canada is changing how Express Entry ranks skilled workers. Immigration Minister Lena Metlege Diab announced on 16 October 2026 that, **from 3 November 2026**, candidates with Canadian work experience or a job offer in a **high-wage occupation** will receive extra points in the Comprehensive Ranking System (CRS).

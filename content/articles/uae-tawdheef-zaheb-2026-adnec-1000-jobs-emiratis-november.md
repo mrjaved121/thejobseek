@@ -1,5 +1,6 @@
 ---
 title: "Abu Dhabi Jobs: Tawdheef x Zaheb 2026 Brings 1,000+ Roles for Emiratis"
+seoTitle: "Tawdheef x Zaheb 2026: 1,000+ Abu Dhabi Jobs"
 description: "Abu Dhabi jobs for UAE nationals: Tawdheef x Zaheb 2026 runs 17–19 November at ADNEC with 100+ employers and more than 1,000 openings. Entry is free."
 country: uae
 category: private-jobs

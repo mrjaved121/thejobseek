@@ -1,5 +1,6 @@
 ---
 title: "USCIS Proposes Ending 'Deference' for H-1B and L-1 Visa Extensions"
+seoTitle: "USCIS Proposes Ending Deference for H-1B, L-1 Extensions"
 description: "A proposed US rule would make officers review every work visa extension from scratch, even with the same employer and job. Here is what H-1B, L-1 and other workers should know."
 country: usa
 category: visa-labour-law
@@ -9,6 +10,18 @@ organization: U.S. Department of Homeland Security / USCIS
 sourceUrl: https://www.federalregister.gov/public-inspection/2026-20941/removing-deference-to-prior-determinations-of-eligibility
 sourceName: Federal Register – "Removing Deference to Prior Determinations of Eligibility" (proposed rule)
 tags: [h1b visa, usa work visa, uscis, l1 visa, us immigration]
+keyPoints:
+  - "DHS has proposed removing 'deference' to earlier approvals when USCIS decides work visa extensions."
+  - "The proposal was filed for public inspection on 13 October 2026; it is not yet a final rule."
+  - "It would cover Form I-129 extensions including H-1B, L-1, O-1, TN, E, H-2, P, Q and R visas."
+  - "DHS expects more Requests for Evidence and longer processing for some cases."
+faq:
+  - q: "What is the USCIS deference rule for H-1B extensions?"
+    a: "Currently, officers generally defer to an earlier approval when the job, employer and facts are the same. The proposal would make officers review every extension as a new case."
+  - q: "Is the end of deference for H-1B extensions in force?"
+    a: "No. It is a proposed rule filed on 13 October 2026, and the current rules still apply."
+  - q: "What should H-1B or L-1 workers do now?"
+    a: "If an extension is coming up, ask your employer to prepare a complete file rather than relying on the previous approval."
 ---
 
 The US Department of Homeland Security (DHS) has proposed a rule that could make it harder to extend some US work visas. The proposal, titled **"Removing Deference to Prior Determinations of Eligibility,"** was filed for public inspection on **13 October 2026** and scheduled for publication in the Federal Register on 14 October.

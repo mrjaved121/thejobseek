@@ -1,5 +1,6 @@
 ---
 title: "Bahrain End-of-Service for Expats: How the SIO System Works, Plus Leave and Notice Rules"
+seoTitle: "Bahrain End-of-Service for Expats: SIO, Leave & Notice"
 description: "Since March 2024, Bahrain employers pay expat end-of-service benefits into a fund run by the Social Insurance Organization (SIO): 4.2% of wages for the first 3 years, then 8.4%."
 country: bahrain
 category: guides
@@ -9,6 +10,20 @@ organization: Social Insurance Organization (SIO), Bahrain
 sourceUrl: https://www.ilo.org/beirut/media-centre/news/WCMS_920580/lang--en/index.htm
 sourceName: ILO – Bahrain's new end-of-service system for migrant workers; MEED – Bahrain's private sector labour law
 tags: [bahrain end of service, bahrain sio, bahrain labour law, bahrain jobs, lmra]
+keyPoints:
+  - "Since March 2024, Bahrain employers pay expat workers' end-of-service benefit monthly into a Social Insurance Organization (SIO) fund."
+  - "Employers contribute 4.2% of wages for the first 3 years and 8.4% after that."
+  - "Workers are entitled to half a month's wage per year for the first 3 years and a full month's wage per year after that."
+  - "Workers get at least 30 days of paid annual leave after one year and 30 days' notice on open-ended contracts."
+faq:
+  - q: "How is end-of-service benefit paid to expats in Bahrain?"
+    a: "Employers pay monthly contributions to a fund run by the Social Insurance Organization (SIO), set up by Law No. 14 of 2022. Contributions started in March 2024."
+  - q: "How much end-of-service benefit do expats get in Bahrain?"
+    a: "Half a month's wage for each of the first 3 years of service and one full month's wage for each year after that. For example, BHD 400 a month for 5 years gives BHD 1,400."
+  - q: "How much annual leave do workers get in Bahrain?"
+    a: "At least 30 days of paid leave after one year of service, building up at 2.5 days a month."
+  - q: "What is the notice period in Bahrain?"
+    a: "Either side can end an open-ended contract with 30 days' notice. If the employer does not give notice, the worker is paid for the notice period."
 ---
 
 Bahrain changed how expat workers receive their end-of-service benefit. Instead of the employer paying a lump sum when the job ends, employers now pay **monthly contributions** into a fund run by the government's **Social Insurance Organization (SIO)**. Here is how it works, along with the main leave and notice rules.

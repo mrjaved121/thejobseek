@@ -1,5 +1,6 @@
 ---
 title: "State Street to Hire 300 Staff in Al Ain, Including 100 Emiratis"
+seoTitle: "State Street to Hire 300 in Al Ain, 100 Emiratis"
 description: "US bank State Street will open an Al Ain operations centre in July 2027 and grow to 300 jobs by 2030 in tech, AI, operations and client services."
 country: uae
 category: private-jobs

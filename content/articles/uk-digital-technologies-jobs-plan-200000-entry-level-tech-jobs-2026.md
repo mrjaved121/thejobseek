@@ -1,5 +1,6 @@
 ---
 title: "UK Tech Jobs Plan Targets 200,000 Entry-Level Roles Over 10 Years"
+seoTitle: "UK Plan Targets 200,000 Entry-Level Tech Jobs"
 description: "The UK Digital and Technologies Jobs Plan aims for around 20,000 entry-level tech jobs a year, with Microsoft, IBM and others pledging 10,000+ placements."
 country: uk
 category: job-market

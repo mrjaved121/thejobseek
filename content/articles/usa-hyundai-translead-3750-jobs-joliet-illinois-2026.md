@@ -1,5 +1,6 @@
 ---
 title: "Hyundai Translead to Create 3,750 Factory Jobs in Joliet, Illinois"
+seoTitle: "Hyundai Translead: 3,750 Factory Jobs in Joliet, Illinois"
 description: "Hyundai Translead is raising its Illinois plan to $600 million and 3,750 full-time jobs at two trailer plants in Will County, up from about 2,500 jobs."
 country: usa
 category: private-jobs

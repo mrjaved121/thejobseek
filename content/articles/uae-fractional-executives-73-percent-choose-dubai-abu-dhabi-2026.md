@@ -1,5 +1,6 @@
 ---
 title: "Senior Talent Picks the UAE: 73% of Fractional Executives Choose Dubai"
+seoTitle: "73% of Fractional Executives Choose Dubai or Abu Dhabi"
 description: "73% of part-time C-suite executives applying abroad chose Dubai or Abu Dhabi, showing strong demand for senior and flexible leadership jobs in the UAE."
 country: uae
 category: job-market

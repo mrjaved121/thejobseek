@@ -1,5 +1,6 @@
 ---
 title: "National Defence Hiring Civilians at Base Gagetown: Canada Hiring 2026"
+seoTitle: "National Defence Hiring Civilians at Base Gagetown"
 description: "Canada hiring 2026: National Defence is recruiting dozens of civilian staff at Base Gagetown, New Brunswick, from nurses and IT to trades and firefighters."
 country: canada
 category: govt-jobs

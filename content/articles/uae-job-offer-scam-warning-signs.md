@@ -1,5 +1,6 @@
 ---
 title: "Is Your UAE Job Offer Real? 8 Warning Signs of a Fake Dubai Job"
+seoTitle: "Is Your UAE Job Offer Real? 8 Warning Signs"
 description: "Fake Dubai and UAE job offers target Pakistani and Indian job seekers every day. Here are 8 warning signs and how to check an offer before you pay anyone or travel."
 country: uae
 category: guides

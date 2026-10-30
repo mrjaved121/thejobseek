@@ -1,5 +1,6 @@
 ---
 title: "World Bank: UAE Among the Most Exposed to AI Replacing Jobs in the Region"
+seoTitle: "World Bank: UAE Among Most Exposed to AI Job Risk"
 description: "A World Bank report says the UAE and Jordan have the largest share of jobs at risk of AI substitution in the region, though the risk covers no more than about 10% of jobs. 13–20% could become more productive."
 country: uae
 category: job-market

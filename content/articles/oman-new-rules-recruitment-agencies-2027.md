@@ -1,5 +1,6 @@
 ---
 title: "Oman Sets New Rules for Recruitment Agencies From 2027: No Fees for Workers"
+seoTitle: "Oman Recruitment Agency Rules 2027: No Fees for Workers"
 description: "Oman's Ministerial Decision No. 390/2026 bans recruitment fees for workers, requires a written job offer before recruitment and sets fines for agencies from 1 January 2027."
 country: oman
 category: visa-labour-law
@@ -9,6 +10,18 @@ organization: Oman Ministry of Labour
 sourceUrl: https://www.muscatdaily.com/2026/10/11/oman-sets-new-rules-for-expatriate-recruitment-agencies-from-2027/
 sourceName: Muscat Daily – reporting Ministerial Decision No. 390/2026
 tags: [oman jobs, oman recruitment agency, oman labour law, expat workers oman]
+keyPoints:
+  - "Oman's Ministerial Decision No. 390/2026 sets new rules for agencies recruiting expatriate workers from 1 January 2027."
+  - "Agencies may not charge workers any recruitment fees."
+  - "A job offer stating the wage and type of work must exist before a worker is recruited."
+  - "Only Ministry of Labour-licensed, Omani-owned agencies may recruit, with a RO 5,000 guarantee."
+faq:
+  - q: "Can recruitment agencies in Oman charge workers fees?"
+    a: "No. Under Ministerial Decision No. 390/2026, from 1 January 2027 agencies may not charge workers any recruitment fees."
+  - q: "When do Oman's new recruitment agency rules start?"
+    a: "On 1 January 2027."
+  - q: "How can I check an Oman recruitment agency is genuine?"
+    a: "Ask for its Ministry of Labour licence and check it, and make sure you get a written job offer with the salary before you travel."
 ---
 
 Oman's Ministry of Labour has issued new rules for agencies that recruit expatriate workers. **Ministerial Decision No. 390/2026** takes effect on **1 January 2027** and includes important protections for workers coming to Oman.

@@ -1,5 +1,6 @@
 ---
 title: "UAE Annual Leave Rules: 30 Days, Carry-Over and Pay When You Leave"
+seoTitle: "UAE Annual Leave Rules: 30 Days, Carry-Over and Pay"
 description: "UAE private-sector workers get 30 days of paid annual leave a year, or 2 days a month in their first year. Here are the rules on carry-over, scheduling and leave pay on exit."
 country: uae
 category: guides

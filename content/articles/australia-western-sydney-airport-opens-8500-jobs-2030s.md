@@ -1,5 +1,6 @@
 ---
 title: "Western Sydney Airport Opens: Up to 8,500 Jobs Needed as It Grows"
+seoTitle: "Western Sydney Airport Opens: Up to 8,500 Jobs"
 description: "Australia jobs for foreigners and locals: Western Sydney International Airport opened to passengers on 25 October and says up to 8,500 jobs will be needed."
 country: australia
 category: job-market

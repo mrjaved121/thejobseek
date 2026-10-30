@@ -1,5 +1,6 @@
 ---
 title: "New $440m Shoalhaven Hospital Adds 120 Staff: Australia Hiring 2026"
+seoTitle: "New $440m Shoalhaven Hospital Hiring 120 Health Staff"
 description: "Australia hiring 2026: NSW opens the $440m Shoalhaven Memorial Hospital in Nowra, with 120 more health staff starting and nurses still being recruited."
 country: australia
 category: govt-jobs

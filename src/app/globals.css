@@ -386,3 +386,9 @@ main.wrap { padding-top: 22px; padding-bottom: 64px; min-height: 60vh; }
   .job-media img { width: 88px; }
 }
 .job-post { color: #9a5b00; }
+
+/* Homepage heading (visible H1) */
+.home-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; margin: 4px 0 14px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.home-h1 { font-size: clamp(1.25rem, 2.6vw, 1.6rem); font-weight: 900; color: var(--navy); margin: 0; letter-spacing: -0.01em; }
+.home-sub { margin: 0; font-size: 0.92rem; color: var(--ink-3); }
+.home-sub a { font-weight: 800; color: var(--navy); }

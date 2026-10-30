@@ -1,5 +1,6 @@
 ---
 title: "Bloomberg to Double Its Dublin Team Again by 2030: Tech Jobs Coming"
+seoTitle: "Bloomberg to Double Dublin Team by 2030: Tech Jobs"
 description: "Bloomberg plans to double its 190-strong Dublin workforce by 2030, hiring in software engineering, product and data operations with IDA Ireland support."
 country: europe
 category: private-jobs

@@ -1,5 +1,6 @@
 ---
 title: "Canada Summer Jobs 2027 Opens: Paid Roles for Youth Aged 15 to 30"
+seoTitle: "Canada Summer Jobs 2027: Paid Roles for Ages 15 to 30"
 description: "Canada Summer Jobs 2027 is open to employers until 3 December 2026. Funded full-time summer jobs for youth aged 15 to 30 will be posted on Job Bank."
 country: canada
 category: govt-jobs

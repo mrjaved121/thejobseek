@@ -1,5 +1,6 @@
 ---
 title: "SendCutSend Is Hiring 309 Workers for New Pittston, PA Factory"
+seoTitle: "SendCutSend Hiring 309 for New Pittston, PA Factory"
 description: "Metal parts maker SendCutSend will create 309 jobs at a new $63.2m CNC and laser-cutting plant in Pittston, Pennsylvania, over the next three years."
 country: usa
 category: private-jobs

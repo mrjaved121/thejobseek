@@ -1,5 +1,6 @@
 ---
 title: "Saudi Arabia Lets Highly Skilled Expats Bring Families While Their Work Visa Is Processed"
+seoTitle: "Saudi Lets Skilled Expats Bring Families Sooner"
 description: "Saudi Arabia now lets highly skilled foreign workers apply for family entry visas at the same time as their own work visa. Spouses, sons under 25 and unmarried daughters are eligible."
 country: saudi-arabia
 category: visa-labour-law

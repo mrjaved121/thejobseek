@@ -1,5 +1,6 @@
 ---
 title: "UAE Gratuity Calculator Guide 2026: How End-of-Service Pay Is Worked Out"
+seoTitle: "UAE Gratuity Calculator Guide 2026: End-of-Service Pay"
 description: "How UAE private-sector gratuity works: 21 days' basic pay a year for the first 5 years, 30 days after that, a 2-year cap, and payment within 14 days. With worked examples."
 country: uae
 category: guides

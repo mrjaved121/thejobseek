@@ -1,5 +1,6 @@
 ---
 title: "UAE Job Scam Warning: Indian Missions Flag Fake Visa and Job Agencies"
+seoTitle: "UAE Job Scam Warning: Fake Visa and Job Agencies"
 description: "The Indian Embassy in Abu Dhabi and Consulate in Dubai warned residents about private agencies selling fake jobs, residency and visa services in the UAE and Europe, and about misuse of fingerprints and face scans."
 country: uae
 category: job-market

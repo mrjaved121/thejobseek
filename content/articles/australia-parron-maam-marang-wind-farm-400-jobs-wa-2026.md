@@ -1,5 +1,6 @@
 ---
 title: "WA's Biggest Wind Farm Starts Building: Up to 400 Construction Jobs"
+seoTitle: "WA's Biggest Wind Farm: Up to 400 Construction Jobs"
 description: "Construction has begun on the 470 MW Parron Maam Marang wind farm north of Perth, bringing up to 400 jobs at peak in WA's Wheatbelt."
 country: australia
 category: private-jobs

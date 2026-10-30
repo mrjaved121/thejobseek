@@ -1,5 +1,6 @@
 ---
 title: "M&S Christmas Jobs 2026: Leeds Stores Hiring at £13.41 an Hour"
+seoTitle: "M&S Christmas Jobs 2026: Leeds Hiring at £13.41/Hour"
 description: "Marks & Spencer is hiring Christmas staff in Leeds stores at £13.41 an hour, including the city centre, White Rose, Crown Point, Moortown and Pudsey."
 country: uk
 category: private-jobs

@@ -1,5 +1,6 @@
 ---
 title: "Which English Tests Count for Canada Express Entry? IELTS, CELPIP and PTE Core Rules"
+seoTitle: "Express Entry English Tests: IELTS, CELPIP, PTE Core"
 description: "IRCC accepts only CELPIP-General, IELTS General Training and PTE Core in English, and TEF or TCF Canada in French. Results must be under 2 years old. Here are the rules."
 country: canada
 category: exams-results
@@ -9,6 +10,18 @@ organization: Immigration, Refugees and Citizenship Canada (IRCC)
 sourceUrl: https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-requirements/language-testing.html
 sourceName: IRCC – Express Entry language testing
 tags: [express entry, ielts canada, celpip, pte core, canada pr language test]
+keyPoints:
+  - "IRCC accepts CELPIP-General, IELTS General Training and PTE Core for English, and TEF Canada and TCF Canada for French."
+  - "IELTS Academic, PTE Academic and IELTS One Skill Retake are not accepted for Express Entry."
+  - "Results must be less than 2 years old both when you create your profile and when you submit your PR application."
+  - "Applications with expired test results are refused."
+faq:
+  - q: "Which English tests are accepted for Express Entry?"
+    a: "CELPIP-General, IELTS General Training and PTE Core. IELTS Academic, PTE Academic and IELTS One Skill Retake are not accepted."
+  - q: "How long are language test results valid for Express Entry?"
+    a: "Less than 2 years. The results must be valid when you create your profile and again when you submit your permanent residence application."
+  - q: "Which French tests does IRCC accept?"
+    a: "TEF Canada and TCF Canada."
 ---
 
 Your language test score is one of the biggest parts of your Express Entry points. But taking the wrong version of a test is a common and costly mistake. Here is what **Immigration, Refugees and Citizenship Canada (IRCC)** actually accepts.

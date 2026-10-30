@@ -1,5 +1,6 @@
 ---
 title: "Tines Plans 100 Dublin Jobs, Over Half for Entry-Level Starters"
+seoTitle: "Tines Plans 100 Dublin Jobs, Half Entry-Level"
 description: "Irish AI company Tines will hire 100 people in Dublin over two years, with more than half of the roles entry-level, across product, engineering and sales."
 country: europe
 category: private-jobs

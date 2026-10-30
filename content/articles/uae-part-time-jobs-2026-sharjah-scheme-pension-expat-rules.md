@@ -1,5 +1,6 @@
 ---
 title: "Part-Time Jobs in the UAE: Sharjah's New Scheme, Pension Cover for Emiratis and the Rules for Expats"
+seoTitle: "Part-Time Jobs in the UAE 2026: Rules for Expats"
 description: "Sharjah has launched part-time government work for retirees and senior citizens, and Emiratis working part-time now get pension cover. Here is what changed, and how expats can work part-time legally."
 country: uae
 category: job-market

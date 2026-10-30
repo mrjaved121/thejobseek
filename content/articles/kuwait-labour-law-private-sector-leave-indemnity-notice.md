@@ -1,5 +1,6 @@
 ---
 title: "Kuwait Labour Law Guide: Annual Leave, End-of-Service Indemnity, Overtime and Notice"
+seoTitle: "Kuwait Labour Law: Leave, Indemnity, Overtime, Notice"
 description: "Under Kuwait's private sector Labour Law No. 6 of 2010, workers get 30 days' annual leave, overtime from 125%, and an end-of-service indemnity capped at 18 months' pay. Key rules explained."
 country: kuwait
 category: guides
@@ -9,6 +10,20 @@ organization: Kuwait (Labour Law No. 6 of 2010, as amended)
 sourceUrl: https://www.meed.com/kuwait-employment-labour-law/
 sourceName: MEED – Kuwait's labour law, with the 2017 amendments summarised by the Gulf Labour Markets and Migration programme
 tags: [kuwait labour law, kuwait end of service, kuwait annual leave, kuwait jobs, pam kuwait]
+keyPoints:
+  - "Kuwait's private sector follows Labour Law No. 6 of 2010, enforced by the Public Authority for Manpower (PAM)."
+  - "Working hours are up to 48 a week (36 in Ramadan); overtime pays 125%, 150% on rest days and 200% on public holidays."
+  - "Workers get 30 days of paid annual leave; notice is 3 months for monthly-paid workers."
+  - "End-of-service indemnity is 15 days' pay per year for the first 5 years, then one month's pay per year, capped at 18 months."
+faq:
+  - q: "How many hours can you work in Kuwait's private sector?"
+    a: "Up to 48 hours a week or 8 hours a day, and up to 36 hours a week during Ramadan, with at least 24 hours of paid weekly rest."
+  - q: "How is end-of-service indemnity calculated in Kuwait?"
+    a: "For monthly-paid workers: 15 days' pay for each of the first 5 years and one month's pay for each year after that, capped at 18 months' pay."
+  - q: "What is the notice period in Kuwait?"
+    a: "For open-ended contracts, 3 months in writing for workers paid monthly and 1 month for other workers."
+  - q: "How much indemnity do I get if I resign in Kuwait?"
+    a: "Half if you resign after more than 3 and under 5 years, two thirds after 5 to 10 years, and the full amount after 10 years or more."
 ---
 
 Kuwait's private sector is governed by **Labour Law No. 6 of 2010**, with later amendments. The **Public Authority for Manpower (PAM)** enforces it. Here are the key rules for workers.

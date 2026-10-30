@@ -1,5 +1,6 @@
 ---
 title: "Oman Labour Law Guide: Working Hours, Annual Leave, Sick Leave and Maternity Rights"
+seoTitle: "Oman Labour Law: Hours, Annual Leave, Sick & Maternity"
 description: "Oman's Labour Law (Royal Decree 53/2023) sets a 40-hour week, 30 days' annual leave, up to 182 days of sick leave, 98 days' maternity leave and 7 days' paternity leave. Key rights explained."
 country: oman
 category: guides
@@ -9,6 +10,20 @@ organization: Oman (Royal Decree 53/2023)
 sourceUrl: https://www.britishomani.org/news/bos/omans-labour-law
 sourceName: British Omani Society – Oman's Labour Law, with reporting on annual leave by ARY News
 tags: [oman labour law, oman annual leave, oman jobs, oman maternity leave, omanisation]
+keyPoints:
+  - "Oman's Labour Law (Royal Decree 53/2023) covers private sector workers, including expats."
+  - "Working hours are 8 a day and no more than 40 a week."
+  - "Workers get at least 30 days of paid annual leave after 6 months, and non-Omanis get a return ticket home."
+  - "Maternity leave is 98 days paid and paternity leave 7 days paid; paid sick leave can last up to 182 days."
+faq:
+  - q: "What are the working hours in Oman?"
+    a: "8 hours a day and no more than 40 hours a week under Royal Decree 53/2023."
+  - q: "How much annual leave do workers get in Oman?"
+    a: "At least 30 days of paid leave a year, starting after 6 months of continuous service. Non-Omani workers also get a return ticket home."
+  - q: "How long is maternity leave in Oman?"
+    a: "98 days of paid maternity leave, plus up to one year of unpaid childcare leave on request. Fathers get 7 days of paid paternity leave."
+  - q: "Can I leave my job in Oman without notice?"
+    a: "Yes, if you are not paid for two months in a row. During a notice period you also get 10 paid hours a week to look for a new job."
 ---
 
 Oman's current Labour Law, issued by **Royal Decree 53/2023** on **31 July 2023**, replaced the old 2003 law. It applies to private sector workers, including expats. Here are the rights that matter most.

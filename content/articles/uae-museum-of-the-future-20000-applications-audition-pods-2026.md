@@ -1,5 +1,6 @@
 ---
 title: "Museum of the Future Jobs: 20,000 Apply, In-Person Auditions Open"
+seoTitle: "Museum of the Future Jobs: 20,000 Apply, Auditions Open"
 description: "Dubai's Museum of the Future got 20,000+ applications in 48 hours. Online forms are paused, but in-person audition pods are open until 8 November 2026."
 country: uae
 category: private-jobs

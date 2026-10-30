@@ -1,5 +1,6 @@
 ---
 title: "Canada Hiring 2026: Chipotle Hiring Day for 100 Jobs in B.C. and Alberta"
+seoTitle: "Chipotle Hiring Day: 100 Jobs in B.C. and Alberta"
 description: "Canada hiring 2026: Chipotle holds a Western Canada Hiring Day on 28 October at 39 restaurants in B.C. and Alberta, aiming to fill up to 100 jobs."
 country: canada
 category: private-jobs

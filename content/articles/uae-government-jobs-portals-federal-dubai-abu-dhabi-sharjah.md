@@ -1,5 +1,6 @@
 ---
 title: "UAE Government Jobs: Official Portals for Federal, Dubai, Abu Dhabi, Sharjah, Ajman and RAK"
+seoTitle: "UAE Government Jobs: Official Portals by Emirate"
 description: "Where UAE government jobs are actually advertised, which portals are only for Emiratis, and where expats can apply. A guide to the federal and emirate-level hiring portals."
 country: uae
 category: govt-jobs

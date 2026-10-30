@@ -1,5 +1,6 @@
 ---
 title: "UAE Warns Firms: Fines Up to Dh1 Million for 5 Labour Violations"
+seoTitle: "UAE Fines Up to Dh1 Million for 5 Labour Violations"
 description: "MoHRE says hiring without a work permit and 4 other violations carry fines of Dh100,000 to Dh1 million per case. What workers and employers should know."
 country: uae
 category: job-market

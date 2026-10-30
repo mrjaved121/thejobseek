@@ -1,5 +1,6 @@
 ---
 title: "UK Skilled Worker Visa English Requirement Is Now B2: Who It Affects"
+seoTitle: "UK Skilled Worker Visa English Level Now B2"
 description: "Since 8 January 2026, new UK Skilled Worker, Scale-up and High Potential Individual applicants need B2 English instead of B1. People extending a visa first granted before then stay at B1."
 country: uk
 category: visa-labour-law

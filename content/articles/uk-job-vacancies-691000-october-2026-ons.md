@@ -1,5 +1,6 @@
 ---
 title: "UK Job Vacancies Fall to 691,000: What It Means for Overseas Job Seekers"
+seoTitle: "UK Job Vacancies Fall to 691,000: What It Means"
 description: "Official ONS figures published on 20 October 2026 show 691,000 UK vacancies for July to September, down 21,000 on the quarter, with unemployment at 4.7%."
 country: uk
 category: job-market
@@ -9,6 +10,18 @@ organization: Office for National Statistics (ONS)
 sourceUrl: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026
 sourceName: "ONS – Labour market overview, UK: October 2026"
 tags: [uk jobs, uk job vacancies, uk job market, skilled worker visa, work in uk]
+keyPoints:
+  - "UK job vacancies fell to 691,000 in July–September 2026, down 21,000 on the quarter and 37,000 on the year, according to the ONS."
+  - "The unemployment rate was 4.7% in June–August 2026."
+  - "Regular pay grew by 3.7% a year."
+  - "The next ONS labour market update is due on 17 November 2026."
+faq:
+  - q: "How many job vacancies are there in the UK?"
+    a: "691,000 in July to September 2026, according to the Office for National Statistics, down 5.1% on a year earlier."
+  - q: "What is the UK unemployment rate in 2026?"
+    a: "4.7% in June to August 2026, down 0.1 points on the quarter and the year."
+  - q: "Can overseas workers still get UK jobs?"
+    a: "Yes, but competition is higher. Most need an employer with a sponsor licence and a role that qualifies for a Skilled Worker visa."
 ---
 
 The UK job market cooled again this autumn. Figures released by the **Office for National Statistics (ONS)** on **20 October 2026** show fewer open jobs than in the previous quarter and the previous year.

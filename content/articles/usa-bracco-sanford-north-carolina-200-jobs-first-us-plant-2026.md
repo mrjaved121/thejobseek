@@ -1,5 +1,6 @@
 ---
 title: "Bracco to Hire 200 at First US Plant in Sanford, North Carolina"
+seoTitle: "Bracco to Hire 200 at First US Plant in Sanford, NC"
 description: "USA jobs for foreigners and locals: Italy's Bracco Imaging will invest $230 million in a Sanford, North Carolina plant and create 200 jobs."
 country: usa
 category: private-jobs

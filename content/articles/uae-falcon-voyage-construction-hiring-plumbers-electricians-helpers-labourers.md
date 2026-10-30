@@ -1,5 +1,6 @@
 ---
 title: "Construction Jobs in UAE: Falcon Voyage Construction Hiring Plumbers, Electricians, Helpers & Labourers"
+seoTitle: "Construction Jobs in UAE: Plumbers, Electricians, Helpers"
 description: "Falcon Voyage Construction is hiring plumbers, electricians, helpers and labour staff for projects across the UAE, with employment visa, accommodation and transport. Send your CV by email."
 country: uae
 category: private-jobs

@@ -1,5 +1,6 @@
 ---
 title: "VA Hiring Fair in Tulsa on 6 November: On-the-Spot Interviews"
+seoTitle: "VA Tulsa Hiring Fair 6 Nov: On-the-Spot Interviews"
 description: "Eastern Oklahoma VA is holding a hiring fair in Tulsa on 6 November 2026 with on-site interviews for nurses, doctors, techs, cooks and more."
 country: usa
 category: govt-jobs

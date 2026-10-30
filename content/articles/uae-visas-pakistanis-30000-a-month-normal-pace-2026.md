@@ -1,5 +1,6 @@
 ---
 title: "UAE Back to About 30,000 Visas a Month for Pakistanis, Sources Say"
+seoTitle: "UAE Back to ~30,000 Visas a Month for Pakistanis"
 description: "UAE visa issuance for Pakistanis is reported back to about 30,000 a month after months of slower processing. What is confirmed and what job seekers should do."
 country: uae
 category: job-market

@@ -1,5 +1,6 @@
 ---
 title: "SteelFab Is Hiring: 100 New Manufacturing Jobs Near Columbia, SC"
+seoTitle: "SteelFab Hiring: 100 Manufacturing Jobs Near Columbia"
 description: "Structural steel maker SteelFab will invest $30 million in Richland County, South Carolina, creating 100 manufacturing jobs from late 2026."
 country: usa
 category: private-jobs

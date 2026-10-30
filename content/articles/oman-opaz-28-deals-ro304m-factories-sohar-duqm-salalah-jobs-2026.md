@@ -1,5 +1,6 @@
 ---
 title: "Oman Jobs Boost: 28 Factory Deals Worth RO304m in Sohar, Duqm, Salalah"
+seoTitle: "Oman Jobs: 28 Factory Deals Worth RO304m"
 description: "Oman jobs: OPAZ has signed 28 deals worth RO304m for new steel, car assembly, transformer and food plants in Sohar, Duqm and Salalah."
 country: oman
 category: job-market

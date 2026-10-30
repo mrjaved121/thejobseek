@@ -1,5 +1,6 @@
 ---
 title: "UAE Labour Law 2026: The Complete Guide for Private Sector Workers"
+seoTitle: "UAE Labour Law 2026: Complete Guide for Workers"
 description: "Every key UAE Labour Law rule in one place: working hours, overtime, annual leave, probation, notice, gratuity, salary dates, ILOE and how to complain to MoHRE. With links to detailed guides."
 country: uae
 category: visa-labour-law

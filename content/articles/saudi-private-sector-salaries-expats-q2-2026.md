@@ -1,5 +1,6 @@
 ---
 title: "Saudi Private Sector Salaries: Expats Average About SAR 2,700 a Month in Q2 2026"
+seoTitle: "Saudi Private Sector Salaries: Expats Average SAR 2,700"
 description: "National Labor Observatory data for Q2 2026 shows 13.6 million private sector workers in Saudi Arabia. Non-Saudis earn about SAR 2,700 a month on average, against about SAR 9,500 for Saudis."
 country: saudi-arabia
 category: job-market

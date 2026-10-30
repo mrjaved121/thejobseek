@@ -1,5 +1,6 @@
 ---
 title: "Saudi End-of-Service Award: How Much You Get, Including After Resignation"
+seoTitle: "Saudi End-of-Service Award: How Much You Get"
 description: "Under Saudi Labor Law, the end-of-service award is half a month's pay per year for the first 5 years and a full month after. Resigning reduces it unless you have 10+ years."
 country: saudi-arabia
 category: guides
@@ -9,6 +10,20 @@ organization: Saudi Ministry of Human Resources and Social Development (HRSD)
 sourceUrl: https://www.hrsd.gov.sa/sites/default/files/2023-02/Labor.pdf
 sourceName: HRSD – Saudi Labor Law (Royal Decree M/51)
 tags: [saudi end of service, saudi gratuity, saudi labor law, resignation saudi, saudi jobs]
+keyPoints:
+  - "Saudi private-sector workers get half a month's last wage per year for the first 5 years and a full month per year after that (Article 84)."
+  - "Workers who resign get no award under 2 years, one third for 2–5 years, two thirds for 5–10 years and the full award after 10 years."
+  - "Annual leave is at least 21 days, rising to 30 days after 5 consecutive years with the same employer."
+  - "Under the amended law, probation is capped at 180 days and maternity leave is 12 weeks fully paid."
+faq:
+  - q: "How is end-of-service award calculated in Saudi Arabia?"
+    a: "Half a month's last wage for each of the first 5 years and one month's wage for each year after that. For example, SAR 8,000 a month for 8 years gives SAR 44,000."
+  - q: "How much end-of-service award do I get if I resign in Saudi Arabia?"
+    a: "Nothing under 2 years, one third for 2 to 5 years, two thirds for more than 5 and less than 10 years, and the full award after 10 years or more."
+  - q: "How many days of annual leave do workers get in Saudi Arabia?"
+    a: "At least 21 days a year, rising to at least 30 days after 5 consecutive years with the same employer."
+  - q: "What is the notice period in Saudi Arabia?"
+    a: "For indefinite contracts paid monthly, 30 days from the worker and 60 days from the employer under the amended Labor Law."
 ---
 
 If you work in Saudi Arabia's private sector, you are entitled to an **end-of-service award** when your job ends. How much you get depends on your years of service and whether you resigned or the employer ended the contract.

@@ -1,5 +1,6 @@
 ---
 title: "UAE Jobs 2027: 78% Open to a Move as Salary Expectations Climb"
+seoTitle: "UAE Jobs 2027: 78% Open to a Move as Pay Rises"
 description: "UAE jobs outlook: Michael Page's UAE Salary Guide 2027 finds 78% of professionals open to a new role and pay expectations outpacing raise budgets."
 country: uae
 category: job-market

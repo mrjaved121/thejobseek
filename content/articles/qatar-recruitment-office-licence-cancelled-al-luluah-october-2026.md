@@ -1,5 +1,6 @@
 ---
 title: "Qatar Cancels Recruitment Office Licence Over Violations: What Workers and Families Should Know"
+seoTitle: "Qatar Cancels Recruitment Office Licence Over Violations"
 description: "Qatar's Ministry of Labour closed the Al Luluah recruitment office and cancelled licence No. 638 on 21 October 2026 for breaking recruitment rules and ignoring complaints."
 country: qatar
 category: visa-labour-law

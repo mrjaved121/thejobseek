@@ -1,5 +1,6 @@
 ---
 title: "Canada Immigration Levels Plan 2027-2029 Due in November: What to Expect for Work Permits"
+seoTitle: "Canada Immigration Levels Plan 2027-2029: What to Expect"
 description: "Canada must table its 2027-2029 immigration plan around 1 November. The minister has hinted levels could rise, after foreign worker arrivals in 2025 fell far below target."
 country: canada
 category: visa-labour-law

@@ -1,5 +1,6 @@
 ---
 title: "Saudi Jobs: Saudization Pay Floor Rises to SR5,000, Then SR6,000"
+seoTitle: "Saudization Pay Floor Rises to SR5,000, Then SR6,000"
 description: "Saudi employees must earn at least SR5,000 a month from April 2027, and SR6,000 from April 2028, to count fully towards Nitaqat Saudization targets."
 country: saudi-arabia
 category: job-market

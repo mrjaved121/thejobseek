@@ -1,5 +1,6 @@
 ---
 title: "Europe Jobs for Foreigners: EURES International Job Fair in Lublin"
+seoTitle: "EURES International Job Fair in Lublin, Poland"
 description: "Europe jobs for foreigners: a free EURES International Job Fair in Lublin, Poland, on 28 October 2026 brings employers from across Europe to meet job seekers."
 country: europe
 category: job-market

@@ -1,5 +1,6 @@
 ---
 title: "Kuwait Oil Jobs: KNPC Workforce Now 93.6% Kuwaiti, KPC Hiring List Due"
+seoTitle: "Kuwait Oil Jobs: KNPC 93.6% Kuwaiti, KPC List Due"
 description: "Kuwaitis now fill 93.58% of jobs at KNPC, and the list of successful applicants for KPC and its subsidiaries is due to be published soon."
 country: kuwait
 category: govt-jobs

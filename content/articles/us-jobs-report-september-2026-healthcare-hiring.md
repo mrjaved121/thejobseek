@@ -1,5 +1,6 @@
 ---
 title: "US Jobs Report: Only 29,000 Jobs Added in September, Health Care Leads"
+seoTitle: "US Added Only 29,000 Jobs in September; Health Care Leads"
 description: "The US Bureau of Labor Statistics says payrolls grew by just 29,000 in September 2026 with unemployment at 4.2%. Health care, construction and manufacturing added jobs."
 country: usa
 category: job-market
@@ -9,6 +10,18 @@ organization: U.S. Bureau of Labor Statistics (BLS)
 sourceUrl: https://www.bls.gov/news.release/empsit.nr0.htm
 sourceName: BLS – The Employment Situation, September 2026
 tags: [usa jobs, us job market, us jobs report, h1b, work in usa]
+keyPoints:
+  - "US employers added 29,000 jobs in September 2026 and unemployment held at 4.2%, according to the BLS."
+  - "Health care led hiring with 17,000 jobs, followed by construction (+11,000) and manufacturing (+9,000)."
+  - "Average hourly earnings were $37.81, up 3.0% on the year."
+  - "Health care remains the strongest sector for overseas professionals."
+faq:
+  - q: "How many jobs did the US add in September 2026?"
+    a: "29,000, according to the Bureau of Labor Statistics report of 2 October 2026. The unemployment rate stayed at 4.2%."
+  - q: "Which US sector is hiring the most?"
+    a: "Health care, which added 17,000 jobs in September 2026, led by outpatient care and hospitals."
+  - q: "Is it a good time for foreign professionals to look for US jobs?"
+    a: "Overall hiring is slow, so competition for sponsored roles is tougher, but health care is still hiring strongly."
 ---
 
 US hiring stayed slow in September. The **Bureau of Labor Statistics (BLS)** reported on **2 October 2026** that employers added only **29,000 jobs**, and the unemployment rate held at **4.2%**.

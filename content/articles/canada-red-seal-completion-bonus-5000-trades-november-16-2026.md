@@ -1,5 +1,6 @@
 ---
 title: "Canada's $5,000 Red Seal Bonus Opens 16 November for Tradespeople"
+seoTitle: "Canada's $5,000 Red Seal Bonus Opens 16 November"
 description: "Canada jobs for foreigners who become PRs and citizens: a $5,000 Red Seal Completion Bonus opens on 16 November 2026 for newly certified trades workers."
 country: canada
 category: govt-jobs

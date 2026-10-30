@@ -1,5 +1,6 @@
 ---
 title: "USCIS Filing Deadlines Change 23 October 2026: Weekend Rule Narrowed for H-1B, OPT"
+seoTitle: "USCIS Filing Deadline Weekend Rule Changes 23 Oct 2026"
 description: "From 23 October 2026, USCIS gives an extra business day only to paper filings with day-count deadlines. Online filings and I-94 or age-based deadlines get no weekend grace."
 country: usa
 category: visa-labour-law

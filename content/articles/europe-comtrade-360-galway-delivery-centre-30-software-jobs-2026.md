@@ -1,5 +1,6 @@
 ---
 title: "COMTRADE 360 Opens Galway Hub With 30 Tech Jobs: Jobs in Ireland"
+seoTitle: "COMTRADE 360 Opens Galway Hub With 30 Tech Jobs"
 description: "Jobs in Ireland: software and AI firm COMTRADE 360 has opened a Galway delivery centre, creating 30 new jobs with more engineering hires planned."
 country: europe
 category: private-jobs

@@ -1,5 +1,6 @@
 ---
 title: "SCFHS Licence for Saudi Arabia: Classification, Exams and Registration on Mumaris Plus"
+seoTitle: "SCFHS Licence Guide: Classification and Mumaris Plus"
 description: "Healthcare workers moving to Saudi Arabia need SCFHS classification and then registration on Mumaris Plus. Here are the steps, exam timelines, renewal rules and CPD hours."
 country: saudi-arabia
 category: exams-results
@@ -9,6 +10,20 @@ organization: Saudi Commission for Health Specialties (SCFHS)
 sourceUrl: https://scfhs.org.sa/en/mumaris-faq
 sourceName: SCFHS – Mumaris Plus frequently asked questions
 tags: [scfhs, mumaris plus, saudi nursing license, prometric saudi, healthcare jobs saudi arabia]
+keyPoints:
+  - "Health workers in Saudi Arabia must be licensed by the Saudi Commission for Health Specialties (SCFHS) through Mumaris Plus."
+  - "Professional Classification can be done from abroad; Professional Registration needs an Iqama and an employer letter."
+  - "Classification decisions take 7, 30 or 35 working days depending on the route; registration takes 5 working days."
+  - "Registration lasts two years and renewal needs CPD hours: 20 for technicians, 40 for specialists and pharmacists, 60 for doctors."
+faq:
+  - q: "What is the difference between SCFHS classification and registration?"
+    a: "Classification reviews your degree and experience and sets your professional grade, and can be done from abroad. Registration is what lets you work and needs a valid Iqama and an employer letter."
+  - q: "How long does SCFHS classification take?"
+    a: "7 working days for a direct decision, 30 working days if a written exam is needed, and 35 working days for a practical evaluation."
+  - q: "How long is SCFHS registration valid?"
+    a: "Two years. You can renew up to three months before it ends, with the required CPD hours."
+  - q: "How many CPD hours do I need to renew SCFHS registration?"
+    a: "20 hours for technicians, 40 for specialists and pharmacists, and 60 for doctors per registration period."
 ---
 
 Every doctor, nurse, pharmacist and allied health worker who wants to practise in Saudi Arabia must be licensed by the **Saudi Commission for Health Specialties (SCFHS)**. The whole process runs online through the commission's **Mumaris Plus** system. It has two separate stages, and many applicants confuse them.

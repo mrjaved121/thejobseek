@@ -1,5 +1,6 @@
 ---
 title: "UAE Hiring Rebounds 4% in Q3 2026, the Strongest Gain in the Gulf"
+seoTitle: "UAE Hiring Rebounds 4% in Q3 2026, Best in the Gulf"
 description: "UAE hiring rose 4% in July to September 2026 after a 4% fall in Q2, according to the Cooper Fitch Gulf Employment Index. Energy, finance, real estate and cyber roles led the recovery."
 country: uae
 category: job-market

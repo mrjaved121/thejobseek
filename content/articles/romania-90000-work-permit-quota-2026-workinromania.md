@@ -1,5 +1,6 @@
 ---
 title: "Romania Work Permits 2026: 90,000 Quota for Non-EU Workers and the New WorkinRomania Portal"
+seoTitle: "Romania Work Permits 2026: 90,000 Quota & New Portal"
 description: "Romania will admit up to 90,000 new non-EU workers in 2026, mainly in construction, factories and hotels. Hiring now runs through the WorkinRomania portal."
 country: europe
 category: job-market
@@ -9,6 +10,20 @@ organization: Government of Romania / Ministry of Labour
 sourceUrl: https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/2026-work-and-secondment-permit-quota-announced
 sourceName: DLA Piper – Romania 2026 work and secondment permit quota announced
 tags: [romania jobs, romania work permit, romania work visa 2026, europe jobs, workinromania]
+keyPoints:
+  - "Romania set a quota of 90,000 work and secondment permits for non-EU workers in 2026, down from 100,000 in 2025."
+  - "65,040 permits had been issued by 15 July 2026."
+  - "Since 8 August 2026, all hiring of non-EU workers goes through the official WorkinRomania.gov.ro portal."
+  - "Some portal functions for D/AM2 visas were blocked after a September 2026 court suspension."
+faq:
+  - q: "How many work permits will Romania issue in 2026?"
+    a: "90,000 work and secondment permits for workers from outside the EU, EEA and Switzerland, under Government Decision 1169/2025."
+  - q: "Which jobs in Romania are open to foreign workers?"
+    a: "Mainly construction, industry and factory work, and hotels, restaurants and cafés."
+  - q: "How do I apply for a work permit in Romania?"
+    a: "A Romanian employer or licensed agency files the application on the official WorkinRomania.gov.ro portal. You then apply for a long-stay work visa and should receive a bilingual contract."
+  - q: "Is the WorkinRomania portal working?"
+    a: "Partly. After a Bucharest Court of Appeal suspension in September 2026, employer registration, authorisation and single applications for D/AM2 visas were deactivated, and were still blocked as of 21 October 2026."
 ---
 
 Romania has set a quota of **90,000 work and secondment permits for 2026** for workers from outside the EU, EEA and Switzerland. The limit was set by **Government Decision 1169/2025**, which took effect on 31 December 2025.

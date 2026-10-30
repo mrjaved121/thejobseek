@@ -1,5 +1,6 @@
 ---
 title: "Qatar Airways Cabin Crew Requirements 2026: Arm Reach, Education and Benefits"
+seoTitle: "Qatar Airways Cabin Crew Requirements 2026"
 description: "Qatar Airways asks cabin crew for a 212 cm arm reach, at least 10 years of schooling and fluent English, with accommodation and transport provided in Doha. Here are the official requirements."
 country: qatar
 category: private-jobs
@@ -10,6 +11,20 @@ sourceUrl: https://www.qatarairways.com/en/careers/customer-experience/cabin-cre
 sourceName: Qatar Airways – Cabin Crew Recruitment
 applyUrl: https://www.qatarairways.com/en/careers/customer-experience/cabin-crew-recruitment.html
 tags: [qatar airways cabin crew, doha jobs, airline jobs qatar, cabin crew requirements, qatar jobs]
+keyPoints:
+  - "Qatar Airways recruits cabin crew worldwide to be based in Doha."
+  - "Applicants need an arm reach of at least 212 cm, at least 10 years of schooling and fluent English."
+  - "Two or more years of customer-facing experience is preferred but not required."
+  - "Accommodation, transport, travel benefits and medical insurance are provided; the airline charges no recruitment fees."
+faq:
+  - q: "What are the requirements for Qatar Airways cabin crew?"
+    a: "An arm reach of at least 212 cm, at least 10 years of formal schooling, fluent written and spoken English, good health and willingness to move to Doha."
+  - q: "Do I need experience to become Qatar Airways cabin crew?"
+    a: "No. Two or more years in hospitality, customer service or aviation is preferred, but not required."
+  - q: "How do I apply for Qatar Airways cabin crew?"
+    a: "Use the 'Apply now' button on the official Qatar Airways cabin crew recruitment page, which leads to its careers site. Qatar Airways does not charge recruitment fees."
+  - q: "What benefits do Qatar Airways cabin crew get?"
+    a: "Company accommodation and transport in Doha, travel benefits for you and eligible family, international medical insurance, and training."
 ---
 
 **Qatar Airways** recruits cabin crew from around the world to be based in **Doha**. Here is what the airline asks for, based on its official cabin crew recruitment page.

@@ -1,5 +1,6 @@
 ---
 title: "H-1B $100,000 Fee: Extended to 2027 but Blocked by Courts, Not Being Collected"
+seoTitle: "H-1B $100,000 Fee Blocked by Courts, Not Collected"
 description: "The $100,000 H-1B entry fee was extended to September 2027, but federal court orders block it and USCIS is not collecting it. Here is where the fee stands in October 2026."
 country: usa
 category: visa-labour-law

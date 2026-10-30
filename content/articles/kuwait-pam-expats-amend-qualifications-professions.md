@@ -1,5 +1,6 @@
 ---
 title: "Kuwait Lets Expat Workers Correct Their Registered Qualification and Profession"
+seoTitle: "Kuwait Lets Expats Correct Profession on Work Permit"
 description: "Under Ministerial Circular No. 1 of 2026, Kuwait's Public Authority for Manpower allows expats to update their recorded qualification or job title to match the work they actually do."
 country: kuwait
 category: visa-labour-law
@@ -9,6 +10,18 @@ organization: Public Authority for Manpower (PAM), Kuwait
 sourceUrl: https://timeskuwait.com/kuwait-allows-expat-workers-to-amend-qualifications-and-professions/
 sourceName: Times Kuwait – reporting Ministerial Circular No. 1 of 2026
 tags: [kuwait jobs, pam kuwait, kuwait work permit, expat workers kuwait]
+keyPoints:
+  - "Kuwait's Public Authority for Manpower (PAM) now lets expats correct the qualification or profession on their work permit."
+  - "The change comes from Ministerial Circular No. 1 of 2026 and took effect on 2 June 2026."
+  - "The qualification, profession and actual job must be compatible with each other."
+  - "A mismatch can cause problems at residence renewal or when transferring to a new employer."
+faq:
+  - q: "Can expats in Kuwait change the profession on their work permit?"
+    a: "Yes. Since 2 June 2026, under Ministerial Circular No. 1 of 2026, expats can ask PAM to amend their registered qualification and/or profession so they match the job they actually do."
+  - q: "What are the conditions to change profession in Kuwait?"
+    a: "The qualification, profession and actual work must be compatible with each other, and the request must follow PAM's approved procedures."
+  - q: "How do I apply to correct my profession in Kuwait?"
+    a: "Speak to your employer's HR or PRO about applying through PAM and keep your attested certificates ready. Fees and documents were not set out in the announcement, so check PAM's official channels."
 ---
 
 Many expat workers in Kuwait have a job title or qualification on their work permit that does not match the work they actually do. Kuwait's **Public Authority for Manpower (PAM)** now allows these records to be corrected.

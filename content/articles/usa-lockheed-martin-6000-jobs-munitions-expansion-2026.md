@@ -1,5 +1,6 @@
 ---
 title: "Lockheed Martin Plans 6,000 New US Jobs, Including 2,000 in Texas"
+seoTitle: "Lockheed Martin Plans 6,000 New US Jobs"
 description: "Lockheed Martin says its munitions expansion will create 6,000 US jobs, 2,000 of them in Texas, with a $300 million upgrade at its Grand Prairie site."
 country: usa
 category: private-jobs

@@ -1,5 +1,6 @@
 ---
 title: "Australian Antarctic Program Hiring for 200+ Jobs: Apply by 31 October"
+seoTitle: "Australian Antarctic Program Hiring 200+: Apply by 31 Oct"
 description: "The Australian Antarctic Program is recruiting for more than 200 contracts for the 2027/28 season, from chefs to electricians and doctors. Applications close 31 October."
 country: australia
 category: govt-jobs

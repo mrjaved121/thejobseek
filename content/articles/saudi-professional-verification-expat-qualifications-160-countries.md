@@ -1,5 +1,6 @@
 ---
 title: "Saudi Professional Verification: How Expat Qualifications Are Checked Before You Arrive"
+seoTitle: "Saudi Professional Verification for Expat Qualifications"
 description: "Saudi Arabia's Professional Verification service checks skilled expat workers' degrees before they arrive. It covers 1,007 professions and 160 countries. Here is what to expect."
 country: saudi-arabia
 category: exams-results
@@ -9,6 +10,18 @@ organization: Saudi Ministry of Human Resources and Social Development (HRSD)
 sourceUrl: https://gulfnews.com/world/gulf/saudi/saudi-arabia-expands-professional-verification-programme-to-160-countries-1.500019969
 sourceName: Gulf News – reporting HRSD's Professional Verification programme
 tags: [saudi professional verification, saudi work visa, qualification check saudi, saudi engineering jobs, saudi jobs expats]
+keyPoints:
+  - "Saudi Arabia's Professional Verification service checks that skilled expat workers' qualifications are genuine and match their job."
+  - "It is run by HRSD with the Ministry of Foreign Affairs and covers 1,007 professions."
+  - "It applies to workers from 160 labour-sending countries, mainly managers, professionals and technicians."
+  - "It is separate from the practical skills test used for craft and trade jobs."
+faq:
+  - q: "What is Saudi Professional Verification?"
+    a: "An HRSD service, run with the Ministry of Foreign Affairs, that confirms an expat worker's academic qualifications are genuine and match the job they were hired for, often before they travel."
+  - q: "Which jobs need Professional Verification in Saudi Arabia?"
+    a: "1,007 professions, focused on occupation groups 1 to 3: managers, professionals such as engineers and health workers, and technicians."
+  - q: "Is Professional Verification the same as the Saudi skills test?"
+    a: "No. The skills test is a practical check for craft and trade jobs such as electricians and plumbers; Professional Verification checks degrees for skilled roles."
 ---
 
 If you are hired for a skilled job in Saudi Arabia, your degree may be checked **before you even travel**. That is the role of the **Professional Verification** service run by the **Ministry of Human Resources and Social Development (HRSD)** together with the Ministry of Foreign Affairs.

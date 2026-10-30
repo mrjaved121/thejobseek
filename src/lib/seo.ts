@@ -23,3 +23,18 @@ export function listOpenGraph(title: string, description: string, url: string, i
     ],
   };
 }
+
+/** Meta description of at most `max` characters: whole sentences if they fit, otherwise cut at a word with an ellipsis. */
+export function metaDescription(text: string, max = 158): string {
+  const t = text.trim();
+  if (t.length <= max) return t;
+  const sentences = t.match(/[^.!?]+[.!?]+/g) || [];
+  let out = "";
+  for (const s of sentences) {
+    if ((out + s).trim().length > max) break;
+    out += s;
+  }
+  if (out.trim().length >= 90) return out.trim();
+  const cut = t.slice(0, max - 1);
+  return cut.slice(0, cut.lastIndexOf(" ")).replace(/[,;:–-]\s*$/, "") + "…";
+}

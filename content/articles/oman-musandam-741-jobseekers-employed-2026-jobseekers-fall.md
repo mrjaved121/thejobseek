@@ -1,5 +1,6 @@
 ---
 title: "Oman: 741 Musandam Jobseekers Find Work in 2026 as Queue Shrinks"
+seoTitle: "Oman: 741 Musandam Jobseekers Find Work in 2026"
 description: "Musandam employed 741 Omani jobseekers from January to September 2026, cutting the number still looking for work by 9.7%. Tourism and ports are hiring."
 country: oman
 category: job-market

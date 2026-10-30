@@ -1,5 +1,6 @@
 ---
 title: "Sumitomo Electric Opens Highlands Cable Factory With Up to 250 Jobs"
+seoTitle: "Sumitomo Electric Highlands Cable Factory: 250 Jobs"
 description: "Sumitomo Electric's £350m subsea cable plant at Port of Nigg, Scotland, has opened and will create up to 250 direct jobs, with operator and technician roles open."
 country: uk
 category: private-jobs

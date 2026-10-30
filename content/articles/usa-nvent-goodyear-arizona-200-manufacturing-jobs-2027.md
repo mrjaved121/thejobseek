@@ -1,5 +1,6 @@
 ---
 title: "US Hiring 2026: nVent to Create 200+ Factory Jobs in Goodyear, Arizona"
+seoTitle: "nVent to Create 200+ Factory Jobs in Goodyear, Arizona"
 description: "US hiring 2026: nVent is opening a 400,000 sq ft plant in Goodyear, Arizona, that will employ more than 200 people when production starts in mid-2027."
 country: usa
 category: private-jobs

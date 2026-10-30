@@ -60,35 +60,35 @@
       "name": "UK",
       "flag": "🇬🇧",
       "enabled": true,
-      "title": "UK Jobs for Foreigners – Hiring News, Visa Sponsorship & Skilled Worker Updates",
+      "title": "UK Jobs for Foreigners: Visa Sponsorship & Hiring News",
       "description": "Latest UK job news for overseas and Gulf-based workers: companies hiring, jobs with visa sponsorship, Skilled Worker visa rules and job market updates."
     },
     "usa": {
       "name": "USA",
       "flag": "🇺🇸",
       "enabled": true,
-      "title": "USA Jobs for Foreigners – Hiring News, Visa Sponsorship & H-1B Updates",
+      "title": "USA Jobs for Foreigners: Hiring News & Visa Sponsorship",
       "description": "Latest US job news for overseas and Gulf-based workers: companies hiring, jobs with visa sponsorship, H-1B and USCIS updates."
     },
     "canada": {
       "name": "Canada",
       "flag": "🇨🇦",
       "enabled": true,
-      "title": "Canada Jobs for Foreigners – Hiring News, Express Entry & Work Permits",
+      "title": "Canada Jobs for Foreigners: Hiring News & Express Entry",
       "description": "Latest Canada job news for overseas and Gulf-based workers: companies hiring, jobs for foreigners, Express Entry draws and work permit updates."
     },
     "australia": {
       "name": "Australia",
       "flag": "🇦🇺",
       "enabled": true,
-      "title": "Australia Jobs for Foreigners – Hiring News & Visa Sponsorship Jobs",
+      "title": "Australia Jobs for Foreigners: Hiring & Visa Sponsorship",
       "description": "Latest Australia job news for overseas and Gulf-based workers: companies hiring, employer-sponsored jobs and skilled visa updates."
     },
     "europe": {
       "name": "Europe",
       "flag": "🇪🇺",
       "enabled": true,
-      "title": "Europe Jobs for Foreigners – Hiring in Germany, Ireland & EU Visa Sponsorship",
+      "title": "Europe Jobs for Foreigners: Germany, Ireland & EU Hiring",
       "description": "Latest Europe job news for overseas and Gulf-based workers: companies hiring in Germany, Ireland and across the EU, visa sponsorship and EU Blue Card updates."
     }
   },

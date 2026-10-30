@@ -1,5 +1,6 @@
 ---
 title: "Abu Dhabi Private Schools to Hire 2,000 Emirati Teachers in 5 Years"
+seoTitle: "Abu Dhabi Schools to Hire 2,000 Emirati Teachers"
 description: "Abu Dhabi will place 2,000 Emirati teachers in private schools over five years under a new Emiratisation policy, starting with Arabic, Islamic and Social Studies."
 country: uae
 category: private-jobs

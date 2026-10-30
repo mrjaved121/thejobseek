@@ -1,5 +1,6 @@
 ---
 title: "Saudi Skills Accelerator Aims to Train 300,000 Private Sector Workers"
+seoTitle: "Saudi Skills Accelerator to Train 300,000 Workers"
 description: "Saudi Arabia's Skills Accelerator targets 300,000 Saudi private sector workers with 590+ training programmes, and 44,000 have already joined AI courses."
 country: saudi-arabia
 category: job-market

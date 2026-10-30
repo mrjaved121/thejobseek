@@ -1,5 +1,6 @@
 ---
 title: "Canada Express Entry 2026 Sets a Record: 143,467 Invitations So Far"
+seoTitle: "Express Entry 2026 Record: 143,467 Invitations So Far"
 description: "Official IRCC data shows 62 Express Entry draws and 143,467 invitations to apply in 2026 up to 16 October, already more than any previous full year. CEC cut-offs have stayed between 507 and 523."
 country: canada
 category: visa-labour-law

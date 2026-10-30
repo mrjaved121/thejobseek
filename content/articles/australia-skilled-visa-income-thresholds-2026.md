@@ -1,5 +1,6 @@
 ---
 title: "Australia Skilled Visa Salary Thresholds for 2026-27: New Minimums Explained"
+seoTitle: "Australia Skilled Visa Salary Thresholds 2026-27"
 description: "Since 1 July 2026, the minimum salary for most Australian employer-sponsored visas is AUD 79,423, and AUD 146,576 for the Specialist Skills stream."
 country: australia
 category: visa-labour-law
@@ -9,6 +10,18 @@ organization: Australian Department of Home Affairs
 sourceUrl: https://immi.homeaffairs.gov.au/news-media/archive/article?itemId=1416
 sourceName: Australian Department of Home Affairs – news
 tags: [australia work visa, skills in demand visa, 482 visa, 186 visa, australia jobs]
+keyPoints:
+  - "Australia's employer-sponsored visa salary minimums rose on 1 July 2026."
+  - "The Core Skills Income Threshold is now AUD 79,423 and the Specialist Skills Income Threshold AUD 146,576."
+  - "The new figures apply to employer nominations lodged on or after 1 July 2026; existing visa holders are not affected."
+  - "The salary must also match what Australian workers in the same role earn."
+faq:
+  - q: "What is the minimum salary for an Australian work visa in 2026?"
+    a: "From 1 July 2026, the Core Skills Income Threshold (CSIT) is AUD 79,423 and the Specialist Skills Income Threshold (SSIT) is AUD 146,576. The TSMIT used for regional visas is also AUD 79,423."
+  - q: "Do the new salary thresholds affect people who already have a visa?"
+    a: "No. They apply only to employer nominations lodged on or after 1 July 2026. Existing visa holders and earlier nominations are not affected."
+  - q: "How often do Australia's visa salary thresholds change?"
+    a: "They are updated every year, usually on 1 July, so an offer made earlier may need a higher salary if the nomination is lodged after the change."
 ---
 
 If you are hoping to move to Australia on an employer-sponsored visa, your job offer must meet a minimum salary. These minimums are updated every year, and the current figures have applied since **1 July 2026**.

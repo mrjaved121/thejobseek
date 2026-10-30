@@ -1,5 +1,6 @@
 ---
 title: "OpenAI to Add 200 More Jobs in Dublin, Taking New Roles to 450"
+seoTitle: "OpenAI Adds 200 More Dublin Jobs, Taking Total to 450"
 description: "OpenAI will create 200 more jobs at its EU headquarters in Dublin, including engineers for a new Applied AI Lab, bringing new Irish roles to at least 450."
 country: europe
 category: private-jobs

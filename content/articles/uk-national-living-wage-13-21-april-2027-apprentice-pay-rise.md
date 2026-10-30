@@ -1,5 +1,6 @@
 ---
 title: "UK Minimum Wage Rises to £13.21: What UK Apprenticeships Pay From 2027"
+seoTitle: "UK Minimum Wage Rises to £13.21 in April 2027"
 description: "UK apprenticeships and low-paid jobs get a 3.9% pay rise: the National Living Wage hits £13.21 an hour and apprentice pay £8.31 from April 2027."
 country: uk
 category: job-market

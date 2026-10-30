@@ -1,5 +1,6 @@
 ---
 title: "Kuwait Studies Cap of 30–40% on One Nationality in Each Company"
+seoTitle: "Kuwait Studies 30–40% Cap on One Nationality per Firm"
 description: "Kuwait is reviewing a plan to limit any single nationality to 30–40% of a firm's staff, plus residency transfer options for domestic and project workers."
 country: kuwait
 category: job-market

@@ -1,5 +1,6 @@
 ---
 title: "Saudi Arabia Hotel Projects to Create 17,000+ Jobs in 5 Regions"
+seoTitle: "Saudi Hotel Projects to Create 17,000+ Jobs"
 description: "Saudi Arabia approved 19 hotel projects worth SR6.7 billion that are expected to create more than 17,000 jobs in Jeddah, Asir, Al-Ahsa, Al-Baha and the east."
 country: saudi-arabia
 category: private-jobs

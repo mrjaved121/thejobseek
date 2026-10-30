@@ -15,6 +15,7 @@ export type Article = {
   updated?: string; // ISO
   organization?: string;
   lastDate?: string; // application deadline, ISO date
+  seoTitle?: string; // short title (≤60 chars) for the <title> tag; the full headline stays as the H1
   applyUrl?: string; // official careers page / application link (employer or government only)
   applyEmail?: string; // employer job posts: where candidates send CVs
   jobPost?: boolean; // a job ad submitted directly by the hiring employer
@@ -55,6 +56,7 @@ export function getAllArticles(): Article[] {
       return {
         slug: file.replace(/\.md$/, ""),
         title: String(data.title),
+        seoTitle: data.seoTitle ? String(data.seoTitle) : undefined,
         description: String(data.description),
         country,
         category: String(data.category),

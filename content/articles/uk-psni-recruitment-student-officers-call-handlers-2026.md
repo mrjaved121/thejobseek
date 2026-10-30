@@ -1,5 +1,6 @@
 ---
 title: "PSNI Is Recruiting: Student Officer Jobs at £35k, Apply by 30 Nov"
+seoTitle: "PSNI Recruiting Student Officers at £35k: Apply by 30 Nov"
 description: "The Police Service of Northern Ireland is recruiting student officers on about £35k, plus call handlers and admin staff. Officer applications close 30 November 2026."
 country: uk
 category: govt-jobs

@@ -1,5 +1,6 @@
 ---
 title: "Audi to Create 4,500 Jobs at Its First US Car Plant in Georgia"
+seoTitle: "Audi to Create 4,500 Jobs at First US Plant in Georgia"
 description: "Audi will invest about $4 billion in its first US factory at the Middle Georgia Megasite, creating around 4,500 jobs building SUVs, with training starting early."
 country: usa
 category: private-jobs

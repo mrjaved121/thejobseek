@@ -1,5 +1,6 @@
 ---
 title: "Jadarat: How to Apply for Saudi Government and Private Sector Jobs"
+seoTitle: "Jadarat: How to Apply for Saudi Government Jobs"
 description: "Jadarat is Saudi Arabia's unified national employment platform for public and private sector jobs. It is for Saudi nationals. Here is how to register with Nafath and apply."
 country: saudi-arabia
 category: govt-jobs
@@ -10,6 +11,20 @@ sourceUrl: https://www.hrdf.org.sa/en/products-and-services/programs/individuals
 sourceName: HRDF – Jadarat, the Unified National Employment Platform
 applyUrl: https://www.hrdf.org.sa/en/products-and-services/programs/individuals/other/jadarat/
 tags: [jadarat, saudi government jobs, hrdf, nafath, saudi jobs]
+keyPoints:
+  - "Jadarat is Saudi Arabia's official job platform for government and private sector vacancies, run by HRDF."
+  - "Only Saudi nationals can apply; expat workers cannot use it to apply."
+  - "Users register through Nafath with their national ID and must verify qualifications before applying for government jobs."
+  - "Applying on Jadarat is free; HRDF's support number is 8001222030."
+faq:
+  - q: "What is Jadarat?"
+    a: "Saudi Arabia's official job platform for government and private sector vacancies, run by the Human Resources Development Fund (HRDF). It replaced the older Jadara system."
+  - q: "Can expats apply for jobs on Jadarat?"
+    a: "No. Jadarat job seekers must be Saudi nationals and the jobs are reserved for Saudi citizens."
+  - q: "How do I register on Jadarat?"
+    a: "Choose 'New User', log in through Nafath with your national ID, complete your profile and verify your email and mobile number."
+  - q: "Do I need to pay to apply on Jadarat?"
+    a: "No. Applying on Jadarat is free, so never pay anyone to submit an application."
 ---
 
 **Jadarat** is Saudi Arabia's official job platform for both **government and private sector** vacancies. It is run by the **Human Resources Development Fund (HRDF)** and replaced the older Jadara system. Most Saudi public sector jobs are advertised here.

@@ -1,5 +1,6 @@
 ---
 title: "Amazon UK Pledges 30,000 Jobs for Young People by 2030, No CV Needed"
+seoTitle: "Amazon UK Pledges 30,000 Jobs for Young People"
 description: "Amazon's UK Youth Promise offers 30,000 entry-level jobs paying over £31,000 a year to young people by 2030, with no CV or experience required."
 country: uk
 category: private-jobs

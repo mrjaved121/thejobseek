@@ -1,5 +1,6 @@
 ---
 title: "British Airways Opens 2027 Apprenticeships Paying Up to £27,611"
+seoTitle: "British Airways 2027 Apprenticeships Pay Up to £27,611"
 description: "British Airways has opened applications for 2027 apprenticeships in engineering, business and data science at Heathrow, Gatwick, Glasgow and Cardiff."
 country: uk
 category: private-jobs

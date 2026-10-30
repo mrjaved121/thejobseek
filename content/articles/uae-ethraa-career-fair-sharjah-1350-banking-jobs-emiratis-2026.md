@@ -1,5 +1,6 @@
 ---
 title: "Ethraa Career Fair Sharjah: 1,350+ Banking and Finance Jobs for Emiratis"
+seoTitle: "Ethraa Career Fair Sharjah: 1,350+ Banking Jobs"
 description: "Over 70 banks, insurers and finance firms are offering more than 1,350 jobs to UAE nationals at the Ethraa Career Fair 2026 at Expo Centre Sharjah."
 country: uae
 category: private-jobs

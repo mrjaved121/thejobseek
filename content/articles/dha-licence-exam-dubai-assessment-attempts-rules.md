@@ -1,5 +1,6 @@
 ---
 title: "DHA Licence Exam for Dubai: How the CBT and Oral Assessment Work, and the 3-Attempt Rule"
+seoTitle: "DHA Licence Exam Dubai: CBT, Oral Test and 3 Attempts"
 description: "Healthcare professionals need to pass a Dubai Health Authority assessment to get licensed. Here is how the Prometric CBT and oral exam work, the attempt limits and when results arrive."
 country: uae
 category: exams-results

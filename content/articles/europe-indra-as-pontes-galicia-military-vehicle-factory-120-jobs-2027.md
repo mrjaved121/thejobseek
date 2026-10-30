@@ -1,5 +1,6 @@
 ---
 title: "Indra Opens Military Vehicle Plant in Spain With Up to 120 Jobs"
+seoTitle: "Indra Opens Spain Military Vehicle Plant: 120 Jobs"
 description: "Europe jobs for foreigners and locals: Indra's new €18m vehicle factory in As Pontes, Galicia, will create 70 to 120 skilled jobs from 2027."
 country: europe
 category: private-jobs

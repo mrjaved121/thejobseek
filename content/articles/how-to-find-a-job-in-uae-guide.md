@@ -1,5 +1,6 @@
 ---
 title: "How to Find a Job in the UAE in 2026: Visas, Official Portals and Applying Safely"
+seoTitle: "How to Find a Job in the UAE in 2026: Complete Guide"
 description: "A step-by-step guide to finding a job in Dubai and the UAE: which visa to use for your job search, where government and airline jobs are posted, licensing for health workers, and how to avoid scams."
 country: uae
 category: guides

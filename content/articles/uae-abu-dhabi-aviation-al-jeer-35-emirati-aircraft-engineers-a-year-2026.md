@@ -1,5 +1,6 @@
 ---
 title: "Abu Dhabi Aviation to Train 35 Emirati Engineers a Year: Airline Jobs UAE"
+seoTitle: "Abu Dhabi Aviation to Train 35 Emirati Engineers a Year"
 description: "Airline jobs UAE: Abu Dhabi Aviation Group's Al Jeer programme will take 35 Emirati students a year, employed from day one as aircraft engineers in training."
 country: uae
 category: private-jobs

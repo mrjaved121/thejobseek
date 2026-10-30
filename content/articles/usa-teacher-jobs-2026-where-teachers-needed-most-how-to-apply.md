@@ -1,5 +1,6 @@
 ---
 title: "USA Teacher Jobs 2026: Where Teachers Are Needed Most and How to Apply"
+seoTitle: "USA Teacher Jobs 2026: Where Needed & How to Apply"
 description: "US schools are short of teachers in Arizona, Mississippi, Illinois, Nevada, Florida, Texas and more. See where teaching jobs are open, what they pay and how to apply."
 country: usa
 category: govt-jobs

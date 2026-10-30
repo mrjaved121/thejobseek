@@ -1,5 +1,6 @@
 ---
 title: "Saudi Arabia Reserves 69 More Admin Jobs for Saudis: What Expats Should Know"
+seoTitle: "Saudi Arabia Reserves 69 More Admin Jobs for Saudis"
 description: "Secretarial, translation, data entry and administrative support roles in 69 professions are now 100% Saudized in the private sector. Here is what that means for expat job seekers."
 country: saudi-arabia
 category: visa-labour-law
@@ -9,6 +10,18 @@ organization: Saudi Ministry of Human Resources and Social Development (HRSD)
 sourceUrl: https://www.spa.gov.sa/en/N2553750
 sourceName: Saudi Press Agency (official)
 tags: [saudization, saudi jobs, hrsd, admin jobs saudi arabia, expat jobs]
+keyPoints:
+  - "Saudi Arabia has reserved 69 administrative support professions for Saudi nationals in the private sector."
+  - "The rule took effect on 5 April 2026, and all 69 professions have been in force since 4 October 2026."
+  - "It covers roles such as secretarial work, translation, data entry and general administrative support."
+  - "It applies to every private establishment with one or more workers in these professions."
+faq:
+  - q: "Which jobs are reserved for Saudis in 2026?"
+    a: "69 administrative support professions, including secretarial, translation, data entry and general administrative roles, under HRSD's Saudization rules."
+  - q: "When did the 69 Saudized professions take effect?"
+    a: "On 5 April 2026. Nineteen applied immediately and the other 50 followed on 4 October 2026 after a six-month grace period."
+  - q: "Can expats still get office jobs in Saudi Arabia?"
+    a: "Not in the 69 Saudized administrative professions. Many skilled, technical and specialist roles remain open to foreign workers."
 ---
 
 If you are looking for an office or administrative job in Saudi Arabia, check the latest Saudization rules first. The Ministry of Human Resources and Social Development (HRSD) has added **69 administrative support professions** to the list of jobs that must be done **only by Saudi nationals** in the private sector.

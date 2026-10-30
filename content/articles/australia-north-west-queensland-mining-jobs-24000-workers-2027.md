@@ -1,5 +1,6 @@
 ---
 title: "Mining Jobs Boom in North West Queensland as Copper Mines Restart"
+seoTitle: "Mining Jobs Boom in North West Queensland as Mines Restart"
 description: "North West Queensland copper mines are struggling to find staff, with 24,000 new resources workers needed nationally by 2027. Engineers and trades lead demand."
 country: australia
 category: job-market

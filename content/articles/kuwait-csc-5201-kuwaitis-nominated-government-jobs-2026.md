@@ -1,5 +1,6 @@
 ---
 title: "Kuwait CSC Nominates 5,201 Kuwaitis for Jobs at 33 Government Bodies"
+seoTitle: "Kuwait CSC Nominates 5,201 Kuwaitis for Government Jobs"
 description: "Kuwait's Civil Service Commission has nominated 5,201 Kuwaiti men and women for government jobs at 33 entities through the Central Employment System."
 country: kuwait
 category: govt-jobs

@@ -12,6 +12,7 @@ import JsonLd from "@/components/JsonLd";
 import SectionLabel from "@/components/SectionLabel";
 import { getAllArticles, getArticle, getRelated, articlePath, formatDate, formatDateTime, sourceDomain } from "@/lib/articles";
 import { getAuthor } from "@/lib/authors";
+import { metaDescription } from "@/lib/seo";
 import { isClosed } from "@/lib/jobs";
 import AuthorAvatar from "@/components/AuthorAvatar";
 import { articleSchema, faqSchema } from "@/lib/schema";
@@ -32,15 +33,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const author = getAuthor(a.author);
   return {
     // Keep the brand suffix only when it still fits in ~60 characters (avoids truncated titles in Google).
-    title: a.title.length + ` | ${SITE.name}`.length <= 60 ? a.title : { absolute: a.title },
-    description: a.description,
+    title: (() => {
+      const t = a.seoTitle || a.title;
+      return t.length + ` | ${SITE.name}`.length <= 60 ? t : { absolute: t };
+    })(),
+    description: metaDescription(a.description),
     keywords: a.tags,
     authors: [{ name: author.name, url: `${SITE.url}/author/${author.id}/` }],
     alternates: { canonical: articlePath(a) },
     openGraph: {
       type: "article",
       title: a.title,
-      description: a.description,
+      description: metaDescription(a.description, 200),
       url: articlePath(a),
       publishedTime: a.date,
       modifiedTime: a.updated || a.date,

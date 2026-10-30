@@ -1,5 +1,6 @@
 ---
 title: "Saudi Arabia: Expat Work Permit Correction Deadline Ends With 2026"
+seoTitle: "Saudi Work Permit Correction Deadline: End of 2026"
 description: "Saudi Arabia's HRSD has given employers until the end of 2026 to fix the status of expat workers whose permits expired over a year ago or were never issued."
 country: saudi-arabia
 category: visa-labour-law
@@ -9,6 +10,18 @@ organization: Saudi Ministry of Human Resources and Social Development (HRSD)
 sourceUrl: https://www.argaam.com/en/article/articledetail/id/1916541
 sourceName: Argaam – reporting an HRSD statement
 tags: [saudi work permit, iqama, hrsd, saudi jobs, expat workers saudi]
+keyPoints:
+  - "Saudi Arabia's HRSD has extended a grace period until the end of 2026 to correct certain expat workers' status."
+  - "It covers workers whose work permit expired more than 12 months ago, or who joined more than six months ago without a permit."
+  - "Employers must renew expired permits and issue missing ones before the deadline."
+  - "Cases not corrected after the deadline face legal and regulatory action."
+faq:
+  - q: "What is the Saudi work permit correction deadline?"
+    a: "The end of 2026. HRSD extended the grace period for renewing expired work permits and issuing missing ones until then."
+  - q: "Which workers are covered by the Saudi work permit grace period?"
+    a: "Expat workers whose work permit expired more than 12 months ago, and those who joined their employer more than six months ago but never had a permit issued."
+  - q: "What should I do if my Saudi work permit has expired?"
+    a: "Check your status in the official government apps or with HR, and ask your employer in writing to correct it before the end of 2026."
 ---
 
 Saudi Arabia's Ministry of Human Resources and Social Development (HRSD) has extended a grace period for fixing the status of certain expatriate workers **until the end of 2026**. With about ten weeks left in the year, affected workers and employers should act now.

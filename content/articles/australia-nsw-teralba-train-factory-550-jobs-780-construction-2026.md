@@ -1,5 +1,6 @@
 ---
 title: "NSW Train Factory at Teralba to Bring 550 Ongoing and 780 Building Jobs"
+seoTitle: "NSW Teralba Train Factory: 550 Jobs + 780 Building Jobs"
 description: "NSW has picked Teralba in the Hunter as its preferred site for a state-owned train factory, expected to support 550 ongoing jobs and up to 780 construction jobs."
 country: australia
 category: job-market

@@ -1,5 +1,6 @@
 ---
 title: "Italy Work Visas 2026-2028: 497,550 Quota, 2027 Click Days and How to Avoid Scams"
+seoTitle: "Italy Work Visas 2026-2028: Quota and 2027 Click Days"
 description: "Italy's decreto flussi allows 497,550 non-EU workers over 2026-2028, including 164,850 in 2026. Pre-filling for 2027 runs 23 October to 7 December 2026, and only employers can apply."
 country: europe
 category: visa-labour-law

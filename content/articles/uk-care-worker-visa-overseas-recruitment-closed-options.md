@@ -1,5 +1,6 @@
 ---
 title: "UK Care Worker Visa Closed to Overseas Applicants: What Options Are Left?"
+seoTitle: "UK Care Worker Visa Closed Overseas: Options Left"
 description: "Since 22 July 2025, UK employers cannot sponsor care workers from abroad. Workers already in the UK can still switch until 22 July 2028 if they meet strict conditions."
 country: uk
 category: visa-labour-law

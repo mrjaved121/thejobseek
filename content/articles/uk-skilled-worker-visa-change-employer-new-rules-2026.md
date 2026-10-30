@@ -1,5 +1,6 @@
 ---
 title: "UK Skilled Worker Visa: Can You Now Change Employer Freely? What the New Rules Really Say"
+seoTitle: "UK Skilled Worker Visa: Can You Change Employer Freely?"
 description: "Viral posts say UK skilled workers are no longer tied to their sponsor. The October 2026 change only frees recognised modern slavery victims. Here is the real rule, and how to change employer legally."
 country: uk
 category: visa-labour-law

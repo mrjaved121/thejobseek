@@ -1,5 +1,6 @@
 ---
 title: "Bahrain Draft Law Would Reserve Private Security Jobs for Bahrainis"
+seoTitle: "Bahrain Draft Law Reserves Security Jobs for Bahrainis"
 description: "A new draft law sent to Bahrain's parliament would make private security guard jobs Bahraini-only, with expats allowed only as a temporary exception."
 country: bahrain
 category: job-market

@@ -1,5 +1,6 @@
 ---
 title: "Pratt & Whitney Builds $100m Plant in Poland, Creating 120+ Jobs"
+seoTitle: "Pratt & Whitney $100m Poland Plant: 120+ Jobs"
 description: "Jobs in Poland: Pratt & Whitney has started building a $100 million engine parts plant in Rzeszów that will create more than 120 jobs by 2028."
 country: europe
 category: private-jobs

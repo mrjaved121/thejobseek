@@ -1,5 +1,6 @@
 ---
 title: "Etihad Cabin Crew Jobs 2026: Requirements and Recruitment Days Through December"
+seoTitle: "Etihad Cabin Crew Jobs 2026: Requirements & Open Days"
 description: "Etihad Airways is holding cabin crew recruitment days from 27 October to 15 December 2026, including Abu Dhabi on 26 November. Here are the official requirements and how selection works."
 country: uae
 category: private-jobs

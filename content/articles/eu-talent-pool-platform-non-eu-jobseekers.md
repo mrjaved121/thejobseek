@@ -1,5 +1,6 @@
 ---
 title: "EU Talent Pool: New Platform to Match Non-EU Job Seekers With European Employers"
+seoTitle: "EU Talent Pool: Jobs Platform for Non-EU Job Seekers"
 description: "The EU has adopted Regulation (EU) 2026/1047 creating the EU Talent Pool, a platform where non-EU workers can register and be found by employers. Here is how it will work."
 country: europe
 category: visa-labour-law
@@ -9,6 +10,20 @@ organization: European Union
 sourceUrl: https://fasi.eu/en/articles/news/29399-eu-talent-pool-how-the-platform-for-recruiting-non-eu-workers-works.html
 sourceName: FASI – reporting Regulation (EU) 2026/1047 on the EU Talent Pool
 tags: [europe jobs, eu talent pool, work in europe, eu work visa, non-eu workers]
+keyPoints:
+  - "The EU Talent Pool is an online platform to match non-EU job seekers with employers in participating EU countries."
+  - "It was created by Regulation (EU) 2026/1047, in force since 1 June 2026, and is expected to be fully running by the end of 2027."
+  - "EU countries can choose whether to take part."
+  - "The platform does not give you a visa; you still need a work permit in the hiring country."
+faq:
+  - q: "What is the EU Talent Pool?"
+    a: "An EU-wide online platform where adult non-EU job seekers can create a profile with their skills and experience, and employers in participating EU countries can search and contact them, mainly for shortage jobs."
+  - q: "When will the EU Talent Pool open?"
+    a: "The regulation entered into force on 1 June 2026, and the European Commission expects the platform to be fully running by the end of 2027."
+  - q: "Does the EU Talent Pool give me a work visa?"
+    a: "No. If an employer hires you, you still need to apply for a work permit or visa in that country under its normal rules."
+  - q: "Do I have to pay to register in the EU Talent Pool?"
+    a: "Register only on official EU and government websites. Anyone charging a fee to register you is likely a scam."
 ---
 
 The European Union is building an online platform to help people from outside the EU find jobs in Europe. Called the **EU Talent Pool**, it was created by **Regulation (EU) 2026/1047**, which entered into force on **1 June 2026**.

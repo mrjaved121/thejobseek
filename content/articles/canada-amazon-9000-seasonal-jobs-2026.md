@@ -1,5 +1,6 @@
 ---
 title: "Amazon Canada Is Hiring 9,000 Seasonal Workers at Nearly $24 an Hour"
+seoTitle: "Amazon Canada Hiring 9,000 Seasonal Workers at ~$24/Hour"
 description: "Amazon is hiring about 9,000 seasonal workers at 55 sites across Canada for the 2026 holidays, paying an average of nearly $24 an hour. Here's how to apply."
 country: canada
 category: private-jobs

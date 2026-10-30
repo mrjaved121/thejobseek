@@ -1,5 +1,6 @@
 ---
 title: "Saudi Training Visa for International Trainees: What We Know, Plus the Overstay Rules"
+seoTitle: "Saudi Training Visa for International Trainees"
 description: "Saudi Arabia's Cabinet approved a new training visa for international trainees on 14 July 2026. Details are still pending. Separately, overstayers face fines of up to SAR 50,000, jail and deportation."
 country: saudi-arabia
 category: visa-labour-law

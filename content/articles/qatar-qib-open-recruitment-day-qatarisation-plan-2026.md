@@ -1,5 +1,6 @@
 ---
 title: "Qatar Steps Up Qatarisation: Bank Recruitment Day and Plan Talks"
+seoTitle: "Qatar Qatarisation: QIB Recruitment Day and Plan"
 description: "Qatar's Labour Ministry held an open recruitment day with QIB for Qatari graduates and is consulting state firms on its private sector nationalisation plan."
 country: qatar
 category: govt-jobs

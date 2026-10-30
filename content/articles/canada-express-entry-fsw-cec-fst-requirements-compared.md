@@ -1,5 +1,6 @@
 ---
 title: "Canada Express Entry: FSW vs CEC vs FST Requirements Compared"
+seoTitle: "Express Entry: FSW vs CEC vs FST Requirements Compared"
 description: "Canada's three Express Entry programs have different rules. FSW needs CLB 7 and 1 year of skilled work; CEC needs 1 year of Canadian experience; FST needs a job offer or trade certificate."
 country: canada
 category: visa-labour-law

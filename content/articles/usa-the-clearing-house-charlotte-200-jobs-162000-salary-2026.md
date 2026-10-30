@@ -1,5 +1,6 @@
 ---
 title: "The Clearing House Opens Charlotte Office: 200 Jobs Paying $162k"
+seoTitle: "The Clearing House: 200 Charlotte Jobs Paying $162k"
 description: "USA jobs for foreigners and locals in finance: The Clearing House will add 200 Charlotte jobs with an average salary of $162,322 at a new office."
 country: usa
 category: private-jobs

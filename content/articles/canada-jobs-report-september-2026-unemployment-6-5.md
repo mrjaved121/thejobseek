@@ -1,5 +1,6 @@
 ---
 title: "Canada Lost 68,000 Jobs in September; Unemployment Rises to 6.5%"
+seoTitle: "Canada Lost 68,000 Jobs in September; Unemployment 6.5%"
 description: "Statistics Canada's September 2026 Labour Force Survey shows a second monthly fall in jobs, losses in education and health care, and gains in Alberta."
 country: canada
 category: job-market
@@ -9,6 +10,18 @@ organization: Statistics Canada
 sourceUrl: https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm
 sourceName: Statistics Canada – The Daily, Labour Force Survey, September 2026
 tags: [canada jobs, canada job market, canada unemployment, express entry, work in canada]
+keyPoints:
+  - "Canada lost 68,000 jobs in September 2026 and unemployment rose to 6.5%, according to Statistics Canada."
+  - "It was the second monthly fall in a row, after 42,000 jobs were lost in August."
+  - "Education, health care and manufacturing lost the most jobs; Alberta added 23,000."
+  - "Average hourly wages were $37.64, up 2.3% on a year earlier."
+faq:
+  - q: "What was Canada's unemployment rate in September 2026?"
+    a: "6.5%, up 0.1 points, according to Statistics Canada's Labour Force Survey released on 9 October 2026."
+  - q: "Which Canadian province added the most jobs in September 2026?"
+    a: "Alberta, which added 23,000 jobs, and its unemployment rate fell to 6.4%."
+  - q: "Which sectors lost jobs in Canada in September 2026?"
+    a: "Educational services (−35,000), health care and social assistance (−23,000) and manufacturing (−13,000)."
 ---
 
 Canada's job market weakened for a second straight month. According to **Statistics Canada's Labour Force Survey**, released on **9 October 2026**, employment fell by **68,000** in September and the unemployment rate rose to **6.5%**.

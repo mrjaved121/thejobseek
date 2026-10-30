@@ -1,5 +1,6 @@
 ---
 title: "UK Immigration Rule Changes from 8 October 2026: What Workers and Visitors Should Know"
+seoTitle: "UK Immigration Rule Changes from 8 October 2026"
 description: "The UK's latest Statement of Changes (HC 584) takes effect mainly from 8 October 2026, with new visitor activities, Skilled Worker updates and higher student maintenance funds from 30 November."
 country: uk
 category: visa-labour-law
@@ -9,6 +10,18 @@ organization: UK Home Office
 sourceUrl: https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026
 sourceName: GOV.UK – Statement of changes to the Immigration Rules HC 584
 tags: [uk visa, uk immigration rules, skilled worker visa, uk visitor visa, uk student visa]
+keyPoints:
+  - "The UK's Statement of Changes HC 584 was published on 3 September 2026; most changes started on 8 October 2026."
+  - "Skilled Workers recognised as modern slavery victims are no longer tied to their sponsor."
+  - "There are no changes to Skilled Worker salary thresholds or English requirements in this statement."
+  - "Student maintenance funds rise from 30 November 2026, and visitors can do more permitted activities."
+faq:
+  - q: "What changed in the UK immigration rules on 8 October 2026?"
+    a: "Most changes in Statement of Changes HC 584 started that day, covering Skilled Worker, visitor, student and settlement routes, including more permitted activities for visitors."
+  - q: "Did the UK change Skilled Worker salary thresholds in October 2026?"
+    a: "No. HC 584 made no changes to salary thresholds or English language requirements. The B2 English level started on 8 January 2026."
+  - q: "How much money do UK students need from 30 November 2026?"
+    a: "The monthly living-cost requirement rises from £1,529 to £1,570 in one category and from £1,171 to £1,203 in the other."
 ---
 
 The UK Home Office published a new Statement of Changes to the Immigration Rules, known as **HC 584**, on 3 September 2026. Most of the changes started on **8 October 2026**. A few take effect later in the year.

@@ -1,5 +1,6 @@
 ---
 title: "Boom Supersonic Hiring Up to 500 in Colorado: USA Jobs for Foreigners"
+seoTitle: "Boom Supersonic Hiring Up to 500 in Colorado"
 description: "USA jobs for foreigners and locals: Boom Supersonic's $150m turbine factory in Centennial, Colorado will create up to 500 engineering and machinist jobs."
 country: usa
 category: private-jobs

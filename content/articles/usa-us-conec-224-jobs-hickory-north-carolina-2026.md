@@ -1,5 +1,6 @@
 ---
 title: "US Conec to Add 224 Jobs in Hickory, NC, Paying About $57,000"
+seoTitle: "US Conec to Add 224 Jobs in Hickory, NC"
 description: "Fibre optic connector maker US Conec will create 224 jobs averaging $56,982 a year at a new $149.7m plant in Hickory, North Carolina."
 country: usa
 category: private-jobs

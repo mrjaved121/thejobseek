@@ -1,5 +1,6 @@
 ---
 title: "US Job Postings Rise 2.8% in a Year: Engineering and Health Care Lead"
+seoTitle: "US Job Postings Up 2.8%: Engineering and Health Lead"
 description: "Indeed data shows US job postings up 2.8% on last year, with engineering, health care and data centre roles leading. Where job seekers should look now."
 country: usa
 category: job-market

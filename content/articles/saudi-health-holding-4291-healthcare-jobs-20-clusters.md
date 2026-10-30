@@ -1,5 +1,6 @@
 ---
 title: "Saudi Arabia Opens 4,291 Healthcare Jobs Across 20 Health Clusters"
+seoTitle: "Saudi Arabia Opens 4,291 Healthcare Jobs in 20 Clusters"
 description: "Saudi Arabia's Health Holding Company has announced 4,291 new healthcare vacancies across its 20 health clusters, aimed at Saudi practitioners. Each cluster gives 15 days to apply."
 country: saudi-arabia
 category: govt-jobs
@@ -9,6 +10,18 @@ organization: Health Holding Company (Saudi Arabia)
 sourceUrl: https://gulfnews.com/world/gulf/saudi/saudi-arabia-announces-4291-healthcare-jobs-across-20-health-clusters-1.500716293
 sourceName: Gulf News – reporting Health Holding Company's announcement
 tags: [saudi jobs, healthcare jobs saudi arabia, nursing jobs saudi, saudi health clusters, saudization]
+keyPoints:
+  - "Saudi Arabia's Health Holding Company announced 4,291 healthcare vacancies across its 20 health clusters on 19 October 2026."
+  - "The jobs are aimed at Saudi healthcare practitioners."
+  - "Applications are made online through each cluster's recruitment portal, within 15 days of its announcement."
+  - "Total healthcare hiring by the company in 2026 reaches 19,610."
+faq:
+  - q: "How many healthcare jobs did Saudi Health Holding announce?"
+    a: "4,291 vacancies across all 20 health clusters, announced on 19 October 2026."
+  - q: "Can expats apply for the Health Holding vacancies?"
+    a: "These openings are aimed at Saudi healthcare practitioners. Expats should look at specialist and private-sector roles that remain open to foreign professionals."
+  - q: "How do I apply for the Saudi health cluster jobs?"
+    a: "Apply online through your region's health cluster recruitment portal within 15 days of that cluster's announcement."
 ---
 
 Saudi Arabia's state-owned **Health Holding Company** has announced **4,291 new healthcare vacancies** spread across its **20 health clusters**. The company runs public hospitals and clinics through these regional clusters around the Kingdom. The announcement was made on **19 October 2026**.

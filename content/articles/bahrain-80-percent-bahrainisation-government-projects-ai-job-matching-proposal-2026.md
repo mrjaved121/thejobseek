@@ -1,5 +1,6 @@
 ---
 title: "Bahrain MPs Push 80% Bahrainisation for Firms on State Projects"
+seoTitle: "Bahrain MPs Push 80% Bahrainisation on State Projects"
 description: "Bahrain's parliament will debate requiring 80% Bahraini staff at firms on government projects, plus an AI system to match Bahrainis with job vacancies."
 country: bahrain
 category: job-market

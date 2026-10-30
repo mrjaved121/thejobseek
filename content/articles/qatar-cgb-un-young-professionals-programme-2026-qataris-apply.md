@@ -1,5 +1,6 @@
 ---
 title: "Young Qataris Invited to Join UN Careers Scheme: Qatar Government Jobs"
+seoTitle: "Young Qataris Invited to Join UN Careers Scheme"
 description: "Qatar government jobs news: the Civil Service Bureau invites young Qataris to apply for the UN Young Professionals Programme 2026 exam before November ends."
 country: qatar
 category: govt-jobs

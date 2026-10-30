@@ -1,5 +1,6 @@
 ---
 title: "Saudi Accounting Saudization Rises to 50% on 27 October 2026: What Expat Accountants Should Know"
+seoTitle: "Saudi Accounting Saudization Rises to 50% From 27 Oct"
 description: "From 27 October 2026, Saudi private firms with five or more accounting staff must have 50% Saudis in accounting roles, up from 40%. The target reaches 70% by 2028."
 country: saudi-arabia
 category: visa-labour-law

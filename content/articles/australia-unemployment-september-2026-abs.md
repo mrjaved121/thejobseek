@@ -1,5 +1,6 @@
 ---
 title: "Australia's Unemployment Rate Holds at 4.7% as Jobs Dip in September"
+seoTitle: "Australia Unemployment Holds at 4.7% in September 2026"
 description: "ABS figures released on 15 October 2026 show employment fell by 39,300 in September, but full-time jobs rose by 34,400. Here is what it means for skilled migrants."
 country: australia
 category: job-market
@@ -9,6 +10,18 @@ organization: Australian Bureau of Statistics (ABS)
 sourceUrl: https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release
 sourceName: ABS – Labour Force, Australia, September 2026
 tags: [australia jobs, australia unemployment, australia job market, skilled visa, work in australia]
+keyPoints:
+  - "Australia's seasonally adjusted unemployment rate was 4.7% in September 2026, according to the ABS."
+  - "Total employment fell by 39,300, but full-time jobs rose by 34,400."
+  - "The fall came entirely from part-time work, which dropped by 73,700."
+  - "Employer-sponsored, full-time roles remain the main route for skilled migrants."
+faq:
+  - q: "What was Australia's unemployment rate in September 2026?"
+    a: "4.7% (seasonally adjusted), according to the Australian Bureau of Statistics release of 15 October 2026."
+  - q: "Are full-time jobs still growing in Australia?"
+    a: "Yes. Full-time employment rose by 34,400 in September 2026, while part-time employment fell by 73,700."
+  - q: "What does this mean for people who want to work in Australia?"
+    a: "Full-time, employer-sponsored roles are holding up, but expect more competition for part-time and casual work. Check that any job offer meets the current visa salary threshold."
 ---
 
 Australia's labour market eased slightly in September. The **Australian Bureau of Statistics (ABS)** reported on **15 October 2026** that the seasonally adjusted unemployment rate was **4.7%**.

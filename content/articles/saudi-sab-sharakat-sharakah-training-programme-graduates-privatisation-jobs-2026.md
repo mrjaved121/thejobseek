@@ -1,5 +1,6 @@
 ---
 title: "SAB Backs Sharakah Programme for Saudi Graduates: Jobs in Saudi Arabia"
+seoTitle: "SAB Backs Sharakah Programme for Saudi Graduates"
 description: "Jobs in Saudi Arabia: SAB and Sharakat sign a deal to train Saudi graduates for careers in privatisation and public-private partnership projects."
 country: saudi-arabia
 category: job-market

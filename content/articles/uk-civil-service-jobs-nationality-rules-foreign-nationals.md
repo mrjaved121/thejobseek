@@ -1,5 +1,6 @@
 ---
 title: "Can Foreign Nationals Get UK Civil Service Jobs? The Nationality Rules Explained"
+seoTitle: "UK Civil Service Jobs for Foreign Nationals: Rules"
 description: "About 75% of UK Civil Service jobs are open to Commonwealth citizens and EEA nationals. The rest are reserved for UK nationals. Here is how the nationality rules work."
 country: uk
 category: govt-jobs
@@ -10,6 +11,18 @@ sourceUrl: https://www.gov.uk/government/publications/nationality-rules
 sourceName: GOV.UK – Civil Service nationality rules
 applyUrl: https://www.civilservicejobs.service.gov.uk/
 tags: [uk civil service jobs, uk government jobs, commonwealth citizens uk jobs, work in uk, civil service nationality]
+keyPoints:
+  - "About 75% of UK Civil Service jobs are non-reserved and open to UK, Commonwealth and EEA nationals."
+  - "About 25% are reserved for UK nationals only, typically in security, intelligence, defence and some diplomatic roles."
+  - "Commonwealth citizens include people from India, Pakistan, Bangladesh, Sri Lanka, Nigeria, Ghana and Kenya; the UAE and Saudi Arabia are not members."
+  - "Meeting the nationality rules does not give you the right to work in the UK."
+faq:
+  - q: "Can foreigners apply for UK Civil Service jobs?"
+    a: "Yes, for non-reserved posts (about 75% of jobs), if you are a Commonwealth citizen or an EEA national. Reserved posts are for UK nationals only."
+  - q: "Can Pakistani or Indian citizens work in the UK Civil Service?"
+    a: "Yes, for non-reserved posts, because India and Pakistan are Commonwealth countries. You also need the right to work in the UK, such as a valid visa or settled status."
+  - q: "Where are UK Civil Service jobs advertised?"
+    a: "On the Civil Service Jobs website on GOV.UK. Each advert states whether the post is reserved and what nationality rules apply."
 ---
 
 The UK Civil Service is one of the country's largest employers. Many people from the Gulf, South Asia and Africa ask whether they can apply. The answer depends on your **nationality** and the **type of post**.

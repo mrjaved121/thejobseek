@@ -1,5 +1,6 @@
 ---
 title: "Saudi Arabia: Licensed Worker Housing Now Required for 527 Professions"
+seoTitle: "Saudi Licensed Worker Housing Required for 527 Jobs"
 description: "Qiwa says firms with more than 20 workers in 527 manual and technical professions must provide licensed shared housing. Paying a housing allowance does not exempt them."
 country: saudi-arabia
 category: visa-labour-law

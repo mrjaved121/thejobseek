@@ -1,5 +1,6 @@
 ---
 title: "USA Is Hiring Teachers: How Foreign Teachers Can Apply, Step by Step (2026)"
+seoTitle: "USA Teacher Jobs for Foreigners: How to Apply (J-1)"
 description: "The US has over 425,000 teaching posts empty or filled by uncertified staff. Here is how teachers abroad can apply for USA teaching jobs on the J-1 visa, step by step."
 country: usa
 category: govt-jobs

@@ -1,5 +1,6 @@
 ---
 title: "UK Jobs Plans: 22,400 Apprenticeships a Year and 40,000 Building Placements"
+seoTitle: "UK Jobs Plans: 22,400 Apprenticeships a Year"
 description: "New UK Jobs Plans promise 22,400 under-25 apprenticeships a year in business services and 40,000 construction placements, part of 100,000+ youth openings."
 country: uk
 category: job-market

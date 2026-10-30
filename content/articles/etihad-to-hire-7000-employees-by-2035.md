@@ -1,5 +1,6 @@
 ---
 title: "Etihad Airways to Hire 7,000 More Staff by 2035, With 3,000+ Hires Needed in 2026"
+seoTitle: "Etihad to Hire 7,000 Staff by 2035, 3,000+ in 2026"
 description: "Etihad plans to grow its workforce to 22,000 by 2035. It needs more than 3,000 new hires in 2026, mostly pilots, technicians and engineers, and uses AI to screen over 100,000 cabin crew applications."
 country: uae
 category: private-jobs

@@ -1,5 +1,6 @@
 ---
 title: "Qiwa Sorts Saudi Companies Into 7 Size Categories: What It Means for Workers"
+seoTitle: "Qiwa's 7 Company Size Categories Explained"
 description: "Saudi Arabia's Qiwa platform groups private employers into 7 size bands, from 5 workers or fewer to 3,000 or more. Company size affects Nitaqat Saudization targets and training duties."
 country: saudi-arabia
 category: visa-labour-law

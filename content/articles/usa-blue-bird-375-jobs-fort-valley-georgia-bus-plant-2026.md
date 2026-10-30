@@ -1,5 +1,6 @@
 ---
 title: "Blue Bird to Hire 375 Workers for New School Bus Plant in Georgia"
+seoTitle: "Blue Bird Hiring 375 for New Georgia Bus Plant"
 description: "Blue Bird will create 375 jobs in Fort Valley, Georgia, as it invests about $300 million in a new school bus factory. Manufacturing and technician roles."
 country: usa
 category: private-jobs

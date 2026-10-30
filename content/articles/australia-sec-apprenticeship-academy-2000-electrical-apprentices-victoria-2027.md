@@ -1,5 +1,6 @@
 ---
 title: "Australia Hiring 2026: SEC Academy to Train 2,000 Electrical Apprentices"
+seoTitle: "SEC Academy to Train 2,000 Electrical Apprentices"
 description: "Australia hiring 2026: Victoria's SEC Apprenticeship Academy opens in early 2027 with a 40-place pilot and will support 2,000 electrical apprentices."
 country: australia
 category: govt-jobs

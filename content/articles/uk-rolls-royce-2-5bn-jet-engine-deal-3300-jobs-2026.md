@@ -1,5 +1,6 @@
 ---
 title: "Rolls-Royce £2.5bn Engine Deal Backs 3,300 UK Jobs: UK Graduate Jobs Ahead"
+seoTitle: "Rolls-Royce £2.5bn Engine Deal Backs 3,300 UK Jobs"
 description: "UK graduate jobs in aerospace get a lift: a £2.5bn government and Rolls-Royce engine programme backs 3,300 jobs, with tens of thousands more possible."
 country: uk
 category: job-market

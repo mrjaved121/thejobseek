@@ -1,5 +1,6 @@
 ---
 title: "Saudi Firms Step Up Hiring as PMI Hits 55.3, Best Since February"
+seoTitle: "Saudi Firms Step Up Hiring as PMI Hits 55.3"
 description: "Saudi Arabia's non-oil private sector added staff faster in September 2026 as the Riyad Bank PMI rose to 55.3. Sales and technical staff were in demand."
 country: saudi-arabia
 category: job-market

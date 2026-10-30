@@ -24,7 +24,13 @@ export default function Home() {
 
   return (
     <>
-      <h1 className="visually-hidden">{SITE.name} – {SITE.tagline}</h1>
+      <div className="home-head">
+        <h1 className="home-h1">UAE &amp; Gulf Job News</h1>
+        <p className="home-sub">
+          Who is hiring today in the UAE, Saudi Arabia and the Gulf, plus jobs worldwide, with official apply links.{" "}
+          <Link href="/jobs/">See all open jobs →</Link>
+        </p>
+      </div>
 
       {/* ===== Top block: lead | headlines list | latest + alerts ===== */}
       <section className="top-grid" aria-label="Top stories">
