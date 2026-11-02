@@ -84,6 +84,13 @@
       "title": "Australia Jobs for Foreigners: Hiring & Visa Sponsorship",
       "description": "Latest Australia job news for overseas and Gulf-based workers: companies hiring, employer-sponsored jobs and skilled visa updates."
     },
+    "world": {
+      "name": "Worldwide",
+      "flag": "🌍",
+      "enabled": true,
+      "title": "Worldwide Jobs for Foreigners: Global Hiring News",
+      "description": "Latest worldwide job news: companies hiring in Asia, Africa, Latin America, New Zealand and beyond, with official apply links for international job seekers."
+    },
     "europe": {
       "name": "Europe",
       "flag": "🇪🇺",

@@ -20,7 +20,7 @@ export function generateStaticParams() {
 
 type Props = { params: Promise<{ country: string }> };
 
-const OVERSEAS = ["uk", "usa", "canada", "australia", "europe"];
+const OVERSEAS = ["uk", "usa", "canada", "australia", "europe", "world"];
 
 const texts = (c: string, n: number) => {
   const name = COUNTRIES[c].name;

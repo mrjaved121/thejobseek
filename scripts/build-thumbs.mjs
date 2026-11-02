@@ -40,7 +40,7 @@ function rng(seedStr) {
 const TINT = {
   uae: "#1f6b5a", "saudi-arabia": "#16683d", qatar: "#6e1d3a", kuwait: "#1d5c7a", oman: "#8d2229",
   bahrain: "#9a2338", uk: "#24407a", usa: "#2c3f8f", canada: "#9b2230", australia: "#1f5f8b",
-  europe: "#203f9a", pakistan: "#14553a", india: "#a0521a",
+  europe: "#203f9a", world: "#1d4f6e", pakistan: "#14553a", india: "#a0521a",
 };
 const CAT_TOP = {
   "govt-jobs": "#0d1a48", "private-jobs": "#0b2a40", "exams-results": "#2a1647",

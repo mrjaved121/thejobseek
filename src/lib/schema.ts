@@ -55,7 +55,7 @@ export function articleSchema(a: Article) {
     isAccessibleForFree: true,
     wordCount: a.markdown.split(/\s+/).length,
     keywords: a.tags.join(", "),
-    contentLocation: { "@type": a.country === "europe" ? "Place" : "Country", name: COUNTRIES[a.country].name },
+    contentLocation: { "@type": a.country === "europe" || a.country === "world" ? "Place" : "Country", name: COUNTRIES[a.country].name },
     about: a.organization ? [{ "@type": "Organization", name: a.organization }] : undefined,
     abstract: a.keyPoints.length ? a.keyPoints.join(" ") : undefined,
     author: [

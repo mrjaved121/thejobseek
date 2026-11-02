@@ -31,11 +31,11 @@ export type CountryKey = string;
 export const enabledCountries = Object.keys(COUNTRIES).filter((c) => COUNTRIES[c].enabled);
 
 // Navigation and homepage order: GCC first (UAE leading), then UK, USA, Canada, Australia, Europe.
-export const PRIMARY_COUNTRIES = ["uae", "saudi-arabia", "qatar", "kuwait", "oman", "bahrain", "uk", "usa", "canada", "australia", "europe"];
+export const PRIMARY_COUNTRIES = ["uae", "saudi-arabia", "qatar", "kuwait", "oman", "bahrain", "uk", "usa", "canada", "australia", "europe", "world"];
 
 export const COUNTRY_CODES: Record<string, string> = {
   uae: "AE", "saudi-arabia": "SA", qatar: "QA", kuwait: "KW", oman: "OM", bahrain: "BH",
-  uk: "UK", usa: "US", canada: "CA", australia: "AU", europe: "EU", pakistan: "PK", india: "IN",
+  uk: "UK", usa: "US", canada: "CA", australia: "AU", europe: "EU", world: "WW", pakistan: "PK", india: "IN",
 };
 
 // One photo per country (public/images/countries/<key>.webp, free Unsplash licence, see content/country-photo-credits.md).
