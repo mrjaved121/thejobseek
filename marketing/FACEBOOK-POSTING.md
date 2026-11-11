@@ -11,7 +11,7 @@ Posts go out from the built-in browser in the Claude desktop app, where the owne
 
 ## Daily limit
 
-**8 posts per day at most.** The Page is new and small, and a burst of link posts can get it flagged as spam. Stop the run early if Facebook shows any warning, block, "You can't post right now", checkpoint or login screen.
+**8 posts per run, two runs a day (11:00 and 19:00), so 16 a day at most.** The Page is new and small, and a burst of link posts can get it flagged as spam. Stop the run early if Facebook shows any warning, block, "You can't post right now", checkpoint or login screen.
 
 ## How to post one article (built-in browser)
 
