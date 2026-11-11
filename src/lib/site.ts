@@ -19,6 +19,9 @@ export const SITE = {
     whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_CHANNEL || "",
   },
   adsenseClient: process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "",
+  // Google Tag Manager container. GA4 (G-PV4N10ET8M) is configured inside it, so leave
+  // NEXT_PUBLIC_GA_ID empty or GA4 would count every page view twice.
+  gtmId: process.env.NEXT_PUBLIC_GTM_ID || "GTM-PZF88HCT",
   gaId: process.env.NEXT_PUBLIC_GA_ID || "",
 };
 
