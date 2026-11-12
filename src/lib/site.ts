@@ -19,6 +19,9 @@ export const SITE = {
     whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_CHANNEL || "",
   },
   adsenseClient: process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "",
+  // Google Tag Manager container. It loads GA4 (G-PV4N10ET8M) and the click events, so gaId is
+  // only a fallback for builds without a container; never set both or page views count twice.
+  gtmId: process.env.NEXT_PUBLIC_GTM_ID || "GTM-PZF88HCT",
   gaId: process.env.NEXT_PUBLIC_GA_ID || "",
 };
 
