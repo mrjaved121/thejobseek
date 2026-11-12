@@ -19,7 +19,8 @@ export const SITE = {
     whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_CHANNEL || "",
   },
   adsenseClient: process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "",
-  gaId: process.env.NEXT_PUBLIC_GA_ID || "",
+  // The container loads GA4 (G-PV4N10ET8M), the click events and Microsoft Clarity.
+  gtmId: process.env.NEXT_PUBLIC_GTM_ID || "GTM-PZF88HCT",
 };
 
 type Country = { name: string; title: string; description: string; enabled: boolean; flag: string };
