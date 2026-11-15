@@ -97,6 +97,22 @@ About 1–3 US cents per draft with Claude Sonnet ⇒ roughly $5–15/month at 1
 
 `public/thumbs/` is generated, so it is not committed to Git.
 
+## Quality rules (from 16 Nov 2026)
+
+Google crawled most of our short news rewrites and chose not to index them ("Crawled – currently
+not indexed"). Every article published from 16 Nov 2026 must pass `npm run check:quality`:
+
+- at least 700 words (1,100 for `guides`)
+- a "Requirements / Who can apply" section
+- a numbered, step-by-step "How to apply" section
+- a table (salary, roles, locations, requirements or dates)
+- the deadline (`lastDate`) or a line saying no closing date is published
+- a section with tips for applicants from Pakistan and India
+- at least 2 independent sources (the employer's or government's own page + one more)
+- at most 5 articles per Dubai calendar day
+
+`npm run check:quality -- --all` reports which older articles fall short (it never fails).
+
 ## Manual articles
 
 ```bash

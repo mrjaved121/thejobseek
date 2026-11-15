@@ -12,7 +12,8 @@
     "sources:check": "node automation/check-sources.mjs",
     "postbuild": "node scripts/fix-static-images.mjs && node scripts/optimize-html.mjs",
     "prebuild": "node scripts/build-thumbs.mjs",
-    "check:originality": "node scripts/check-originality.mjs"
+    "check:originality": "node scripts/check-originality.mjs",
+    "check:quality": "node scripts/check-quality.mjs"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
