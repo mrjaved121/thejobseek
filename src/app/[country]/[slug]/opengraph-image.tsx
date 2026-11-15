@@ -56,7 +56,7 @@ export default async function Image({ params }: { params: Promise<{ country: str
           <div style={{ display: "flex", fontSize: title.length > 80 ? 52 : 62, fontWeight: 800, lineHeight: 1.15, maxWidth: 960 }}>{title}</div>
           <div style={{ display: "flex", alignItems: "center", fontSize: 34, fontWeight: 800 }}>
             The<span style={{ color: "#f4b41a" }}>JobSeek</span>
-            <span style={{ marginLeft: 16, fontSize: 26, fontWeight: 400, color: "#dfe5f5" }}>thejobseek.com · Verified job news</span>
+            <span style={{ marginLeft: 16, fontSize: 26, fontWeight: 400, color: "#dfe5f5" }}>thejobseek.com · Job news</span>
           </div>
         </div>
       </div>

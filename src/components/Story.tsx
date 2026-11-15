@@ -11,11 +11,18 @@ function Meta({ a }: { a: Article }) {
   return (
     <div className="story-meta">
       <time dateTime={a.date}>{formatDate(a.date)}</time>
-      {domain && (
-        <span className="stamp" title={`Source: ${domain}`}>
-          ✓ {domain}
-        </span>
-      )}
+      {domain && " "}
+      {domain &&
+        (a.sourceOfficial ? (
+          <span className="stamp" title={`Official source: ${domain}`}>
+            ✓ {domain}
+          </span>
+        ) : (
+          <span className="stamp stamp-plain" title={`Source: ${domain}`}>
+            Source: {domain}
+          </span>
+        ))}
+      {a.lastDate && " "}
       {a.lastDate && (
         <span className={closing ? "deadline-pill hot" : "deadline-pill"}>
           {closing ? "Closing soon" : "Last date"} · {formatDate(a.lastDate)}

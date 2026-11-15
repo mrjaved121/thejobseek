@@ -5,7 +5,7 @@ import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: `About ${SITE.name}: who we are, what we cover and how we verify job, labour law and work visa news for the UAE, the Gulf and abroad.`,
+  description: `About ${SITE.name}: who we are, what we cover and how we source job, labour law and work visa news for the UAE, the Gulf and abroad.`,
   alternates: { canonical: "/about/" },
 };
 
@@ -28,14 +28,15 @@ export default function About() {
       </ul>
       <h2>How we work</h2>
       <p>
-        We write every update in our own words from the official notice, include the
-        application deadline where one exists, and link to the original source so readers can
-        verify it and apply directly. Read our <Link href="/editorial-policy/">editorial policy</Link> for details.
+        We write every update in our own words from an official notice or a news report, include the
+        application deadline where one exists, and link to the source so readers can
+        verify it and apply directly. Articles are prepared with the help of automated tools, including AI. Read our <Link href="/editorial-policy/">editorial policy</Link> for details.
       </p>
       <h2>Who runs TheJobSeek</h2>
       <p>
-        {SITE.name} is run from Dubai by its founder and editor, <Link href="/author/mr-jay/">Mr Jay</Link>, who
-        reviews every article against its official source before it is published.
+        {SITE.name} is run from Dubai by its founder and editor,{" "}
+        <Link href={`/author/${SITE.editor.id}/`}>{SITE.editor.name}</Link>, who is responsible for what is published
+        and for corrections.
       </p>
       <h2>What we are not</h2>
       <p>
@@ -49,6 +50,13 @@ export default function About() {
         Questions, corrections or tips: <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a> or our{" "}
         <Link href="/contact/">contact page</Link>.
       </p>
+      {(SITE.editor.phone || SITE.editor.postalAddress) && (
+        <p>
+          {SITE.editor.phone && <>Phone: <a href={`tel:${SITE.editor.phone.replace(/[^+\d]/g, "")}`}>{SITE.editor.phone}</a></>}
+          {SITE.editor.phone && SITE.editor.postalAddress && <br />}
+          {SITE.editor.postalAddress && <>Address: {SITE.editor.postalAddress}</>}
+        </p>
+      )}
     </StaticPage>
   );
 }

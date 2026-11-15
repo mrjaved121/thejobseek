@@ -12,7 +12,7 @@ export default function Contact() {
   const socials = Object.entries(SITE.social).filter(([, v]) => v);
   return (
     <StaticPage title="Contact Us" path="/contact/">
-      <p>We read every message. Please choose the right subject so we can reply faster.</p>
+      <p>Please choose the right subject so we can reply faster.</p>
       <ul>
         <li><strong>Corrections:</strong> send the article link and what is wrong, with an official source if possible.</li>
         <li><strong>News tips:</strong> share official recruitment notices or announcements.</li>
@@ -21,7 +21,12 @@ export default function Contact() {
       <p>
         Email: <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
       </p>
-      <p>Based in Dubai, United Arab Emirates.</p>
+      {SITE.editor.phone && (
+        <p>
+          Phone: <a href={`tel:${SITE.editor.phone.replace(/[^+\d]/g, "")}`}>{SITE.editor.phone}</a>
+        </p>
+      )}
+      <p>{SITE.editor.postalAddress ? `Address: ${SITE.editor.postalAddress}` : `Based in ${SITE.editor.location}.`}</p>
       {socials.length > 0 && (
         <p>
           Social:{" "}

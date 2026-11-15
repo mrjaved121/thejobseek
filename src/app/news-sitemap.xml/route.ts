@@ -1,4 +1,4 @@
-import { getAllArticles, articlePath } from "@/lib/articles";
+import { getIndexable, articlePath } from "@/lib/articles";
 import { SITE } from "@/lib/site";
 
 
@@ -10,7 +10,7 @@ const esc = (s: string) =>
 // Google News sitemap: only articles from the last 48 hours, max 1000.
 export function GET() {
   const cutoff = Date.now() - 48 * 3600 * 1000;
-  const recent = getAllArticles()
+  const recent = getIndexable()
     .filter((a) => new Date(a.date).getTime() >= cutoff)
     .slice(0, 1000);
 

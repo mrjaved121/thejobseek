@@ -1,9 +1,7 @@
-/** Today's date in Dubai time. The build date is shown first; public/site.js updates it in the browser. */
+/**
+ * Today's date in Dubai time. Left empty in the static HTML on purpose: pages are built once and cached,
+ * so a date written at build time goes stale. public/site.js fills it in the reader's browser.
+ */
 export default function TodayDate() {
-  const text = new Date().toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "Asia/Dubai" });
-  return (
-    <span className="today" data-today>
-      {text}
-    </span>
-  );
+  return <span className="today" data-today suppressHydrationWarning />;
 }

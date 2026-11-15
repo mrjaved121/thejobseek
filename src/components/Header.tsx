@@ -66,14 +66,16 @@ export default function Header() {
 
       <nav aria-label="Sections" className="primary-nav">
         <div className="wrap nav-row">
-          <Link href="/countries/" className="nav-icon" aria-label="All countries and sections">
+          <Link href="/countries/" className="nav-icon" title="All countries and topics">
             <Icon d={<path d="M4 7h16M4 12h16M4 17h16" />} />
+            <span className="visually-hidden">All countries</span>
           </Link>
           <div className="nav-inner">
             <NavLinks items={[{ href: "/", label: "Home" }, { href: "/jobs/", label: "Jobs" }, ...nav.map((c) => ({ href: `/${c}/`, label: COUNTRIES[c].name }))]} />
           </div>
-          <Link href="/search/" className="nav-icon" aria-label="Search news">
+          <Link href="/search/" className="nav-icon" title="Search news">
             <Icon d={<><circle cx="11" cy="11" r="7" /><path d="M20 20l-3.5-3.5" /></>} />
+            <span className="visually-hidden">Search</span>
           </Link>
         </div>
       </nav>

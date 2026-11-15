@@ -3,6 +3,8 @@
 //   <slug>-640.webp  (cards, ~10–25 KB)   and   <slug>-1200.webp  (lead stories)
 // - If the article has `image: /images/your-photo.jpg` (a file in /public), that photo is cropped and converted.
 // - Otherwise the country photo (public/images/countries/<country>.webp) is used, with the topic badge.
+//   Each article gets its own crop of that photo (zoom and position picked from the slug, always the same for
+//   the same slug) and a shade in its topic colour, so the cards of one country do not all look identical.
 // - If there is no country photo, a branded illustration is drawn: sky gradient, country landmark silhouette, skyline, topic badge.
 // No text is drawn into images (so no font issues on the build server); labels are added in HTML.
 import fs from "fs";
@@ -23,7 +25,7 @@ const W = 1200, H = 675, GROUND = 600;
 //   <slug>-s.webp  256x144  for small cards (browser picks via srcset)
 //   <slug>-xs.webp 160x90   for the tiny list thumbnails
 const TW = 384, TH = 216, SW = 256, SH = 144, XW = 160, XH = 90, MAX_BYTES = 8 * 1024;
-const VERSION = "v6"; // bump to regenerate everything after design changes
+const VERSION = "v7"; // bump to regenerate everything after design changes
 
 // --- deterministic random from slug ---
 function rng(seedStr) {
@@ -160,7 +162,7 @@ function svgFor(a) {
 async function countryPhotoFor(a, photoPath) {
   const overlay = `<svg xmlns="http://www.w3.org/2000/svg" width="${TW}" height="${TH}" viewBox="0 0 ${W} ${H}">
   <defs><linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0.55" stop-color="#0b1640" stop-opacity="0"/><stop offset="1" stop-color="#0b1640" stop-opacity="0.55"/>
+    <stop offset="0.45" stop-color="${CAT_TOP[a.category] || "#0b1640"}" stop-opacity="0"/><stop offset="1" stop-color="${CAT_TOP[a.category] || "#0b1640"}" stop-opacity="0.7"/>
   </linearGradient></defs>
   <rect width="${W}" height="${H}" fill="url(#shade)"/>
   <g transform="translate(1094 92)">
@@ -168,8 +170,22 @@ async function countryPhotoFor(a, photoPath) {
     <g transform="translate(-30 -30) scale(2.5)" fill="none" stroke="#0c1740" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${ICON[a.category] || ICON["visa-labour-law"]}</g>
   </g>
 </svg>`;
+  // A different 16:9 window of the photo per article: zoom 1x-1.5x and a position, both derived from the slug.
+  const r = rng(a.slug);
+  const meta = await sharp(photoPath).metadata();
+  const fullW = Math.min(meta.width, Math.floor((meta.height * TW) / TH));
+  const fullH = Math.floor((fullW * TH) / TW);
+  const zoom = [1, 1.15, 1.3, 1.5][Math.floor(r() * 4)];
+  const cw = Math.max(TW, Math.floor(fullW / zoom)), ch = Math.max(TH, Math.floor(fullH / zoom));
+  const left = Math.floor(r() * (meta.width - cw + 1));
+  const top = Math.floor((0.15 + r() * 0.5) * (meta.height - ch + 1)); // keep away from the very top/bottom edge
   // Light smoothing (blur 0.6) removes fine detail so the photo fits in 8 KB; the badge is added after, so it stays sharp.
-  const base = await sharp(photoPath).resize(TW, TH, { fit: "cover", position: "attention" }).blur(0.6).png().toBuffer();
+  const base = await sharp(photoPath)
+    .extract({ left, top, width: Math.min(cw, meta.width - left), height: Math.min(ch, meta.height - top) })
+    .resize(TW, TH, { fit: "cover" })
+    .blur(0.6)
+    .png()
+    .toBuffer();
   return sharp(base).composite([{ input: Buffer.from(overlay) }]).png().toBuffer();
 }
 

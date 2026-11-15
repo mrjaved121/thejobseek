@@ -17,10 +17,22 @@ export const organizationSchema = () => ({
   email: SITE.contactEmail,
   publishingPrinciples: abs("/editorial-policy/"),
   correctionsPolicy: abs("/editorial-policy/#corrections"),
-  address: { "@type": "PostalAddress", addressLocality: "Dubai", addressCountry: "AE" },
+  address: {
+    "@type": "PostalAddress",
+    ...(SITE.editor.postalAddress ? { streetAddress: SITE.editor.postalAddress } : {}),
+    addressLocality: "Dubai",
+    addressCountry: "AE",
+  },
+  ...(SITE.editor.phone ? { telephone: SITE.editor.phone } : {}),
   areaServed: ["AE", "SA", "QA", "KW", "OM", "BH"],
-  founder: { "@id": abs("/author/mr-jay/#person") },
-  contactPoint: { "@type": "ContactPoint", contactType: "editorial", email: SITE.contactEmail, url: abs("/contact/") },
+  founder: { "@id": abs(`/author/${SITE.editor.id}/#person`) },
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "editorial",
+    email: SITE.contactEmail,
+    ...(SITE.editor.phone ? { telephone: SITE.editor.phone } : {}),
+    url: abs("/contact/"),
+  },
   sameAs: [...Object.values(SITE.social), ...SITE.profiles].filter(Boolean),
 });
 

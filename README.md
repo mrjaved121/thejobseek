@@ -117,7 +117,9 @@ Creates `content/articles/<slug>.md` with `draft: true`. Fill it in, remove `dra
 | date | yes | ISO with timezone. Future dates stay hidden until then |
 | updated | no | set when you correct an article |
 | organization, lastDate, sourceUrl, sourceName | no | fill for every recruitment news |
-| tags | no | 3–6 keywords |
+| tags | no | 3–6 keywords (page metadata only, not shown on the page) |
+| noindex | no | `true` keeps a thin near-duplicate page online but out of search engines and both sitemaps |
+| sourceType | no | `official` or `press`. Normally detected: "Official source ✓" shows only for government sites or the same domain as `applyUrl`; everything else is labelled "Source" |
 | draft | no | `true` hides the article |
 
 Countries and categories are defined once in `content/taxonomy.json` (used by both the site

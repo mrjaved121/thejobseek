@@ -4,6 +4,7 @@ description: "Emirates cabin crew open day Toronto is on 27 November 2026 at the
 country: uae
 category: private-jobs
 author: mr-jay
+noindex: true
 date: 2026-11-13T19:45:00+04:00
 organization: Emirates
 sourceUrl: https://www.emiratesgroupcareers.com/cabin-crew/

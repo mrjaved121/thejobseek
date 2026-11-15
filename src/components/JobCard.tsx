@@ -19,8 +19,8 @@ export default function JobCard({ a, showCountry = true }: { a: Article; showCou
           <span className={a.category === "govt-jobs" ? "job-type gov" : "job-type"}>
             {a.category === "govt-jobs" ? "Government" : "Private sector"}
           </span>
-          {a.jobPost && <span className="job-post">Employer job post</span>}
-          {showCountry && <span className="job-country">{COUNTRIES[a.country].name}</span>}
+          {a.jobPost && <>{" "}<span className="job-post">Employer job post</span></>}
+          {showCountry && <>{" "}<span className="job-country">{COUNTRIES[a.country].name}</span></>}
         </div>
         <h3 className="job-title">
           <Link href={href}>{a.title}</Link>
@@ -33,7 +33,8 @@ export default function JobCard({ a, showCountry = true }: { a: Article; showCou
             </div>
           )}
           <div>
-            <dt>Posted</dt>
+            {/* Our own publication date. An "Advert posted" row would need a separate employer-date field in the frontmatter (there is none). */}
+            <dt>Published</dt>
             <dd><time dateTime={a.date}>{formatDate(a.date)}</time></dd>
           </div>
           {a.lastDate && (

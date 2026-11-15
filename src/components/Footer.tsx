@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { COUNTRIES, CATEGORIES, enabledCountries, SITE } from "@/lib/site";
+import { COUNTRIES, CATEGORIES, PRIMARY_COUNTRIES, enabledCountries, SITE } from "@/lib/site";
 import { countryCounts } from "@/lib/articles";
 
 export default function Footer() {
@@ -24,7 +24,7 @@ export default function Footer() {
         <div>
           <h3>Sections</h3>
           <ul>
-            {enabledCountries.filter((c) => counts[c]).map((c) => (
+            {[...PRIMARY_COUNTRIES.filter((c) => COUNTRIES[c]?.enabled), ...enabledCountries.filter((c) => !PRIMARY_COUNTRIES.includes(c))].filter((c) => counts[c]).map((c) => (
               <li key={c}>
                 <Link href={`/${c}/`}>{COUNTRIES[c].name} Job News</Link>
               </li>

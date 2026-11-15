@@ -60,14 +60,18 @@ export default function Sidebar({ exclude }: { exclude?: string }) {
 
       {withNews.length > 0 && (
         <section>
-          <SectionLabel first="By" second="Country" />
+          <SectionLabel first="All news" second="By country" />
+          <p className="small muted country-list-note">
+            {all.length} published articles in total (news, guides and job stories, including closed ones). Open jobs are counted on the{" "}
+            <Link href="/jobs/">Jobs page</Link>.
+          </p>
           <ul className="country-list">
             {withNews.map((c) => (
               <li key={c}>
                 <Link href={`/${c}/`}>
                   <span className="code-badge" aria-hidden>{COUNTRY_CODES[c]}</span> {COUNTRIES[c].name}
-                </Link>
-                <span className="count">{counts[c]}</span>
+                </Link>{" "}
+                <span className="count" title={`${counts[c]} published articles`}>{counts[c]}</span>
               </li>
             ))}
           </ul>
@@ -77,8 +81,8 @@ export default function Sidebar({ exclude }: { exclude?: string }) {
       <div className="promo-box">
         <p className="promo-title">How we report</p>
         <p>
-          Every story is based on an official notice or decision and links to its source with a{" "}
-          <span className="stamp">✓ source</span> stamp. We never charge for jobs or visas.
+          Every story links to the source it is based on. A <span className="stamp">✓</span> stamp marks an employer&apos;s
+          or government&apos;s own website; press reports are labelled &quot;Source&quot;. We never charge for jobs or visas.
         </p>
         {SITE.social.whatsapp ? (
           <a className="btn btn-gold" href={SITE.social.whatsapp} target="_blank" rel="noopener">

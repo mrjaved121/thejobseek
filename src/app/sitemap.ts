@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllArticles, getByCategory, articlePath } from "@/lib/articles";
+import { getAllArticles, getIndexable, getByCategory, articlePath } from "@/lib/articles";
 import { SITE, CATEGORIES, enabledCountries } from "@/lib/site";
 import { AUTHORS } from "@/lib/authors";
 import { jobCountries } from "@/lib/jobs";
@@ -26,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...Object.keys(CATEGORIES)
       .filter((c) => getByCategory(c).length > 0)
       .map((c) => ({ url: u(`/category/${c}/`), lastModified: latest, changeFrequency: "daily" as const, priority: 0.7 })),
-    ...all.map((a) => ({
+    ...getIndexable().map((a) => ({
       url: u(articlePath(a)),
       lastModified: a.updated || a.date,
       changeFrequency: "weekly" as const,

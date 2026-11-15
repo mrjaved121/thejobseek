@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!a) return {};
   return {
     title: { absolute: `${a.name} – ${a.role}` },
-    description: `${a.name}, ${a.role}, based in ${a.location}. What he covers, how stories are verified, and his latest job news.`,
+    description: `${a.name}, ${a.role}, based in ${a.location}. What he covers, how stories are sourced and checked, and his latest job news.`,
     alternates: { canonical: `/author/${id}/` },
     openGraph: { type: "profile", title: `${a.name} – ${a.role}`, url: `/author/${id}/`, images: [{ url: a.image || "/opengraph-image.png", width: 1200, height: 630, alt: `${a.name}, ${a.role}` }] },
   };
@@ -67,7 +67,7 @@ export default async function AuthorPage({ params }: Props) {
         ))}
       </ul>
 
-      <h2 id="how-i-verify">How I verify every story</h2>
+      <h2 id="how-i-verify">How stories are sourced and checked</h2>
       <ul>
         {author.verification.map((v) => (
           <li key={v}>{v}</li>
@@ -100,6 +100,7 @@ export default async function AuthorPage({ params }: Props) {
             homeLocation: { "@type": "Place", name: author.location },
             knowsAbout: author.knowsAbout,
             email: SITE.contactEmail,
+            ...(SITE.editor.fullName ? { alternateName: SITE.editor.fullName } : {}),
             worksFor: { "@id": `${SITE.url}/#organization` },
             ...(sameAs.length ? { sameAs } : {}),
           },

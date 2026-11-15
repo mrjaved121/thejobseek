@@ -28,7 +28,7 @@ export default function Image() {
             The<span style={{ color: "#f4b41a" }}>JobSeek</span>
           </div>
           <div style={{ display: "flex", fontSize: 42, marginTop: 18, color: "#dfe5f5", maxWidth: 860 }}>
-            Verified UAE, Gulf &amp; global job and work visa news
+            UAE, Gulf &amp; global job and work visa news
           </div>
           <div style={{ display: "flex", marginTop: 34 }}>
             <div style={{ display: "flex", fontSize: 28, fontWeight: 800, color: "#13235b", background: "#f4b41a", padding: "8px 20px" }}>thejobseek.com</div>

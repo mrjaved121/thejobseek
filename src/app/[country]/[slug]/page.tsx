@@ -41,6 +41,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     keywords: a.tags,
     authors: [{ name: author.name, url: `${SITE.url}/author/${author.id}/` }],
     alternates: { canonical: articlePath(a) },
+    // Frontmatter `noindex: true` (thin near-duplicates of another article): stays readable, kept out of search results.
+    ...(a.noindex ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       type: "article",
       title: a.title,
@@ -141,12 +143,17 @@ export default async function ArticlePage({ params }: Props) {
                 {a.lastDate && <tr><th>Last date to apply</th><td><strong>{formatDate(a.lastDate)}</strong></td></tr>}
                 {a.sourceUrl && (
                   <tr>
-                    <th>Official source</th>
+                    {/* "Official" only for the employer's or a government's own site; press reports are plain "Source". */}
+                    <th>{a.sourceOfficial ? "Official source" : "Source"}</th>
                     <td>
                       <a href={a.sourceUrl} target="_blank" rel="noopener nofollow">
-                        {a.sourceName || "Official notice"}
+                        {a.sourceName || (a.sourceOfficial ? "Official notice" : sourceDomain(a))}
                       </a>{" "}
-                      <span className="stamp">✓ {sourceDomain(a)}</span>
+                      {a.sourceOfficial ? (
+                        <span className="stamp">✓ {sourceDomain(a)}</span>
+                      ) : (
+                        <span className="stamp stamp-plain">{sourceDomain(a)}</span>
+                      )}
                     </td>
                   </tr>
                 )}
@@ -217,11 +224,22 @@ export default async function ArticlePage({ params }: Props) {
               Apply on official site ↗
             </a>
           </div>
-        ) : a.sourceUrl ? (
+        ) : a.sourceUrl && a.sourceOfficial ? (
           <div className="source-box">
             <p><strong>Apply only through the official source.</strong></p>
             <a className="btn" href={a.sourceUrl} target="_blank" rel="noopener nofollow">
               Open official notice →
+            </a>
+          </div>
+        ) : a.sourceUrl ? (
+          <div className="source-box">
+            <p>
+              <strong>This article is based on a news report.</strong>
+              <br />
+              <span className="small">Confirm the details with the employer or authority before you act on them.</span>
+            </p>
+            <a className="btn" href={a.sourceUrl} target="_blank" rel="noopener nofollow">
+              Read the source report →
             </a>
           </div>
         ) : null}
@@ -235,18 +253,10 @@ export default async function ArticlePage({ params }: Props) {
         <ShareBar url={shareUrl} title={a.title} label="Share this update" />
         <FollowFacebook compact />
 
+        {/* One short scam warning per article. The search keywords (frontmatter `tags`) stay in the page metadata only. */}
         <p className="notice">
-          TheJobSeek never charges for jobs and is not a recruitment agency. If anyone asks you
-          to pay for a job offer or visa in the name of this article, it is a scam.
+          TheJobSeek is not a recruitment agency and never charges for jobs. Anyone asking you to pay for a job or visa is running a scam.
         </p>
-
-        {a.tags.length > 0 && (
-          <div className="tags-row">
-            {a.tags.map((t) => (
-              <span key={t} className="tag tag-cat">{t}</span>
-            ))}
-          </div>
-        )}
 
         <div className="author-box">
           <AuthorAvatar author={author} size={48} className="avatar" />
@@ -255,7 +265,7 @@ export default async function ArticlePage({ params }: Props) {
             <div className="small muted">{author.role} · {author.location}</div>
             <p className="small">{author.bio}</p>
             <p className="small">
-              <Link href={`/author/${author.id}/#how-i-verify`}>How every story is verified</Link>
+              <Link href={`/author/${author.id}/#how-i-verify`}>How stories are sourced and checked</Link>
               {author.linkedin && (
                 <>
                   {" · "}

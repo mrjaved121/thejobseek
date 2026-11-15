@@ -79,7 +79,7 @@ export default function Home() {
 
           <div className="promo-box">
             <p className="promo-title">Don&apos;t miss a job or visa update</p>
-            <p>Every story is checked against the official notice and links to its source.</p>
+            <p>Every story links to the source it is based on, so you can check it yourself.</p>
             {SITE.social.whatsapp ? (
               <a className="btn btn-gold" href={SITE.social.whatsapp} target="_blank" rel="noopener">
                 Get free WhatsApp alerts

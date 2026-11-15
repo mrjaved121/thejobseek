@@ -1,11 +1,16 @@
 /* TheJobSeek: the only JavaScript on news pages (about 1 KB). */
 (function () {
   // The /search/ page still runs React; leave its markup alone so it can hydrate cleanly.
-  if (!self.__next_f) try {
-    // Today's date in Dubai time
-    var d = new Date().toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "Asia/Dubai" });
-    document.querySelectorAll("[data-today]").forEach(function (el) { el.textContent = d; });
-  } catch (e) {}
+  // Today's date in Dubai time. The static HTML carries no date (it would go stale in caches); it is written here.
+  function today() {
+    try {
+      var d = new Date().toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "Asia/Dubai" });
+      document.querySelectorAll("[data-today]").forEach(function (el) { el.textContent = d; });
+    } catch (e) {}
+  }
+  // The /search/ page still runs React: wait until it has taken over the markup before changing it.
+  if (!self.__next_f) today();
+  else window.addEventListener("load", function () { setTimeout(today, 1500); });
 
   // Highlight the current section in the menu
   var path = location.pathname;

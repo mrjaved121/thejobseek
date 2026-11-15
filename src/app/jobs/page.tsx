@@ -7,13 +7,14 @@ import JobCard from "@/components/JobCard";
 import ApplySafely from "@/components/ApplySafely";
 import JsonLd from "@/components/JsonLd";
 import { getJobs, jobCountries } from "@/lib/jobs";
+import { getAllArticles } from "@/lib/articles";
 import { COUNTRIES } from "@/lib/site";
 import { listRobots, listOpenGraph } from "@/lib/seo";
 import { collectionSchema } from "@/lib/schema";
 
 const TITLE = "Jobs in UAE, Gulf & Worldwide – Official Apply Links";
 const DESC =
-  "Latest verified hiring news from the UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain, UK, USA, Canada, Australia and Europe, with official apply links.";
+  "Latest hiring news from the UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain, UK, USA, Canada, Australia and Europe, with official apply links.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -28,6 +29,7 @@ const PER_COUNTRY = 4;
 export default function JobsHub() {
   const jobs = getJobs();
   const countries = jobCountries();
+  const published = getAllArticles().length;
   return (
     <>
       <JsonLd data={collectionSchema(TITLE, DESC, "/jobs/", jobs)} />
@@ -36,8 +38,9 @@ export default function JobsHub() {
         <p className="eyebrow">Jobs</p>
         <h1 className="section-h1">Jobs in the UAE, Gulf &amp; worldwide</h1>
         <p className="lede">
-          {jobs.length} open hiring announcements, checked against their source. Each one links to the
-          employer&apos;s or government&apos;s own careers page, so you apply directly. Updated every morning.
+          <strong>{jobs.length} open hiring announcements</strong>: job stories whose closing date has not passed.
+          (The site has {published} published articles in total, which also counts visa news, guides and closed jobs.)
+          Each story links to its source, and to the employer&apos;s or government&apos;s own application page where one exists.
         </p>
       </div>
       <div className="grid">
@@ -45,7 +48,7 @@ export default function JobsHub() {
           <nav aria-label="Jobs by country" className="job-chips">
             {countries.map(({ country, count }) => (
               <Link key={country} href={`/jobs/${country}/`} className="job-chip">
-                {COUNTRIES[country].name} jobs <span>{count}</span>
+                {COUNTRIES[country].name} jobs <span title={`${count} open`}>{count}</span>
               </Link>
             ))}
           </nav>
@@ -79,7 +82,7 @@ export default function JobsHub() {
             <p>
               TheJobSeek is a news site, not a recruitment agency. This page collects our reports on real hiring
               announcements: companies and governments opening new jobs, recruitment drives and job fairs. We
-              list a story only when it comes from an official notice or a reliable news source, and we link to
+              list a story when it comes from an official notice or a news report that we name and link, and we link to
               the official application page whenever one exists. Posts marked <strong>Employer job post</strong> are
               job ads sent to us directly by the hiring company; for those, CVs emailed to info@thejobseek.com are
               forwarded only to that employer. Applying is always free. Jobs disappear from this page once their

@@ -9,7 +9,7 @@ export const SITE = {
   // Add every official profile you create (LinkedIn page, X, YouTube, Google Business, etc.): used in schema sameAs.
   profiles: [] as string[],
   description:
-    "Daily verified job news for the UAE and Gulf: who is hiring, official apply links, salaries and work visa updates, plus jobs in the UK, USA and Europe.",
+    "Daily job news for the UAE and Gulf: who is hiring, official apply links, salaries and work visa updates, plus jobs in the UK, USA and Europe.",
   locale: "en",
   contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "contact@thejobseek.com",
   social: {
@@ -21,7 +21,28 @@ export const SITE = {
   adsenseClient: process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "",
   // The container loads GA4 (G-PV4N10ET8M), the click events and Microsoft Clarity.
   gtmId: process.env.NEXT_PUBLIC_GTM_ID || "GTM-PZF88HCT",
+  // The person responsible for the site. This is the ONE place to edit these details: the author page, About,
+  // Contact and the schema markup all read from here. Fill the optional fields only with real, checkable
+  // information; anything left empty is simply not shown.
+  editor: {
+    id: "mr-jay",
+    name: "Mr Jay",
+    role: "Founder & Editor, TheJobSeek",
+    location: "Dubai, United Arab Emirates",
+    bio: "Mr Jay is the founder and editor of TheJobSeek. Based in Dubai, he has lived and worked in the UAE as an expat and writes about jobs, hiring and work rules in the UAE and the Gulf, along with the main overseas job markets for Gulf-based workers.",
+    photo: process.env.NEXT_PUBLIC_AUTHOR_IMAGE || "", // square photo in /public, e.g. "/images/authors/editor.webp"
+    linkedin: process.env.NEXT_PUBLIC_AUTHOR_LINKEDIN || "",
+    profiles: [] as string[], // other personal profiles (X, Facebook, ...)
+    fullName: "", // optional: legal/full name, if different from `name`
+    credentials: "", // optional: one line of relevant experience or qualifications
+    phone: "", // optional: public editorial phone number, international format
+    postalAddress: "", // optional: public postal address, one line
+  },
 };
+
+// Government and public-body websites whose own notices count as an "official source".
+// Hosts ending in .gov / .gov.xx / .gob.xx / .gouv.xx / .go.xx / .mil are matched automatically (see isOfficialSource in articles.ts).
+export const OFFICIAL_HOSTS = ["canada.ca", "gc.ca", "u.ae", "europa.eu", "gov.scot", "mediaoffice.ae", "mediaoffice.abudhabi", "gop.pk"];
 
 type Country = { name: string; title: string; description: string; enabled: boolean; flag: string };
 
@@ -32,7 +53,7 @@ export type CountryKey = string;
 export const enabledCountries = Object.keys(COUNTRIES).filter((c) => COUNTRIES[c].enabled);
 
 // Navigation and homepage order: GCC first (UAE leading), then UK, USA, Canada, Australia, Europe.
-export const PRIMARY_COUNTRIES = ["uae", "saudi-arabia", "qatar", "kuwait", "oman", "bahrain", "uk", "usa", "canada", "australia", "europe", "world"];
+export const PRIMARY_COUNTRIES = ["uae", "saudi-arabia", "qatar", "kuwait", "bahrain", "oman", "uk", "usa", "canada", "australia", "europe", "world"];
 
 export const COUNTRY_CODES: Record<string, string> = {
   uae: "AE", "saudi-arabia": "SA", qatar: "QA", kuwait: "KW", oman: "OM", bahrain: "BH",
@@ -40,7 +61,8 @@ export const COUNTRY_CODES: Record<string, string> = {
 };
 
 // One photo per country (public/images/countries/<key>.webp, free Unsplash licence, see content/country-photo-credits.md).
-// Used for every article thumbnail of that country (unless the article sets its own `image:`) and for country page banners.
+// Used for the article thumbnails of that country (unless the article sets its own `image:`) and for country page banners.
+// scripts/build-thumbs.mjs gives each article its own crop of the photo, chosen from the slug, so cards in a section differ.
 export const COUNTRY_PHOTOS: Record<string, string> = {
   uae: "Burj Khalifa and the Dubai skyline, UAE",
   "saudi-arabia": "Kingdom Centre tower in Riyadh, Saudi Arabia",

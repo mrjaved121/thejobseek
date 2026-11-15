@@ -1,3 +1,5 @@
+import { SITE } from "./site";
+
 export type Author = {
   id: string;
   name: string;
@@ -14,18 +16,18 @@ export type Author = {
   knowsAbout: string[];
 };
 
-// One real, named author on every article (E-E-A-T): journalists, Google and AI engines
-// check who is behind a source before citing it.
+// One named editor on every article. The personal details come from SITE.editor in src/lib/site.ts (edit them there).
+const E = SITE.editor;
 export const AUTHORS: Record<string, Author> = {
-  "mr-jay": {
-    id: "mr-jay",
-    name: "Mr Jay",
-    role: "Founder & Editor, TheJobSeek",
-    location: "Dubai, United Arab Emirates",
-    bio: "Mr Jay is the founder and editor of TheJobSeek. Based in Dubai, he has lived and worked in the UAE as an expat and writes about jobs, hiring and work rules in the UAE and the Gulf, along with the main overseas job markets for Gulf-based workers. He checks every article against its official or original source before it is published.",
-    image: process.env.NEXT_PUBLIC_AUTHOR_IMAGE || "",
-    linkedin: process.env.NEXT_PUBLIC_AUTHOR_LINKEDIN || "",
-    sameAs: [],
+  [E.id]: {
+    id: E.id,
+    name: E.name,
+    role: E.role,
+    location: E.location,
+    bio: [E.bio, E.credentials].filter(Boolean).join(" "),
+    image: E.photo,
+    linkedin: E.linkedin,
+    sameAs: E.profiles,
     covers: [
       "UAE jobs and hiring: Dubai, Abu Dhabi, Sharjah and the other emirates",
       "Gulf job markets: Saudi Arabia, Qatar, Kuwait, Oman and Bahrain",
@@ -34,16 +36,16 @@ export const AUTHORS: Record<string, Author> = {
       "Jobs and work rules in the UK, USA, Canada, Australia and Europe for Gulf-based workers",
     ],
     verification: [
-      "Every story starts from an official notice, a government or company announcement, or a reputable news report.",
-      "Key numbers, dates and names are checked against the original source, which is linked in every article.",
-      "Articles are written from scratch in plain English and checked so no text is copied from any source.",
-      "Errors are corrected quickly and the article shows the date it was updated.",
+      "Every story starts from an official notice, a government or company announcement, or a news report, and the article links to it.",
+      "Articles are prepared with the help of automated tools, including AI. Key numbers, dates and names are taken from the linked source, where readers can confirm them.",
+      "Articles are written in plain English and run through an automatic check for text repeated from other pages.",
+      "Not every article is read by a person before it goes live. Errors reported to us are corrected and the article shows the date it was updated.",
     ],
     knowsAbout: ["UAE jobs", "Gulf job market", "UAE Labour Law", "Emiratisation", "Saudization", "work visas", "expat employment"],
   },
 };
 
-export const DEFAULT_AUTHOR = "mr-jay";
+export const DEFAULT_AUTHOR = E.id;
 
 export const getAuthor = (id: string) => AUTHORS[id] || AUTHORS[DEFAULT_AUTHOR];
 

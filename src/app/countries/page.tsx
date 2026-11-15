@@ -7,7 +7,7 @@ import { countryCounts } from "@/lib/articles";
 export const metadata: Metadata = {
   title: "Job & Work Visa News by Country",
   description:
-    "Browse verified job, recruitment and work visa news by country: UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain, UK, USA, Canada, Australia and Europe.",
+    "Browse job, recruitment and work visa news by country: UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain, UK, USA, Canada, Australia and Europe.",
   alternates: { canonical: "/countries/" },
 };
 
@@ -17,13 +17,13 @@ export default function Countries() {
     <div>
       <Breadcrumbs items={[{ name: "All countries", path: "/countries/" }]} />
       <h1 className="page-title">All countries &amp; topics</h1>
-      <p className="lede">Every update links to the government or employer notice it is based on.</p>
+      <p className="lede">Every update links to the source it is based on.</p>
       <ul className="country-grid">
         {PRIMARY_COUNTRIES.map((c) => (
           <li key={c}>
             <Link href={`/${c}/`} className="country-tile">
-              <span className="code-badge code-badge-lg" aria-hidden>{COUNTRY_CODES[c]}</span>
-              <span className="country-name">{COUNTRIES[c].name}</span>
+              <span className="code-badge code-badge-lg" aria-hidden>{COUNTRY_CODES[c]}</span>{" "}
+              <span className="country-name">{COUNTRIES[c].name}</span>{" "}
               <span className="country-count">
                 {counts[c] ? `${counts[c]} update${counts[c] > 1 ? "s" : ""}` : "Coming soon"}
               </span>
@@ -37,7 +37,7 @@ export default function Countries() {
         {Object.entries(CATEGORIES).map(([k, v]) => (
           <li key={k}>
             <Link href={`/category/${k}/`} className="country-tile topic-tile">
-              <span className="country-name">{v.name}</span>
+              <span className="country-name">{v.name}</span>{" "}
               <span className="country-count">{v.description}</span>
             </Link>
           </li>

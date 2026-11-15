@@ -28,7 +28,7 @@ export function GET() {
       `- Author: ${getAuthor(a.author).name}`,
       ...(a.organization ? [`- Organization: ${a.organization}`] : []),
       ...(a.lastDate ? [`- Last date to apply: ${a.lastDate}`] : []),
-      ...(a.sourceUrl ? [`- Source: ${a.sourceName || "Official notice"} – ${a.sourceUrl}`] : []),
+      ...(a.sourceUrl ? [`- Source: ${a.sourceName || (a.sourceOfficial ? "Official notice" : "Source report")} – ${a.sourceUrl}`] : []),
       "",
       `> ${a.description}`,
       "",

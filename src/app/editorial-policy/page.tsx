@@ -4,13 +4,13 @@ import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Editorial Policy",
-  description: `How ${SITE.name} sources, verifies, writes and corrects job news.`,
+  description: `How ${SITE.name} sources, writes and corrects job news, and how AI tools are used.`,
   alternates: { canonical: "/editorial-policy/" },
 };
 
 export default function EditorialPolicy() {
   return (
-    <StaticPage title="Editorial Policy" path="/editorial-policy/" updated="20 October 2026">
+    <StaticPage title="Editorial Policy" path="/editorial-policy/" updated="15 November 2026">
       <h2>Sources</h2>
       <p>
         We base job news on official sources: government and public service commission
@@ -21,21 +21,24 @@ export default function EditorialPolicy() {
       </p>
       <h2>Verification</h2>
       <p>
-        Before publishing, an editor checks the organization name, post titles, eligibility,
-        deadlines and the application link against the original notice. Every article links to
-        its source so readers can check it themselves.
+        Each article takes the organization name, post titles, eligibility, deadlines and the
+        application link from the source it cites, and links to that source so readers can check it
+        themselves. On article pages, &ldquo;Official source&rdquo; with a ✓ is shown only when the source is the
+        employer&apos;s or a government&apos;s own website; a press report is labelled simply &ldquo;Source&rdquo;.
+        Always confirm details on the employer&apos;s or authority&apos;s own site before applying.
       </p>
       <h2>How we use AI</h2>
       <p>
-        We monitor official government and public-sector websites automatically, and we use AI
-        tools to help prepare a first draft summary of new notices. An editor reviews every draft
-        against the original notice, corrects it where needed and decides whether it is published.
-        No article is published automatically. AI tools are never used to invent facts, dates,
-        salaries or quotes.
+        We monitor government, employer and news websites automatically, and we use AI tools to
+        research, draft and publish articles from the notices and reports we find. Automated checks
+        compare drafts with other pages on the site for repeated text. Not every article is read by a
+        person before it goes live, so mistakes are possible: the editor is responsible for the site,
+        and errors that are reported to us are corrected. AI tools are instructed never to invent
+        facts, dates, salaries or quotes.
       </p>
       <h2>Originality</h2>
       <p>
-        We write every article in our own words and add useful context such as eligibility
+        Articles are written in our own words and add useful context such as eligibility
         summaries, required documents and how to apply. We do not copy articles from other news
         or job websites.
       </p>

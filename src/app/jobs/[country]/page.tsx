@@ -28,7 +28,7 @@ const texts = (c: string, n: number) => {
     title: OVERSEAS.includes(c)
       ? `${name} Jobs for Foreigners: Hiring & Apply Links`
       : `${name} Jobs: Latest Hiring & Apply Links`,
-    description: `${n} open ${name} jobs from verified hiring news: government and private sector, each with the official apply link and closing date. Updated daily.`,
+    description: `${n} open ${name} hiring announcements: government and private sector, with the official apply link and closing date where available. Updated daily.`,
   };
 };
 
@@ -76,7 +76,7 @@ export default async function CountryJobs({ params }: Props) {
         <p className="lede">
           {jobs.length} open hiring {jobs.length === 1 ? "announcement" : "announcements"} in {c.name}
           {priv.length > 0 && gov.length > 0 ? ` (${priv.length} private sector, ${gov.length} government)` : ""}. Each
-          story is checked against its source and links to the official place to apply. Updated every morning.
+          story links to its source, and to the official place to apply where one exists. Closed jobs are removed.
         </p>
       </div>
       <div className="grid">
