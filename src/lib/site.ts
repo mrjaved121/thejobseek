@@ -15,6 +15,8 @@ export const SITE = {
   social: {
     tiktok: process.env.NEXT_PUBLIC_TIKTOK || "",
     facebook: process.env.NEXT_PUBLIC_FACEBOOK || "https://www.facebook.com/thejobseeknews",
+    // Free Facebook group, linked from the /join/ landing page (used for Facebook ads).
+    facebookGroup: process.env.NEXT_PUBLIC_FACEBOOK_GROUP || "https://www.facebook.com/groups/gulfjobsworkvisaupdates/",
     instagram: process.env.NEXT_PUBLIC_INSTAGRAM || "",
     whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_CHANNEL || "",
   },

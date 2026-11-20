@@ -393,3 +393,25 @@ main.wrap { padding-top: 22px; padding-bottom: 64px; min-height: 60vh; }
 .home-h1 { font-size: clamp(1.25rem, 2.6vw, 1.6rem); font-weight: 900; color: var(--navy); margin: 0; letter-spacing: -0.01em; }
 .home-sub { margin: 0; font-size: 0.92rem; color: var(--ink-3); }
 .home-sub a { font-weight: 800; color: var(--navy); }
+
+/* /join/ landing page (Facebook group, used for Facebook ads) */
+.join-page { max-width: 640px; margin: 0 auto; }
+.join-hero { background: var(--navy); color: #fff; border-radius: var(--radius); border-top: 4px solid var(--gold); padding: 28px 22px 22px; text-align: center; margin: 8px 0 18px; }
+.join-hero h1, .join-hero h2 { color: #fff; margin: 6px 0 12px; line-height: 1.25; }
+.join-hero h1 { font-size: 1.7rem; }
+.join-hero h2 { font-size: 1.3rem; }
+.join-kicker { color: var(--gold); font-size: 0.78rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; margin: 0; }
+.join-lead { font-size: 1.02rem; line-height: 1.55; opacity: 0.95; margin: 0 0 18px; }
+.join-cta { display: inline-flex; align-items: center; gap: 10px; background: var(--gold); color: var(--navy-2); font-weight: 800; font-size: 1.05rem; padding: 14px 24px; border-radius: 999px; text-decoration: none; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25); }
+.join-cta:hover, .join-cta:focus-visible { background: #ffc93d; color: var(--navy-2); }
+.join-small { font-size: 0.8rem; opacity: 0.85; margin: 10px 0 0; }
+.join-small a { color: var(--gold); text-decoration: underline; }
+.join-box { border: 1px solid #e3e6ef; border-radius: var(--radius); padding: 18px 20px; margin: 0 0 18px; }
+.join-box h2 { font-size: 1.15rem; margin: 0 0 10px; }
+.join-box p { margin: 0; line-height: 1.55; }
+.join-list { list-style: none; padding: 0; margin: 0; }
+.join-list li { position: relative; padding-left: 26px; margin: 8px 0; line-height: 1.45; }
+.join-list li::before { content: "✓"; position: absolute; left: 0; color: #1a8f4c; font-weight: 800; }
+.join-warning { background: var(--gold-2); border-color: #f1d98c; }
+.join-hero-bottom { margin-top: 0; }
+@media (max-width: 480px) { .join-hero h1 { font-size: 1.4rem; } .join-cta { width: 100%; justify-content: center; } }
