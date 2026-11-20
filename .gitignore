@@ -8,3 +8,5 @@ next-env.d.ts
 .DS_Store
 public/thumbs
 public/images/countries/*.jpg
+marketing/.fb-batch.json
+marketing/.fb-load.js

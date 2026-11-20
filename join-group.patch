@@ -1,0 +1,93 @@
+diff --git a/src/app/[country]/[slug]/page.tsx b/src/app/[country]/[slug]/page.tsx
+index 0b2eec7..9218356 100644
+--- a/src/app/[country]/[slug]/page.tsx
++++ b/src/app/[country]/[slug]/page.tsx
+@@ -7,6 +7,7 @@ import AdSlot from "@/components/AdSlot";
+ import Story from "@/components/Story";
+ import ShareBar from "@/components/ShareBar";
+ import FollowFacebook from "@/components/FollowFacebook";
++import JoinGroup from "@/components/JoinGroup";
+ import Thumb from "@/components/Thumb";
+ import JsonLd from "@/components/JsonLd";
+ import SectionLabel from "@/components/SectionLabel";
+@@ -250,6 +251,7 @@ export default async function ArticlePage({ params }: Props) {
+           </p>
+         )}
+ 
++        <JoinGroup />
+         <ShareBar url={shareUrl} title={a.title} label="Share this update" />
+         <FollowFacebook compact />
+ 
+diff --git a/src/app/globals.css b/src/app/globals.css
+index 35fc9ef..d8a7944 100644
+--- a/src/app/globals.css
++++ b/src/app/globals.css
+@@ -341,6 +341,19 @@ main.wrap { padding-top: 22px; padding-bottom: 64px; min-height: 60vh; }
+ .fb-text span { font-size: 0.8rem; opacity: 0.9; }
+ .fb-btn { flex: 0 0 auto; background: #fff; color: #0b5ccc; font-weight: 800; font-size: 0.85rem; padding: 7px 14px; border-radius: 999px; }
+ .fb-follow-compact { margin: 16px 0 20px; }
++/* Join our free Facebook group box */
++.join-group { background: var(--navy); color: #fff; border-radius: var(--radius); border-top: 4px solid var(--gold); padding: 18px 18px 14px; margin: 24px 0; }
++.join-group p { margin: 0; }
++.join-group-kicker { color: var(--gold); font-size: 0.72rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
++.join-group-title { font-size: 1.15rem; font-weight: 800; line-height: 1.3; margin: 4px 0 10px !important; }
++.join-group-list { margin: 0 0 14px; padding: 0; list-style: none; font-size: 0.88rem; line-height: 1.45; }
++.join-group-list li { padding-left: 22px; position: relative; margin: 4px 0; }
++.join-group-list li::before { content: "✓"; position: absolute; left: 0; color: var(--gold); font-weight: 800; }
++.join-group-btn { display: inline-block; background: var(--gold); color: var(--navy-2); font-weight: 800; padding: 10px 18px; border-radius: 999px; text-decoration: none; }
++.join-group-btn:hover { background: #ffc93d; color: var(--navy-2); }
++.join-group-note { font-size: 0.75rem; opacity: 0.8; margin-top: 8px !important; }
++.join-group-compact { margin: 0 0 24px; padding: 14px 16px 12px; }
++.join-group-compact .join-group-title { font-size: 1rem; }
+ .avatar-img { object-fit: cover; padding: 0; }
+ .author-hero { display: flex; gap: 18px; align-items: center; margin: 8px 0 18px; }
+ .author-hero .avatar { width: 96px; height: 96px; font-size: 2.2rem; }
+diff --git a/src/components/Header.tsx b/src/components/Header.tsx
+index 29b06ae..b9cf5f3 100644
+--- a/src/components/Header.tsx
++++ b/src/components/Header.tsx
+@@ -55,6 +55,11 @@ export default function Header() {
+               <Icon d={<path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0" />} />
+               <span>Alerts</span>
+             </a>
++          ) : SITE.social.facebookGroup ? (
++            <a href={SITE.social.facebookGroup} className="tile tile-gold" target="_blank" rel="noopener" data-cta="join-facebook-group">
++              <Icon d={<><circle cx="9" cy="8" r="3" /><path d="M3 20a6 6 0 0 1 12 0" /><circle cx="17" cy="9" r="2.5" /><path d="M15.5 14.5A5 5 0 0 1 21 19" /></>} />
++              <span>Group</span>
++            </a>
+           ) : (
+             <Link href="/countries/" className="tile tile-gold">
+               <Icon d={<><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" /></>} />
+diff --git a/src/components/Sidebar.tsx b/src/components/Sidebar.tsx
+index 954fac1..e4ea4b0 100644
+--- a/src/components/Sidebar.tsx
++++ b/src/components/Sidebar.tsx
+@@ -4,6 +4,7 @@ import { COUNTRIES, COUNTRY_CODES, PRIMARY_COUNTRIES, enabledCountries, SITE, ES
+ import AdSlot from "./AdSlot";
+ import SectionLabel from "./SectionLabel";
+ import FollowFacebook from "./FollowFacebook";
++import JoinGroup from "./JoinGroup";
+ 
+ export default function Sidebar({ exclude }: { exclude?: string }) {
+   const all = getAllArticles();
+@@ -29,6 +30,7 @@ export default function Sidebar({ exclude }: { exclude?: string }) {
+         </ol>
+       </section>
+ 
++      <JoinGroup compact />
+       <FollowFacebook />
+ 
+       <section>
+diff --git a/src/lib/site.ts b/src/lib/site.ts
+index 3b598bf..6a035ea 100644
+--- a/src/lib/site.ts
++++ b/src/lib/site.ts
+@@ -15,6 +15,8 @@ export const SITE = {
+   social: {
+     tiktok: process.env.NEXT_PUBLIC_TIKTOK || "",
+     facebook: process.env.NEXT_PUBLIC_FACEBOOK || "https://www.facebook.com/thejobseeknews",
++    // Free Facebook group: daily Gulf job updates. Shown in the "Join our group" boxes.
++    facebookGroup: process.env.NEXT_PUBLIC_FACEBOOK_GROUP || "https://www.facebook.com/groups/gulfjobsworkvisaupdates/",
+     instagram: process.env.NEXT_PUBLIC_INSTAGRAM || "",
+     whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_CHANNEL || "",
+   },
