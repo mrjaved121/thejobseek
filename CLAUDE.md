@@ -40,6 +40,31 @@ labour law and work permits are allowed (news about rule changes is not).
 If we already have an article on the topic, improve that article instead of writing a new one:
 bring it up to the rules above and add `updated: <ISO date>` to its frontmatter.
 
+## Google Search and AI search rules (added 25 Nov 2026)
+These follow Google's helpful-content guidance and spam policies. Using AI to write is allowed;
+using it to mass-produce pages that add nothing is not ("scaled content abuse").
+- People first: write each article because a job seeker needs it, not to target a search term.
+  Before writing, ask: would a reader from Pakistan or India who lands here be able to decide
+  and apply without searching again? If not, add what is missing or don't publish.
+- Add value the sources don't: the official apply link, requirements, salary or "not published",
+  deadline, step-by-step apply, and the Pakistan/India emigration steps. Never just reword one
+  news report.
+- Titles must match the content. No clickbait, no "urgent", "guaranteed", "100+ jobs" unless the
+  official source says exactly that. Never claim a job is open if the source doesn't say so.
+- Dates must be honest: `date` is when we published; change `updated` only for a real content
+  update, never just to look fresh.
+- No duplicate or near-duplicate pages: one story or topic, one URL. Improve the old page instead.
+- Don't add JobPosting structured data to news or guides (Google allows it only for a single,
+  real job advert that people can apply to on the page). The site's NewsArticle, FAQ and
+  breadcrumb markup is generated automatically; don't add other markup by hand.
+- No hidden text, keyword lists, stuffed tags or links to unrelated sites.
+- For AI search (Google AI Overviews, ChatGPT, Perplexity): open with a 2–3 sentence direct
+  answer; use clear question-style headings ("Who can apply?", "How do I apply?", "What is the
+  salary?"); put exact facts (numbers, dates, official names, links) in short sentences and in the
+  table, so they can be quoted accurately; keep the FAQ answers short and factual.
+- Name the source for each key fact in the text ("according to the Emirates Group careers page"),
+  and link it. Never cite a source you did not open in this run.
+
 ## Always
 - Facts only from sources opened in the same run; never invent job counts, salaries or links.
 - Apply directly on the official employer or government page; never promise a job or visa.
